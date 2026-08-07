@@ -609,9 +609,15 @@ p {
   padding: 1.75rem 1.5rem;
   background: var(--color-maroon);
   color: #fff;
+  border: 2px solid var(--color-maroon);
   text-decoration: none !important;
   min-height: 100%;
-  transition: transform 0.25s ease, background 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
   animation: homeCardIn 0.7s ease both;
 }
 
@@ -627,14 +633,23 @@ p {
 }
 
 .home-services__card:hover {
-  background: var(--color-maroon-dark);
+  background: transparent;
+  color: var(--color-maroon);
+  border-color: var(--color-maroon);
   transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(134, 26, 20, 0.14);
+  text-decoration: none !important;
 }
 
 .home-services__card h3 {
   margin: 0;
   color: #fff;
   font-size: 1.35rem;
+  transition: color 0.25s ease;
+}
+
+.home-services__card:hover h3 {
+  color: var(--color-maroon);
 }
 
 .home-services__card p {
@@ -642,6 +657,11 @@ p {
   color: rgba(255, 255, 255, 0.88);
   flex: 1;
   font-size: 0.98rem;
+  transition: color 0.25s ease;
+}
+
+.home-services__card:hover p {
+  color: var(--color-maroon);
 }
 
 .home-services__more {
@@ -650,6 +670,11 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-accent);
+  transition: color 0.25s ease;
+}
+
+.home-services__card:hover .home-services__more {
+  color: var(--color-maroon);
 }
 
 .home-quick {
