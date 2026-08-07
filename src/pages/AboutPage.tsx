@@ -3,6 +3,8 @@ import { aboutPage } from '../data/about';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Accordion } from '../components/Accordion';
+import { Seo } from '../components/Seo';
+import { pageSeo } from '../data/seo';
 
 export function AboutPage() {
   const [historyYear, setHistoryYear] = useState(aboutPage.history[0]?.year);
@@ -20,7 +22,12 @@ export function AboutPage() {
 
   return (
     <div className="about-page">
-      <PageHero title="ABOUT US" image={aboutPage.heroImage} />
+      <Seo {...pageSeo.about} />
+      <PageHero
+        title="ABOUT US"
+        image={aboutPage.heroImage}
+        imageAlt="About ICON-INSTITUTE"
+      />
 
       <section id="what-we-do" className="content-section">
         <div className="container">

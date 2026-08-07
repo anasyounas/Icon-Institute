@@ -1,16 +1,7 @@
-export type ContactFormField = {
-  name: string;
-  label: string;
-  type: 'text' | 'email' | 'textarea';
-  required: boolean;
-};
-
 export type ContactPage = {
   title: string;
-  privacyNote: string;
-  captchaNote: string;
-  captchaNoteDe: string;
-  fields: ContactFormField[];
+  intro: string;
+  howToReach: string;
   company: {
     name: string;
     addressLines: string[];
@@ -18,24 +9,17 @@ export type ContactPage = {
     fax: string;
     email: string;
     website: string;
+    websiteUrl: string;
   };
+  departments: { label: string; email: string }[];
 };
 
 export const contactPage: ContactPage = {
   title: 'Contact Us',
-  privacyNote:
-    'This form saves your name, your address and the content of the message so that we can answer accordingly. For further information, please check our privacy policy.',
-  captchaNote:
-    'Please prove that you are not a robot by clicking on the required symbol.',
-  captchaNoteDe:
-    'Bitte beweise, dass du kein Spambot bist und wähle das Symbol Haus.',
-  fields: [
-    { name: 'name', label: 'Name', type: 'text', required: true },
-    { name: 'email', label: 'Email', type: 'email', required: true },
-    { name: 'address', label: 'Address', type: 'text', required: false },
-    { name: 'subject', label: 'Subject', type: 'text', required: false },
-    { name: 'message', label: 'Message', type: 'textarea', required: true },
-  ],
+  intro:
+    'Get in touch with ICON-INSTITUTE. Our Cologne headquarters is available by phone, fax or email during business hours.',
+  howToReach:
+    'For project enquiries, partnerships and general information please use the contact details below. Job applications should be sent to the careers address listed on our Jobs page.',
   company: {
     name: 'ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe',
     addressLines: ['Von-Groote-Straße 28', '50968 Köln', 'Germany'],
@@ -43,5 +27,16 @@ export const contactPage: ContactPage = {
     fax: '+49 221 93 743 5',
     email: 'icon@icon-institute.de',
     website: 'www.icon-institute.de',
+    websiteUrl: 'https://www.icon-institute.de',
   },
+  departments: [
+    {
+      label: 'General enquiries',
+      email: 'icon@icon-institute.de',
+    },
+    {
+      label: 'Applications & CVs',
+      email: 'cv-icon@icon-institute.de',
+    },
+  ],
 };

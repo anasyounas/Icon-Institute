@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { newsItems } from '../data/news';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
+import { Seo } from '../components/Seo';
+import { pageSeo } from '../data/seo';
 
 export function NewsPage() {
   const byYear = newsItems.reduce<Record<string, typeof newsItems>>((acc, item) => {
@@ -14,7 +16,12 @@ export function NewsPage() {
 
   return (
     <div className="news-page">
-      <PageHero title="NEWS" image="icon-institute_21.jpg" />
+      <Seo {...pageSeo.news} />
+      <PageHero
+        title="NEWS"
+        image="icon-institute_21.jpg"
+        imageAlt="ICON-INSTITUTE news"
+      />
       <section className="content-section">
         <div className="container">
           {years.map((year) => (
@@ -23,7 +30,10 @@ export function NewsPage() {
               <ul className="news-list">
                 {byYear[year].map((item) => (
                   <li key={item.slug}>
-                    <Link to={`/news/${item.slug}`} className="news-list__item">
+                    <Link
+                      to={`/news/${item.slug}`}
+                      className="news-list__item"
+                    >
                       <PlaceholderImage
                         src={item.image ?? 'news-placeholder.jpg'}
                         alt=""

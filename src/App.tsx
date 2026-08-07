@@ -9,6 +9,8 @@ import { ProjectRegionPage } from './pages/ProjectRegionPage';
 import { NewsPage } from './pages/NewsPage';
 import { NewsDetailPage } from './pages/NewsDetailPage';
 import { JobsPage } from './pages/JobsPage';
+import { JobDetailPage } from './pages/JobDetailPage';
+import { JobApplyPage } from './pages/JobApplyPage';
 import {
   DownloadPage,
   InformationMaterialPage,
@@ -16,34 +18,101 @@ import {
 } from './pages/DownloadPage';
 import { ContactPage } from './pages/ContactPage';
 import { ImpressumPage, PrivacyPage } from './pages/LegalPages';
+import { DemoAuthProvider } from './hooks/useDemoAuth';
+import { AdminLoginPage } from './pages/admin/AdminLoginPage';
+import { AdminLayout } from './pages/admin/AdminLayout';
+import { AdminDashboard } from './pages/admin/AdminDashboard';
+import {
+  AuditLogPage,
+  BackupsPage,
+  ContactInfoPage,
+  ContentMediaPage,
+  DraftPreviewPage,
+  JobsManagerPage,
+  MediaLibraryPage,
+  NewsManagerPage,
+  ProjectsManagerPage,
+  PublishPage,
+  ScheduledPage,
+  SecurityPage,
+  SeoManagerPage,
+  UsersRolesPage,
+  VersionHistoryPage,
+  WorkflowPage,
+} from './pages/admin/AdminModules';
 import './index.css';
+
+/** Legacy WordPress-style expertise paths → new SPA routes */
+const expertiseRedirects: Record<string, string> = {
+  'statistics-evaluation-and-social-research':
+    '/expertise/statistics-evaluation-social-research',
+  'economic-and-employment-promotion':
+    '/expertise/economic-employment-promotion',
+  'governance-education-and-social-development':
+    '/expertise/governance-education-social-development',
+  'agriculture-and-rural-development':
+    '/expertise/agriculture-rural-development',
+  'sustainability-management': '/expertise/sustainability-management',
+};
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="about-us" element={<AboutPage />} />
-          <Route path="expertise" element={<ExpertiseHubPage />} />
-          <Route path="expertise/:slug" element={<ExpertiseDetailPage />} />
-          <Route path="projects" element={<ProjectsPage />} />
-          <Route path="projects/:region" element={<ProjectRegionPage />} />
-          <Route path="news" element={<NewsPage />} />
-          <Route path="news/:slug" element={<NewsDetailPage />} />
-          <Route path="jobs" element={<JobsPage />} />
-          <Route path="download" element={<DownloadPage />} />
-          <Route
-            path="download/information-material"
-            element={<InformationMaterialPage />}
-          />
-          <Route path="download/videos" element={<VideosPage />} />
-          <Route path="contact" element={<ContactPage />} />
-          <Route path="privacy-policy" element={<PrivacyPage />} />
-          <Route path="impressum" element={<ImpressumPage />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <DemoAuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/admin/login" element={<AdminLoginPage />} />
+          <Route path="/admin" element={<AdminLayout />}>
+            <Route index element={<AdminDashboard />} />
+            <Route path="content" element={<ContentMediaPage />} />
+            <Route path="news" element={<NewsManagerPage />} />
+            <Route path="jobs" element={<JobsManagerPage />} />
+            <Route path="projects" element={<ProjectsManagerPage />} />
+            <Route path="contact" element={<ContactInfoPage />} />
+            <Route path="media" element={<MediaLibraryPage />} />
+            <Route path="seo" element={<SeoManagerPage />} />
+            <Route path="drafts" element={<DraftPreviewPage />} />
+            <Route path="workflow" element={<WorkflowPage />} />
+            <Route path="versions" element={<VersionHistoryPage />} />
+            <Route path="schedule" element={<ScheduledPage />} />
+            <Route path="publish" element={<PublishPage />} />
+            <Route path="users" element={<UsersRolesPage />} />
+            <Route path="security" element={<SecurityPage />} />
+            <Route path="audit" element={<AuditLogPage />} />
+            <Route path="backups" element={<BackupsPage />} />
+          </Route>
+
+          <Route element={<Layout />}>
+            <Route index element={<HomePage />} />
+            <Route path="about-us" element={<AboutPage />} />
+            <Route path="expertise" element={<ExpertiseHubPage />} />
+            <Route path="expertise/:slug" element={<ExpertiseDetailPage />} />
+            {Object.entries(expertiseRedirects).map(([from, to]) => (
+              <Route
+                key={from}
+                path={from}
+                element={<Navigate to={to} replace />}
+              />
+            ))}
+            <Route path="projects" element={<ProjectsPage />} />
+            <Route path="projects/:region" element={<ProjectRegionPage />} />
+            <Route path="news" element={<NewsPage />} />
+            <Route path="news/:slug" element={<NewsDetailPage />} />
+            <Route path="jobs" element={<JobsPage />} />
+            <Route path="jobs/:jobId" element={<JobDetailPage />} />
+            <Route path="jobs/:jobId/apply" element={<JobApplyPage />} />
+            <Route path="download" element={<DownloadPage />} />
+            <Route
+              path="download/information-material"
+              element={<InformationMaterialPage />}
+            />
+            <Route path="download/videos" element={<VideosPage />} />
+            <Route path="contact" element={<ContactPage />} />
+            <Route path="privacy-policy" element={<PrivacyPage />} />
+            <Route path="impressum" element={<ImpressumPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </DemoAuthProvider>
   );
 }

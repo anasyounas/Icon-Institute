@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useId, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { mainNavigation } from '../data/navigation';
 import { PlaceholderImage } from './PlaceholderImage';
@@ -7,6 +7,7 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const location = useLocation();
+  const menuId = useId();
 
   useEffect(() => {
     setMenuOpen(false);
@@ -20,6 +21,17 @@ export function Header() {
       document.body.style.overflow = '';
     };
   }, [menuOpen]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMenuOpen(false);
+        setOpenDropdown(null);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
 
   return (
     <header className="site-header">
@@ -37,7 +49,8 @@ export function Header() {
           type="button"
           className="nav-toggle"
           aria-expanded={menuOpen}
-          aria-label="Menu"
+          aria-controls={menuId}
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           onClick={() => setMenuOpen((v) => !v)}
         >
           <span />
@@ -45,7 +58,11 @@ export function Header() {
           <span />
         </button>
 
-        <nav className={`site-nav ${menuOpen ? 'is-open' : ''}`} aria-label="Main">
+        <nav
+          id={menuId}
+          className={`site-nav ${menuOpen ? 'is-open' : ''}`}
+          aria-label="Main"
+        >
           <ul className="site-nav__list">
             {mainNavigation.map((item) => (
               <li
@@ -61,12 +78,16 @@ export function Header() {
                   className={({ isActive }) =>
                     `site-nav__link ${isActive ? 'is-active' : ''}`
                   }
+                  aria-haspopup={item.children ? 'true' : undefined}
+                  aria-expanded={
+                    item.children ? openDropdown === item.label : undefined
+                  }
                   onClick={(e) => {
                     if (item.children && window.innerWidth <= 1110) {
-                      e.preventDefault();
-                      setOpenDropdown((cur) =>
-                        cur === item.label ? null : item.label
-                      );
+                      if (openDropdown !== item.label) {
+                        e.preventDefault();
+                        setOpenDropdown(item.label);
+                      }
                     }
                   }}
                 >

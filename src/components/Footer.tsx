@@ -66,7 +66,7 @@ export function Footer() {
             <span className="site-footer__icon" aria-hidden>
               🌐
             </span>
-            <a href={footer.websiteUrl} target="_blank" rel="noreferrer">
+            <a href={footer.websiteUrl} target="_blank" rel="noopener noreferrer">
               {footer.website}
             </a>
           </div>
@@ -83,6 +83,8 @@ export function Footer() {
                 <Link to={link.href}>{link.label}</Link>
               </span>
             ))}
+            {' '}
+            <Link to="/admin/login">CMS Login</Link>
           </span>
         </div>
       </div>

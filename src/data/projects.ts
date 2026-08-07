@@ -13,6 +13,7 @@ export type ProjectFilterOption = {
 export type ProjectFilters = {
   recentYears: ProjectFilterOption[];
   years: ProjectFilterOption[];
+  regions: ProjectFilterOption[];
   expertise: ProjectFilterOption[];
   volumes: ProjectFilterOption[];
 };
@@ -87,6 +88,14 @@ export const projectFilters: ProjectFilters = {
     const year = String(2008 + i);
     return { label: year, value: year };
   }),
+  regions: [
+    { label: 'Africa', value: 'africa' },
+    { label: 'Asia', value: 'asia' },
+    { label: 'Central America Caribbean', value: 'central-america-caribbean' },
+    { label: 'Europe', value: 'europe' },
+    { label: 'Middle East', value: 'middle-east' },
+    { label: 'South America', value: 'south-america' },
+  ],
   expertise: [
     {
       label: 'Economic and Employment Promotion',
@@ -97,12 +106,16 @@ export const projectFilters: ProjectFilters = {
       value: 'governance-education-social-development',
     },
     {
-      label: 'Infrastructure and rural Development',
+      label: 'Agriculture and Rural Development',
       value: 'agriculture-rural-development',
     },
     {
-      label: 'Statistics, Evaluation and social Research',
+      label: 'Statistics, Evaluation and Social Research',
       value: 'statistics-evaluation-social-research',
+    },
+    {
+      label: 'Sustainability Management',
+      value: 'sustainability-management',
     },
   ],
   volumes: [
@@ -261,14 +274,74 @@ export const sampleProjects: SampleProject[] = [
     description:
       'Capacity development for an effective school guidance and counselling workforce in Palestine.',
   },
+  {
+    id: 'esg-reporting-brazil',
+    title: 'ESG reporting capacity for agribusiness cooperatives',
+    country: 'Brazil',
+    region: 'south-america',
+    yearStart: 2024,
+    yearEnd: 2026,
+    expertise: 'sustainability-management',
+    volume: '300k-500k',
+    description:
+      'Advisory support for sustainability reporting and environmental management systems among rural cooperatives.',
+  },
+  {
+    id: 'tvet-reform-guatemala',
+    title: 'TVET reform and labour market matching',
+    country: 'Guatemala',
+    region: 'central-america-caribbean',
+    yearStart: 2023,
+    yearEnd: 2026,
+    expertise: 'governance-education-social-development',
+    volume: '1m-3m',
+    description:
+      'Technical assistance for vocational training reform and improved labour-market matching in Central America.',
+  },
+  {
+    id: 'msme-finance-peru',
+    title: 'MSME finance and employment promotion',
+    country: 'Peru',
+    region: 'south-america',
+    yearStart: 2022,
+    yearEnd: 2025,
+    expertise: 'economic-employment-promotion',
+    volume: '500k-1m',
+    description:
+      'Support to MSME financing instruments and employment promotion partnerships in Peru.',
+  },
+  {
+    id: 'stats-capacity-jamaica',
+    title: 'Official statistics capacity development',
+    country: 'Jamaica',
+    region: 'central-america-caribbean',
+    yearStart: 2024,
+    yearEnd: 2027,
+    expertise: 'statistics-evaluation-social-research',
+    volume: '300k-500k',
+    description:
+      'Capacity building for official statistics production and quality assurance in the Caribbean.',
+  },
+  {
+    id: 'climate-adaptation-kenya',
+    title: 'Climate adaptation in agricultural landscapes',
+    country: 'Kenya',
+    region: 'africa',
+    yearStart: 2024,
+    yearEnd: 2027,
+    expertise: 'sustainability-management',
+    volume: '1m-3m',
+    description:
+      'Integrating climate adaptation measures into agricultural landscape management and local planning.',
+  },
 ];
 
 export const projectsPage = {
   title: 'Projects Worldwide',
   intro:
-    'Browse ICON projects by region, year, expertise area and volume. Project listings on the original site are loaded dynamically; the sample cards below illustrate typical catalogue entries.',
+    'Browse ICON projects by region, running period, expertise area and volume. Use free-text search to find projects by title, country or description. Filtering and search run entirely in your browser.',
   mapNote:
-    'The interactive world map on the live site highlights countries with ongoing or recent ICON assignments.',
+    'Select a region below or use the filters to explore the project catalogue.',
   regions: projectRegions,
   filters: projectFilters,
   samples: sampleProjects,

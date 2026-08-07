@@ -2,6 +2,8 @@ import { Link, useParams } from 'react-router-dom';
 import { expertiseBySlug } from '../data/expertise';
 import { PageHero } from '../components/PageHero';
 import { Accordion } from '../components/Accordion';
+import { Seo } from '../components/Seo';
+import { siteSeo } from '../data/seo';
 
 export function ExpertiseDetailPage() {
   const { slug } = useParams();
@@ -18,7 +20,22 @@ export function ExpertiseDetailPage() {
 
   return (
     <div className="expertise-area">
-      <PageHero title={area.title} image={area.heroImage} />
+      <Seo
+        title={`${area.title} | Expertise | ICON-INSTITUTE`}
+        description={area.intro[0] ?? area.title}
+        path={`/expertise/${area.slug}`}
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: area.title,
+          provider: { '@type': 'Organization', name: siteSeo.siteName },
+        }}
+      />
+      <PageHero
+        title={area.title}
+        image={area.heroImage}
+        imageAlt={area.title}
+      />
       <section className="content-section">
         <div className="container narrow">
           {area.intro.map((p) => (

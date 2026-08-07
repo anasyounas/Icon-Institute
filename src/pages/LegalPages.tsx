@@ -1,9 +1,18 @@
 import { impressum, privacyPolicy, type LegalPage } from '../data/legal';
 import { PageHero } from '../components/PageHero';
+import { Seo } from '../components/Seo';
+import { pageSeo } from '../data/seo';
 
-function LegalContent({ page }: { page: LegalPage }) {
+function LegalContent({
+  page,
+  seoKey,
+}: {
+  page: LegalPage;
+  seoKey: 'privacy' | 'impressum';
+}) {
   return (
     <div>
+      <Seo {...pageSeo[seoKey]} />
       <PageHero title={page.title} compact />
       <section className="content-section">
         <div className="container narrow">
@@ -22,9 +31,9 @@ function LegalContent({ page }: { page: LegalPage }) {
 }
 
 export function PrivacyPage() {
-  return <LegalContent page={privacyPolicy} />;
+  return <LegalContent page={privacyPolicy} seoKey="privacy" />;
 }
 
 export function ImpressumPage() {
-  return <LegalContent page={impressum} />;
+  return <LegalContent page={impressum} seoKey="impressum" />;
 }

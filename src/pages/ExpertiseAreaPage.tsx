@@ -2,10 +2,13 @@ import { Link } from 'react-router-dom';
 import { expertiseHubCards } from '../data/expertise';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
+import { Seo } from '../components/Seo';
+import { pageSeo } from '../data/seo';
 
 export function ExpertiseHubPage() {
   return (
     <div className="expertise-hub">
+      <Seo {...pageSeo.expertise} />
       <PageHero title="EXPERTISE" compact />
       <section className="content-section">
         <div className="container expertise-hub__grid">

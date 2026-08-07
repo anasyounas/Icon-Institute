@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { homePage } from '../data/home';
 import { PlaceholderImage } from '../components/PlaceholderImage';
+import { Seo } from '../components/Seo';
+import { pageSeo, siteSeo } from '../data/seo';
 
 export function HomePage() {
   const [slide, setSlide] = useState(0);
@@ -16,15 +18,28 @@ export function HomePage() {
 
   return (
     <div className="home">
-      <section className="home-hero">
+      <Seo
+        {...pageSeo.home}
+        jsonLd={[
+          siteSeo.organization,
+          {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: siteSeo.siteName,
+            url: siteSeo.siteUrl,
+          },
+        ]}
+      />
+      <section className="home-hero" aria-roledescription="carousel" aria-label="Highlights">
         {slides.map((s, i) => (
           <div
             key={s.image}
             className={`home-hero__slide ${i === slide ? 'is-active' : ''}`}
+            aria-hidden={i !== slide}
           >
             <PlaceholderImage
               src={s.image}
-              alt=""
+              alt={`${s.overlayWord} — ICON-INSTITUTE`}
               className="home-hero__img"
               aspectRatio="21 / 9"
             />
@@ -34,12 +49,13 @@ export function HomePage() {
           </div>
         ))}
         <div className="home-hero__dots">
-          {slides.map((_, i) => (
+          {slides.map((s, i) => (
             <button
-              key={i}
+              key={s.image}
               type="button"
               className={i === slide ? 'is-active' : ''}
-              aria-label={`Slide ${i + 1}`}
+              aria-label={`Show slide: ${s.overlayWord}`}
+              aria-current={i === slide ? 'true' : undefined}
               onClick={() => setSlide(i)}
             />
           ))}
@@ -124,7 +140,7 @@ export function HomePage() {
               >
                 <PlaceholderImage
                   src={item.image ?? 'news-placeholder.jpg'}
-                  alt=""
+                  alt={item.title}
                   className="home-news__img"
                   aspectRatio="1 / 1"
                 />

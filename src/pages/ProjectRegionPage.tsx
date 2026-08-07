@@ -1,6 +1,15 @@
 import { Link, useParams } from 'react-router-dom';
-import { projectRegions, sampleProjects } from '../data/projects';
+import {
+  projectFilters,
+  projectRegions,
+  sampleProjects,
+} from '../data/projects';
 import { PageHero } from '../components/PageHero';
+import { Seo } from '../components/Seo';
+
+const volumeLabels: Record<string, string> = Object.fromEntries(
+  projectFilters.volumes.map((v) => [v.value, v.label])
+);
 
 export function ProjectRegionPage() {
   const { region } = useParams();
@@ -18,7 +27,16 @@ export function ProjectRegionPage() {
 
   return (
     <div className="project-region">
-      <PageHero title={`Projects ${meta.title}`} image="icon_projects.jpg" />
+      <Seo
+        title={`Projects ${meta.title} | ICON-INSTITUTE`}
+        description={meta.description}
+        path={meta.href}
+      />
+      <PageHero
+        title={`Projects ${meta.title}`}
+        image="icon_projects.jpg"
+        imageAlt={`ICON projects in ${meta.title}`}
+      />
       <section className="content-section">
         <div className="container">
           <p className="lede">{meta.description}</p>
@@ -27,15 +45,15 @@ export function ProjectRegionPage() {
               <article key={p.id} className="project-card">
                 <h3>{p.title}</h3>
                 <p className="project-card__meta">
-                  {p.country} · {p.yearStart}–{p.yearEnd} · {p.volume}
+                  {p.country} · {p.yearStart}–{p.yearEnd} ·{' '}
+                  {volumeLabels[p.volume] ?? p.volume}
                 </p>
                 <p>{p.description}</p>
               </article>
             ))}
             {projects.length === 0 && (
-              <p>
-                Sample projects for this region will appear here. On the live
-                site, the full catalogue is loaded dynamically.
+              <p role="status">
+                No sample projects are listed for this region yet.
               </p>
             )}
           </div>

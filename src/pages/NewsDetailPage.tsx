@@ -2,6 +2,8 @@ import { Link, useParams } from 'react-router-dom';
 import { newsItems } from '../data/news';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
+import { Seo } from '../components/Seo';
+import { siteSeo } from '../data/seo';
 
 export function NewsDetailPage() {
   const { slug } = useParams();
@@ -18,13 +20,37 @@ export function NewsDetailPage() {
 
   return (
     <div className="news-detail">
+      <Seo
+        title={`${item.title} | News | ICON-INSTITUTE`}
+        description={
+          item.excerpt ??
+          `${item.title} — ICON-INSTITUTE news, ${item.dateLabel}.`
+        }
+        path={`/news/${item.slug}`}
+        type="article"
+        image={
+          item.image
+            ? `/images/${item.image}`
+            : siteSeo.defaultImage
+        }
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'NewsArticle',
+          headline: item.title,
+          datePublished: item.date,
+          publisher: {
+            '@type': 'Organization',
+            name: siteSeo.siteName,
+          },
+        }}
+      />
       <PageHero title={item.title} compact />
       <section className="content-section">
         <div className="container narrow">
           <time dateTime={item.date}>{item.dateLabel}</time>
           <PlaceholderImage
             src={item.image ?? 'news-placeholder.jpg'}
-            alt=""
+            alt={item.title}
             className="news-detail__img"
           />
           <p>

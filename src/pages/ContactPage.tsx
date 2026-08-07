@@ -1,91 +1,85 @@
-import { useState, type FormEvent } from 'react';
-import { Link } from 'react-router-dom';
 import { contactPage } from '../data/contact';
 import { PageHero } from '../components/PageHero';
+import { Seo } from '../components/Seo';
+import { pageSeo } from '../data/seo';
 
 export function ContactPage() {
-  const [sent, setSent] = useState(false);
-
-  const onSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setSent(true);
-  };
+  const { company } = contactPage;
 
   return (
     <div className="contact-page">
-      <PageHero title="CONTACT US" compact />
+      <Seo {...pageSeo.contact} />
+      <PageHero title="CONTACT US" compact imageAlt="Contact ICON-INSTITUTE" />
       <section className="content-section">
         <div className="container contact-page__grid">
           <div>
             <h2>{contactPage.title}</h2>
-            <p>
-              {contactPage.privacyNote}{' '}
-              <Link to="/privacy-policy">privacy policy</Link>.
-            </p>
-            <p>{contactPage.captchaNote}</p>
-            <p className="muted">{contactPage.captchaNoteDe}</p>
+            <p>{contactPage.intro}</p>
+            <p>{contactPage.howToReach}</p>
 
-            {sent ? (
-              <p className="status-box">
-                Thank you. This demo form does not send messages — connect a
-                backend or email service when ready.
-              </p>
-            ) : (
-              <form className="contact-form" onSubmit={onSubmit}>
-                {contactPage.fields.map((field) => (
-                  <label key={field.name}>
-                    {field.label}
-                    {field.type === 'textarea' ? (
-                      <textarea
-                        name={field.name}
-                        required={field.required}
-                        rows={6}
-                      />
-                    ) : (
-                      <input
-                        type={field.type}
-                        name={field.name}
-                        required={field.required}
-                      />
-                    )}
-                  </label>
-                ))}
-                <fieldset className="contact-form__captcha">
-                  <legend>Anti-spam</legend>
-                  <label>
-                    <input type="radio" name="captcha" value="house" required />{' '}
-                    Haus / House
-                  </label>
-                  <label>
-                    <input type="radio" name="captcha" value="car" /> Auto / Car
-                  </label>
-                  <label>
-                    <input type="radio" name="captcha" value="truck" /> LKW /
-                    Truck
-                  </label>
-                </fieldset>
-                <button type="submit" className="btn btn--primary">
-                  Send
-                </button>
-              </form>
-            )}
+            <dl className="contact-details">
+              <div>
+                <dt>Address</dt>
+                <dd>
+                  <address>
+                    {company.name}
+                    <br />
+                    {company.addressLines.map((line) => (
+                      <span key={line}>
+                        {line}
+                        <br />
+                      </span>
+                    ))}
+                  </address>
+                </dd>
+              </div>
+              <div>
+                <dt>Phone</dt>
+                <dd>
+                  <a href={`tel:${company.phone.replace(/\s/g, '')}`}>
+                    {company.phone}
+                  </a>
+                </dd>
+              </div>
+              <div>
+                <dt>Fax</dt>
+                <dd>{company.fax}</dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd>
+                  <a href={`mailto:${company.email}`}>{company.email}</a>
+                </dd>
+              </div>
+              <div>
+                <dt>Website</dt>
+                <dd>
+                  <a
+                    href={company.websiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {company.website}
+                  </a>
+                </dd>
+              </div>
+            </dl>
           </div>
 
-          <aside className="contact-page__aside">
-            <h3>{contactPage.company.name}</h3>
-            {contactPage.company.addressLines.map((line) => (
-              <div key={line}>{line}</div>
-            ))}
-            <p>
-              <a href={`tel:${contactPage.company.phone.replace(/\s/g, '')}`}>
-                {contactPage.company.phone}
-              </a>
-              <br />
-              Fax: {contactPage.company.fax}
-              <br />
-              <a href={`mailto:${contactPage.company.email}`}>
-                {contactPage.company.email}
-              </a>
+          <aside className="contact-page__aside" aria-labelledby="dept-heading">
+            <h3 id="dept-heading">Departments</h3>
+            <ul className="contact-depts">
+              {contactPage.departments.map((d) => (
+                <li key={d.email}>
+                  <strong>{d.label}</strong>
+                  <br />
+                  <a href={`mailto:${d.email}`}>{d.email}</a>
+                </li>
+              ))}
+            </ul>
+            <p className="muted">
+              Contact details are maintained through the local CMS. There is no
+              public contact form on this site.
             </p>
           </aside>
         </div>
