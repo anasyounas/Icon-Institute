@@ -17,6 +17,7 @@
   --color-subfooter: #6a1410;
   --font: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
   --font-display: 'Fraunces', 'Georgia', serif;
+  --font-admin: 'Manrope', 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
   --content-width: 1200px;
   --header-height: 88px;
   --radius: 0.35rem;
@@ -942,6 +943,7 @@ p {
 .admin-form select,
 .admin-search input {
   font: inherit;
+  font-family: var(--font-admin);
   padding: 0.65rem 0.75rem;
   border: 0;
   border-radius: var(--radius);
@@ -1755,32 +1757,87 @@ a.site-footer__contact:hover {
 }
 
 .admin-shell {
-  display: grid;
-  grid-template-columns: 260px 1fr;
+  display: flex;
   min-height: 100vh;
-  background: #f0efed;
+  background: #f4f5f7;
+  font-family: var(--font-admin);
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: #1f2937;
 }
 
 .admin-sidebar {
-  background: #2f3033;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  width: 332px;
+  flex-shrink: 0;
+  height: 100vh;
+  background: #0a0a0b;
   color: #fff;
-  padding: 1.25rem 1rem 2rem;
-  overflow: auto;
+  padding: 0 1.35rem 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: var(--font-admin);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+}
+
+.admin-sidebar::-webkit-scrollbar {
+  width: 2px;
+}
+
+.admin-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 0;
+}
+
+.admin-sidebar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+}
+
+.admin-sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.admin-sidebar::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .admin-sidebar__brand {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  justify-content: center;
+  margin: 0 0 1.5rem;
+  padding: 0 0.55rem;
+}
+
+.admin-sidebar__logo {
+  width: min(100%, 112px);
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.admin-sidebar__brand strong {
+  display: none;
 }
 
 .admin-sidebar a {
-  color: #ddd;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   display: block;
-  padding: 0.45rem 0.6rem;
-  border-radius: 0.25rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.4rem;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .admin-sidebar a:hover,
@@ -1790,28 +1847,38 @@ a.site-footer__contact:hover {
   text-decoration: none;
 }
 
+.admin-sidebar a.active {
+  background: rgba(255, 255, 255, 0.14);
+  font-weight: 800;
+}
+
 .admin-nav-group {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
 }
 
 .admin-nav-group__label {
-  font-size: 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #9b9ca0;
-  margin: 0 0 0.35rem 0.6rem;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.42);
+  margin: 0 0 0.55rem 0.85rem;
 }
 
 .admin-nav-group ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  gap: 0.2rem;
 }
 
 .admin-main-wrap {
   display: flex;
   flex-direction: column;
+  flex: 1;
   min-width: 0;
+  font-family: var(--font-admin);
 }
 
 .admin-topbar {
@@ -1819,43 +1886,93 @@ a.site-footer__contact:hover {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.85rem 1.25rem;
+  padding: 0.95rem 1.5rem;
   background: #fff;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .admin-topbar__user {
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  flex-wrap: wrap;
   margin-left: auto;
+}
+
+.admin-topbar__meta {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.admin-signout {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  border-radius: 0.45rem;
+  color: #1f2937;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.admin-signout:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  color: var(--color-burgundy);
+}
+
+.admin-signout__icon {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .admin-nav-toggle {
   display: none;
   font: inherit;
+  font-family: var(--font-admin);
   border: 1px solid var(--color-border);
   background: #fff;
-  padding: 0.4rem 0.75rem;
+  padding: 0.45rem 0.85rem;
   border-radius: var(--radius);
   cursor: pointer;
+  font-weight: 600;
 }
 
 .admin-content {
-  padding: 1.5rem;
+  padding: 1.75rem 1.75rem 2.5rem;
 }
 
 .admin-page h1 {
   color: var(--color-burgundy);
   text-transform: none;
-  font-size: 1.75rem;
+  font-family: var(--font-admin);
+  font-size: clamp(2.15rem, 2.4vw, 2.65rem);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+  margin: 0 0 0.55rem;
 }
 
-.admin-page h2,
+.admin-page h2 {
+  text-transform: none;
+  font-family: var(--font-admin);
+  color: var(--color-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
 .admin-page h3 {
   text-transform: none;
-  color: var(--color-heading);
+  font-family: var(--font-admin);
+  color: inherit;
+  letter-spacing: -0.015em;
 }
 
 .admin-banner {
@@ -1873,42 +1990,147 @@ a.site-footer__contact:hover {
 }
 
 .admin-stat {
-  background: #fff;
-  padding: 1rem;
-  border: 1px solid var(--color-border);
+  background: var(--color-burgundy);
+  color: #fff;
+  padding: 1.65rem 1.25rem;
+  min-height: 8.25rem;
+  border: 2px solid var(--color-burgundy);
   display: grid;
-  gap: 0.25rem;
+  align-content: center;
+  gap: 0.45rem;
+  border-radius: 0.45rem;
+  cursor: default;
+  transition:
+    background 0.22s ease,
+    color 0.22s ease,
+    border-color 0.22s ease,
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.admin-stat:hover {
+  background: transparent;
+  color: var(--color-maroon);
+  border-color: var(--color-maroon);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(134, 26, 20, 0.14);
 }
 
 .admin-stat strong {
-  font-size: 1.5rem;
-  color: var(--color-burgundy);
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  transition: color 0.22s ease;
+}
+
+.admin-stat:hover strong {
+  color: var(--color-maroon);
+}
+
+.admin-stat span {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.98rem;
+  font-weight: 600;
+  transition: color 0.22s ease;
+}
+
+.admin-stat:hover span {
+  color: var(--color-maroon);
 }
 
 .admin-module-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.1rem;
   margin-bottom: 2rem;
 }
 
 .admin-module-card {
-  background: #fff;
-  border: 1px solid var(--color-border);
-  padding: 1.1rem;
-  color: inherit;
+  background: #0a0a0b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.55rem 1.35rem;
+  min-height: 10.5rem;
+  color: #fff;
   text-decoration: none;
+  border-radius: 0.5rem;
+  display: grid;
+  align-content: start;
+  gap: 0.65rem;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
 }
 
 .admin-module-card:hover {
-  border-color: var(--color-burgundy);
+  background: #161618;
+  border-color: rgba(255, 255, 255, 0.16);
   text-decoration: none;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.18);
 }
 
 .admin-module-card h3 {
   text-transform: none;
-  font-size: 1.05rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.12rem;
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+  letter-spacing: -0.015em;
+}
+
+.admin-module-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Admin CMS buttons — large rusty / amber CTAs */
+.admin-shell .btn,
+.admin-shell button.btn,
+.admin-shell a.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.95em 1.85em;
+  min-height: 3.05rem;
+  font-family: var(--font-admin);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  border-radius: 0.45rem;
+  border: 2px solid transparent;
+  background: #c9892a;
+  color: #fff !important;
+  box-shadow: 0 8px 20px rgba(201, 137, 42, 0.28);
+}
+
+.admin-shell .btn:hover,
+.admin-shell button.btn:hover,
+.admin-shell a.btn:hover {
+  background: #b47822;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.admin-shell .btn--primary,
+.admin-shell .btn--accent,
+.admin-shell .btn--light,
+.admin-shell .btn--cms {
+  background: #c9892a;
+  color: #fff !important;
+  border-color: transparent;
+}
+
+.admin-shell .btn--primary:hover,
+.admin-shell .btn--accent:hover,
+.admin-shell .btn--light:hover,
+.admin-shell .btn--cms:hover {
+  background: #b47822;
+  color: #fff !important;
 }
 
 .admin-split {
@@ -1916,6 +2138,17 @@ a.site-footer__contact:hover {
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.admin-panel-card {
+  background: #fff;
+  border: 1px solid #c8c8cc;
+  border-radius: 0.45rem;
+  padding: 1.25rem 1.35rem 1.4rem;
+}
+
+.admin-panel-card h2 {
+  margin-top: 0;
 }
 
 .admin-pipeline {
@@ -1941,26 +2174,36 @@ a.site-footer__contact:hover {
   border-bottom: 1px solid var(--color-border);
 }
 
+.admin-simple-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
 .admin-table {
   width: 100%;
   border-collapse: collapse;
   background: #fff;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
+  font-family: var(--font-admin);
+  border: 1px solid #c8c8cc;
 }
 
 .admin-table th,
 .admin-table td {
   text-align: left;
-  padding: 0.65rem 0.75rem;
-  border-bottom: 1px solid var(--color-border);
+  padding: 0.7rem 0.85rem;
+  border: 1px solid #c8c8cc;
   vertical-align: top;
 }
 
 .admin-table th {
-  background: var(--color-bg-alt);
-  font-size: 0.8rem;
+  background: var(--color-maroon);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  border-color: var(--color-maroon-dark);
 }
 
 .admin-toolbar {
@@ -2092,13 +2335,14 @@ a.site-footer__contact:hover {
   }
 
   .admin-shell {
-    grid-template-columns: 1fr;
+    display: block;
   }
 
   .admin-sidebar {
     position: fixed;
     inset: 0 auto 0 0;
-    width: min(86vw, 280px);
+    width: min(90vw, 332px);
+    height: 100vh;
     z-index: 50;
     transform: translateX(-105%);
     transition: transform 0.25s ease;

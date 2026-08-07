@@ -76,7 +76,7 @@ export function AdminDashboard() {
       </section>
 
       <div className="admin-split">
-        <section>
+        <section className="admin-panel-card">
           <h2>Publishing pipeline</h2>
           <ol className="admin-pipeline">
             <li>Edit in CMS</li>
@@ -89,7 +89,7 @@ export function AdminDashboard() {
             Open publish console
           </Link>
         </section>
-        <section>
+        <section className="admin-panel-card">
           <h2>Approval queue</h2>
           <ul className="admin-simple-list">
             {mockWorkflow.map((w) => (

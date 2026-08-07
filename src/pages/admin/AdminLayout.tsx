@@ -1,7 +1,35 @@
-import { NavLink, Navigate, Outlet, Link } from 'react-router-dom';
+import { NavLink, Navigate, Outlet } from 'react-router-dom';
 import { adminNav } from '../../data/admin/adminNav';
 import { useDemoAuth } from '../../hooks/useDemoAuth';
 import { useState } from 'react';
+
+function SignOutIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path
+        d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16 17l5-5-5-5"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21 12H9"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
 
 export function AdminLayout() {
   const { user, logout } = useDemoAuth();
@@ -24,8 +52,11 @@ export function AdminLayout() {
       </a>
       <aside className={`admin-sidebar ${navOpen ? 'is-open' : ''}`}>
         <div className="admin-sidebar__brand">
-          <strong>ICON CMS</strong>
-          <span className="admin-badge">Demo</span>
+          <img
+            src="/logo.jpg"
+            alt="ICON-INSTITUTE"
+            className="admin-sidebar__logo"
+          />
         </div>
         <nav aria-label="CMS">
           {groups.map((g) => (
@@ -63,14 +94,17 @@ export function AdminLayout() {
             Menu
           </button>
           <div className="admin-topbar__user">
-            <span>
-              {user.name} · {user.role}
+            <span className="admin-topbar__meta">
+              CMS · {user.role}
             </span>
-            <Link to="/" className="text-link">
-              View site
-            </Link>
-            <button type="button" className="btn btn--light" onClick={logout}>
-              Sign out
+            <button
+              type="button"
+              className="admin-signout"
+              onClick={logout}
+              aria-label="Sign out"
+              title="Sign out"
+            >
+              <SignOutIcon className="admin-signout__icon" />
             </button>
           </div>
         </header>
