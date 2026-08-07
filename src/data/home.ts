@@ -1,0 +1,81 @@
+import { expertiseHubCards } from './expertise';
+import { newsItems } from './news';
+
+export type HeroSlide = {
+  image: string;
+  overlayWord: string;
+};
+
+export type QuickLink = {
+  label: string;
+  href: string;
+  image: string;
+};
+
+export type HomePage = {
+  heroSlides: HeroSlide[];
+  welcome: {
+    title: string;
+    text: string;
+    ctaLabel: string;
+    ctaHref: string;
+  };
+  quickLinks: QuickLink[];
+  projectsWorldwide: {
+    title: string;
+    image: string;
+    href: string;
+  };
+  expertise: {
+    title: string;
+    cards: typeof expertiseHubCards;
+  };
+  featuredNews: {
+    title: string;
+    items: typeof newsItems;
+  };
+};
+
+export const homePage: HomePage = {
+  heroSlides: [
+    { image: 'Ttl_Group1.jpg', overlayWord: 'consulting' },
+    { image: '6608100.jpg', overlayWord: 'concepts' },
+    { image: 'ESG_Group.jpg', overlayWord: 'training' },
+  ],
+  welcome: {
+    title: 'Welcome',
+    text: 'Welcome to our homepage. Herein you find all relevant information on the consulting services and expertise that we have built up since 1975. Hopefully you will enjoy browsing our website and learn more about the ICON-INSTITUTE Consulting Group.',
+    ctaLabel: 'Learn more',
+    ctaHref: '/about-us',
+  },
+  quickLinks: [
+    {
+      label: 'ABOUT US',
+      href: '/about-us',
+      image: 'icon_institut_haus.jpg',
+    },
+    {
+      label: 'JOBS',
+      href: '/jobs',
+      image: 'icon_institute_jobs.jpg',
+    },
+    {
+      label: 'DOWNLOAD',
+      href: '/download',
+      image: 'icon_institut_haus_3.jpg',
+    },
+  ],
+  projectsWorldwide: {
+    title: 'Projects Worldwide',
+    image: 'icon_projects.jpg',
+    href: '/projects',
+  },
+  expertise: {
+    title: 'EXPERTISE',
+    cards: expertiseHubCards,
+  },
+  featuredNews: {
+    title: 'News',
+    items: newsItems.slice(0, 3),
+  },
+};

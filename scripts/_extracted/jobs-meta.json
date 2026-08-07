@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo_icon.jpg",
+      "alt": "",
+      "file": "logo_icon.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2021/10/icon_institute_jobs.jpg",
+      "alt": "background",
+      "file": "icon_institute_jobs.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/icon_institut_haus_6.jpg",
+      "alt": "background",
+      "file": "icon_institut_haus_6.jpg"
+    }
+  ],
+  "links": [
+    "/",
+    "/about-us/",
+    "/expertise/",
+    "/statistics-evaluation-and-social-research-2/",
+    "/economic-and-employment-promotion-2/",
+    "/governance-public-administration-2/",
+    "/agriculture-and-rural-development-2/",
+    "/sustainability-management/",
+    "/projects-worldwide/",
+    "/projects-africa/",
+    "/projects-asia/",
+    "/projects-central_america_caribbean/",
+    "/projects-europe/",
+    "/projects-middle_east/",
+    "/projects-south_america/",
+    "/news/",
+    "/jobs/",
+    "/download/",
+    "/information-material/",
+    "/videos/",
+    "/contact/",
+    "/privacy-policy/",
+    "/impressum/"
+  ]
+}

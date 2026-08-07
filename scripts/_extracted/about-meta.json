@@ -1,0 +1,125 @@
+{
+  "images": [
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo_icon.jpg",
+      "alt": "",
+      "file": "logo_icon.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-services.jpg",
+      "alt": "",
+      "file": "icon-institute-services.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_9-600x600.jpg",
+      "alt": "",
+      "file": "icon-institute_9-600x600.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/06/icon_timeline_1975.png",
+      "alt": "",
+      "file": "icon_timeline_1975.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/06/icon_timeline_1987.png",
+      "alt": "",
+      "file": "icon_timeline_1987.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/06/icon_timeline_1996.png",
+      "alt": "",
+      "file": "icon_timeline_1996.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/06/icon_timeline_2017.png",
+      "alt": "",
+      "file": "icon_timeline_2017.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/06/icon_timeline_2012.png",
+      "alt": "",
+      "file": "icon_timeline_2012.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/05/icon_corporate_social_responsibility.jpg",
+      "alt": "",
+      "file": "icon_corporate_social_responsibility.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/05/icon_integrity_agreement.jpg",
+      "alt": "",
+      "file": "icon_integrity_agreement.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/05/icon_din_en_iso_9001_2015.jpg",
+      "alt": "",
+      "file": "icon_din_en_iso_9001_2015.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo1.jpg",
+      "alt": "",
+      "file": "logo1.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo3.jpg",
+      "alt": "",
+      "file": "logo3.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo.jpg",
+      "alt": "",
+      "file": "logo.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo4-1.jpg",
+      "alt": "",
+      "file": "logo4-1.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/10/degeval.jpg",
+      "alt": "",
+      "file": "degeval.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/themes/Impreza/common/css/vendor/images/marker-icon.png",
+      "alt": "background",
+      "file": "marker-icon.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/icon_institut_haus.jpg",
+      "alt": "background",
+      "file": "icon_institut_haus.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/icon_institut_haus_6.jpg",
+      "alt": "background",
+      "file": "icon_institut_haus_6.jpg"
+    }
+  ],
+  "links": [
+    "/about-us/",
+    "/?p=22895",
+    "/",
+    "/expertise/",
+    "/statistics-evaluation-and-social-research-2/",
+    "/economic-and-employment-promotion-2/",
+    "/governance-public-administration-2/",
+    "/agriculture-and-rural-development-2/",
+    "/sustainability-management/",
+    "/projects-worldwide/",
+    "/projects-africa/",
+    "/projects-asia/",
+    "/projects-central_america_caribbean/",
+    "/projects-europe/",
+    "/projects-middle_east/",
+    "/projects-south_america/",
+    "/news/",
+    "/jobs/",
+    "/download/",
+    "/information-material/",
+    "/videos/",
+    "/contact/",
+    "/privacy-policy/",
+    "/impressum/"
+  ]
+}

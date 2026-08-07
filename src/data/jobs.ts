@@ -1,0 +1,18 @@
+export type JobsPage = {
+  intro: string[];
+  applicationNote: string;
+  email: string;
+  currentOffersNote: string;
+};
+
+export const jobsPage: JobsPage = {
+  intro: [
+    'Permanent staff vacancies at the Köln headquarters are regularly announced. Your application will be welcome at any time, if your profile meets the following main requirements: experience in project management, foreign language skills (fluent in English and very good in a second language), expertise in one of our target sectors, team-player mentality, flexibility and the willingness to work temporarily on projects abroad.',
+    'The ICON-INSTITUTES are continuously seeking for experts to take on specific jobs in projects abroad. The assignments can go from one week up to some years. Take the initiative and send in – preferably in electronic format – your Curriculum Vitae and copies of your degrees and certificates. Do not forget to mention your references.',
+    'You are advised to regularly check our current job opportunities. If you feel suited, please send your application immediately.',
+  ],
+  applicationNote:
+    'Please provide certificates with your application (i.e., education/ university diplomas or degrees, work certificates/ references)',
+  email: 'cv-icon@icon-institute.de',
+  currentOffersNote: 'Current job offers',
+};

@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/logo_icon.jpg",
+      "alt": "",
+      "file": "logo_icon.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2021/10/economic-and-employment-promotion.png",
+      "alt": "",
+      "file": "economic-and-employment-promotion.png"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+      "alt": "background",
+      "file": "icon-institute_5.jpg"
+    },
+    {
+      "src": "https://hp.icon-institute.de/wp-content/uploads/2019/02/icon_institut_haus_6.jpg",
+      "alt": "background",
+      "file": "icon_institut_haus_6.jpg"
+    }
+  ]
+}
