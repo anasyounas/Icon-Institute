@@ -1,7 +1,6 @@
 import { useEffect, useId, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { mainNavigation } from '../data/navigation';
-import { PlaceholderImage } from './PlaceholderImage';
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,11 +36,10 @@ export function Header() {
     <header className="site-header">
       <div className="site-header__inner">
         <Link to="/" className="site-logo" aria-label="ICON-INSTITUTE home">
-          <PlaceholderImage
-            src="logo_icon.jpg"
+          <img
+            src="/logo.jpg"
             alt="ICON-INSTITUTE"
             className="site-logo__img"
-            aspectRatio="3 / 1"
           />
         </Link>
 
@@ -104,6 +102,11 @@ export function Header() {
                 )}
               </li>
             ))}
+            <li className="site-nav__item site-nav__item--cms">
+              <Link to="/admin/login" className="btn btn--cms">
+                CMS Login
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

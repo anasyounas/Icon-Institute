@@ -30,6 +30,7 @@ export function HomePage() {
           },
         ]}
       />
+
       <section className="home-hero" aria-roledescription="carousel" aria-label="Highlights">
         {slides.map((s, i) => (
           <div
@@ -39,22 +40,33 @@ export function HomePage() {
           >
             <PlaceholderImage
               src={s.image}
-              alt={`${s.overlayWord} — ICON-INSTITUTE`}
+              alt=""
               className="home-hero__img"
               aspectRatio="21 / 9"
             />
-            <div className="home-hero__caption">
-              <p className="home-hero__word">{s.overlayWord}.</p>
-            </div>
           </div>
         ))}
+
+        <div className="home-hero__overlay" aria-hidden />
+
+        <div className="home-hero__content">
+          <div className="container home-hero__inner">
+            <p className="home-hero__brand">ICON-INSTITUTE</p>
+            <h1>{homePage.welcome.title}</h1>
+            <p className="home-hero__text">{homePage.welcome.text}</p>
+            <Link to={homePage.welcome.ctaHref} className="btn btn--accent">
+              {homePage.welcome.ctaLabel}
+            </Link>
+          </div>
+        </div>
+
         <div className="home-hero__dots">
           {slides.map((s, i) => (
             <button
               key={s.image}
               type="button"
               className={i === slide ? 'is-active' : ''}
-              aria-label={`Show slide: ${s.overlayWord}`}
+              aria-label={`Show slide ${i + 1}`}
               aria-current={i === slide ? 'true' : undefined}
               onClick={() => setSlide(i)}
             />
@@ -62,13 +74,26 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="home-welcome">
-        <div className="container home-welcome__inner">
-          <h2>{homePage.welcome.title}</h2>
-          <p>{homePage.welcome.text}</p>
-          <Link to={homePage.welcome.ctaHref} className="btn btn--light">
-            {homePage.welcome.ctaLabel}
-          </Link>
+      <section className="home-services">
+        <div className="container">
+          <header className="home-services__header">
+            <h2>{homePage.services.title}</h2>
+            <p>{homePage.services.subtitle}</p>
+          </header>
+          <div className="home-services__grid">
+            {homePage.services.cards.map((card, i) => (
+              <Link
+                key={card.title}
+                to={card.href}
+                className="home-services__card"
+                style={{ animationDelay: `${i * 0.12}s` }}
+              >
+                <h3>{card.title}</h3>
+                <p>{card.text}</p>
+                <span className="home-services__more">Explore</span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
