@@ -12,6 +12,7 @@ import {
   formatWhen,
   useApiList,
 } from '../../components/admin/cms';
+import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import {
   api,
@@ -74,6 +75,7 @@ function ApplicationsPanel() {
   const to = Math.min(page * 8, total);
 
   return (
+    <div className="applications-panel">
     <PanelCard
       title="Applications received"
       subtitle="Submitted by candidates through the website's application form."
@@ -195,6 +197,7 @@ function ApplicationsPanel() {
         variant="admin"
       />
     </PanelCard>
+    </div>
   );
 }
 
@@ -303,10 +306,11 @@ export function JobsManagerPage() {
   };
 
   const remove = async (item: JobItem) => {
-    if (!window.confirm(`Delete the job ad “${item.title}”?`)) return;
+    if (!(await confirmToast(`Delete the job ad “${item.title}”?`))) return;
     try {
       await api.jobs.remove(item.id);
       setNotice(`Deleted “${item.title}”.`);
+      showToast(`Deleted “${item.title}”.`);
       reload();
     } catch (err) {
       setActionError(errorText(err));

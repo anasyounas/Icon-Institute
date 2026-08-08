@@ -11,6 +11,7 @@ import {
   errorText,
   formatWhen,
 } from '../../components/admin/cms';
+import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import {
   api,
@@ -858,10 +859,11 @@ export function BackupsPage() {
   };
 
   const remove = async (record: BackupRecord) => {
-    if (!window.confirm(`Delete backup ${record.filename}?`)) return;
+    if (!(await confirmToast(`Delete backup ${record.filename}?`))) return;
     try {
       await api.backups.remove(record.id);
       setNotice(`Deleted ${record.filename}.`);
+      showToast(`Deleted ${record.filename}.`);
       reload();
     } catch (err) {
       setError(errorText(err));

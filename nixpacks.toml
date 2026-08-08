@@ -1,2 +1,13 @@
 [phases.setup]
 nixPkgs = ["nodejs_22", "npm-9_x"]
+
+# Static SPA: `serve -s` rewrites unknown paths to index.html so deep links
+# and hard refresh on /news, /admin/*, etc. return the app instead of 404.
+[phases.install]
+cmds = ["npm ci"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npx serve -s dist -l tcp://0.0.0.0:${PORT:-3000}"

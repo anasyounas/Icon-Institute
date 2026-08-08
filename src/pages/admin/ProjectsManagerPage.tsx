@@ -14,6 +14,7 @@ import {
   toOptions,
   useApiList,
 } from '../../components/admin/cms';
+import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { api, type ProjectItem } from '../../lib/api';
 
@@ -154,10 +155,11 @@ export function ProjectsManagerPage() {
   };
 
   const remove = async (item: ProjectItem) => {
-    if (!window.confirm(`Delete the project “${item.title}”?`)) return;
+    if (!(await confirmToast(`Delete the project “${item.title}”?`))) return;
     try {
       await api.projects.remove(item.id);
       setNotice(`Deleted “${item.title}”.`);
+      showToast(`Deleted “${item.title}”.`);
       reload();
     } catch (err) {
       setActionError(errorText(err));

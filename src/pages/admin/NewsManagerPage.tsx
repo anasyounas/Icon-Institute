@@ -13,6 +13,7 @@ import {
   formatWhen,
   useApiList,
 } from '../../components/admin/cms';
+import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { api, assetUrl, type NewsItem } from '../../lib/api';
 
@@ -117,10 +118,11 @@ export function NewsManagerPage() {
   };
 
   const remove = async (item: NewsItem) => {
-    if (!window.confirm(`Delete “${item.title}” and its version history?`)) return;
+    if (!(await confirmToast(`Delete “${item.title}” and its version history?`))) return;
     try {
       await api.news.remove(item.id);
       setNotice(`Deleted “${item.title}”.`);
+      showToast(`Deleted “${item.title}”.`);
       reload();
     } catch (err) {
       setActionError(errorText(err));

@@ -5,6 +5,7 @@ import {
   errorText,
   formatWhen,
 } from '../../components/admin/cms';
+import { showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { api, assetUrl, type PageDetail, type PageInfo } from '../../lib/api';
 
@@ -300,6 +301,7 @@ export function ContentMediaPage() {
       setData(updated.draft as Json);
       setDirty(false);
       setNotice(label);
+      showToast(label);
     } catch (err) {
       setError(errorText(err));
     } finally {
@@ -308,27 +310,18 @@ export function ContentMediaPage() {
   };
 
   const saveDraft = () =>
-    run('Draft saved. Visitors still see the published version until you publish.', () =>
+    run('Saved as draft. Visitors still see the published version until you publish.', () =>
       api.pages.saveDraft(selected, data as Record<string, unknown>)
     );
 
-  const publish = async () => {
-    if (dirty) {
+  const publish = () =>
+    run('Published — the website now shows this content.', async () => {
       // Save first so what gets published is what is on screen.
-      try {
-        setBusy(true);
-        const saved = await api.pages.saveDraft(selected, data as Record<string, unknown>);
-        setDetail(saved);
-      } catch (err) {
-        setError(errorText(err));
-        setBusy(false);
-        return;
+      if (dirty) {
+        await api.pages.saveDraft(selected, data as Record<string, unknown>);
       }
-    }
-    await run('Published — the website now shows this content.', () =>
-      api.pages.publish(selected)
-    );
-  };
+      return api.pages.publish(selected);
+    });
 
   const discard = () =>
     run('Draft discarded — back to the live version.', () => api.pages.discard(selected));

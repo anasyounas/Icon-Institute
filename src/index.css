@@ -4370,6 +4370,138 @@ a.site-footer__contact:hover .site-footer__icon {
   color: hsl(var(--muted-foreground));
 }
 
+/* Application statuses (Jobs → Applications received) */
+.applications-panel {
+  margin-top: 2.5rem;
+}
+
+.applications-panel .status-pill {
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  padding: 0.4rem 0.85rem;
+  border-width: 1.5px;
+}
+
+.applications-panel .status-pill--new {
+  background: #e8f1fb;
+  border-color: #9dbce8;
+  color: #1a4f96;
+}
+
+.applications-panel .status-pill--reviewed {
+  background: #fff5e5;
+  border-color: #f5dcb0;
+  color: #8a5a10;
+}
+
+.applications-panel .status-pill--shortlisted {
+  background: #eaf5ee;
+  border-color: #bcdfc9;
+  color: #1f6b3a;
+}
+
+.applications-panel .status-pill--rejected {
+  background: #fceceb;
+  border-color: #e5b4b0;
+  color: #8b2e26;
+}
+
+/* --- admin toasts --------------------------------------------------------- */
+.admin-toast-host {
+  position: fixed;
+  z-index: 1200;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  max-width: min(26rem, calc(100vw - 2rem));
+  pointer-events: none;
+}
+
+.admin-toast {
+  pointer-events: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1rem;
+  padding: 0.95rem 1.1rem;
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  box-shadow: 0 10px 28px rgba(20, 20, 20, 0.14);
+  animation: admin-toast-in 0.22s var(--ease-out);
+}
+
+.admin-toast--success {
+  border-left: 4px solid #1f6b3a;
+}
+
+.admin-toast--error {
+  border-left: 4px solid #8b2e26;
+}
+
+.admin-toast--confirm {
+  border-left: 4px solid hsl(var(--primary));
+}
+
+.admin-toast__msg {
+  margin: 0;
+  flex: 1 1 12rem;
+  font-size: 0.94rem;
+  line-height: 1.45;
+  color: hsl(var(--foreground));
+}
+
+.admin-toast__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.admin-toast__actions .btn {
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+}
+
+.admin-toast__close {
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  color: hsl(var(--muted-foreground));
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 0.15rem;
+}
+
+.admin-toast__close:hover {
+  color: hsl(var(--foreground));
+}
+
+@keyframes admin-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .admin-toast-host {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    max-width: none;
+  }
+}
+
 /* --- upload drop zone ----------------------------------------------------- */
 .upload-box {
   position: relative;

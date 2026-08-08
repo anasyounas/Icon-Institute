@@ -4,6 +4,7 @@ import { useAuth } from '../../hooks/useAuth';
 import { useState } from 'react';
 import { GlobeIcon } from '../../components/Icons';
 import { PasswordGate } from './PasswordGate';
+import { ToastHost } from '../../components/admin/Toast';
 
 /** Longest matching nav href wins, so nested routes still resolve to a section. */
 function currentSection(pathname: string) {
@@ -181,6 +182,7 @@ export function AdminLayout() {
           <Outlet />
         </main>
       </div>
+      <ToastHost />
     </div>
   );
 }

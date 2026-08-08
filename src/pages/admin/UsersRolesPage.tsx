@@ -6,6 +6,7 @@ import {
   StatusPill,
 } from '../../components/admin/AdminUI';
 import { Pagination } from '../../components/Pagination';
+import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { ApiError, api, type CmsUser, type Role } from '../../lib/api';
 
@@ -173,17 +174,18 @@ export function UsersRolesPage() {
     try {
       const result = await action();
       setNotice(result.message);
+      showToast(result.message);
       await load();
     } catch (err) {
       setError(`${label} failed. ${errorText(err)}`);
     }
   };
 
-  const remove = (target: CmsUser) => {
+  const remove = async (target: CmsUser) => {
     if (
-      !window.confirm(
+      !(await confirmToast(
         `Delete ${target.email}? Their sessions end immediately. This cannot be undone.`
-      )
+      ))
     ) {
       return;
     }

@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { EmptyRow, FilterBar } from '../../components/admin/AdminUI';
 import { Pagination } from '../../components/Pagination';
 import { errorText, formatWhen, useApiList } from '../../components/admin/cms';
+import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { api, assetUrl, type MediaItem } from '../../lib/api';
 
@@ -74,15 +75,16 @@ export function MediaLibraryPage() {
 
   const remove = async (item: MediaItem) => {
     if (
-      !window.confirm(
+      !(await confirmToast(
         `Delete ${item.name}? Pages still referencing it will show their fallback.`
-      )
+      ))
     ) {
       return;
     }
     try {
       await api.media.remove(item.id);
       setNotice(`${item.name} deleted.`);
+      showToast(`${item.name} deleted.`);
       reload();
     } catch (err) {
       setActionError(errorText(err));
