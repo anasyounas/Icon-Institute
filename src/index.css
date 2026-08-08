@@ -1760,14 +1760,20 @@ code {
 /* --------------------------------------------------------------------------
    15. Expertise
    -------------------------------------------------------------------------- */
+/* A fixed column count, not auto-fit: auto-fit collapses empty tracks, so a
+   final row of 2 cards would stretch each to half width. Fixed tracks keep
+   every card identical and simply leave the gap. */
 .expertise-hub__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  align-items: stretch;
 }
 
 .expertise-hub__card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0 0 1.6rem;
   background: hsl(var(--card));
   border: 1px solid hsl(var(--border));
@@ -1788,11 +1794,16 @@ code {
 .expertise-hub__media {
   position: relative;
   display: block;
+  flex-shrink: 0;
 }
 
+/* Source images have differing natural ratios — crop them all to one shape so
+   every card's header block is the same height. */
 .expertise-hub__card img,
 .expertise-hub__card .img-placeholder {
   width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 
 .expertise-hub__icon {
@@ -1835,8 +1846,11 @@ code {
   color: hsl(var(--muted-foreground));
 }
 
+/* `margin-top: auto` pins the button to the bottom whatever the body length —
+   including the card that has no highlights list at all. */
 .expertise-hub__card .btn {
-  margin: 0 1.5rem;
+  margin: auto 1.5rem 0;
+  align-self: flex-start;
 }
 
 .expertise-area__sub {
@@ -1973,6 +1987,18 @@ code {
   box-shadow: var(--shadow-sharp);
   transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--transition-smooth),
     border-color var(--dur) var(--transition-smooth);
+}
+
+/* Lime rail, matching the job cards */
+.project-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1.6rem;
+  bottom: 1.6rem;
+  width: 4px;
+  border-radius: var(--radius-full);
+  background: hsl(var(--primary));
 }
 
 .project-card:hover {
@@ -4478,6 +4504,11 @@ a.site-footer__contact:hover .site-footer__icon {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  /* Fixed tracks need explicit steps down — auto-fit used to handle this */
+  .expertise-hub__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .home-services__grid {
     grid-template-columns: 1fr;
   }
@@ -4581,6 +4612,7 @@ a.site-footer__contact:hover .site-footer__icon {
   .home-quick__grid,
   .home-news__grid,
   .home-services__grid,
+  .expertise-hub__grid,
   .values-grid,
   .download-page__grid,
   .contact-page__grid,
