@@ -5627,3 +5627,323 @@ a.site-footer__contact:hover .site-footer__icon {
   gap: 0.45rem;
   white-space: nowrap;
 }
+
+
+/* ==========================================================================
+   CMS editing dialogs and two-column forms
+   Editing used to expand inline, pushing the table down the page with no
+   clear way out. Editors now open in a dialog with a sticky action bar.
+   ========================================================================== */
+
+.cms-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(0.75rem, 3vw, 2.5rem);
+  background: hsl(222 30% 5% / 0.55);
+  backdrop-filter: blur(3px);
+  animation: cms-fade 0.15s ease;
+}
+
+@keyframes cms-fade {
+  from { opacity: 0; }
+}
+
+.cms-modal__card {
+  display: flex;
+  flex-direction: column;
+  width: min(46rem, 100%);
+  max-height: min(92vh, 60rem);
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border) / 0.3);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 32px 80px hsl(222 30% 5% / 0.4);
+  overflow: hidden;
+  animation: cms-rise 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cms-modal__card--large { width: min(64rem, 100%); }
+
+@keyframes cms-rise {
+  from { opacity: 0; transform: translateY(12px) scale(0.985); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cms-modal, .cms-modal__card { animation: none; }
+}
+
+.cms-modal__form {
+  display: contents;
+}
+
+/* --- header --- */
+
+.cms-modal__head {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid hsl(var(--border) / 0.22);
+  background: hsl(var(--muted) / 0.4);
+}
+
+.cms-modal__heading { flex: 1; min-width: 0; }
+
+.cms-modal__head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.cms-modal__sub {
+  margin: 0.25rem 0 0;
+  font-size: 0.88rem;
+  color: hsl(var(--muted-foreground));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cms-modal__close {
+  flex-shrink: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid hsl(var(--border) / 0.3);
+  border-radius: var(--radius-sm);
+  background: hsl(var(--background));
+  color: hsl(var(--muted-foreground));
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.cms-modal__close svg { width: 1.05rem; height: 1.05rem; }
+
+.cms-modal__close:hover:not(:disabled) {
+  color: hsl(var(--foreground));
+  border-color: hsl(var(--foreground) / 0.45);
+}
+
+.cms-modal__close:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* --- scrolling body --- */
+
+.cms-modal__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+/* --- sticky action bar --- */
+
+.cms-modal__foot {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid hsl(var(--border) / 0.22);
+  background: hsl(var(--muted) / 0.4);
+}
+
+.cms-modal__buttons {
+  display: flex;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+
+.cms-modal__error {
+  margin: 0;
+  flex: 1 1 16rem;
+  font-size: 0.88rem;
+  color: hsl(0 72% 45%);
+}
+
+/* --- form layout: two columns --- */
+
+.cms-fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  display: grid;
+  gap: 1.75rem;
+}
+
+.cms-fieldset:disabled { opacity: 0.65; }
+
+.cms-form-section > header { margin-bottom: 0.9rem; }
+
+.cms-form-section > header h3 {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+
+.cms-form-section > header p {
+  margin: 0.3rem 0 0;
+  font-size: 0.85rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.cms-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.25rem;
+  align-items: start;
+}
+
+@media (max-width: 46rem) {
+  .cms-form-grid { grid-template-columns: 1fr; }
+}
+
+/* A field that needs the full row */
+.cms-field-wide { grid-column: 1 / -1; }
+
+.cms-form-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  min-width: 0;
+}
+
+.cms-form-grid input[type='text'],
+.cms-form-grid input[type='email'],
+.cms-form-grid input[type='url'],
+.cms-form-grid input[type='date'],
+.cms-form-grid input[type='number'],
+.cms-form-grid input[type='password'],
+.cms-form-grid select,
+.cms-form-grid textarea {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  font: inherit;
+  font-weight: 400;
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border) / 0.4);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cms-form-grid textarea { resize: vertical; line-height: 1.5; }
+
+.cms-form-grid input:focus-visible,
+.cms-form-grid select:focus-visible,
+.cms-form-grid textarea:focus-visible {
+  outline: none;
+  border-color: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--primary) / 0.18);
+}
+
+.cms-form-grid .field-hint {
+  font-weight: 400;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: hsl(var(--muted-foreground));
+}
+
+/* --- media fields --- */
+
+.cms-media-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.cms-media-field__label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+.cms-media-field__row {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.cms-media-field__preview {
+  width: 8rem;
+  height: 5.5rem;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border) / 0.3);
+  background: hsl(var(--muted) / 0.6);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.cms-media-field__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cms-media-field__preview.is-empty span,
+.cms-media-field__doc.is-empty span {
+  font-size: 0.78rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.cms-media-field__doc {
+  flex: 1 1 12rem;
+  min-width: 0;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid hsl(var(--border) / 0.3);
+  background: hsl(var(--muted) / 0.5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.85rem;
+}
+
+.cms-media-field__actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* --- nested groups inside the page-content editor --- */
+
+.cms-form-grid > .admin-json-nested,
+.cms-form-grid > .admin-json-group { min-width: 0; }
+
+.admin-json-nested > .cms-form-grid,
+.admin-json-root > .cms-form-grid { margin-top: 0.5rem; }
+
+
+/* Role explanation inside the user dialog */
+.cms-role-note {
+  margin: 0;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: hsl(var(--muted-foreground));
+  background: hsl(var(--muted) / 0.55);
+  border-left: 3px solid hsl(var(--primary) / 0.6);
+  border-radius: var(--radius-sm);
+}
+
+/* Toasts must sit above the editing dialogs */
+.admin-toast-host { z-index: 140; }

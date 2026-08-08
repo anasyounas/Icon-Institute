@@ -605,6 +605,118 @@ export function MediaPickerDialog({
 
 /* -------------------------------------------------------- list of strings */
 
+/* ------------------------------------------------------- pickable fields */
+
+/**
+ * An image chosen from the media library, shown as a thumbnail rather than a
+ * path, with the option to clear it. Editors pick pictures visually; the
+ * stored URL is an implementation detail they should not have to read.
+ */
+export function ImageField({
+  label,
+  value,
+  onChange,
+  hint,
+}: {
+  label: string;
+  value: string;
+  onChange: (url: string) => void;
+  hint?: string;
+}) {
+  const [picking, setPicking] = useState(false);
+  const preview = value
+    ? assetUrl(value.startsWith('/') || value.startsWith('http') ? value : `/images/${value}`)
+    : '';
+
+  return (
+    <div className="cms-media-field">
+      <span className="cms-media-field__label">{label}</span>
+
+      <div className="cms-media-field__row">
+        <div className={`cms-media-field__preview ${value ? '' : 'is-empty'}`}>
+          {value ? (
+            <img src={preview} alt="" loading="lazy" />
+          ) : (
+            <span>No image</span>
+          )}
+        </div>
+
+        <div className="cms-media-field__actions">
+          <button type="button" className="btn btn--light" onClick={() => setPicking(true)}>
+            {value ? 'Change image' : 'Choose image'}
+          </button>
+          {value && (
+            <button type="button" className="row-action row-action--danger" onClick={() => onChange('')}>
+              Remove
+            </button>
+          )}
+        </div>
+      </div>
+
+      {hint && <span className="field-hint">{hint}</span>}
+
+      {picking && (
+        <MediaPickerDialog onClose={() => setPicking(false)} onSelect={(m) => onChange(m.url)} />
+      )}
+    </div>
+  );
+}
+
+/** A document (PDF and friends) chosen from the media library. */
+export function FileField({
+  label,
+  value,
+  onChange,
+  hint,
+}: {
+  label: string;
+  value: string;
+  onChange: (url: string) => void;
+  hint?: string;
+}) {
+  const [picking, setPicking] = useState(false);
+  const name = value ? value.split('/').pop() : '';
+
+  return (
+    <div className="cms-media-field">
+      <span className="cms-media-field__label">{label}</span>
+
+      <div className="cms-media-field__row">
+        <div className={`cms-media-field__doc ${value ? '' : 'is-empty'}`}>
+          {value ? (
+            <a href={assetUrl(value)} target="_blank" rel="noopener noreferrer" title={name}>
+              {name}
+            </a>
+          ) : (
+            <span>No document</span>
+          )}
+        </div>
+
+        <div className="cms-media-field__actions">
+          <button type="button" className="btn btn--light" onClick={() => setPicking(true)}>
+            {value ? 'Change file' : 'Choose file'}
+          </button>
+          {value && (
+            <button type="button" className="row-action row-action--danger" onClick={() => onChange('')}>
+              Remove
+            </button>
+          )}
+        </div>
+      </div>
+
+      {hint && <span className="field-hint">{hint}</span>}
+
+      {picking && (
+        <MediaPickerDialog
+          kind="document"
+          onClose={() => setPicking(false)}
+          onSelect={(m) => onChange(m.url)}
+        />
+      )}
+    </div>
+  );
+}
+
 /** Edits a list of paragraphs / bullet lines as one textarea, one per line. */
 export function LinesEditor({
   label,

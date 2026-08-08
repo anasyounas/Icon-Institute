@@ -6,6 +6,7 @@ import {
   StatusPill,
 } from '../../components/admin/AdminUI';
 import { Pagination } from '../../components/Pagination';
+import { FormSection, Modal, Wide } from '../../components/admin/Modal';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { ApiError, api, type CmsUser, type Role } from '../../lib/api';
@@ -58,7 +59,6 @@ export function UsersRolesPage() {
   const [totalPages, setTotalPages] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const [notice, setNotice] = useState('');
 
   const [editing, setEditing] = useState<CmsUser | null>(null);
   const [creating, setCreating] = useState(false);
@@ -147,7 +147,7 @@ export function UsersRolesPage() {
           role: draft.role,
           is_active: draft.is_active,
         });
-        setNotice(`Updated ${draft.email}.`);
+        showToast(`Updated ${draft.email}.`);
         if (editing.id === signedInUser?.id) await refreshUser();
       } else {
         await api.users.create({
@@ -158,7 +158,7 @@ export function UsersRolesPage() {
           is_active: draft.is_active,
           must_change_password: true,
         });
-        setNotice(`Created ${draft.email}. They must set a new password at first sign-in.`);
+        showToast(`Created ${draft.email}. They must set a new password at first sign-in.`);
       }
       closeForm();
       await load();
@@ -173,7 +173,6 @@ export function UsersRolesPage() {
     setError('');
     try {
       const result = await action();
-      setNotice(result.message);
       showToast(result.message);
       await load();
     } catch (err) {
@@ -199,7 +198,7 @@ export function UsersRolesPage() {
     setFormError('');
     try {
       const result = await api.users.resetPassword(resetTarget.id, resetPassword);
-      setNotice(result.message);
+      showToast(result.message);
       setResetTarget(null);
       setResetPassword('');
     } catch (err) {
@@ -220,11 +219,6 @@ export function UsersRolesPage() {
         Argon2id hashes and every change here is written to the audit log.
       </p>
 
-      {notice && (
-        <p className="status-box" role="status">
-          {notice}
-        </p>
-      )}
       {error && (
         <p className="admin-login__error" role="alert">
           {error}
@@ -271,141 +265,165 @@ export function UsersRolesPage() {
       />
 
       {(creating || editing) && (
-        <form className="admin-form-card is-editing" onSubmit={submitForm}>
-          <header className="admin-form-card__head">
-            <h2>{editing ? `Edit ${editing.email}` : 'New user'}</h2>
-          </header>
-
-          <fieldset className="admin-form" disabled={saving}>
-            <label>
-              Full name
-              <input
-                type="text"
-                required
-                minLength={2}
-                value={draft.name}
-                onChange={(e) => setDraft({ ...draft, name: e.target.value })}
-              />
-            </label>
-            <label>
-              Email
-              <input
-                type="email"
-                required
-                value={draft.email}
-                onChange={(e) => setDraft({ ...draft, email: e.target.value })}
-              />
-            </label>
-            <label>
-              Role
-              <select
-                value={draft.role}
-                onChange={(e) => setDraft({ ...draft, role: e.target.value as Role })}
-              >
-                {ROLES.map((r) => (
-                  <option key={r} value={r}>
-                    {r}
-                  </option>
-                ))}
-              </select>
-              <span className="field-hint">{ROLE_SUMMARY[draft.role]}</span>
-            </label>
-            {!editing && (
+        <Modal
+          title={editing ? 'Edit user' : 'New user'}
+          subtitle={editing ? editing.email : 'They must choose their own password at first sign-in.'}
+          onClose={closeForm}
+          onSubmit={submitForm}
+          busy={saving}
+          footer={
+            <>
+              {formError && (
+                <p className="cms-modal__error" role="alert">
+                  {formError}
+                </p>
+              )}
+              <div className="cms-modal__buttons">
+                <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
+                  Cancel
+                </button>
+                <button type="submit" className="btn btn--primary" disabled={saving}>
+                  {saving ? 'Saving…' : editing ? 'Save changes' : 'Create user'}
+                </button>
+              </div>
+            </>
+          }
+        >
+          <fieldset className="cms-fieldset" disabled={saving}>
+            <FormSection title="Account">
               <label>
-                Initial password
+                Full name
                 <input
                   type="text"
                   required
-                  autoComplete="new-password"
-                  value={draft.password}
-                  onChange={(e) => setDraft({ ...draft, password: e.target.value })}
+                  minLength={2}
+                  value={draft.name}
+                  onChange={(e) => setDraft({ ...draft, name: e.target.value })}
                 />
-                <span className="field-hint">
-                  At least 12 characters with upper case, lower case and a digit.
-                  The user must replace it at first sign-in.
-                </span>
               </label>
-            )}
-            <label>
-              Status
-              <select
-                value={String(draft.is_active)}
-                onChange={(e) =>
-                  setDraft({ ...draft, is_active: e.target.value === 'true' })
-                }
-              >
-                <option value="true">Active</option>
-                <option value="false">Deactivated</option>
-              </select>
-            </label>
+              <label>
+                Email
+                <input
+                  type="email"
+                  required
+                  value={draft.email}
+                  onChange={(e) => setDraft({ ...draft, email: e.target.value })}
+                />
+              </label>
+              {!editing && (
+                <Wide>
+                  <label>
+                    Initial password
+                    <input
+                      type="text"
+                      required
+                      autoComplete="new-password"
+                      value={draft.password}
+                      onChange={(e) => setDraft({ ...draft, password: e.target.value })}
+                    />
+                    <span className="field-hint">
+                      At least 12 characters with upper case, lower case and a digit.
+                      The user must replace it at first sign-in.
+                    </span>
+                  </label>
+                </Wide>
+              )}
+            </FormSection>
+
+            <FormSection title="Access">
+              <label>
+                Role
+                <select
+                  value={draft.role}
+                  onChange={(e) => setDraft({ ...draft, role: e.target.value as Role })}
+                >
+                  {ROLES.map((r) => (
+                    <option key={r} value={r}>
+                      {r}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Status
+                <select
+                  value={String(draft.is_active)}
+                  onChange={(e) =>
+                    setDraft({ ...draft, is_active: e.target.value === 'true' })
+                  }
+                >
+                  <option value="true">Active</option>
+                  <option value="false">Deactivated</option>
+                </select>
+              </label>
+              <Wide>
+                <p className="cms-role-note">{ROLE_SUMMARY[draft.role]}</p>
+              </Wide>
+            </FormSection>
           </fieldset>
-
-          {formError && (
-            <p className="admin-login__error" role="alert">
-              {formError}
-            </p>
-          )}
-
-          <div className="admin-savebar">
-            <button type="submit" className="btn btn--primary" disabled={saving}>
-              {saving ? 'Saving…' : editing ? 'Save changes' : 'Create user'}
-            </button>
-            <button
-              type="button"
-              className="btn btn--light"
-              onClick={closeForm}
-              disabled={saving}
-            >
-              Cancel
-            </button>
-          </div>
-        </form>
+        </Modal>
       )}
 
       {resetTarget && (
-        <form className="admin-form-card is-editing" onSubmit={submitReset}>
-          <header className="admin-form-card__head">
-            <h2>Reset password for {resetTarget.email}</h2>
-          </header>
-          <fieldset className="admin-form" disabled={saving}>
-            <label>
-              New password
-              <input
-                type="text"
-                required
-                autoComplete="new-password"
-                value={resetPassword}
-                onChange={(e) => setResetPassword(e.target.value)}
-              />
-              <span className="field-hint">
-                Share it over a separate channel. All of their sessions end
-                immediately and they must choose their own password at next sign-in.
-              </span>
-            </label>
+        <Modal
+          title="Reset password"
+          subtitle={resetTarget.email}
+          onClose={() => {
+            setResetTarget(null);
+            setResetPassword('');
+            setFormError('');
+          }}
+          onSubmit={submitReset}
+          busy={saving}
+          footer={
+            <>
+              {formError && (
+                <p className="cms-modal__error" role="alert">
+                  {formError}
+                </p>
+              )}
+              <div className="cms-modal__buttons">
+                <button
+                  type="button"
+                  className="btn btn--light"
+                  onClick={() => {
+                    setResetTarget(null);
+                    setResetPassword('');
+                    setFormError('');
+                  }}
+                  disabled={saving}
+                >
+                  Cancel
+                </button>
+                <button type="submit" className="btn btn--primary" disabled={saving}>
+                  {saving ? 'Saving…' : 'Update password'}
+                </button>
+              </div>
+            </>
+          }
+        >
+          <fieldset className="cms-fieldset" disabled={saving}>
+            <FormSection title="New password">
+              <Wide>
+                <label>
+                  Password
+                  <input
+                    type="text"
+                    required
+                    autoComplete="new-password"
+                    value={resetPassword}
+                    onChange={(e) => setResetPassword(e.target.value)}
+                  />
+                  <span className="field-hint">
+                    Share it over a separate channel. All of their sessions end
+                    immediately and they must choose their own password at next
+                    sign-in.
+                  </span>
+                </label>
+              </Wide>
+            </FormSection>
           </fieldset>
-          {formError && (
-            <p className="admin-login__error" role="alert">
-              {formError}
-            </p>
-          )}
-          <div className="admin-savebar">
-            <button type="submit" className="btn btn--primary" disabled={saving}>
-              {saving ? 'Saving…' : 'Update password'}
-            </button>
-            <button
-              type="button"
-              className="btn btn--light"
-              onClick={() => {
-                setResetTarget(null);
-                setResetPassword('');
-                setFormError('');
-              }}
-              disabled={saving}
-            >
-              Cancel
-            </button>
-          </div>
-        </form>
+        </Modal>
       )}
 
       <div className="admin-table-wrap">

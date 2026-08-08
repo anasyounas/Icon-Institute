@@ -12,6 +12,7 @@ import {
   formatWhen,
   useApiList,
 } from '../../components/admin/cms';
+import { FormSection, Modal, Wide } from '../../components/admin/Modal';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import {
@@ -227,7 +228,6 @@ export function JobsManagerPage() {
     PAGE_SIZE
   );
 
-  const [notice, setNotice] = useState('');
   const [actionError, setActionError] = useState('');
   const [editing, setEditing] = useState<JobItem | null>(null);
   const [creating, setCreating] = useState(false);
@@ -238,7 +238,7 @@ export function JobsManagerPage() {
   const [versionsFor, setVersionsFor] = useState<JobItem | null>(null);
 
   const onChanged = (_: JobItem, message: string) => {
-    setNotice(message);
+    showToast(message);
     setActionError('');
     reload();
   };
@@ -291,10 +291,10 @@ export function JobsManagerPage() {
     try {
       if (editing) {
         await api.jobs.update(editing.id, payload);
-        setNotice(`Saved “${draft.title}”.`);
+        showToast(`Saved “${draft.title}”.`);
       } else {
         await api.jobs.create(payload);
-        setNotice(`Created draft job ad “${draft.title}”.`);
+        showToast(`Created draft job ad “${draft.title}”.`);
       }
       closeForm();
       reload();
@@ -309,7 +309,7 @@ export function JobsManagerPage() {
     if (!(await confirmToast(`Delete the job ad “${item.title}”?`))) return;
     try {
       await api.jobs.remove(item.id);
-      setNotice(`Deleted “${item.title}”.`);
+      showToast(`Deleted “${item.title}”.`);
       showToast(`Deleted “${item.title}”.`);
       reload();
     } catch (err) {
@@ -328,11 +328,6 @@ export function JobsManagerPage() {
         marked * are mandatory — the site needs each of them to render the ad.
       </p>
 
-      {notice && (
-        <p className="status-box" role="status">
-          {notice}
-        </p>
-      )}
       {(error || actionError) && (
         <p className="admin-login__error" role="alert">
           {error || actionError}
@@ -407,138 +402,165 @@ export function JobsManagerPage() {
       />
 
       {(creating || editing) && (
-        <form className="admin-form-card is-editing" onSubmit={submit}>
-          <header className="admin-form-card__head">
-            <h2>{editing ? `Edit: ${editing.title}` : 'New job ad'}</h2>
-            {editing && <CmsStatusPill status={editing.cms_status} />}
-          </header>
+        <Modal
+          title={editing ? 'Edit job ad' : 'New job ad'}
+          subtitle={
+            editing
+              ? editing.title
+              : 'Every field marked * is needed for the site to render the ad.'
+          }
+          badge={editing && <CmsStatusPill status={editing.cms_status} />}
+          onClose={closeForm}
+          onSubmit={submit}
+          busy={saving}
+          size="large"
+          footer={
+            <>
+              {formError && (
+                <p className="cms-modal__error" role="alert">
+                  {formError}
+                </p>
+              )}
+              <div className="cms-modal__buttons">
+                <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
+                  Cancel
+                </button>
+                <button type="submit" className="btn btn--primary" disabled={saving}>
+                  {saving ? 'Saving…' : editing ? 'Save changes' : 'Create draft'}
+                </button>
+              </div>
+            </>
+          }
+        >
+          <fieldset className="cms-fieldset" disabled={saving}>
+            <FormSection title="The role">
+              <label>
+                Title *
+                <input
+                  type="text"
+                  required
+                  minLength={3}
+                  value={draft.title}
+                  onChange={(e) => setDraft({ ...draft, title: e.target.value })}
+                />
+              </label>
+              <label>
+                Location *
+                <input
+                  type="text"
+                  required
+                  value={draft.location}
+                  onChange={(e) => setDraft({ ...draft, location: e.target.value })}
+                  placeholder="Köln, Germany (with travel abroad)"
+                />
+              </label>
+              <label>
+                Contract type *
+                <select
+                  value={draft.type}
+                  onChange={(e) => setDraft({ ...draft, type: e.target.value as Draft['type'] })}
+                >
+                  {JOB_TYPES.map((t) => (
+                    <option key={t} value={t}>
+                      {t}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Expertise area *
+                <input
+                  type="text"
+                  required
+                  value={draft.expertise}
+                  onChange={(e) => setDraft({ ...draft, expertise: e.target.value })}
+                  placeholder="Economic and Employment Promotion"
+                />
+              </label>
+              <Wide>
+                <label>
+                  Summary *
+                  <textarea
+                    rows={2}
+                    required
+                    minLength={10}
+                    value={draft.summary}
+                    onChange={(e) => setDraft({ ...draft, summary: e.target.value })}
+                  />
+                  <span className="field-hint">Shown on the jobs listing.</span>
+                </label>
+              </Wide>
+            </FormSection>
 
-          <fieldset className="admin-form" disabled={saving}>
-            <label>
-              Title *
-              <input
-                type="text"
-                required
-                minLength={3}
-                value={draft.title}
-                onChange={(e) => setDraft({ ...draft, title: e.target.value })}
-              />
-            </label>
-            <label>
-              Location *
-              <input
-                type="text"
-                required
-                value={draft.location}
-                onChange={(e) => setDraft({ ...draft, location: e.target.value })}
-                placeholder="Köln, Germany (with travel abroad)"
-              />
-            </label>
-            <label>
-              Contract type *
-              <select
-                value={draft.type}
-                onChange={(e) => setDraft({ ...draft, type: e.target.value as Draft['type'] })}
-              >
-                {JOB_TYPES.map((t) => (
-                  <option key={t} value={t}>
-                    {t}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label>
-              Expertise area *
-              <input
-                type="text"
-                required
-                value={draft.expertise}
-                onChange={(e) => setDraft({ ...draft, expertise: e.target.value })}
-                placeholder="Economic and Employment Promotion"
-              />
-            </label>
-            <label>
-              Listing date *
-              <input
-                type="date"
-                required
-                value={draft.published}
-                onChange={(e) => setDraft({ ...draft, published: e.target.value })}
-              />
-            </label>
-            <label>
-              Application deadline *
-              <input
-                type="date"
-                required
-                value={draft.deadline}
-                onChange={(e) => setDraft({ ...draft, deadline: e.target.value })}
-              />
-            </label>
-            <label>
-              Listing state *
-              <select
-                value={draft.status}
-                onChange={(e) =>
-                  setDraft({ ...draft, status: e.target.value as 'open' | 'closed' })
-                }
-              >
-                <option value="open">Open — accepting applications</option>
-                <option value="closed">Closed</option>
-              </select>
-            </label>
-            <label>
-              Summary *
-              <textarea
-                rows={2}
-                required
-                minLength={10}
-                value={draft.summary}
-                onChange={(e) => setDraft({ ...draft, summary: e.target.value })}
-              />
-            </label>
-            <LinesEditor
-              label="Role description *"
-              value={draft.description}
-              onChange={(description) => setDraft({ ...draft, description })}
-              rows={5}
-              required
-              hint="One paragraph per line — at least one is required."
-            />
-            <LinesEditor
-              label="Requirements *"
-              value={draft.requirements}
-              onChange={(requirements) => setDraft({ ...draft, requirements })}
-              rows={5}
-              required
-              hint="One requirement per line — shown as bullets on the site."
-            />
-            <label>
-              Application email
-              <input
-                type="email"
-                value={draft.application_email}
-                onChange={(e) => setDraft({ ...draft, application_email: e.target.value })}
-                placeholder="cv-icon@icon-institute.de (site default when empty)"
-              />
-            </label>
+            <FormSection title="Dates and availability">
+              <label>
+                Listing date *
+                <input
+                  type="date"
+                  required
+                  value={draft.published}
+                  onChange={(e) => setDraft({ ...draft, published: e.target.value })}
+                />
+              </label>
+              <label>
+                Application deadline *
+                <input
+                  type="date"
+                  required
+                  value={draft.deadline}
+                  onChange={(e) => setDraft({ ...draft, deadline: e.target.value })}
+                />
+              </label>
+              <label>
+                Listing state *
+                <select
+                  value={draft.status}
+                  onChange={(e) =>
+                    setDraft({ ...draft, status: e.target.value as 'open' | 'closed' })
+                  }
+                >
+                  <option value="open">Open — accepting applications</option>
+                  <option value="closed">Closed</option>
+                </select>
+              </label>
+              <label>
+                Application email
+                <input
+                  type="email"
+                  value={draft.application_email}
+                  onChange={(e) => setDraft({ ...draft, application_email: e.target.value })}
+                  placeholder="cv-icon@icon-institute.de"
+                />
+                <span className="field-hint">
+                  Leave empty to use the site-wide address.
+                </span>
+              </label>
+            </FormSection>
+
+            <FormSection title="Details">
+              <Wide>
+                <LinesEditor
+                  label="Role description *"
+                  value={draft.description}
+                  onChange={(description) => setDraft({ ...draft, description })}
+                  rows={6}
+                  required
+                  hint="One paragraph per line — at least one is required."
+                />
+              </Wide>
+              <Wide>
+                <LinesEditor
+                  label="Requirements *"
+                  value={draft.requirements}
+                  onChange={(requirements) => setDraft({ ...draft, requirements })}
+                  rows={6}
+                  required
+                  hint="One requirement per line — shown as bullets on the site."
+                />
+              </Wide>
+            </FormSection>
           </fieldset>
-
-          {formError && (
-            <p className="admin-login__error" role="alert">
-              {formError}
-            </p>
-          )}
-
-          <div className="admin-savebar">
-            <button type="submit" className="btn btn--primary" disabled={saving}>
-              {saving ? 'Saving…' : editing ? 'Save changes' : 'Create draft'}
-            </button>
-            <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
-              Cancel
-            </button>
-          </div>
-        </form>
+        </Modal>
       )}
 
       <div className="admin-table-wrap">

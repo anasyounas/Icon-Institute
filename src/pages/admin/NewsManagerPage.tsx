@@ -4,8 +4,8 @@ import { Pagination } from '../../components/Pagination';
 import {
   CMS_STATUS_OPTIONS,
   CmsStatusPill,
+  ImageField,
   LinesEditor,
-  MediaPickerDialog,
   ScheduleDialog,
   VersionsDialog,
   WorkflowActions,
@@ -13,9 +13,10 @@ import {
   formatWhen,
   useApiList,
 } from '../../components/admin/cms';
+import { FormSection, Modal, Wide } from '../../components/admin/Modal';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
-import { api, assetUrl, type NewsItem } from '../../lib/api';
+import { api, type NewsItem } from '../../lib/api';
 
 const PAGE_SIZE = 10;
 
@@ -46,19 +47,17 @@ export function NewsManagerPage() {
     PAGE_SIZE
   );
 
-  const [notice, setNotice] = useState('');
   const [actionError, setActionError] = useState('');
   const [editing, setEditing] = useState<NewsItem | null>(null);
   const [creating, setCreating] = useState(false);
   const [draft, setDraft] = useState<Draft>(EMPTY);
   const [saving, setSaving] = useState(false);
   const [formError, setFormError] = useState('');
-  const [pickerOpen, setPickerOpen] = useState(false);
   const [scheduleFor, setScheduleFor] = useState<NewsItem | null>(null);
   const [versionsFor, setVersionsFor] = useState<NewsItem | null>(null);
 
   const onChanged = (_: NewsItem, message: string) => {
-    setNotice(message);
+    showToast(message);
     setActionError('');
     reload();
   };
@@ -103,10 +102,10 @@ export function NewsManagerPage() {
     try {
       if (editing) {
         await api.news.update(editing.id, payload);
-        setNotice(`Saved “${draft.title}”.`);
+        showToast(`Saved “${draft.title}”.`);
       } else {
         await api.news.create(payload);
-        setNotice(`Created draft “${draft.title}”. Submit it for review when ready.`);
+        showToast(`Created draft “${draft.title}”. Submit it for review when ready.`);
       }
       closeForm();
       reload();
@@ -121,7 +120,6 @@ export function NewsManagerPage() {
     if (!(await confirmToast(`Delete “${item.title}” and its version history?`))) return;
     try {
       await api.news.remove(item.id);
-      setNotice(`Deleted “${item.title}”.`);
       showToast(`Deleted “${item.title}”.`);
       reload();
     } catch (err) {
@@ -141,11 +139,6 @@ export function NewsManagerPage() {
         the website immediately.
       </p>
 
-      {notice && (
-        <p className="status-box" role="status">
-          {notice}
-        </p>
-      )}
       {(error || actionError) && (
         <p className="admin-login__error" role="alert">
           {error || actionError}
@@ -193,102 +186,92 @@ export function NewsManagerPage() {
       />
 
       {(creating || editing) && (
-        <form className="admin-form-card is-editing" onSubmit={submit}>
-          <header className="admin-form-card__head">
-            <h2>{editing ? `Edit: ${editing.title}` : 'New news article'}</h2>
-            {editing && <CmsStatusPill status={editing.cms_status} />}
-          </header>
-
-          <fieldset className="admin-form" disabled={saving}>
-            <label>
-              Title *
-              <input
-                type="text"
-                required
-                minLength={3}
-                value={draft.title}
-                onChange={(e) => setDraft({ ...draft, title: e.target.value })}
-              />
-            </label>
-            <label>
-              Date *
-              <input
-                type="date"
-                required
-                value={draft.date}
-                onChange={(e) => setDraft({ ...draft, date: e.target.value })}
-              />
-              <span className="field-hint">
-                Shown on the site as e.g. “24. July 2026”, derived automatically.
-              </span>
-            </label>
-            <label>
-              Image
-              <span className="admin-image-field">
-                {draft.image && (
-                  <img
-                    src={assetUrl(
-                      draft.image.startsWith('/') || draft.image.startsWith('http')
-                        ? draft.image
-                        : `/images/${draft.image}`
-                    )}
-                    alt=""
-                    className="admin-image-field__preview"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).style.display = 'none';
-                    }}
-                  />
-                )}
+        <Modal
+          title={editing ? 'Edit news article' : 'New news article'}
+          subtitle={editing ? editing.title : 'Saved as a draft — nothing appears on the website until it is published.'}
+          badge={editing && <CmsStatusPill status={editing.cms_status} />}
+          onClose={closeForm}
+          onSubmit={submit}
+          busy={saving}
+          footer={
+            <>
+              {formError && (
+                <p className="cms-modal__error" role="alert">
+                  {formError}
+                </p>
+              )}
+              <div className="cms-modal__buttons">
+                <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
+                  Cancel
+                </button>
+                <button type="submit" className="btn btn--primary" disabled={saving}>
+                  {saving ? 'Saving…' : editing ? 'Save changes' : 'Create draft'}
+                </button>
+              </div>
+            </>
+          }
+        >
+          <fieldset className="cms-fieldset" disabled={saving}>
+            <FormSection title="Article">
+              <label>
+                Title *
                 <input
                   type="text"
-                  value={draft.image}
-                  placeholder="Choose from the media library →"
-                  onChange={(e) => setDraft({ ...draft, image: e.target.value })}
+                  required
+                  minLength={3}
+                  value={draft.title}
+                  onChange={(e) => setDraft({ ...draft, title: e.target.value })}
                 />
-                <button
-                  type="button"
-                  className="btn btn--light"
-                  onClick={() => setPickerOpen(true)}
-                >
-                  Choose / upload
-                </button>
-              </span>
-            </label>
-            <label>
-              Excerpt
-              <textarea
-                rows={2}
-                value={draft.excerpt}
-                onChange={(e) => setDraft({ ...draft, excerpt: e.target.value })}
-              />
-              <span className="field-hint">
-                Short teaser used on the article page and in search results.
-              </span>
-            </label>
-            <LinesEditor
-              label="Article body"
-              value={draft.body}
-              onChange={(body) => setDraft({ ...draft, body })}
-              rows={8}
-              hint="One paragraph per line."
-            />
+              </label>
+              <label>
+                Date *
+                <input
+                  type="date"
+                  required
+                  value={draft.date}
+                  onChange={(e) => setDraft({ ...draft, date: e.target.value })}
+                />
+                <span className="field-hint">Shown as e.g. “24. July 2026”.</span>
+              </label>
+              <Wide>
+                <label>
+                  Excerpt
+                  <textarea
+                    rows={2}
+                    value={draft.excerpt}
+                    onChange={(e) => setDraft({ ...draft, excerpt: e.target.value })}
+                  />
+                  <span className="field-hint">
+                    Short teaser used on the article page and in search results.
+                  </span>
+                </label>
+              </Wide>
+            </FormSection>
+
+            <FormSection title="Image">
+              <Wide>
+                <ImageField
+                  label="Article image"
+                  value={draft.image}
+                  onChange={(image) => setDraft({ ...draft, image })}
+                  hint="Shown on the news listing and at the top of the article."
+                />
+              </Wide>
+            </FormSection>
+
+            <FormSection title="Body">
+              <Wide>
+                <LinesEditor
+                  label="Article text"
+                  value={draft.body}
+                  onChange={(body) => setDraft({ ...draft, body })}
+                  rows={10}
+                  hint="One paragraph per line."
+                />
+              </Wide>
+            </FormSection>
           </fieldset>
-
-          {formError && (
-            <p className="admin-login__error" role="alert">
-              {formError}
-            </p>
-          )}
-
-          <div className="admin-savebar">
-            <button type="submit" className="btn btn--primary" disabled={saving}>
-              {saving ? 'Saving…' : editing ? 'Save changes' : 'Create draft'}
-            </button>
-            <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
-              Cancel
-            </button>
-          </div>
-        </form>
+        </Modal>
       )}
 
       <div className="admin-table-wrap">
@@ -382,12 +365,6 @@ export function NewsManagerPage() {
         variant="admin"
       />
 
-      {pickerOpen && (
-        <MediaPickerDialog
-          onClose={() => setPickerOpen(false)}
-          onSelect={(m) => setDraft((d) => ({ ...d, image: m.url }))}
-        />
-      )}
       {scheduleFor && (
         <ScheduleDialog
           item={scheduleFor}

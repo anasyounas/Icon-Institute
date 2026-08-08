@@ -5,8 +5,9 @@ import {
   CMS_STATUS_OPTIONS,
   CmsStatusPill,
   EXPERTISE_LABELS,
+  FileField,
+  ImageField,
   LinesEditor,
-  MediaPickerDialog,
   REGION_LABELS,
   ScheduleDialog,
   VOLUME_LABELS,
@@ -16,9 +17,10 @@ import {
   toOptions,
   useApiList,
 } from '../../components/admin/cms';
+import { FormSection, Modal, Wide } from '../../components/admin/Modal';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
-import { api, assetUrl, type ProjectItem } from '../../lib/api';
+import { api, type ProjectItem } from '../../lib/api';
 
 const PAGE_SIZE = 10;
 
@@ -88,7 +90,6 @@ export function ProjectsManagerPage() {
     PAGE_SIZE
   );
 
-  const [notice, setNotice] = useState('');
   const [actionError, setActionError] = useState('');
   const [editing, setEditing] = useState<ProjectItem | null>(null);
   const [creating, setCreating] = useState(false);
@@ -97,11 +98,9 @@ export function ProjectsManagerPage() {
   const [formError, setFormError] = useState('');
   const [scheduleFor, setScheduleFor] = useState<ProjectItem | null>(null);
   const [versionsFor, setVersionsFor] = useState<ProjectItem | null>(null);
-  /** Which field the media picker is currently filling. */
-  const [picker, setPicker] = useState<'image' | 'pdf' | null>(null);
 
   const onChanged = (_: ProjectItem, message: string) => {
-    setNotice(message);
+    showToast(message);
     setActionError('');
     reload();
   };
@@ -195,10 +194,10 @@ export function ProjectsManagerPage() {
     try {
       if (editing) {
         await api.projects.update(editing.id, payload);
-        setNotice(`Saved “${draft.title}”.`);
+        showToast(`Saved “${draft.title}”.`);
       } else {
         await api.projects.create(payload);
-        setNotice(`Created draft project “${draft.title}”.`);
+        showToast(`Created draft project “${draft.title}”.`);
       }
       closeForm();
       reload();
@@ -213,7 +212,7 @@ export function ProjectsManagerPage() {
     if (!(await confirmToast(`Delete the project “${item.title}”?`))) return;
     try {
       await api.projects.remove(item.id);
-      setNotice(`Deleted “${item.title}”.`);
+      showToast(`Deleted “${item.title}”.`);
       showToast(`Deleted “${item.title}”.`);
       reload();
     } catch (err) {
@@ -233,11 +232,6 @@ export function ProjectsManagerPage() {
         connection. Visitors keep the exact same filters on the website.
       </p>
 
-      {notice && (
-        <p className="status-box" role="status">
-          {notice}
-        </p>
-      )}
       {(error || actionError) && (
         <p className="admin-login__error" role="alert">
           {error || actionError}
@@ -321,70 +315,78 @@ export function ProjectsManagerPage() {
       />
 
       {(creating || editing) && (
-        <form className="admin-form-card is-editing" onSubmit={submit}>
-          <header className="admin-form-card__head">
-            <h2>{editing ? `Edit: ${editing.title}` : 'New project'}</h2>
-            {editing && <CmsStatusPill status={editing.cms_status} />}
-          </header>
-
-          <fieldset className="admin-form" disabled={saving}>
-            <h3 className="admin-subhead">Heading</h3>
-            <label>
-              Title *
-              <input
-                type="text"
-                required
-                minLength={3}
-                value={draft.title}
-                onChange={(e) => setDraft({ ...draft, title: e.target.value })}
-              />
-            </label>
-            <label>
-              Subtitle
-              <input
-                type="text"
-                value={draft.subtitle}
-                onChange={(e) => setDraft({ ...draft, subtitle: e.target.value })}
-                placeholder="Integrated water catchment management in Zambia (AWARE 2.0)"
-              />
-              <span className="field-hint">
-                The longer descriptive line shown under the title on the project page.
-              </span>
-            </label>
-            <label>
-              Featured image
-              <span className="admin-image-field">
-                {draft.image && (
-                  <img
-                    src={assetUrl(
-                      draft.image.startsWith('/') || draft.image.startsWith('http')
-                        ? draft.image
-                        : `/images/${draft.image}`
-                    )}
-                    alt=""
-                    className="admin-image-field__preview"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).style.display = 'none';
-                    }}
-                  />
-                )}
-                <input
-                  type="text"
-                  value={draft.image}
-                  placeholder="Choose from the media library →"
-                  onChange={(e) => setDraft({ ...draft, image: e.target.value })}
-                />
-                <button
-                  type="button"
-                  className="btn btn--light"
-                  onClick={() => setPicker('image')}
-                >
-                  Choose / upload
+        <Modal
+          title={editing ? 'Edit project' : 'New project'}
+          subtitle={
+            editing
+              ? editing.title
+              : 'Facts entered here appear beside icons on the project page.'
+          }
+          badge={editing && <CmsStatusPill status={editing.cms_status} />}
+          onClose={closeForm}
+          onSubmit={submit}
+          busy={saving}
+          size="large"
+          footer={
+            <>
+              {formError && (
+                <p className="cms-modal__error" role="alert">
+                  {formError}
+                </p>
+              )}
+              <div className="cms-modal__buttons">
+                <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
+                  Cancel
                 </button>
-              </span>
-            </label>
+                <button type="submit" className="btn btn--primary" disabled={saving}>
+                  {saving ? 'Saving…' : editing ? 'Save changes' : 'Create draft'}
+                </button>
+              </div>
+            </>
+          }
+        >
+          <fieldset className="cms-fieldset" disabled={saving}>
+            <FormSection title="Heading">
+              <Wide>
+                <label>
+                  Title *
+                  <input
+                    type="text"
+                    required
+                    minLength={3}
+                    value={draft.title}
+                    onChange={(e) => setDraft({ ...draft, title: e.target.value })}
+                  />
+                </label>
+              </Wide>
+              <Wide>
+                <label>
+                  Subtitle
+                  <input
+                    type="text"
+                    value={draft.subtitle}
+                    onChange={(e) => setDraft({ ...draft, subtitle: e.target.value })}
+                    placeholder="Integrated water catchment management in Zambia (AWARE 2.0)"
+                  />
+                  <span className="field-hint">
+                    The longer descriptive line under the title on the project page.
+                  </span>
+                </label>
+              </Wide>
+              <Wide>
+                <ImageField
+                  label="Featured image"
+                  value={draft.image}
+                  onChange={(image) => setDraft({ ...draft, image })}
+                  hint="Shown on the project card and at the top of its page."
+                />
+              </Wide>
+            </FormSection>
 
-            <h3 className="admin-subhead">Project facts (shown with icons)</h3>
+            <FormSection
+              title="Project facts"
+              hint="Shown beside icons on the project page. Region, years, expertise and volume also drive the visitor filters."
+            >
             <label>
               Countries *
               <input
@@ -516,62 +518,44 @@ export function ProjectsManagerPage() {
               />
             </label>
 
-            <h3 className="admin-subhead">Description</h3>
-            <label>
-              Summary *
-              <textarea
-                rows={3}
-                required
-                minLength={10}
-                value={draft.description}
-                onChange={(e) => setDraft({ ...draft, description: e.target.value })}
-              />
-              <span className="field-hint">
-                Short text used in listings and as the page's SEO description.
-              </span>
-            </label>
-            <LinesEditor
-              label="Full project description"
-              value={draft.body}
-              onChange={(body) => setDraft({ ...draft, body })}
-              rows={9}
-              hint="One paragraph per line. Falls back to the summary when empty."
-            />
-            <label>
-              Project PDF
-              <span className="admin-image-field">
-                <input
-                  type="text"
-                  value={draft.pdf}
-                  placeholder="Optional download shown on the project page"
-                  onChange={(e) => setDraft({ ...draft, pdf: e.target.value })}
+            </FormSection>
+
+            <FormSection title="Description">
+              <Wide>
+                <label>
+                  Summary *
+                  <textarea
+                    rows={3}
+                    required
+                    minLength={10}
+                    value={draft.description}
+                    onChange={(e) => setDraft({ ...draft, description: e.target.value })}
+                  />
+                  <span className="field-hint">
+                    Short text used in listings and as the page's SEO description.
+                  </span>
+                </label>
+              </Wide>
+              <Wide>
+                <LinesEditor
+                  label="Full project description"
+                  value={draft.body}
+                  onChange={(body) => setDraft({ ...draft, body })}
+                  rows={9}
+                  hint="One paragraph per line. Falls back to the summary when empty."
                 />
-                <button
-                  type="button"
-                  className="btn btn--light"
-                  onClick={() => setPicker('pdf')}
-                >
-                  Choose / upload
-                </button>
-              </span>
-            </label>
+              </Wide>
+              <Wide>
+                <FileField
+                  label="Project PDF"
+                  value={draft.pdf}
+                  onChange={(pdf) => setDraft({ ...draft, pdf })}
+                  hint="Optional download button on the project page."
+                />
+              </Wide>
+            </FormSection>
           </fieldset>
-
-          {formError && (
-            <p className="admin-login__error" role="alert">
-              {formError}
-            </p>
-          )}
-
-          <div className="admin-savebar">
-            <button type="submit" className="btn btn--primary" disabled={saving}>
-              {saving ? 'Saving…' : editing ? 'Save changes' : 'Create draft'}
-            </button>
-            <button type="button" className="btn btn--light" onClick={closeForm} disabled={saving}>
-              Cancel
-            </button>
-          </div>
-        </form>
+        </Modal>
       )}
 
       <div className="admin-table-wrap">
@@ -653,15 +637,6 @@ export function ProjectsManagerPage() {
         variant="admin"
       />
 
-      {picker && (
-        <MediaPickerDialog
-          kind={picker === 'pdf' ? 'document' : 'image'}
-          onClose={() => setPicker(null)}
-          onSelect={(m) =>
-            setDraft((d) => ({ ...d, [picker]: m.url }) as Draft)
-          }
-        />
-      )}
       {scheduleFor && (
         <ScheduleDialog
           item={scheduleFor}

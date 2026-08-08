@@ -1,13 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { PanelCard } from '../../components/admin/AdminUI';
-import {
-  MediaPickerDialog,
-  errorText,
-  formatWhen,
-} from '../../components/admin/cms';
+import { ImageField, errorText, formatWhen } from '../../components/admin/cms';
 import { showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
-import { api, assetUrl, type PageDetail, type PageInfo } from '../../lib/api';
+import { api, type PageDetail, type PageInfo } from '../../lib/api';
 
 /* ---------------------------------------------------------------- helpers */
 
@@ -51,57 +47,38 @@ function Field({
   value,
   path,
   onEdit,
-  onPickImage,
   depth,
 }: {
   fieldKey: string;
   value: Json;
   path: (string | number)[];
   onEdit: (path: (string | number)[], value: Json) => void;
-  onPickImage: (path: (string | number)[]) => void;
   depth: number;
 }) {
   const label = labelize(String(fieldKey));
 
   if (isImageField(String(fieldKey), value)) {
-    const src = value as string;
-    const resolved = assetUrl(
-      src.startsWith('/') || src.startsWith('http') ? src : `/images/${src}`
-    );
     return (
-      <label>
-        {label}
-        <span className="admin-image-field">
-          {src && (
-            <img
-              src={resolved}
-              alt=""
-              className="admin-image-field__preview"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
-            />
-          )}
-          <input
-            type="text"
-            value={src}
-            onChange={(e) => onEdit(path, e.target.value)}
-          />
-          <button type="button" className="btn btn--light" onClick={() => onPickImage(path)}>
-            Choose / upload
-          </button>
-        </span>
-      </label>
+      <div className="cms-field-wide">
+        <ImageField
+          label={label}
+          value={value as string}
+          onChange={(url) => onEdit(path, url)}
+        />
+      </div>
     );
   }
 
   if (typeof value === 'string') {
-    return (
+    // Long prose gets a textarea and the full width; short values pair up
+    // two per row so a page does not become one endless column.
+    const isLong = value.length > 90;
+    const field = (
       <label>
         {label}
-        {value.length > 90 ? (
+        {isLong ? (
           <textarea
-            rows={Math.min(8, Math.ceil(value.length / 90))}
+            rows={Math.min(10, Math.max(3, Math.ceil(value.length / 80)))}
             value={value}
             onChange={(e) => onEdit(path, e.target.value)}
           />
@@ -114,6 +91,7 @@ function Field({
         )}
       </label>
     );
+    return isLong ? <div className="cms-field-wide">{field}</div> : field;
   }
 
   if (typeof value === 'number') {
@@ -148,20 +126,22 @@ function Field({
     // Array of plain strings → one line per entry.
     if (value.every((v) => typeof v === 'string')) {
       return (
-        <label>
-          {label}
-          <textarea
-            rows={Math.min(10, Math.max(3, value.length + 1))}
-            value={(value as string[]).join('\n')}
-            onChange={(e) => onEdit(path, e.target.value.split('\n'))}
-          />
-          <span className="field-hint">One entry per line.</span>
-        </label>
+        <div className="cms-field-wide">
+          <label>
+            {label}
+            <textarea
+              rows={Math.min(12, Math.max(3, value.length + 1))}
+              value={(value as string[]).join('\n')}
+              onChange={(e) => onEdit(path, e.target.value.split('\n'))}
+            />
+            <span className="field-hint">One entry per line.</span>
+          </label>
+        </div>
       );
     }
     // Array of objects → repeatable cards.
     return (
-      <div className="admin-json-group">
+      <div className="admin-json-group cms-field-wide">
         <p className="admin-json-group__label">{label}</p>
         {value.map((entry, index) => (
           <details key={index} className="admin-json-item" open={depth < 1}>
@@ -196,7 +176,6 @@ function Field({
               value={entry}
               path={[...path, index]}
               onEdit={onEdit}
-              onPickImage={onPickImage}
               depth={depth + 1}
             />
           </details>
@@ -220,22 +199,25 @@ function Field({
 
   if (value && typeof value === 'object') {
     const entries = Object.entries(value);
-    return (
+    const group = (
       <div className={depth === 0 ? 'admin-json-root' : 'admin-json-nested'}>
         {depth > 0 && <p className="admin-json-group__label">{label}</p>}
-        {entries.map(([childKey, childValue]) => (
-          <Field
-            key={childKey}
-            fieldKey={childKey}
-            value={childValue}
-            path={[...path, childKey]}
-            onEdit={onEdit}
-            onPickImage={onPickImage}
-            depth={depth + 1}
-          />
-        ))}
+        <div className="cms-form-grid">
+          {entries.map(([childKey, childValue]) => (
+            <Field
+              key={childKey}
+              fieldKey={childKey}
+              value={childValue}
+              path={[...path, childKey]}
+              onEdit={onEdit}
+              depth={depth + 1}
+            />
+          ))}
+        </div>
       </div>
     );
+    // Nested groups own a full row so their inner two columns line up.
+    return depth === 0 ? group : <div className="cms-field-wide">{group}</div>;
   }
 
   return null;
@@ -254,7 +236,6 @@ export function ContentMediaPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
-  const [imagePath, setImagePath] = useState<(string | number)[] | null>(null);
 
   useEffect(() => {
     api.pages
@@ -395,7 +376,6 @@ export function ContentMediaPage() {
                 value={data}
                 path={[]}
                 onEdit={onEdit}
-                onPickImage={setImagePath}
                 depth={0}
               />
             </fieldset>
@@ -436,12 +416,6 @@ export function ContentMediaPage() {
         )
       )}
 
-      {imagePath && (
-        <MediaPickerDialog
-          onClose={() => setImagePath(null)}
-          onSelect={(m) => onEdit(imagePath, m.url)}
-        />
-      )}
     </div>
   );
 }
