@@ -4,6 +4,7 @@ import { Pagination } from '../../components/Pagination';
 import {
   CMS_STATUS_OPTIONS,
   CmsStatusPill,
+  FileField,
   ImageField,
   LinesEditor,
   ScheduleDialog,
@@ -23,12 +24,26 @@ const PAGE_SIZE = 10;
 type Draft = {
   title: string;
   date: string;
+  author: string;
   image: string;
   excerpt: string;
   body: string[];
+  attachment: string;
+  attachment_label: string;
+  contact_email: string;
 };
 
-const EMPTY: Draft = { title: '', date: '', image: '', excerpt: '', body: [] };
+const EMPTY: Draft = {
+  title: '',
+  date: '',
+  author: '',
+  image: '',
+  excerpt: '',
+  body: [],
+  attachment: '',
+  attachment_label: '',
+  contact_email: '',
+};
 
 export function NewsManagerPage() {
   const { can } = useAuth();
@@ -75,9 +90,13 @@ export function NewsManagerPage() {
     setDraft({
       title: item.title,
       date: item.date,
+      author: item.author ?? '',
       image: item.image ?? '',
       excerpt: item.excerpt ?? '',
       body: item.body ?? [],
+      attachment: item.attachment ?? '',
+      attachment_label: item.attachment_label ?? '',
+      contact_email: item.contact_email ?? '',
     });
     setFormError('');
   };
@@ -95,9 +114,13 @@ export function NewsManagerPage() {
     const payload = {
       title: draft.title,
       date: draft.date,
+      author: draft.author || null,
       image: draft.image || null,
       excerpt: draft.excerpt || null,
       body: draft.body.filter((p) => p.trim()),
+      attachment: draft.attachment || null,
+      attachment_label: draft.attachment_label || null,
+      contact_email: draft.contact_email || null,
     };
     try {
       if (editing) {
@@ -213,16 +236,18 @@ export function NewsManagerPage() {
         >
           <fieldset className="cms-fieldset" disabled={saving}>
             <FormSection title="Article">
-              <label>
-                Title *
-                <input
-                  type="text"
-                  required
-                  minLength={3}
-                  value={draft.title}
-                  onChange={(e) => setDraft({ ...draft, title: e.target.value })}
-                />
-              </label>
+              <Wide>
+                <label>
+                  Title *
+                  <input
+                    type="text"
+                    required
+                    minLength={3}
+                    value={draft.title}
+                    onChange={(e) => setDraft({ ...draft, title: e.target.value })}
+                  />
+                </label>
+              </Wide>
               <label>
                 Date *
                 <input
@@ -233,16 +258,26 @@ export function NewsManagerPage() {
                 />
                 <span className="field-hint">Shown as e.g. “24. July 2026”.</span>
               </label>
+              <label>
+                Author
+                <input
+                  type="text"
+                  value={draft.author}
+                  onChange={(e) => setDraft({ ...draft, author: e.target.value })}
+                  placeholder="Holger Thoma"
+                />
+                <span className="field-hint">By-line under the headline.</span>
+              </label>
               <Wide>
                 <label>
-                  Excerpt
+                  Lead paragraph
                   <textarea
                     rows={2}
                     value={draft.excerpt}
                     onChange={(e) => setDraft({ ...draft, excerpt: e.target.value })}
                   />
                   <span className="field-hint">
-                    Short teaser used on the article page and in search results.
+                    Opens the article, and is used on listings and in search results.
                   </span>
                 </label>
               </Wide>
@@ -259,16 +294,54 @@ export function NewsManagerPage() {
               </Wide>
             </FormSection>
 
-            <FormSection title="Body">
+            <FormSection
+              title="Body"
+              hint="Write **bold**, *italic* and [link text](https://example.com) — they are rendered on the article page."
+            >
               <Wide>
                 <LinesEditor
                   label="Article text"
                   value={draft.body}
                   onChange={(body) => setDraft({ ...draft, body })}
-                  rows={10}
+                  rows={12}
                   hint="One paragraph per line."
                 />
               </Wide>
+            </FormSection>
+
+            <FormSection
+              title="Attachment and contact"
+              hint="Newsletters and reports offered at the end of the article."
+            >
+              <Wide>
+                <FileField
+                  label="Downloadable document"
+                  value={draft.attachment}
+                  onChange={(attachment) => setDraft({ ...draft, attachment })}
+                  hint="Appears as a download button under the article."
+                />
+              </Wide>
+              <label>
+                Download link wording
+                <input
+                  type="text"
+                  value={draft.attachment_label}
+                  onChange={(e) => setDraft({ ...draft, attachment_label: e.target.value })}
+                  placeholder="Download the latest newsletter here"
+                />
+              </label>
+              <label>
+                Contact email
+                <input
+                  type="email"
+                  value={draft.contact_email}
+                  onChange={(e) => setDraft({ ...draft, contact_email: e.target.value })}
+                  placeholder="ipa2022@icon-institute.de"
+                />
+                <span className="field-hint">
+                  Shown as a contact address at the end of the article.
+                </span>
+              </label>
             </FormSection>
           </fieldset>
         </Modal>

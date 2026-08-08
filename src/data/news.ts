@@ -3,8 +3,17 @@ export type NewsItem = {
   title: string;
   date: string;
   dateLabel: string;
+  /** By-line shown under the headline. */
+  author?: string;
   image?: string;
+  /** Lead paragraph, also used on listings and for SEO. */
   excerpt?: string;
+  /** Article paragraphs; **bold**, *italic* and [links](url) are rendered. */
+  body?: string[];
+  /** Newsletter or report offered for download at the end of the article. */
+  attachment?: string;
+  attachment_label?: string;
+  contact_email?: string;
 };
 
 export const newsItems: NewsItem[] = [

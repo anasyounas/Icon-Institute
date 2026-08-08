@@ -124,9 +124,13 @@ export type NewsItem = CmsEnvelope & {
   title: string;
   date: string;
   dateLabel: string;
+  author: string | null;
   image: string | null;
   excerpt: string | null;
   body: string[];
+  attachment: string | null;
+  attachment_label: string | null;
+  contact_email: string | null;
 };
 
 export type JobItem = CmsEnvelope & {

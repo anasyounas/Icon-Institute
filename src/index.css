@@ -5947,3 +5947,57 @@ a.site-footer__contact:hover .site-footer__icon {
 
 /* Toasts must sit above the editing dialogs */
 .admin-toast-host { z-index: 140; }
+
+
+/* ==========================================================================
+   News article — by-line, lead paragraph, attachment and contact
+   ========================================================================== */
+
+.news-detail__meta {
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.news-detail__author { font-weight: 600; }
+
+.news-detail__lead {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: hsl(var(--foreground));
+  padding-left: 1rem;
+  border-left: 3px solid hsl(var(--primary) / 0.6);
+  margin: 1.5rem 0 1.75rem;
+}
+
+.news-detail__download { margin: 2rem 0 1rem; }
+
+.news-detail__download .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.news-detail__contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius);
+  background: hsl(var(--muted) / 0.5);
+  font-size: 0.95rem;
+}
+
+/* Links inside article prose stay legible against the body text. */
+.news-detail .container.narrow p a {
+  color: hsl(var(--foreground));
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.news-detail .container.narrow p a:hover {
+  color: hsl(var(--primary));
+}

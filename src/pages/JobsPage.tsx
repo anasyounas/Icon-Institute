@@ -37,6 +37,19 @@ export function JobsPage() {
 
           <h2>{jobsPage.currentOffersNote}</h2>
 
+          {jobsPage.portalUrl && (
+            <p>
+              <a
+                className="btn btn--light"
+                href={jobsPage.portalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {jobsPage.portalLabel || 'Browse the full job portal'}
+              </a>
+            </p>
+          )}
+
           {openJobs.length === 0 ? (
             <p className="muted">
               No permanent staff vacancies are listed at the moment. Please send

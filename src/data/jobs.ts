@@ -17,6 +17,9 @@ export type JobsPage = {
   applicationNote: string;
   email: string;
   currentOffersNote: string;
+  /** Optional link to the institute's separate job-listings portal. */
+  portalUrl?: string;
+  portalLabel?: string;
   listings: JobListing[];
 };
 
@@ -30,6 +33,8 @@ export const jobsPage: JobsPage = {
     'Please provide certificates with your application (i.e., education/ university diplomas or degrees, work certificates/ references)',
   email: 'cv-icon@icon-institute.de',
   currentOffersNote: 'Current job offers',
+  portalUrl: 'https://portal.icon-institute.de/iconJobWebJobsList.php',
+  portalLabel: 'Open the ICON job portal',
   listings: [
     {
       id: 'project-manager-cologne',
