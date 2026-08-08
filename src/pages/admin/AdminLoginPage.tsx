@@ -1,22 +1,16 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
-import { ApiError } from '../../lib/api';
+import { ApiError, assetUrl } from '../../lib/api';
+import { usePublished } from '../../hooks/usePublished';
+import { homePage as bundledHome, type HomePage as HomeData } from '../../data/home';
 
-const LOGIN_SLIDES = [
-  {
-    src: '/header (1).jpg',
-    alt: 'ICON-INSTITUTE consulting work',
-  },
-  {
-    src: '/header (2).jpg',
-    alt: 'ICON-INSTITUTE training and capacity building',
-  },
-  {
-    src: '/header (3).jpg',
-    alt: 'ICON-INSTITUTE international development projects',
-  },
-] as const;
+/** Alt text per slide; the images themselves come from the CMS. */
+const SLIDE_ALTS = [
+  'ICON-INSTITUTE consulting work',
+  'ICON-INSTITUTE training and capacity building',
+  'ICON-INSTITUTE international development projects',
+];
 
 function IconMail({ className }: { className?: string }) {
   return (
@@ -109,12 +103,21 @@ export function AdminLoginPage() {
 
   const [slide, setSlide] = useState(0);
 
+  // The sign-in visual reuses the home hero images, so whatever staff publish
+  // on the Home page is what this screen shows.
+  const home = usePublished<HomeData>('/pages/home', bundledHome);
+  const slides = (home.heroSlides ?? []).map((s, i) => ({
+    src: assetUrl(s.image),
+    alt: SLIDE_ALTS[i] ?? 'ICON-INSTITUTE',
+  }));
+
   useEffect(() => {
+    if (slides.length < 2) return;
     const id = window.setInterval(() => {
-      setSlide((s) => (s + 1) % LOGIN_SLIDES.length);
+      setSlide((s) => (s + 1) % slides.length);
     }, 4500);
     return () => window.clearInterval(id);
-  }, []);
+  }, [slides.length]);
 
   if (status === 'restoring') {
     return (
@@ -181,7 +184,7 @@ export function AdminLoginPage() {
         aria-roledescription="carousel"
         aria-label="Institute highlights"
       >
-        {LOGIN_SLIDES.map((item, i) => (
+        {slides.map((item, i) => (
           <div
             key={item.src}
             className={`admin-login__slide ${i === slide ? 'is-active' : ''}`}
@@ -213,7 +216,7 @@ export function AdminLoginPage() {
         </div>
 
         <div className="admin-login__dots" role="tablist" aria-label="Slideshow">
-          {LOGIN_SLIDES.map((item, i) => (
+          {slides.map((item, i) => (
             <button
               key={item.src}
               type="button"

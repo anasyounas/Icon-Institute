@@ -34,11 +34,21 @@ export function AboutPage() {
       />
 
       <section id="what-we-do" className="content-section">
-        <div className="container">
-          <h2>What We Do</h2>
-          {aboutPage.whatWeDo.map((p) => (
-            <p key={p.slice(0, 40)}>{p}</p>
-          ))}
+        <div className="container split">
+          <div>
+            <h2>What We Do</h2>
+            {aboutPage.whatWeDo.map((p) => (
+              <p key={p.slice(0, 40)}>{p}</p>
+            ))}
+          </div>
+          {aboutPage.whatWeDoImage && (
+            <PlaceholderImage
+              src={aboutPage.whatWeDoImage}
+              alt="ICON-INSTITUTE consulting services"
+              className="about-page__img"
+              aspectRatio="1 / 1"
+            />
+          )}
         </div>
       </section>
 

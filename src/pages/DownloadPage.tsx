@@ -5,6 +5,7 @@ import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { usePublished } from '../hooks/usePublished';
 import { assetUrl } from '../lib/api';
+import { DownloadIcon } from '../components/Icons';
 
 export function DownloadPage() {
   const downloadPage = usePublished<DownloadData>('/pages/download', bundledDownload);
@@ -54,31 +55,34 @@ export function InformationMaterialPage() {
           <p>{informationMaterial.intro}</p>
           <ul className="download-list">
             {informationMaterial.materials.map((m) => {
-              const file = m.file ?? 'file-placeholder.pdf';
-              // CMS-uploaded documents live under /media/ on the local server;
-              // legacy files stay in the site's own /downloads folder.
-              const href = /^(https?:)/.test(file)
+              // Documents uploaded through the CMS live under /media/ on the
+              // institute's own server; absolute URLs are used as given.
+              const file = m.file ?? '';
+              const href = /^https?:/.test(file)
                 ? file
                 : file.startsWith('/media/')
                   ? assetUrl(file)
-                  : `/downloads/${file}`;
+                  : '';
+
               return (
                 <li key={m.title}>
                   <div>
                     <strong>{m.title}</strong>
                     {m.description && <p>{m.description}</p>}
                   </div>
-                  <a className="download-list__file" href={href} download>
-                    Download {file.split('/').pop()}
-                  </a>
+                  {href ? (
+                    <a className="download-list__file" href={href} download>
+                      <DownloadIcon className="btn__icon" aria-hidden="true" />
+                      Download PDF
+                    </a>
+                  ) : (
+                    // Nothing uploaded yet — say so rather than offer a dead link.
+                    <span className="download-list__pending">Document coming soon</span>
+                  )}
                 </li>
               );
             })}
           </ul>
-          <p className="muted">
-            Brochures are maintained through the CMS — upload PDFs in the Media
-            Library and reference them from the Download page content.
-          </p>
           <p className="back-link">
             <Link to="/download">← Download</Link>
           </p>

@@ -22,6 +22,8 @@ export type AboutMemberships = {
 
 export type AboutPage = {
   whatWeDo: string[];
+  /** Sits beside the What We Do text; managed in the CMS like every image. */
+  whatWeDoImage?: string;
   ourTeam: string[];
   history: AboutHistoryEntry[];
   values: AboutValue[];
@@ -32,6 +34,7 @@ export type AboutPage = {
 
 export const aboutPage: AboutPage = {
   heroImage: 'icon-institute-services.jpg',
+  whatWeDoImage: 'icon-institute-services.jpg',
   teamImage: 'icon-institute_9-600x600.jpg',
   whatWeDo: [
     'ICON-INSTITUTE Consulting Group is a private company designing, managing and implementing international projects in development cooperation. During 50 years of experience, we have established ourselves as a recognised actor in the development and cooperation sector. We support our partners and clients with expertise, knowledge and capacities to meet their development objectives and ensure long lasting and sustainable results. We have developed solid cooperation and working relations with international and national development organisations such as the United Nations (UNFPA, UNDP, UNESCO, ILO, etc.), the European Union, the World Bank and other international development banks, bilateral development agencies such as GIZ, KfW, AFD, Enabel, DFID, SIDA, as well as national and local governmental institutions and civil society organisations.',

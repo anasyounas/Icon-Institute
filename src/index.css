@@ -5604,3 +5604,26 @@ a.site-footer__contact:hover .site-footer__icon {
   line-height: 1.4;
   color: hsl(var(--foreground));
 }
+
+/* About Us — image beside the What We Do text (as on the reference page) */
+.about-page__img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  align-self: start;
+}
+
+/* Download list — entry with no document uploaded yet */
+.download-list__pending {
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.download-list__file {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+}
