@@ -3164,17 +3164,56 @@ a.site-footer__contact:hover .site-footer__icon {
 
 .admin-topbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.9rem 1.85rem;
-  background: hsl(var(--background) / 0.82);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid hsl(var(--border));
+  padding: 0.85rem 1.85rem;
+  background: hsl(0 0% 100% / 0.88);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom: 1px solid hsl(var(--divider));
+  box-shadow: 0 1px 3px hsl(214 28% 18% / 0.05);
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+/* Left block: which section you're in. Above 1110px the menu button is hidden,
+   so without this the bar sat almost entirely empty. */
+.admin-topbar__heading {
+  min-width: 0;
+}
+
+.admin-topbar__crumb {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+
+.admin-topbar__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--primary) / 0.22);
+}
+
+.admin-topbar__title {
+  margin: 0;
+  font-family: var(--font-admin);
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: hsl(var(--foreground));
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .admin-topbar__user {
@@ -3184,16 +3223,77 @@ a.site-footer__contact:hover .site-footer__icon {
   margin-left: auto;
 }
 
-.admin-topbar__meta {
+.admin-topbar__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid hsl(var(--divider));
+  border-radius: var(--radius-sm);
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+  text-decoration: none !important;
+  transition: border-color var(--dur-fast) var(--transition-smooth),
+    color var(--dur-fast) var(--transition-smooth),
+    background var(--dur-fast) var(--transition-smooth);
+}
+
+.admin-topbar__link:hover {
+  border-color: hsl(var(--border));
+  background: hsl(var(--muted));
+  color: hsl(var(--foreground));
+}
+
+.admin-topbar__link-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.admin-topbar__divider {
+  width: 1px;
+  height: 1.6rem;
+  background: hsl(var(--divider));
+}
+
+.admin-topbar__identity {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.admin-topbar__avatar {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: var(--radius-full);
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.admin-topbar__who {
+  display: grid;
+  line-height: 1.25;
+}
+
+.admin-topbar__name {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  white-space: nowrap;
+}
+
+.admin-topbar__role {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: hsl(var(--muted-foreground));
-  padding: 0.4rem 0.85rem;
-  background: hsl(var(--muted));
-  border-radius: var(--radius-sm);
 }
 
 .admin-signout {
@@ -4692,6 +4792,23 @@ a.site-footer__contact:hover .site-footer__icon {
 
   .admin-content {
     padding: 1.75rem 1.15rem 2.5rem;
+  }
+
+  /* Keep the section title and avatar; drop the rest so the bar stays one row */
+  .admin-topbar {
+    padding: 0.7rem 1.15rem;
+    gap: 0.75rem;
+  }
+
+  .admin-topbar__crumb,
+  .admin-topbar__link,
+  .admin-topbar__divider,
+  .admin-topbar__who {
+    display: none;
+  }
+
+  .admin-topbar__title {
+    font-size: 0.95rem;
   }
 
   .admin-table {
