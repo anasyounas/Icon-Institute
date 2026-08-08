@@ -4843,3 +4843,409 @@ a.site-footer__contact:hover .site-footer__icon {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ==========================================================================
+   CMS authentication — session restore, 2FA enrolment, recovery codes
+   Added when the admin area moved from demo fixtures to the live CMS API.
+   ========================================================================== */
+
+.admin-login-loading {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1rem;
+  background: hsl(var(--background));
+  color: hsl(var(--muted-foreground));
+  font-size: 0.95rem;
+}
+
+.admin-spinner {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-full);
+  border: 3px solid hsl(var(--border) / 0.35);
+  border-top-color: hsl(var(--primary));
+  animation: admin-spin 0.8s linear infinite;
+}
+
+@keyframes admin-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .admin-spinner {
+    animation-duration: 2s;
+  }
+}
+
+/* "Use a different account", under the primary sign-in button */
+.admin-login__secondary {
+  margin-top: 0.75rem;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  background: none;
+  border: 1px solid hsl(var(--border) / 0.4);
+  border-radius: var(--radius-sm);
+  color: hsl(var(--muted-foreground));
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.admin-login__secondary:hover:not(:disabled) {
+  border-color: hsl(var(--foreground) / 0.5);
+  color: hsl(var(--foreground));
+}
+
+.admin-login__secondary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.admin-login__submit:disabled {
+  opacity: 0.65;
+  cursor: progress;
+}
+
+/* Forced password change and other blocking notices */
+.admin-banner--warning {
+  background: hsl(38 92% 50% / 0.12);
+  border-color: hsl(38 92% 40% / 0.45);
+  border-left-color: hsl(38 92% 42%);
+}
+
+/* One-time 2FA recovery codes */
+.admin-recovery-codes {
+  border: 1px solid hsl(var(--primary) / 0.35);
+  background: hsl(var(--primary) / 0.07);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.admin-recovery-codes h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+
+.admin-recovery-codes p {
+  margin: 0 0 0.9rem;
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.admin-recovery-codes ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.5rem;
+}
+
+.admin-recovery-codes code {
+  display: block;
+  padding: 0.45rem 0.6rem;
+  border-radius: var(--radius-sm);
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border) / 0.3);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+/* Locally rendered enrolment QR code */
+.admin-qr {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 0.6rem;
+  background: #fff;
+  border: 1px solid hsl(var(--border) / 0.3);
+  border-radius: var(--radius);
+}
+
+/* Long values such as a browser user-agent string */
+.admin-table__truncate {
+  max-width: 22rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Live CMS components — modals, media picker, image fields, page editor
+   ========================================================================== */
+
+.admin-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: hsl(222 30% 5% / 0.55);
+  backdrop-filter: blur(2px);
+}
+
+.admin-modal__card {
+  width: min(34rem, 100%);
+  max-height: 88vh;
+  overflow-y: auto;
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border) / 0.35);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: 0 24px 64px hsl(222 30% 5% / 0.35);
+}
+
+.admin-modal__card--wide {
+  width: min(52rem, 100%);
+}
+
+.admin-modal__card h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+}
+
+/* --- media picker & grid --- */
+
+.admin-media-picker__bar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.admin-media-picker__bar input[type='search'] {
+  flex: 1;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid hsl(var(--border) / 0.4);
+  border-radius: var(--radius-sm);
+  font: inherit;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.admin-media-picker__upload {
+  cursor: pointer;
+}
+
+.admin-media-grid {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+  gap: 0.75rem;
+}
+
+.admin-media-tile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.5rem;
+  background: hsl(var(--muted) / 0.5);
+  border: 1px solid hsl(var(--border) / 0.3);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.admin-media-tile:hover {
+  border-color: hsl(var(--primary));
+  transform: translateY(-2px);
+}
+
+.admin-media-tile img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  background: hsl(var(--muted));
+}
+
+.admin-media-tile__doc {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-sm);
+  background: hsl(var(--muted));
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.admin-media-tile__name {
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-media-thumb {
+  width: 64px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  background: hsl(var(--muted));
+  display: block;
+}
+
+.admin-media-thumb--doc {
+  display: grid;
+  place-items: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: hsl(var(--muted-foreground));
+}
+
+/* --- image field with preview + picker button --- */
+
+.admin-image-field {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.admin-image-field input {
+  flex: 1;
+}
+
+.admin-image-field__preview {
+  width: 72px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid hsl(var(--border) / 0.3);
+  background: hsl(var(--muted));
+}
+
+/* --- structured page editor --- */
+
+.admin-json-root {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-json-nested {
+  display: grid;
+  gap: 0.85rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid hsl(var(--border) / 0.25);
+  border-left: 3px solid hsl(var(--primary) / 0.5);
+  border-radius: var(--radius);
+  background: hsl(var(--muted) / 0.35);
+}
+
+.admin-json-group {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.admin-json-group__label {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: hsl(var(--muted-foreground));
+}
+
+.admin-json-item {
+  border: 1px solid hsl(var(--border) / 0.3);
+  border-radius: var(--radius);
+  background: hsl(var(--background));
+}
+
+.admin-json-item > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.admin-json-item > summary::-webkit-details-marker {
+  display: none;
+}
+
+.admin-json-item[open] > summary {
+  border-bottom: 1px solid hsl(var(--border) / 0.25);
+}
+
+.admin-json-item > *:not(summary) {
+  padding: 0.9rem;
+}
+
+.admin-json-item__remove {
+  flex-shrink: 0;
+}
+
+/* --- contact departments --- */
+
+.admin-dept-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 0.75rem;
+  align-items: end;
+}
+
+.admin-subhead {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1rem;
+}
+
+/* --- password gate --- */
+
+.admin-gate {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: hsl(var(--background));
+}
+
+.admin-gate__card {
+  width: min(30rem, 100%);
+  background: hsl(var(--muted) / 0.4);
+  border: 1px solid hsl(var(--border) / 0.3);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-gate__logo {
+  width: 3.25rem;
+  border-radius: var(--radius-sm);
+}
+
+.admin-gate__card h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.admin-gate__lead {
+  margin: 0;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.95rem;
+}
+
+.upload-box.is-busy {
+  opacity: 0.6;
+  pointer-events: none;
+}

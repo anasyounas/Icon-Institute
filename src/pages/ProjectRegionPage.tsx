@@ -2,12 +2,14 @@ import { Link, useParams } from 'react-router-dom';
 import {
   projectFilters,
   projectRegions,
-  sampleProjects,
+  sampleProjects as bundledProjects,
+  type SampleProject,
 } from '../data/projects';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
+import { usePublished } from '../hooks/usePublished';
 
 const volumeLabels: Record<string, string> = Object.fromEntries(
   projectFilters.volumes.map((v) => [v.value, v.label])
@@ -15,6 +17,7 @@ const volumeLabels: Record<string, string> = Object.fromEntries(
 
 export function ProjectRegionPage() {
   const { region } = useParams();
+  const sampleProjects = usePublished<SampleProject[]>('/projects', bundledProjects);
   const meta = projectRegions.find((r) => r.slug === region);
   const projects = sampleProjects.filter((p) => p.region === region);
 

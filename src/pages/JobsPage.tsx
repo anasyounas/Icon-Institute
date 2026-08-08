@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
-import { jobsPage } from '../data/jobs';
+import { jobsPage as bundledJobsPage, type JobListing } from '../data/jobs';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
+import { usePublished } from '../hooks/usePublished';
 
 export function JobsPage() {
+  // Intro texts come from the CMS-managed "Jobs page" content; the listings
+  // are the published job ads.
+  const pageContent = usePublished('/pages/jobs-page', bundledJobsPage);
+  const listings = usePublished<JobListing[]>('/jobs', bundledJobsPage.listings);
+  const jobsPage = { ...bundledJobsPage, ...pageContent, listings };
+
   const openJobs = jobsPage.listings.filter((j) => j.status === 'open');
 
   return (

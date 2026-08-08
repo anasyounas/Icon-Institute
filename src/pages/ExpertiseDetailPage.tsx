@@ -1,13 +1,18 @@
 import { Link, useParams } from 'react-router-dom';
-import { expertiseBySlug } from '../data/expertise';
+import { expertiseAreas as bundledAreas, type ExpertiseArea } from '../data/expertise';
 import { PageHero } from '../components/PageHero';
 import { Accordion } from '../components/Accordion';
 import { Seo } from '../components/Seo';
 import { siteSeo } from '../data/seo';
+import { usePublished } from '../hooks/usePublished';
 
 export function ExpertiseDetailPage() {
   const { slug } = useParams();
-  const area = slug ? expertiseBySlug[slug] : undefined;
+  const { expertiseAreas } = usePublished<{ expertiseAreas: ExpertiseArea[] }>(
+    '/pages/expertise',
+    { expertiseAreas: bundledAreas }
+  );
+  const area = slug ? expertiseAreas.find((a) => a.slug === slug) : undefined;
 
   if (!area) {
     return (

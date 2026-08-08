@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { siteSeo, type PageSeo } from '../data/seo';
+import { usePublished } from '../hooks/usePublished';
 
 function upsertMeta(
   attr: 'name' | 'property',
@@ -46,14 +47,24 @@ type SeoProps = Partial<PageSeo> & {
 };
 
 export function Seo({
-  title,
-  description,
+  title: bundledTitle,
+  description: bundledDescription,
   path,
-  image = siteSeo.defaultImage,
+  image: bundledImage = siteSeo.defaultImage,
   type = 'website',
-  noindex = false,
+  noindex: bundledNoindex = false,
   jsonLd,
 }: SeoProps) {
+  // SEO metadata is CMS-managed: a published entry for this path overrides the
+  // bundled values, so edits in the SEO Manager reach the site immediately.
+  const published = usePublished<Record<string, Partial<PageSeo>>>('/seo', {});
+  const override = Object.values(published).find((entry) => entry.path === path);
+
+  const title = override?.title ?? bundledTitle;
+  const description = override?.description ?? bundledDescription;
+  const image = override?.image ?? bundledImage;
+  const noindex = override?.noindex ?? bundledNoindex;
+
   useEffect(() => {
     const url = `${siteSeo.siteUrl}${path === '/' ? '' : path}`;
     const absoluteImage = image.startsWith('http')

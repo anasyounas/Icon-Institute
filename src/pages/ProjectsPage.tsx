@@ -4,7 +4,8 @@ import {
   projectFilters,
   projectRegions,
   projectsPage,
-  sampleProjects,
+  sampleProjects as bundledProjects,
+  type SampleProject,
 } from '../data/projects';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
@@ -12,12 +13,16 @@ import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
+import { usePublished } from '../hooks/usePublished';
 
 const volumeLabels: Record<string, string> = Object.fromEntries(
   projectFilters.volumes.map((v) => [v.value, v.label])
 );
 
 export function ProjectsPage() {
+  // The published project catalogue, maintained through the CMS Projects
+  // Manager. Filtering and search still run entirely in the browser.
+  const sampleProjects = usePublished<SampleProject[]>('/projects', bundledProjects);
   const [query, setQuery] = useState('');
   const [region, setRegion] = useState('');
   const [recent, setRecent] = useState('');
@@ -26,7 +31,7 @@ export function ProjectsPage() {
   const [volume, setVolume] = useState('');
 
   const filtered = useMemo(() => {
-    const currentYear = 2026;
+    const currentYear = new Date().getFullYear();
     const q = query.trim().toLowerCase();
     return sampleProjects.filter((p) => {
       if (region && p.region !== region) return false;
@@ -41,7 +46,7 @@ export function ProjectsPage() {
       }
       return true;
     });
-  }, [query, region, recent, year, expertise, volume]);
+  }, [sampleProjects, query, region, recent, year, expertise, volume]);
 
   const { page, totalPages, pageItems, setPage, from, to, total } = usePagination(
     filtered,

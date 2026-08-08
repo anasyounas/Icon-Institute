@@ -1,13 +1,33 @@
 import { Link } from 'react-router-dom';
-import { expertiseHubCards } from '../data/expertise';
+import {
+  expertiseAreas as bundledAreas,
+  expertiseHubCards as bundledCards,
+  type ExpertiseArea,
+  type ExpertiseHubCard,
+} from '../data/expertise';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { useReveal } from '../hooks/useReveal';
+import { usePublished } from '../hooks/usePublished';
 import { getExpertiseIcon } from '../components/iconMap';
 
+type ExpertiseContent = {
+  expertiseHubCards: ExpertiseHubCard[];
+  expertiseAreas: ExpertiseArea[];
+};
+
+const bundledExpertise: ExpertiseContent = {
+  expertiseHubCards: bundledCards,
+  expertiseAreas: bundledAreas,
+};
+
 export function ExpertiseHubPage() {
+  const { expertiseHubCards } = usePublished<ExpertiseContent>(
+    '/pages/expertise',
+    bundledExpertise
+  );
   const revealRef = useReveal<HTMLDivElement>();
 
   return (

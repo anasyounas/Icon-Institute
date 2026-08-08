@@ -1,9 +1,12 @@
-import { contactPage } from '../data/contact';
+import { contactPage as bundledContact, type ContactPage as ContactData } from '../data/contact';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
+import { usePublished } from '../hooks/usePublished';
 
 export function ContactPage() {
+  // Contact details are maintained in the CMS (Contact Information module).
+  const contactPage = usePublished<ContactData>('/contact', bundledContact);
   const { company } = contactPage;
 
   return (

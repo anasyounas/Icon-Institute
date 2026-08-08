@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { assetUrl } from '../lib/api';
 
 type Props = {
   src: string;
@@ -7,7 +8,10 @@ type Props = {
   aspectRatio?: string;
 };
 
-/** Loads `/images/...` when present; otherwise shows a labeled placeholder. */
+/**
+ * Resolves bundled `/images/...` paths, CMS media (`/media/...`, served by the
+ * backend) and absolute URLs; shows a labeled placeholder when loading fails.
+ */
 export function PlaceholderImage({
   src,
   alt,
@@ -15,7 +19,13 @@ export function PlaceholderImage({
   aspectRatio = '16 / 9',
 }: Props) {
   const [failed, setFailed] = useState(false);
-  const path = src.startsWith('/') ? src : `/images/${src}`;
+  const path = /^(https?:|data:)/.test(src)
+    ? src
+    : src.startsWith('/media/')
+      ? assetUrl(src)
+      : src.startsWith('/')
+        ? src
+        : `/images/${src}`;
   const filename = path.split('/').pop() ?? src;
 
   if (failed) {

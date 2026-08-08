@@ -1,11 +1,13 @@
 import { Link, useParams } from 'react-router-dom';
-import { getJobById } from '../data/jobs';
+import { jobsPage as bundledJobsPage, type JobListing } from '../data/jobs';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
+import { usePublished } from '../hooks/usePublished';
 
 export function JobDetailPage() {
   const { jobId } = useParams();
-  const job = jobId ? getJobById(jobId) : undefined;
+  const listings = usePublished<JobListing[]>('/jobs', bundledJobsPage.listings);
+  const job = jobId ? listings.find((j) => j.id === jobId) : undefined;
 
   if (!job) {
     return (

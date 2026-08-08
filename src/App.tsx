@@ -18,28 +18,29 @@ import {
 } from './pages/DownloadPage';
 import { ContactPage } from './pages/ContactPage';
 import { ImpressumPage, PrivacyPage } from './pages/LegalPages';
-import { DemoAuthProvider } from './hooks/useDemoAuth';
+import { AuthProvider } from './hooks/useAuth';
 import { AdminLoginPage } from './pages/admin/AdminLoginPage';
 import { AdminLayout } from './pages/admin/AdminLayout';
 import { AdminDashboard } from './pages/admin/AdminDashboard';
+// Every CMS module runs against the live backend API.
+import { ContentMediaPage } from './pages/admin/ContentMediaPage';
+import { NewsManagerPage } from './pages/admin/NewsManagerPage';
+import { JobsManagerPage } from './pages/admin/JobsManagerPage';
+import { ProjectsManagerPage } from './pages/admin/ProjectsManagerPage';
+import { ContactInfoPage } from './pages/admin/ContactInfoPage';
+import { MediaLibraryPage } from './pages/admin/MediaLibraryPage';
+import { SeoManagerPage } from './pages/admin/SeoManagerPage';
 import {
-  AuditLogPage,
   BackupsPage,
-  ContactInfoPage,
-  ContentMediaPage,
   DraftPreviewPage,
-  JobsManagerPage,
-  MediaLibraryPage,
-  NewsManagerPage,
-  ProjectsManagerPage,
   PublishPage,
   ScheduledPage,
-  SecurityPage,
-  SeoManagerPage,
-  UsersRolesPage,
   VersionHistoryPage,
   WorkflowPage,
-} from './pages/admin/AdminModules';
+} from './pages/admin/SystemPages';
+import { UsersRolesPage } from './pages/admin/UsersRolesPage';
+import { SecurityPage } from './pages/admin/SecurityPage';
+import { AuditLogPage } from './pages/admin/AuditLogPage';
 import './index.css';
 
 /** Legacy WordPress-style expertise paths → new SPA routes */
@@ -57,7 +58,7 @@ const expertiseRedirects: Record<string, string> = {
 
 export default function App() {
   return (
-    <DemoAuthProvider>
+    <AuthProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/admin/login" element={<AdminLoginPage />} />
@@ -113,6 +114,6 @@ export default function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </DemoAuthProvider>
+    </AuthProvider>
   );
 }

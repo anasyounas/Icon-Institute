@@ -1,8 +1,9 @@
 import { Link, NavLink, Navigate, Outlet, useLocation } from 'react-router-dom';
 import { adminNav } from '../../data/admin/adminNav';
-import { useDemoAuth } from '../../hooks/useDemoAuth';
+import { useAuth } from '../../hooks/useAuth';
 import { useState } from 'react';
 import { GlobeIcon } from '../../components/Icons';
+import { PasswordGate } from './PasswordGate';
 
 /** Longest matching nav href wins, so nested routes still resolve to a section. */
 function currentSection(pathname: string) {
@@ -54,12 +55,27 @@ function SignOutIcon({ className }: { className?: string }) {
 }
 
 export function AdminLayout() {
-  const { user, logout } = useDemoAuth();
+  const { status, user, logout } = useAuth();
   const [navOpen, setNavOpen] = useState(false);
   const location = useLocation();
 
-  if (!user) {
+  if (status === 'restoring') {
+    return (
+      <div className="admin-login-loading" role="status">
+        <span className="admin-spinner" aria-hidden />
+        <p>Loading the CMS…</p>
+      </div>
+    );
+  }
+
+  if (status !== 'authenticated' || !user) {
     return <Navigate to="/admin/login" replace />;
+  }
+
+  // A seeded or admin-reset account picks its own password before anything
+  // else — one focused screen, then straight to the dashboard.
+  if (user.must_change_password) {
+    return <PasswordGate />;
   }
 
   const section = currentSection(location.pathname);
@@ -153,7 +169,7 @@ export function AdminLayout() {
             <button
               type="button"
               className="admin-signout"
-              onClick={logout}
+              onClick={() => void logout()}
               aria-label="Sign out"
               title="Sign out"
             >

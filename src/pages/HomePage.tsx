@@ -1,14 +1,29 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { homePage } from '../data/home';
+import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
+import { newsItems as bundledNews, type NewsItem } from '../data/news';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo, siteSeo } from '../data/seo';
 import { useReveal } from '../hooks/useReveal';
+import { usePublished } from '../hooks/usePublished';
 import { SparkIcon } from '../components/Icons';
 import { getExpertiseIcon, getServiceIcon } from '../components/iconMap';
 
 export function HomePage() {
+  // Text and images are CMS-managed (Content & Media Editor → Home); the
+  // featured news strip always shows the three latest published articles.
+  const cmsHome = usePublished<HomeData>('/pages/home', bundledHome);
+  const latestNews = usePublished<NewsItem[]>('/news', bundledNews);
+  const homePage: HomeData = {
+    ...bundledHome,
+    ...cmsHome,
+    featuredNews: {
+      title: cmsHome.featuredNews?.title ?? bundledHome.featuredNews.title,
+      items: latestNews.slice(0, 3),
+    },
+  };
+
   const [slide, setSlide] = useState(0);
   const slides = homePage.heroSlides;
   const revealRef = useReveal<HTMLDivElement>();

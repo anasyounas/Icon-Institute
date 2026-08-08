@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
-import { downloadPage } from '../data/download';
+import { downloadPage as bundledDownload, type DownloadPage as DownloadData } from '../data/download';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
+import { usePublished } from '../hooks/usePublished';
+import { assetUrl } from '../lib/api';
 
 export function DownloadPage() {
+  const downloadPage = usePublished<DownloadData>('/pages/download', bundledDownload);
   return (
     <div className="download-page">
       <Seo {...pageSeo.download} />
@@ -35,6 +38,7 @@ export function DownloadPage() {
 }
 
 export function InformationMaterialPage() {
+  const downloadPage = usePublished<DownloadData>('/pages/download', bundledDownload);
   const { informationMaterial } = downloadPage;
   return (
     <div>
@@ -51,26 +55,29 @@ export function InformationMaterialPage() {
           <ul className="download-list">
             {informationMaterial.materials.map((m) => {
               const file = m.file ?? 'file-placeholder.pdf';
+              // CMS-uploaded documents live under /media/ on the local server;
+              // legacy files stay in the site's own /downloads folder.
+              const href = /^(https?:)/.test(file)
+                ? file
+                : file.startsWith('/media/')
+                  ? assetUrl(file)
+                  : `/downloads/${file}`;
               return (
                 <li key={m.title}>
                   <div>
                     <strong>{m.title}</strong>
                     {m.description && <p>{m.description}</p>}
                   </div>
-                  <a
-                    className="download-list__file"
-                    href={`/downloads/${file}`}
-                    download
-                  >
-                    Download {file}
+                  <a className="download-list__file" href={href} download>
+                    Download {file.split('/').pop()}
                   </a>
                 </li>
               );
             })}
           </ul>
           <p className="muted">
-            Place PDF files in <code>public/downloads/</code> using the filenames
-            shown above.
+            Brochures are maintained through the CMS — upload PDFs in the Media
+            Library and reference them from the Download page content.
           </p>
           <p className="back-link">
             <Link to="/download">← Download</Link>
@@ -82,6 +89,7 @@ export function InformationMaterialPage() {
 }
 
 export function VideosPage() {
+  const downloadPage = usePublished<DownloadData>('/pages/download', bundledDownload);
   const { videos } = downloadPage;
   return (
     <div>

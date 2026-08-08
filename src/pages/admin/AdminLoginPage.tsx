@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-import { DEMO_CREDENTIALS_HINT, type DemoUser } from '../../data/admin/demoUsers';
-import { useDemoAuth } from '../../hooks/useDemoAuth';
+import { useAuth } from '../../hooks/useAuth';
+import { ApiError } from '../../lib/api';
 
 const LOGIN_SLIDES = [
   {
@@ -95,13 +95,18 @@ function IconArrowRight({ className }: { className?: string }) {
 }
 
 export function AdminLoginPage() {
-  const { user, validateCredentials, login } = useDemoAuth();
+  const { status, user, login, verifyMfa } = useAuth();
   const navigate = useNavigate();
-  const [email, setEmail] = useState('admin@icon-institute.de');
-  const [password, setPassword] = useState('demo2026');
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const [pendingUser, setPendingUser] = useState<DemoUser | null>(null);
-  const [otp, setOtp] = useState('');
+  const [busy, setBusy] = useState(false);
+
+  /** Set once the password is accepted and an authenticator code is outstanding. */
+  const [mfaToken, setMfaToken] = useState<string | null>(null);
+  const [code, setCode] = useState('');
+
   const [slide, setSlide] = useState(0);
 
   useEffect(() => {
@@ -111,40 +116,71 @@ export function AdminLoginPage() {
     return () => window.clearInterval(id);
   }, []);
 
-  if (user) {
+  if (status === 'restoring') {
+    return (
+      <div className="admin-login-loading" role="status">
+        <span className="admin-spinner" aria-hidden />
+        <p>Restoring your session…</p>
+      </div>
+    );
+  }
+
+  if (status === 'authenticated' && user) {
     return <Navigate to="/admin" replace />;
   }
 
-  const onSubmit = (e: FormEvent) => {
+  const describe = (err: unknown): string => {
+    if (err instanceof ApiError) {
+      const lines = err.detailLines;
+      return lines.length ? `${err.message} ${lines.join(' ')}` : err.message;
+    }
+    return 'Sign-in failed. Please try again.';
+  };
+
+  const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setError('');
+    setBusy(true);
 
-    if (!pendingUser) {
-      const result = validateCredentials(email, password);
-      if (!result.ok || !result.user) {
-        setError(result.error ?? 'Login failed');
+    try {
+      if (!mfaToken) {
+        const result = await login(email, password);
+        if (result.mfa_required) {
+          setMfaToken(result.mfa_token);
+          setPassword('');
+        } else {
+          navigate('/admin', { replace: true });
+        }
         return;
       }
-      if (result.user.twoFactorEnabled) {
-        setPendingUser(result.user);
-        return;
-      }
-      login(email, password);
-      navigate('/admin');
-      return;
-    }
 
-    if (otp.trim() !== '123456') {
-      setError('Invalid authenticator code. Demo code: 123456');
-      return;
+      await verifyMfa(mfaToken, code);
+      navigate('/admin', { replace: true });
+    } catch (err) {
+      setError(describe(err));
+      // An expired or spent challenge sends the user back to the password step.
+      if (err instanceof ApiError && err.code === 'authentication_failed' && mfaToken) {
+        setMfaToken(null);
+        setCode('');
+      }
+    } finally {
+      setBusy(false);
     }
-    login(pendingUser.email, pendingUser.password);
-    navigate('/admin');
+  };
+
+  const startOver = () => {
+    setMfaToken(null);
+    setCode('');
+    setError('');
   };
 
   return (
     <div className="admin-login">
-      <aside className="admin-login__visual" aria-roledescription="carousel" aria-label="Institute highlights">
+      <aside
+        className="admin-login__visual"
+        aria-roledescription="carousel"
+        aria-label="Institute highlights"
+      >
         {LOGIN_SLIDES.map((item, i) => (
           <div
             key={item.src}
@@ -161,17 +197,17 @@ export function AdminLoginPage() {
           <p className="admin-login__eyebrow">ICON-INSTITUTE CMS</p>
           <h2 className="admin-login__welcome">Welcome back</h2>
           <p className="admin-login__lead">
-            Sign in to manage news, projects, and institute content. Your
-            session stays on this device — nothing is saved to a server.
+            Sign in to manage news, projects, jobs and institute content. The CMS
+            runs on ICON-INSTITUTE's own server — no content leaves the building.
           </p>
           <ul className="admin-login__perks">
             <li>
               <IconShield className="admin-login__perk-icon" />
-              Secure demo access
+              Two-factor protected
             </li>
             <li>
               <IconLock className="admin-login__perk-icon" />
-              Role-based preview
+              Role-based access
             </li>
           </ul>
         </div>
@@ -204,16 +240,20 @@ export function AdminLoginPage() {
             />
             <div>
               <p className="admin-login__panel-kicker">Content management</p>
-              <h1 className="admin-login__title">Sign in</h1>
+              <h1 className="admin-login__title">
+                {mfaToken ? 'Two-step verification' : 'Sign in'}
+              </h1>
             </div>
           </div>
 
           <p className="admin-login__subtitle">
-            Enter your credentials to continue to the demo CMS.
+            {mfaToken
+              ? 'Enter the 6-digit code from your authenticator app to finish signing in.'
+              : 'Enter your credentials to continue to the CMS.'}
           </p>
 
           <form onSubmit={onSubmit} className="admin-login__form">
-            {!pendingUser ? (
+            {!mfaToken ? (
               <>
                 <label className="admin-login__field">
                   <span className="admin-login__label">Email</span>
@@ -224,8 +264,10 @@ export function AdminLoginPage() {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
+                      disabled={busy}
                       autoComplete="username"
-                      placeholder="admin@icon-institute.de"
+                      autoFocus
+                      placeholder="name@icon-institute.de"
                     />
                   </span>
                 </label>
@@ -238,6 +280,7 @@ export function AdminLoginPage() {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       required
+                      disabled={busy}
                       autoComplete="current-password"
                       placeholder="••••••••"
                     />
@@ -252,18 +295,18 @@ export function AdminLoginPage() {
                   <input
                     type="text"
                     inputMode="numeric"
-                    pattern="[0-9]*"
-                    value={otp}
-                    onChange={(e) => setOtp(e.target.value)}
+                    value={code}
+                    onChange={(e) => setCode(e.target.value)}
                     required
+                    disabled={busy}
                     autoComplete="one-time-code"
+                    autoFocus
                     aria-describedby="otp-help"
                     placeholder="123456"
                   />
                 </span>
                 <span id="otp-help" className="admin-login__field-hint">
-                  Enter the 6-digit code from your authenticator app (demo:
-                  123456).
+                  Lost your device? Enter one of your recovery codes instead.
                 </span>
               </label>
             )}
@@ -274,21 +317,28 @@ export function AdminLoginPage() {
               </p>
             )}
 
-            <button type="submit" className="admin-login__submit">
-              <span>{pendingUser ? 'Verify & sign in' : 'Sign in'}</span>
+            <button type="submit" className="admin-login__submit" disabled={busy}>
+              <span>
+                {busy
+                  ? 'Please wait…'
+                  : mfaToken
+                    ? 'Verify & sign in'
+                    : 'Sign in'}
+              </span>
               <IconArrowRight className="admin-login__submit-icon" />
             </button>
-          </form>
 
-          <div className="admin-login__demo">
-            <p className="admin-login__demo-label">Demo credentials</p>
-            <code className="admin-login__demo-code">{DEMO_CREDENTIALS_HINT}</code>
-            {pendingUser && (
-              <p className="admin-login__demo-otp">
-                2FA demo code: <code>123456</code>
-              </p>
+            {mfaToken && (
+              <button
+                type="button"
+                className="admin-login__secondary"
+                onClick={startOver}
+                disabled={busy}
+              >
+                Use a different account
+              </button>
             )}
-          </div>
+          </form>
         </div>
       </main>
     </div>

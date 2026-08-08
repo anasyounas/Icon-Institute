@@ -1,20 +1,25 @@
 import { Link } from 'react-router-dom';
-import { newsItems } from '../data/news';
+import { newsItems as bundledNews, type NewsItem } from '../data/news';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
+import { usePublished } from '../hooks/usePublished';
 
 export function NewsPage() {
+  // Published CMS articles; the bundled list covers the moment before the
+  // first response (and keeps the page rendering if the CMS is offline).
+  const newsItems = usePublished<NewsItem[]>('/news', bundledNews);
+
   // Paginate the flat chronological list, then group whatever lands on this
   // page by year — so the year headings survive without splitting a year
   // across pages in a confusing way.
   const { page, totalPages, pageItems, setPage, from, to, total } =
     usePagination(newsItems);
 
-  const byYear = pageItems.reduce<Record<string, typeof newsItems>>((acc, item) => {
+  const byYear = pageItems.reduce<Record<string, NewsItem[]>>((acc, item) => {
     const year = item.date.slice(0, 4);
     (acc[year] ??= []).push(item);
     return acc;
