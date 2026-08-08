@@ -2060,56 +2060,70 @@ code {
   background: hsl(var(--divider));
 }
 
-.news-list {
+/* Same construction as .expertise-hub__grid: fixed tracks so a short final row
+   keeps card width identical instead of stretching. */
+.news-grid {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.65rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: stretch;
 }
 
-.news-list__item {
-  display: grid;
-  grid-template-columns: 92px 1fr;
-  gap: 1.35rem;
-  align-items: center;
-  padding: 1rem 1.15rem;
+.news-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 0 1.6rem;
   background: hsl(var(--card));
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius-lg);
+  overflow: hidden;
   color: hsl(var(--foreground));
   text-decoration: none !important;
+  box-shadow: var(--shadow-sharp);
   transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--transition-smooth),
     border-color var(--dur) var(--transition-smooth);
 }
 
-.news-list__item:hover {
-  transform: translateY(-2px);
+.news-card:hover {
+  transform: translateY(-5px);
   border-color: hsl(var(--foreground) / 0.2);
   box-shadow: var(--shadow-elegant);
 }
 
-.news-list__item h3 {
-  color: hsl(var(--foreground));
-  text-transform: none;
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-bottom: 0.35rem;
+.news-card__media {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
 }
 
-.news-list__item time {
+/* Article images vary in shape — crop to one ratio so every header block matches */
+.news-card__img,
+.news-card .img-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.news-card h3 {
+  color: hsl(var(--foreground));
+  text-transform: none;
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 1.4rem 1.5rem 0.75rem;
+}
+
+/* Pinned to the bottom, so dates line up across cards of differing title length */
+.news-card time {
+  margin: auto 1.5rem 0;
   font-family: var(--font-mono);
   color: hsl(var(--muted-foreground));
   font-size: 0.78rem;
   letter-spacing: 0.02em;
-}
-
-.news-list__thumb,
-.news-list__thumb.img-placeholder {
-  width: 92px;
-  height: 92px;
-  object-fit: cover;
-  border-radius: var(--radius-sm);
 }
 
 .news-detail time {
@@ -4505,7 +4519,8 @@ a.site-footer__contact:hover .site-footer__icon {
   }
 
   /* Fixed tracks need explicit steps down — auto-fit used to handle this */
-  .expertise-hub__grid {
+  .expertise-hub__grid,
+  .news-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -4613,6 +4628,7 @@ a.site-footer__contact:hover .site-footer__icon {
   .home-news__grid,
   .home-services__grid,
   .expertise-hub__grid,
+  .news-grid,
   .values-grid,
   .download-page__grid,
   .contact-page__grid,
@@ -4691,17 +4707,6 @@ a.site-footer__contact:hover .site-footer__icon {
 @media (max-width: 480px) {
   .home-expertise__grid {
     grid-template-columns: 1fr;
-  }
-
-  .news-list__item {
-    grid-template-columns: 70px 1fr;
-    gap: 1rem;
-  }
-
-  .news-list__thumb,
-  .news-list__thumb.img-placeholder {
-    width: 70px;
-    height: 70px;
   }
 }
 
