@@ -1,0 +1,4 @@
+# Single-page-app fallback for Netlify / Cloudflare Pages style hosts.
+# Every unknown path serves index.html so React Router can resolve routes such
+# as /news, /jobs, /projects and /admin/login on a direct visit or hard reload.
+/*    /index.html   200
