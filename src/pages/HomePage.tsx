@@ -4,10 +4,14 @@ import { homePage } from '../data/home';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo, siteSeo } from '../data/seo';
+import { useReveal } from '../hooks/useReveal';
+import { SparkIcon } from '../components/Icons';
+import { getExpertiseIcon, getServiceIcon } from '../components/iconMap';
 
 export function HomePage() {
   const [slide, setSlide] = useState(0);
   const slides = homePage.heroSlides;
+  const revealRef = useReveal<HTMLDivElement>();
 
   useEffect(() => {
     const id = window.setInterval(() => {
@@ -17,7 +21,7 @@ export function HomePage() {
   }, [slides.length]);
 
   return (
-    <div className="home">
+    <div className="home" ref={revealRef}>
       <Seo
         {...pageSeo.home}
         jsonLd={[
@@ -32,75 +36,110 @@ export function HomePage() {
       />
 
       <section className="home-hero" aria-roledescription="carousel" aria-label="Highlights">
-        {slides.map((s, i) => (
-          <div
-            key={s.image}
-            className={`home-hero__slide ${i === slide ? 'is-active' : ''}`}
-            aria-hidden={i !== slide}
-          >
-            <PlaceholderImage
-              src={s.image}
-              alt=""
-              className="home-hero__img"
-              aspectRatio="21 / 9"
-            />
-          </div>
-        ))}
-
-        <div className="home-hero__overlay" aria-hidden />
-
-        <div className="home-hero__content">
-          <div className="container home-hero__inner">
-            <p className="home-hero__brand">ICON-INSTITUTE</p>
-            <h1>{homePage.welcome.title}</h1>
-            <p className="home-hero__text">{homePage.welcome.text}</p>
-            <Link to={homePage.welcome.ctaHref} className="btn btn--accent">
-              {homePage.welcome.ctaLabel}
-            </Link>
-          </div>
+        <div className="home-hero__bg" aria-hidden="true">
+          {slides.map((s, i) => (
+            <div
+              key={s.image}
+              className={`home-hero__slide ${i === slide ? 'is-active' : ''}`}
+            >
+              <PlaceholderImage
+                src={s.image}
+                alt=""
+                className="home-hero__img"
+                aspectRatio="21 / 9"
+              />
+            </div>
+          ))}
+          <div className="home-hero__fade" />
         </div>
 
-        <div className="home-hero__dots">
-          {slides.map((s, i) => (
-            <button
-              key={s.image}
-              type="button"
-              className={i === slide ? 'is-active' : ''}
-              aria-label={`Show slide ${i + 1}`}
-              aria-current={i === slide ? 'true' : undefined}
-              onClick={() => setSlide(i)}
-            />
-          ))}
+        <div className="home-hero__radial" aria-hidden="true" />
+        <div className="home-hero__mesh" aria-hidden="true" />
+
+        <div className="container home-hero__inner">
+          <div className="home-hero__panel">
+            <p className="home-hero__brand">
+              <SparkIcon className="home-hero__brand-icon" />
+              Consulting Gruppe · Since 1975
+            </p>
+
+            <h1>
+              ICON-
+              <span className="home-hero__mark">
+                <span className="home-hero__mark-text">INSTITUTE</span>
+                <span className="home-hero__mark-bar" aria-hidden="true" />
+              </span>
+            </h1>
+
+            <p className="home-hero__text">{homePage.welcome.text}</p>
+
+            <div className="home-hero__actions">
+              <Link to={homePage.welcome.ctaHref} className="btn btn--accent">
+                {homePage.welcome.ctaLabel}
+              </Link>
+              <Link to={homePage.projectsWorldwide.href} className="btn btn--light">
+                {homePage.projectsWorldwide.title}
+              </Link>
+            </div>
+          </div>
+
+          <div className="home-hero__pillars">
+            {slides.map((s, i) => (
+              <button
+                key={s.overlayWord}
+                type="button"
+                className={`home-hero__pillar ${i === slide ? 'is-active' : ''}`}
+                aria-label={`Show slide ${i + 1}`}
+                aria-current={i === slide ? 'true' : undefined}
+                onClick={() => setSlide(i)}
+              >
+                <span className="home-hero__pillar-word">{s.overlayWord}</span>
+              </button>
+            ))}
+          </div>
         </div>
       </section>
 
       <section className="home-services">
         <div className="container">
-          <header className="home-services__header">
+          <header className="home-services__header" data-reveal>
             <h2>{homePage.services.title}</h2>
             <p>{homePage.services.subtitle}</p>
           </header>
           <div className="home-services__grid">
-            {homePage.services.cards.map((card, i) => (
-              <Link
-                key={card.title}
-                to={card.href}
-                className="home-services__card"
-                style={{ animationDelay: `${i * 0.12}s` }}
-              >
-                <h3>{card.title}</h3>
-                <p>{card.text}</p>
-                <span className="home-services__more">Explore</span>
-              </Link>
-            ))}
+            {homePage.services.cards.map((card, i) => {
+              const { Icon, accent } = getServiceIcon(card.title);
+              return (
+                <Link
+                  key={card.title}
+                  to={card.href}
+                  className="home-services__card"
+                  data-reveal
+                  data-reveal-delay={i * 90}
+                >
+                  <span className={`icon-tile icon-tile--${accent}`} aria-hidden="true">
+                    <Icon />
+                  </span>
+                  <h3>{card.title}</h3>
+                  <p>{card.text}</p>
+                  <span className="home-services__more">Explore</span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
       <section className="home-quick">
         <div className="container home-quick__grid">
-          {homePage.quickLinks.map((link) => (
-            <Link key={link.href} to={link.href} className="home-quick__card">
+          {homePage.quickLinks.map((link, i) => (
+            <Link
+              key={link.href}
+              to={link.href}
+              className="home-quick__card"
+              data-reveal
+              data-reveal-delay={i * 90}
+            >
               <PlaceholderImage
                 src={link.image}
                 alt={link.label}
@@ -114,7 +153,11 @@ export function HomePage() {
 
       <section className="home-projects">
         <div className="container">
-          <Link to={homePage.projectsWorldwide.href} className="home-projects__link">
+          <Link
+            to={homePage.projectsWorldwide.href}
+            className="home-projects__link"
+            data-reveal
+          >
             <PlaceholderImage
               src={homePage.projectsWorldwide.image}
               alt={homePage.projectsWorldwide.title}
@@ -127,41 +170,57 @@ export function HomePage() {
 
       <section className="home-expertise">
         <div className="container">
-          <h3>{homePage.expertise.title}</h3>
+          <h3 data-reveal>{homePage.expertise.title}</h3>
           <div className="home-expertise__grid">
-            {homePage.expertise.cards.map((card, i) => (
-              <Link
-                key={card.slug}
-                to={`/expertise/${card.slug}`}
-                className="home-expertise__card"
-                style={{ animationDelay: `${i * 0.1}s` }}
-              >
-                <PlaceholderImage
-                  src={card.image}
-                  alt={card.title}
-                  className="home-expertise__img"
-                  aspectRatio="1 / 1"
-                />
-                <h4>
-                  {card.title.includes(' and ')
-                    ? card.title.replace(/ and /, ' and\n')
-                    : card.title}
-                </h4>
-              </Link>
-            ))}
+            {homePage.expertise.cards.map((card, i) => {
+              const { Icon, accent } = getExpertiseIcon(card.slug);
+              return (
+                <Link
+                  key={card.slug}
+                  to={`/expertise/${card.slug}`}
+                  className="home-expertise__card"
+                  data-reveal
+                  data-reveal-delay={i * 70}
+                >
+                  <span className="home-expertise__media">
+                    <PlaceholderImage
+                      src={card.image}
+                      alt={card.title}
+                      className="home-expertise__img"
+                      aspectRatio="1 / 1"
+                    />
+                    <span
+                      className={`icon-tile icon-tile--${accent} home-expertise__icon`}
+                      aria-hidden="true"
+                    >
+                      <Icon />
+                    </span>
+                  </span>
+                  <h4>
+                    {card.title.includes(' and ')
+                      ? card.title.replace(/ and /, ' and\n')
+                      : card.title}
+                  </h4>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
       <section className="home-news">
         <div className="container">
-          <h4 className="home-news__heading">{homePage.featuredNews.title}</h4>
+          <h4 className="home-news__heading" data-reveal>
+            {homePage.featuredNews.title}
+          </h4>
           <div className="home-news__grid">
-            {homePage.featuredNews.items.map((item) => (
+            {homePage.featuredNews.items.map((item, i) => (
               <Link
                 key={item.slug}
                 to={`/news/${item.slug}`}
                 className="home-news__card"
+                data-reveal
+                data-reveal-delay={i * 90}
               >
                 <PlaceholderImage
                   src={item.image ?? 'news-placeholder.jpg'}

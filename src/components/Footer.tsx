@@ -1,5 +1,11 @@
 import { Link } from 'react-router-dom';
 import { footer } from '../data/footer';
+import {
+  GlobeIcon,
+  MailIcon,
+  PhoneIcon,
+  PrinterIcon,
+} from './Icons';
 
 export function Footer() {
   return (
@@ -25,7 +31,7 @@ export function Footer() {
               href={`tel:${footer.phone.replace(/\s/g, '')}`}
             >
               <span className="site-footer__icon" aria-hidden>
-                ☎
+                <PhoneIcon />
               </span>
               <span>
                 <span className="site-footer__label">Phone</span>
@@ -35,7 +41,7 @@ export function Footer() {
 
             <div className="site-footer__contact">
               <span className="site-footer__icon" aria-hidden>
-                ⎙
+                <PrinterIcon />
               </span>
               <span>
                 <span className="site-footer__label">Fax</span>
@@ -45,7 +51,7 @@ export function Footer() {
 
             <a className="site-footer__contact" href={`mailto:${footer.email}`}>
               <span className="site-footer__icon" aria-hidden>
-                ✉
+                <MailIcon />
               </span>
               <span>
                 <span className="site-footer__label">Email</span>
@@ -60,7 +66,7 @@ export function Footer() {
               rel="noopener noreferrer"
             >
               <span className="site-footer__icon" aria-hidden>
-                🌐
+                <GlobeIcon />
               </span>
               <span>
                 <span className="site-footer__label">Web</span>
