@@ -13,16 +13,22 @@
   /* Core palette. Raw HSL triplets, so any token supports an alpha slash. */
   --background: 0 0% 100%;
   --foreground: 222 30% 8%;
-  --card: 0 0% 100%;
+  /* Cards carry a visible light-blue tint rather than pure white, so they read
+     as surfaces on a white page instead of dissolving into it. */
+  --card: 208 45% 96%;
   --primary: 80 95% 52%;
   --primary-foreground: 222 30% 8%;
   --primary-glow: 80 100% 65%;
   --secondary: 220 14% 96%;
-  --muted: 220 14% 96%;
+  /* Kept a step below --card so an alt section still reads as *behind* the
+     cards sitting on it. */
+  --muted: 214 24% 92%;
   --muted-foreground: 220 8% 42%;
   --accent: 222 30% 8%;
   --accent-foreground: 0 0% 100%;
-  --border: 220 13% 91%;
+  /* Firmer + slightly cooler than a neutral 91% hairline, which was
+     effectively invisible against white. */
+  --border: 214 19% 85%;
   --ring: 80 95% 52%;
 
   /* Icon accent slots — lime leads, the rest harmonise with the mesh gradient */
@@ -49,7 +55,7 @@
   --gradient-text: linear-gradient(135deg, hsl(222 30% 8%) 0%, hsl(222 30% 35%) 100%);
 
   /* Elevation */
-  --shadow-sharp: 0 1px 0 0 hsl(222 30% 8% / 0.04), 0 1px 2px 0 hsl(222 30% 8% / 0.06);
+  --shadow-sharp: 0 1px 2px hsl(214 28% 18% / 0.05), 0 1px 3px hsl(214 28% 18% / 0.05);
   --shadow-elegant: 0 20px 50px -20px hsl(222 30% 8% / 0.15);
   --shadow-glow: 0 0 60px -10px hsl(var(--primary) / 0.4);
 
@@ -1906,12 +1912,27 @@ code {
 .projects-filters {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
+  gap: 1.1rem;
   margin-bottom: 1.5rem;
   padding: 1.5rem;
   background: hsl(var(--muted));
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sharp);
+}
+
+/* Controls need a stronger edge than the panel they sit inside, or they
+   disappear into it. */
+.projects-filters select,
+.projects-filters input,
+.projects-search input {
+  background: hsl(var(--background));
+  border-color: hsl(214 19% 78%);
+}
+
+.projects-filters select:hover,
+.projects-search input:hover {
+  border-color: hsl(214 19% 62%);
 }
 
 .projects-toolbar {
@@ -2090,7 +2111,33 @@ code {
 .download-page__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  gap: 1.75rem;
+}
+
+/* The two intro blocks had no card treatment at all — they read as loose text */
+.download-page__grid > article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 2.15rem 2.15rem;
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sharp);
+  transition: transform var(--dur) var(--ease-out),
+    box-shadow var(--dur) var(--transition-smooth),
+    border-color var(--dur) var(--transition-smooth);
+}
+
+.download-page__grid > article:hover {
+  transform: translateY(-4px);
+  border-color: hsl(var(--foreground) / 0.22);
+  box-shadow: var(--shadow-elegant);
+}
+
+.download-page__grid > article p {
+  color: hsl(var(--muted-foreground));
+  flex: 1;
 }
 
 .download-list {
@@ -2224,7 +2271,7 @@ code {
 
 .contact-depts li {
   padding: 0.9rem 1.05rem;
-  background: hsl(var(--background));
+  background: hsl(var(--card));
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius);
   font-size: 0.95rem;
@@ -2924,6 +2971,9 @@ a.site-footer__contact:hover .site-footer__icon {
   --admin-plane: 214 32% 95%;
   --border: 214 20% 85%;
   --muted: 214 24% 96%;
+  /* The CMS already separates cards from the plane by tinting the plane, so
+     its cards stay pure white rather than taking the public site's tint. */
+  --card: 0 0% 100%;
 
   /* Redefining the token rather than restyling each card, so every surface
      that already uses it lifts off the tinted plane together. */
@@ -4254,6 +4304,101 @@ a.site-footer__contact:hover .site-footer__icon {
   text-align: center;
   padding: 2.5rem 1rem;
   color: hsl(var(--muted-foreground));
+}
+
+/* --------------------------------------------------------------------------
+   25d. Pagination
+   Renders only when a list outgrows one page, so it is wired into every list
+   and stays invisible until it is needed.
+   -------------------------------------------------------------------------- */
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid hsl(var(--border));
+}
+
+.pagination__summary {
+  margin: 0;
+  font-size: 0.88rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.pagination__summary strong {
+  font-variant-numeric: tabular-nums;
+  color: hsl(var(--foreground));
+}
+
+.pagination__controls {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.pagination__btn {
+  min-width: 2.4rem;
+  height: 2.4rem;
+  padding: 0 0.6rem;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background var(--dur-fast) var(--transition-smooth),
+    border-color var(--dur-fast) var(--transition-smooth),
+    color var(--dur-fast) var(--transition-smooth);
+}
+
+.pagination__btn:hover:not(:disabled):not(.is-current) {
+  border-color: hsl(var(--foreground));
+}
+
+.pagination__btn.is-current {
+  background: hsl(var(--primary));
+  border-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.pagination__btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pagination__gap {
+  padding: 0 0.2rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.pagination--admin {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  font-family: var(--font-admin);
+}
+
+.pagination--admin .pagination__btn {
+  min-width: 2.2rem;
+  height: 2.2rem;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 560px) {
+  .pagination {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pagination__controls {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 /* --------------------------------------------------------------------------

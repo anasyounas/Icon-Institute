@@ -4,9 +4,17 @@ import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
+import { Pagination } from '../components/Pagination';
+import { usePagination } from '../hooks/usePagination';
 
 export function NewsPage() {
-  const byYear = newsItems.reduce<Record<string, typeof newsItems>>((acc, item) => {
+  // Paginate the flat chronological list, then group whatever lands on this
+  // page by year — so the year headings survive without splitting a year
+  // across pages in a confusing way.
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(newsItems);
+
+  const byYear = pageItems.reduce<Record<string, typeof newsItems>>((acc, item) => {
     const year = item.date.slice(0, 4);
     (acc[year] ??= []).push(item);
     return acc;
@@ -22,7 +30,7 @@ export function NewsPage() {
         image="icon-institute_21.jpg"
         imageAlt="ICON-INSTITUTE news"
       />
-      <section className="content-section">
+      <section className="content-section" id="news-list">
         <div className="container">
           {years.map((year) => (
             <div key={year} className="news-year">
@@ -50,6 +58,17 @@ export function NewsPage() {
               </ul>
             </div>
           ))}
+
+          <Pagination
+            page={page}
+            totalPages={totalPages}
+            onChange={setPage}
+            from={from}
+            to={to}
+            total={total}
+            label="articles"
+            scrollToId="news-list"
+          />
         </div>
       </section>
     </div>

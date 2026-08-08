@@ -10,6 +10,8 @@ import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
+import { Pagination } from '../components/Pagination';
+import { usePagination } from '../hooks/usePagination';
 
 const volumeLabels: Record<string, string> = Object.fromEntries(
   projectFilters.volumes.map((v) => [v.value, v.label])
@@ -40,6 +42,11 @@ export function ProjectsPage() {
       return true;
     });
   }, [query, region, recent, year, expertise, volume]);
+
+  const { page, totalPages, pageItems, setPage, from, to, total } = usePagination(
+    filtered,
+    { resetKey: [query, region, recent, year, expertise, volume].join('|') }
+  );
 
   const clearFilters = () => {
     setQuery('');
@@ -166,8 +173,8 @@ export function ProjectsPage() {
             </button>
           </div>
 
-          <div className="projects-list">
-            {filtered.map((p) => (
+          <div className="projects-list" id="projects-list">
+            {pageItems.map((p) => (
               <article key={p.id} className="project-card">
                 <h3>{p.title}</h3>
                 <p className="project-card__meta">
@@ -187,6 +194,17 @@ export function ProjectsPage() {
               <p role="status">No projects match the selected search and filters.</p>
             )}
           </div>
+
+          <Pagination
+            page={page}
+            totalPages={totalPages}
+            onChange={setPage}
+            from={from}
+            to={to}
+            total={total}
+            label="projects"
+            scrollToId="projects-list"
+          />
         </div>
       </section>
     </div>

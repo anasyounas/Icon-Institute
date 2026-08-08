@@ -22,6 +22,8 @@ import {
   StatusPill,
   UploadBox,
 } from '../../components/admin/AdminUI';
+import { Pagination } from '../../components/Pagination';
+import { usePagination } from '../../hooks/usePagination';
 
 function DemoBanner({ children }: { children: string }) {
   return <p className="admin-banner">{children}</p>;
@@ -146,6 +148,9 @@ export function NewsManagerPage() {
     setYear('');
   };
 
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [q, status, year].join('|') });
+
   return (
     <div className="admin-page">
       <h1>News Manager</h1>
@@ -197,7 +202,7 @@ export function NewsManagerPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={4}>No news articles match the current filters.</EmptyRow>
         ) : (
-          filtered.slice(0, 20).map((n) => (
+          pageItems.map((n) => (
             <tr key={n.slug}>
               <td className="admin-table__num">{n.dateLabel}</td>
               <td>{n.title}</td>
@@ -211,6 +216,17 @@ export function NewsManagerPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="articles"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -237,6 +253,9 @@ export function JobsManagerPage() {
     setType('');
     setStatus('');
   };
+
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [q, type, status].join('|') });
 
   return (
     <div className="admin-page">
@@ -285,7 +304,7 @@ export function JobsManagerPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={5}>No job ads match the current filters.</EmptyRow>
         ) : (
-          filtered.map((j) => (
+          pageItems.map((j) => (
             <tr key={j.id}>
               <td>{j.title}</td>
               <td>{j.type}</td>
@@ -300,6 +319,17 @@ export function JobsManagerPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="jobs"
+        variant="admin"
+      />
 
       <LockableForm title="Edit selected job (demo)">
         {() => (
@@ -348,6 +378,9 @@ export function ProjectsManagerPage() {
     setExpertise('');
     setVolume('');
   };
+
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [q, region, expertise, volume].join('|') });
 
   return (
     <div className="admin-page">
@@ -405,7 +438,7 @@ export function ProjectsManagerPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={5}>No projects match the current filters.</EmptyRow>
         ) : (
-          filtered.map((p) => (
+          pageItems.map((p) => (
             <tr key={p.id}>
               <td>{p.title}</td>
               <td>{p.region}</td>
@@ -420,6 +453,17 @@ export function ProjectsManagerPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="projects"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -490,6 +534,9 @@ export function MediaLibraryPage() {
     setType('');
   };
 
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [q, type].join('|') });
+
   return (
     <div className="admin-page">
       <h1>Media Library</h1>
@@ -531,7 +578,7 @@ export function MediaLibraryPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={5}>No media matches the current filters.</EmptyRow>
         ) : (
-          filtered.map((m) => (
+          pageItems.map((m) => (
             <tr key={m.id}>
               <td>{m.name}</td>
               <td>{m.type}</td>
@@ -544,6 +591,17 @@ export function MediaLibraryPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="files"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -554,6 +612,9 @@ export function SeoManagerPage() {
   const [q, setQ] = useState('');
   const entries = Object.values(pageSeo);
   const filtered = entries.filter((p) => matches(q, p.path, p.title, p.description));
+
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: q });
 
   return (
     <div className="admin-page">
@@ -580,7 +641,7 @@ export function SeoManagerPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={4}>No pages match the current search.</EmptyRow>
         ) : (
-          filtered.map((p) => (
+          pageItems.map((p) => (
             <tr key={p.path}>
               <td>
                 <code>{p.path}</code>
@@ -594,6 +655,17 @@ export function SeoManagerPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="pages"
+        variant="admin"
+      />
 
       <LockableForm title="Edit page SEO">
         {() => (
@@ -668,6 +740,9 @@ export function WorkflowPage() {
     setAssignee('');
   };
 
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [stage, assignee].join('|') });
+
   return (
     <div className="admin-page">
       <h1>Approval workflow</h1>
@@ -701,7 +776,7 @@ export function WorkflowPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={4}>No items match the current filters.</EmptyRow>
         ) : (
-          filtered.map((w) => (
+          pageItems.map((w) => (
             <tr key={w.id}>
               <td>{w.title}</td>
               <td>
@@ -722,6 +797,17 @@ export function WorkflowPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="items"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -732,6 +818,9 @@ export function VersionHistoryPage() {
   const [status, setStatus] = useState('');
   const statuses = [...new Set(mockVersions.map((v) => v.status))];
   const filtered = mockVersions.filter((v) => !status || v.status === status);
+
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: status });
 
   return (
     <div className="admin-page">
@@ -760,7 +849,7 @@ export function VersionHistoryPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={5}>No builds match the current filter.</EmptyRow>
         ) : (
-          filtered.map((v) => (
+          pageItems.map((v) => (
             <tr key={v.id}>
               <td>{v.label}</td>
               <td className="admin-table__num">{v.created}</td>
@@ -786,6 +875,17 @@ export function VersionHistoryPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="builds"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -796,6 +896,9 @@ export function ScheduledPage() {
   const [status, setStatus] = useState('');
   const statuses = [...new Set(mockSchedule.map((s) => s.status))];
   const filtered = mockSchedule.filter((s) => !status || s.status === status);
+
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: status });
 
   return (
     <div className="admin-page">
@@ -824,7 +927,7 @@ export function ScheduledPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={4}>Nothing matches the current filter.</EmptyRow>
         ) : (
-          filtered.map((s) => (
+          pageItems.map((s) => (
             <tr key={s.id}>
               <td>{s.title}</td>
               <td className="admin-table__num">{s.publishAt}</td>
@@ -838,6 +941,17 @@ export function ScheduledPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="items"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -913,6 +1027,9 @@ export function UsersRolesPage() {
     setTwoFa('');
   };
 
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [q, role, twoFa].join('|') });
+
   return (
     <div className="admin-page">
       <h1>Users & roles</h1>
@@ -964,7 +1081,7 @@ export function UsersRolesPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={5}>No users match the current filters.</EmptyRow>
         ) : (
-          filtered.map((u) => (
+          pageItems.map((u) => (
             <tr key={u.id}>
               <td>{u.name}</td>
               <td>{u.email}</td>
@@ -979,6 +1096,17 @@ export function UsersRolesPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="users"
+        variant="admin"
+      />
 
       <LockableForm title="Reset password (demo)" saveLabel="Update password">
         {() => (
@@ -1059,6 +1187,9 @@ export function AuditLogPage() {
     setUser('');
   };
 
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: [q, user].join('|') });
+
   return (
     <div className="admin-page">
       <h1>Audit log</h1>
@@ -1091,7 +1222,7 @@ export function AuditLogPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={3}>No log entries match the current filters.</EmptyRow>
         ) : (
-          filtered.map((row) => (
+          pageItems.map((row) => (
             <tr key={row.id}>
               <td className="admin-table__num">{row.time}</td>
               <td>{row.user}</td>
@@ -1100,6 +1231,17 @@ export function AuditLogPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="entries"
+        variant="admin"
+      />
     </div>
   );
 }
@@ -1109,6 +1251,9 @@ export function AuditLogPage() {
 export function BackupsPage() {
   const [q, setQ] = useState('');
   const filtered = mockBackups.filter((b) => matches(q, b.label, b.time));
+
+  const { page, totalPages, pageItems, setPage, from, to, total } =
+    usePagination(filtered, { resetKey: q });
 
   return (
     <div className="admin-page">
@@ -1148,7 +1293,7 @@ export function BackupsPage() {
         {filtered.length === 0 ? (
           <EmptyRow colSpan={4}>No backups match the current search.</EmptyRow>
         ) : (
-          filtered.map((b) => (
+          pageItems.map((b) => (
             <tr key={b.id}>
               <td>{b.label}</td>
               <td className="admin-table__num">{b.time}</td>
@@ -1167,6 +1312,17 @@ export function BackupsPage() {
           ))
         )}
       </Table>
+
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChange={setPage}
+        from={from}
+        to={to}
+        total={total}
+        label="backups"
+        variant="admin"
+      />
     </div>
   );
 }

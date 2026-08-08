@@ -6,6 +6,8 @@ import {
 } from '../data/projects';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
+import { Pagination } from '../components/Pagination';
+import { usePagination } from '../hooks/usePagination';
 
 const volumeLabels: Record<string, string> = Object.fromEntries(
   projectFilters.volumes.map((v) => [v.value, v.label])
@@ -15,6 +17,12 @@ export function ProjectRegionPage() {
   const { region } = useParams();
   const meta = projectRegions.find((r) => r.slug === region);
   const projects = sampleProjects.filter((p) => p.region === region);
+
+  // Called before the early return below to keep hook order stable.
+  const { page, totalPages, pageItems, setPage, from, to, total } = usePagination(
+    projects,
+    { resetKey: region ?? '' }
+  );
 
   if (!meta) {
     return (
@@ -40,8 +48,8 @@ export function ProjectRegionPage() {
       <section className="content-section">
         <div className="container">
           <p className="lede">{meta.description}</p>
-          <div className="projects-list">
-            {projects.map((p) => (
+          <div className="projects-list" id="region-projects">
+            {pageItems.map((p) => (
               <article key={p.id} className="project-card">
                 <h3>{p.title}</h3>
                 <p className="project-card__meta">
@@ -57,6 +65,18 @@ export function ProjectRegionPage() {
               </p>
             )}
           </div>
+
+          <Pagination
+            page={page}
+            totalPages={totalPages}
+            onChange={setPage}
+            from={from}
+            to={to}
+            total={total}
+            label="projects"
+            scrollToId="region-projects"
+          />
+
           <p className="back-link">
             <Link to="/projects">← All projects</Link>
           </p>
