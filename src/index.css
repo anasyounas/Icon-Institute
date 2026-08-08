@@ -1068,7 +1068,7 @@ code {
   gap: 0.55rem;
   margin: 0 0 2rem;
   padding: 0.4rem 0.9rem;
-  border: 1px solid hsl(var(--border));
+  border: 1px solid hsl(var(--divider));
   border-radius: var(--radius-full);
   background: hsl(var(--background) / 0.6);
   backdrop-filter: blur(8px);
@@ -4131,7 +4131,7 @@ a.site-footer__contact:hover .site-footer__icon {
   text-transform: uppercase;
   padding: 0.35rem 0.7rem;
   border-radius: var(--radius-full);
-  border: 1px solid hsl(var(--border));
+  border: 1px solid hsl(var(--divider));
   background: hsl(var(--muted));
   color: hsl(var(--muted-foreground));
 }
