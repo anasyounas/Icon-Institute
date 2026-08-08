@@ -1123,7 +1123,7 @@ code {
 
 .home-hero__text {
   margin: 0 auto 2.75rem;
-  color: hsl(var(--muted-foreground));
+  color: hsl(var(--foreground));
   font-size: clamp(1.05rem, 1.7vw, 1.28rem);
   line-height: 1.7;
   max-width: 60ch;
@@ -2913,11 +2913,32 @@ a.site-footer__contact:hover .site-footer__icon {
 .admin-shell {
   display: flex;
   min-height: 100vh;
-  background: hsl(var(--muted));
   font-family: var(--font-admin);
   font-size: 15px;
   line-height: 1.6;
   color: hsl(var(--muted-foreground));
+
+  /* CMS surface tuning. The public site's hairline (91% L) disappears against
+     white cards, so inside the CMS the border is firmer and the page plane
+     carries a soft cool tint — together they make each card read as raised. */
+  --admin-plane: 214 32% 95%;
+  --border: 214 20% 85%;
+  --muted: 214 24% 96%;
+
+  /* Redefining the token rather than restyling each card, so every surface
+     that already uses it lifts off the tinted plane together. */
+  --shadow-sharp: 0 1px 2px hsl(214 30% 20% / 0.06), 0 1px 1px hsl(214 30% 20% / 0.04);
+
+  background:
+    radial-gradient(ellipse 70% 50% at 15% 0%, hsl(var(--primary) / 0.05), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 100% 0%, hsl(214 60% 60% / 0.06), transparent 55%),
+    hsl(var(--admin-plane));
+}
+
+/* Firmer hairline on hover, but never over the lime "editing" outline */
+.admin-panel-card:hover,
+.admin-form-card:not(.is-editing):hover {
+  border-color: hsl(214 20% 77%);
 }
 
 .admin-sidebar {
@@ -3638,8 +3659,9 @@ a.site-footer__contact:hover .site-footer__icon {
   --chart-1: #2a78d6;
   --chart-2: #eb6834;
   --chart-3: #1baf7a;
-  --chart-grid: hsl(var(--border));
-  --chart-axis: hsl(220 13% 84%);
+  /* Gridlines stay lighter than the card hairline so they recede behind data */
+  --chart-grid: hsl(214 22% 91%);
+  --chart-axis: hsl(214 20% 84%);
   --chart-ink: hsl(var(--muted-foreground));
 }
 
