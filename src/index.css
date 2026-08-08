@@ -6001,3 +6001,33 @@ a.site-footer__contact:hover .site-footer__icon {
 .news-detail .container.narrow p a:hover {
   color: hsl(var(--primary));
 }
+
+
+/* Alt-text dialog preview */
+.cms-alt-preview {
+  width: 100%;
+  max-height: 14rem;
+  object-fit: contain;
+  border-radius: var(--radius);
+  background: hsl(var(--muted) / 0.6);
+  border: 1px solid hsl(var(--border) / 0.25);
+}
+
+/* The Contact and page editors reuse the dialog grid outside a dialog, so
+   their inputs need the same treatment as fields inside one. */
+.admin-form.cms-form-grid > label,
+.admin-form.cms-form-grid > .cms-field-wide > label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 0;
+}
+
+.admin-form.cms-form-grid input,
+.admin-form.cms-form-grid select,
+.admin-form.cms-form-grid textarea {
+  width: 100%;
+  font-weight: 400;
+}

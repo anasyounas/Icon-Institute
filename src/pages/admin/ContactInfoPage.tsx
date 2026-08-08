@@ -138,7 +138,7 @@ export function ContactInfoPage() {
           </div>
         </header>
 
-        <fieldset className="admin-form" disabled={busy || !can('content:write')}>
+        <fieldset className="admin-form cms-form-grid" disabled={busy || !can('content:write')}>
           <label>
             Company name
             <input
@@ -150,7 +150,7 @@ export function ContactInfoPage() {
               }
             />
           </label>
-          <label>
+          <label className="cms-field-wide">
             Address
             <textarea
               rows={3}
@@ -217,7 +217,7 @@ export function ContactInfoPage() {
               }
             />
           </label>
-          <label>
+          <label className="cms-field-wide">
             Page introduction
             <textarea
               rows={2}
@@ -225,7 +225,7 @@ export function ContactInfoPage() {
               onChange={(e) => edit((d) => ({ ...d, intro: e.target.value }))}
             />
           </label>
-          <label>
+          <label className="cms-field-wide">
             “How to reach us” text
             <textarea
               rows={3}
@@ -236,7 +236,7 @@ export function ContactInfoPage() {
         </fieldset>
 
         <h3 className="admin-subhead">Departments</h3>
-        <fieldset className="admin-form" disabled={busy || !can('content:write')}>
+        <fieldset className="admin-form cms-form-grid" disabled={busy || !can('content:write')}>
           {data.departments.map((dept, index) => (
             <div key={index} className="admin-dept-row">
               <label>

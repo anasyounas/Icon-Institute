@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { EmptyRow, FilterBar } from '../../components/admin/AdminUI';
 import { Pagination } from '../../components/Pagination';
 import { errorText, formatWhen, useApiList } from '../../components/admin/cms';
+import { FormSection, Modal, Wide } from '../../components/admin/Modal';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { api, assetUrl, type MediaItem } from '../../lib/api';
@@ -31,7 +32,6 @@ export function MediaLibraryPage() {
     PAGE_SIZE
   );
 
-  const [notice, setNotice] = useState('');
   const [actionError, setActionError] = useState('');
   const [uploading, setUploading] = useState(false);
   const [altEditing, setAltEditing] = useState<MediaItem | null>(null);
@@ -47,7 +47,7 @@ export function MediaLibraryPage() {
       for (const file of Array.from(files)) {
         const item = await api.media.upload(file, '', replaceId);
         const savedKb = Math.max(0, item.original_size - item.size);
-        setNotice(
+        showToast(
           `Uploaded ${item.name}` +
             (savedKb > 1024 ? ` — optimised, saved ${kb(savedKb)}.` : '.')
         );
@@ -65,7 +65,7 @@ export function MediaLibraryPage() {
     if (!altEditing) return;
     try {
       await api.media.updateAlt(altEditing.id, altValue);
-      setNotice(`Alt text updated for ${altEditing.name}.`);
+      showToast(`Alt text updated for ${altEditing.name}.`);
       setAltEditing(null);
       reload();
     } catch (err) {
@@ -83,7 +83,6 @@ export function MediaLibraryPage() {
     }
     try {
       await api.media.remove(item.id);
-      setNotice(`${item.name} deleted.`);
       showToast(`${item.name} deleted.`);
       reload();
     } catch (err) {
@@ -93,7 +92,7 @@ export function MediaLibraryPage() {
 
   const copyUrl = async (item: MediaItem) => {
     await navigator.clipboard?.writeText(assetUrl(item.url));
-    setNotice(`URL copied: ${assetUrl(item.url)}`);
+    showToast(`Link to ${item.name} copied.`);
   };
 
   const from = total === 0 ? 0 : (page - 1) * PAGE_SIZE + 1;
@@ -104,15 +103,10 @@ export function MediaLibraryPage() {
       <h1>Media Library</h1>
       <p className="admin-banner">
         Images and documents for the whole website. Uploads are optimised
-        automatically on this server — resized to a sensible maximum and
-        re-encoded — before they are stored.
+        automatically and stored in the CMS database, so every page that uses a
+        file can always load it.
       </p>
 
-      {notice && (
-        <p className="status-box" role="status">
-          {notice}
-        </p>
-      )}
       {(error || actionError) && (
         <p className="admin-login__error" role="alert">
           {error || actionError}
@@ -198,30 +192,54 @@ export function MediaLibraryPage() {
       />
 
       {altEditing && (
-        <div className="admin-form-card is-editing">
-          <header className="admin-form-card__head">
-            <h2>Alt text: {altEditing.name}</h2>
-          </header>
-          <div className="admin-form">
-            <label>
-              Describe the image for screen readers and SEO
-              <input
-                type="text"
-                value={altValue}
-                autoFocus
-                onChange={(e) => setAltValue(e.target.value)}
-              />
-            </label>
-          </div>
-          <div className="admin-savebar">
-            <button type="button" className="btn btn--primary" onClick={() => void saveAlt()}>
-              Save alt text
-            </button>
-            <button type="button" className="btn btn--light" onClick={() => setAltEditing(null)}>
-              Cancel
-            </button>
-          </div>
-        </div>
+        <Modal
+          title="Alt text"
+          subtitle={altEditing.name}
+          onClose={() => setAltEditing(null)}
+          onSubmit={(e) => {
+            e.preventDefault();
+            void saveAlt();
+          }}
+          footer={
+            <div className="cms-modal__buttons">
+              <button type="button" className="btn btn--light" onClick={() => setAltEditing(null)}>
+                Cancel
+              </button>
+              <button type="submit" className="btn btn--primary">
+                Save alt text
+              </button>
+            </div>
+          }
+        >
+          <fieldset className="cms-fieldset">
+            <FormSection
+              title="Description"
+              hint="Read aloud by screen readers and used by search engines."
+            >
+              {altEditing.type === 'image' && (
+                <Wide>
+                  <img
+                    src={assetUrl(altEditing.url)}
+                    alt=""
+                    className="cms-alt-preview"
+                  />
+                </Wide>
+              )}
+              <Wide>
+                <label>
+                  Describe what the image shows
+                  <input
+                    type="text"
+                    value={altValue}
+                    autoFocus
+                    onChange={(e) => setAltValue(e.target.value)}
+                    placeholder="ICON-INSTITUTE team at a workshop in Albania"
+                  />
+                </label>
+              </Wide>
+            </FormSection>
+          </fieldset>
+        </Modal>
       )}
 
       <div className="admin-table-wrap">

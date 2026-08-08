@@ -144,7 +144,9 @@ function Field({
       <div className="admin-json-group cms-field-wide">
         <p className="admin-json-group__label">{label}</p>
         {value.map((entry, index) => (
-          <details key={index} className="admin-json-item" open={depth < 1}>
+          // The first entry starts open so the shape of a list is visible
+          // without clicking; the rest stay collapsed to keep the page short.
+          <details key={index} className="admin-json-item" open={index === 0}>
             <summary>
               {typeof entry === 'object' && entry !== null && !Array.isArray(entry)
                 ? String(
@@ -199,9 +201,18 @@ function Field({
 
   if (value && typeof value === 'object') {
     const entries = Object.entries(value);
+    // An entry inside a repeatable list is keyed by its position; the card
+    // around it already says which one it is, so no "0" heading.
+    const isListEntry = /^\d+$/.test(String(fieldKey));
     const group = (
-      <div className={depth === 0 ? 'admin-json-root' : 'admin-json-nested'}>
-        {depth > 0 && <p className="admin-json-group__label">{label}</p>}
+      <div
+        className={
+          depth === 0 || isListEntry ? 'admin-json-root' : 'admin-json-nested'
+        }
+      >
+        {depth > 0 && !isListEntry && (
+          <p className="admin-json-group__label">{label}</p>
+        )}
         <div className="cms-form-grid">
           {entries.map(([childKey, childValue]) => (
             <Field
@@ -217,7 +228,7 @@ function Field({
       </div>
     );
     // Nested groups own a full row so their inner two columns line up.
-    return depth === 0 ? group : <div className="cms-field-wide">{group}</div>;
+    return depth === 0 || isListEntry ? group : <div className="cms-field-wide">{group}</div>;
   }
 
   return null;

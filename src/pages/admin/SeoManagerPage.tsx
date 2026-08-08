@@ -1,6 +1,8 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { EmptyRow, FilterBar } from '../../components/admin/AdminUI';
-import { errorText, formatWhen } from '../../components/admin/cms';
+import { ImageField, errorText, formatWhen } from '../../components/admin/cms';
+import { FormSection, Modal, Wide } from '../../components/admin/Modal';
+import { showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
 import { api, type SeoEntry } from '../../lib/api';
 
@@ -18,7 +20,6 @@ export function SeoManagerPage() {
   const [rows, setRows] = useState<SeoEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const [notice, setNotice] = useState('');
   const [editing, setEditing] = useState<SeoEntry | null>(null);
   const [draft, setDraft] = useState<Draft>({
     title: '',
@@ -75,7 +76,7 @@ export function SeoManagerPage() {
         image: draft.image || null,
         noindex: draft.noindex,
       });
-      setNotice(`SEO metadata for ${draft.path} updated — live on the site immediately.`);
+      showToast(`SEO metadata for ${draft.path} updated — live on the site immediately.`);
       setEditing(null);
       setReloadTick((t) => t + 1);
     } catch (err) {
@@ -94,11 +95,6 @@ export function SeoManagerPage() {
         Schema.org markup automatically.
       </p>
 
-      {notice && (
-        <p className="status-box" role="status">
-          {notice}
-        </p>
-      )}
       {error && (
         <p className="admin-login__error" role="alert">
           {error}
@@ -119,92 +115,106 @@ export function SeoManagerPage() {
       />
 
       {editing && (
-        <form className="admin-form-card is-editing" onSubmit={submit}>
-          <header className="admin-form-card__head">
-            <h2>
-              Edit SEO — <code>{editing.path}</code>
-            </h2>
-          </header>
-          <fieldset className="admin-form" disabled={saving}>
-            <label>
-              Meta title *
-              <input
-                type="text"
-                required
-                minLength={3}
-                maxLength={200}
-                value={draft.title}
-                onChange={(e) => setDraft({ ...draft, title: e.target.value })}
-              />
-              <span className="field-hint">
-                {draft.title.length} characters — search engines show roughly 60.
-              </span>
-            </label>
-            <label>
-              Meta description *
-              <textarea
-                rows={3}
-                required
-                minLength={10}
-                maxLength={400}
-                value={draft.description}
-                onChange={(e) => setDraft({ ...draft, description: e.target.value })}
-              />
-              <span className="field-hint">
-                {draft.description.length} characters — aim for 150–160.
-              </span>
-            </label>
-            <label>
-              Canonical path *
-              <input
-                type="text"
-                required
-                pattern="/.*"
-                value={draft.path}
-                onChange={(e) => setDraft({ ...draft, path: e.target.value })}
-              />
-            </label>
-            <label>
-              Open Graph image
-              <input
-                type="text"
-                value={draft.image}
-                placeholder="/images/logo_icon.jpg"
-                onChange={(e) => setDraft({ ...draft, image: e.target.value })}
-              />
-            </label>
-            <label>
-              Search engine indexing
-              <select
-                value={String(draft.noindex)}
-                onChange={(e) => setDraft({ ...draft, noindex: e.target.value === 'true' })}
-              >
-                <option value="false">Index this page (normal)</option>
-                <option value="true">noindex — hide from search engines</option>
-              </select>
-            </label>
-          </fieldset>
-
-          {formError && (
-            <p className="admin-login__error" role="alert">
-              {formError}
-            </p>
-          )}
-
-          <div className="admin-savebar">
-            <button type="submit" className="btn btn--primary" disabled={saving}>
-              {saving ? 'Saving…' : 'Save SEO metadata'}
-            </button>
-            <button
-              type="button"
-              className="btn btn--light"
-              onClick={() => setEditing(null)}
-              disabled={saving}
+        <Modal
+          title="Edit SEO metadata"
+          subtitle={editing.path}
+          onClose={() => setEditing(null)}
+          onSubmit={submit}
+          busy={saving}
+          footer={
+            <>
+              {formError && (
+                <p className="cms-modal__error" role="alert">
+                  {formError}
+                </p>
+              )}
+              <div className="cms-modal__buttons">
+                <button
+                  type="button"
+                  className="btn btn--light"
+                  onClick={() => setEditing(null)}
+                  disabled={saving}
+                >
+                  Cancel
+                </button>
+                <button type="submit" className="btn btn--primary" disabled={saving}>
+                  {saving ? 'Saving…' : 'Save SEO metadata'}
+                </button>
+              </div>
+            </>
+          }
+        >
+          <fieldset className="cms-fieldset" disabled={saving}>
+            <FormSection
+              title="Search result"
+              hint="How this page appears in Google and when shared."
             >
-              Cancel
-            </button>
-          </div>
-        </form>
+              <Wide>
+                <label>
+                  Meta title *
+                  <input
+                    type="text"
+                    required
+                    minLength={3}
+                    maxLength={200}
+                    value={draft.title}
+                    onChange={(e) => setDraft({ ...draft, title: e.target.value })}
+                  />
+                  <span className="field-hint">
+                    {draft.title.length} characters — search engines show roughly 60.
+                  </span>
+                </label>
+              </Wide>
+              <Wide>
+                <label>
+                  Meta description *
+                  <textarea
+                    rows={3}
+                    required
+                    minLength={10}
+                    maxLength={400}
+                    value={draft.description}
+                    onChange={(e) => setDraft({ ...draft, description: e.target.value })}
+                  />
+                  <span className="field-hint">
+                    {draft.description.length} characters — aim for 150–160.
+                  </span>
+                </label>
+              </Wide>
+            </FormSection>
+
+            <FormSection title="Address and indexing">
+              <label>
+                Canonical path *
+                <input
+                  type="text"
+                  required
+                  pattern="/.*"
+                  value={draft.path}
+                  onChange={(e) => setDraft({ ...draft, path: e.target.value })}
+                />
+              </label>
+              <label>
+                Search engine indexing
+                <select
+                  value={String(draft.noindex)}
+                  onChange={(e) => setDraft({ ...draft, noindex: e.target.value === 'true' })}
+                >
+                  <option value="false">Index this page (normal)</option>
+                  <option value="true">noindex — hide from search engines</option>
+                </select>
+              </label>
+              <Wide>
+                <ImageField
+                  label="Sharing image (Open Graph)"
+                  value={draft.image}
+                  onChange={(image) => setDraft({ ...draft, image })}
+                  hint="Shown when the page is shared on social media."
+                />
+              </Wide>
+            </FormSection>
+          </fieldset>
+        </Modal>
       )}
 
       <div className="admin-table-wrap">
