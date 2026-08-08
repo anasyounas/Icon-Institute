@@ -35,23 +35,20 @@ export function NewsPage() {
           {years.map((year) => (
             <div key={year} className="news-year">
               <h2>{year}</h2>
-              <ul className="news-list">
+              <ul className="news-grid">
                 {byYear[year].map((item) => (
                   <li key={item.slug}>
-                    <Link
-                      to={`/news/${item.slug}`}
-                      className="news-list__item"
-                    >
-                      <PlaceholderImage
-                        src={item.image ?? 'news-placeholder.jpg'}
-                        alt=""
-                        className="news-list__thumb"
-                        aspectRatio="1 / 1"
-                      />
-                      <div>
-                        <h3>{item.title}</h3>
-                        <time dateTime={item.date}>{item.dateLabel}</time>
-                      </div>
+                    <Link to={`/news/${item.slug}`} className="news-card">
+                      <span className="news-card__media">
+                        <PlaceholderImage
+                          src={item.image ?? 'news-placeholder.jpg'}
+                          alt=""
+                          className="news-card__img"
+                          aspectRatio="4 / 3"
+                        />
+                      </span>
+                      <h3>{item.title}</h3>
+                      <time dateTime={item.date}>{item.dateLabel}</time>
                     </Link>
                   </li>
                 ))}
