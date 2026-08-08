@@ -26,9 +26,11 @@
   --muted-foreground: 220 8% 42%;
   --accent: 222 30% 8%;
   --accent-foreground: 0 0% 100%;
-  /* Firmer + slightly cooler than a neutral 91% hairline, which was
-     effectively invisible against white. */
-  --border: 214 19% 85%;
+  /* Card and control outlines: a soft, desaturated black. */
+  --border: 215 10% 30%;
+  /* Separator lines *inside* cards, tables and lists. Kept light on purpose —
+     at the outline colour every table row would read as a heavy dark grid. */
+  --divider: 214 18% 86%;
   --ring: 80 95% 52%;
 
   /* Icon accent slots — lime leads, the rest harmonise with the mesh gradient */
@@ -1585,7 +1587,7 @@ code {
 }
 
 .accordion__item {
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid hsl(var(--divider));
 }
 
 .accordion__item:last-child {
@@ -1943,7 +1945,7 @@ code {
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
   padding-bottom: 1.25rem;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid hsl(var(--divider));
 }
 
 .projects-toolbar p {
@@ -2029,7 +2031,7 @@ code {
   content: '';
   flex: 1;
   height: 1px;
-  background: hsl(var(--border));
+  background: hsl(var(--divider));
 }
 
 .news-list {
@@ -2235,7 +2237,7 @@ code {
   grid-template-columns: 7rem 1fr;
   gap: 1rem;
   padding: 1rem 0;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid hsl(var(--divider));
 }
 
 .contact-details > div:last-child {
@@ -2969,7 +2971,6 @@ a.site-footer__contact:hover .site-footer__icon {
      white cards, so inside the CMS the border is firmer and the page plane
      carries a soft cool tint — together they make each card read as raised. */
   --admin-plane: 214 32% 95%;
-  --border: 214 20% 85%;
   --muted: 214 24% 96%;
   /* The CMS already separates cards from the plane by tinting the plane, so
      its cards stay pure white rather than taking the public site's tint. */
@@ -3525,7 +3526,7 @@ a.site-footer__contact:hover .site-footer__icon {
   display: grid;
   gap: 0.2rem;
   padding: 0.85rem 0;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid hsl(var(--divider));
 }
 
 .admin-simple-list li:last-child {
@@ -3563,7 +3564,7 @@ a.site-footer__contact:hover .site-footer__icon {
   text-align: left;
   padding: 0.85rem 1.1rem;
   border: 0;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid hsl(var(--divider));
   vertical-align: top;
 }
 
@@ -4196,7 +4197,8 @@ a.site-footer__contact:hover .site-footer__icon {
   letter-spacing: 0.04em;
   padding: 0.25rem 0.6rem;
   border-radius: var(--radius-full);
-  border: 1px solid hsl(var(--border));
+  /* Small chips take the light line — a dark outline reads as heavy at this size */
+  border: 1px solid hsl(var(--divider));
   background: hsl(var(--muted));
   color: hsl(var(--muted-foreground));
   white-space: nowrap;
@@ -4319,7 +4321,7 @@ a.site-footer__contact:hover .site-footer__icon {
   gap: 1rem;
   margin-top: 2.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid hsl(var(--border));
+  border-top: 1px solid hsl(var(--divider));
 }
 
 .pagination__summary {
