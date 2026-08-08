@@ -145,13 +145,26 @@ export type JobItem = CmsEnvelope & {
 
 export type ProjectItem = CmsEnvelope & {
   title: string;
+  subtitle: string | null;
+  /** Joined display string, derived from `countries` by the backend. */
   country: string;
+  countries: string[];
   region: string;
   yearStart: number;
   yearEnd: number;
+  periodStart: string | null;
+  periodEnd: string | null;
+  /** Pre-formatted period, e.g. `01/12/2025 - 31/01/2028`. */
+  periodLabel: string;
   expertise: string;
   volume: string;
+  volumeAmount: string | null;
+  financing: string | null;
+  clientName: string | null;
   description: string;
+  body: string[];
+  image: string | null;
+  pdf: string | null;
 };
 
 export type MediaItem = {

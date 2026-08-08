@@ -1,19 +1,15 @@
 import { Link, useParams } from 'react-router-dom';
 import {
-  projectFilters,
   projectRegions,
   sampleProjects as bundledProjects,
   type SampleProject,
 } from '../data/projects';
 import { PageHero } from '../components/PageHero';
+import { ProjectCard } from '../components/ProjectCard';
 import { Seo } from '../components/Seo';
 import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
 import { usePublished } from '../hooks/usePublished';
-
-const volumeLabels: Record<string, string> = Object.fromEntries(
-  projectFilters.volumes.map((v) => [v.value, v.label])
-);
 
 export function ProjectRegionPage() {
   const { region } = useParams();
@@ -51,21 +47,12 @@ export function ProjectRegionPage() {
       <section className="content-section">
         <div className="container">
           <p className="lede">{meta.description}</p>
-          <div className="projects-list" id="region-projects">
+          <div className="projects-grid" id="region-projects">
             {pageItems.map((p) => (
-              <article key={p.id} className="project-card">
-                <h3>{p.title}</h3>
-                <p className="project-card__meta">
-                  {p.country} · {p.yearStart}–{p.yearEnd} ·{' '}
-                  {volumeLabels[p.volume] ?? p.volume}
-                </p>
-                <p>{p.description}</p>
-              </article>
+              <ProjectCard key={p.slug ?? p.id} project={p} />
             ))}
             {projects.length === 0 && (
-              <p role="status">
-                No sample projects are listed for this region yet.
-              </p>
+              <p role="status">No projects are listed for this region yet.</p>
             )}
           </div>
 

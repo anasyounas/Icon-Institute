@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes, useParams } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -6,6 +6,7 @@ import { ExpertiseHubPage } from './pages/ExpertiseAreaPage';
 import { ExpertiseDetailPage } from './pages/ExpertiseDetailPage';
 import { ProjectsPage } from './pages/ProjectsPage';
 import { ProjectRegionPage } from './pages/ProjectRegionPage';
+import { ProjectDetailPage } from './pages/ProjectDetailPage';
 import { NewsPage } from './pages/NewsPage';
 import { NewsDetailPage } from './pages/NewsDetailPage';
 import { JobsPage } from './pages/JobsPage';
@@ -42,6 +43,12 @@ import { UsersRolesPage } from './pages/admin/UsersRolesPage';
 import { SecurityPage } from './pages/admin/SecurityPage';
 import { AuditLogPage } from './pages/admin/AuditLogPage';
 import './index.css';
+
+/** `/refprojects/<slug>` was the old project permalink; keep those links alive. */
+function LegacyProjectRedirect() {
+  const { slug } = useParams();
+  return <Navigate to={`/projects/detail/${slug}`} replace />;
+}
 
 /** Legacy WordPress-style expertise paths → new SPA routes */
 const expertiseRedirects: Record<string, string> = {
@@ -95,7 +102,12 @@ export default function App() {
               />
             ))}
             <Route path="projects" element={<ProjectsPage />} />
+            {/* Detail sits under its own segment so project slugs can never
+                collide with the six region slugs. */}
+            <Route path="projects/detail/:slug" element={<ProjectDetailPage />} />
             <Route path="projects/:region" element={<ProjectRegionPage />} />
+            {/* Legacy WordPress project permalinks → the new detail route */}
+            <Route path="refprojects/:slug" element={<LegacyProjectRedirect />} />
             <Route path="news" element={<NewsPage />} />
             <Route path="news/:slug" element={<NewsDetailPage />} />
             <Route path="jobs" element={<JobsPage />} />

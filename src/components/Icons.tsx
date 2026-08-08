@@ -148,6 +148,81 @@ export function GlobeIcon(props: IconProps) {
   );
 }
 
+/* ------------------------------------------------------- project fact icons */
+
+/** The six facts a reference project page states: period, country, expertise,
+ *  volume, financing and client. */
+
+export function CalendarIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M3 10h18" />
+      <path d="M8 3v4M16 3v4" />
+    </Svg>
+  );
+}
+
+export function MapPinIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z" />
+      <circle cx="12" cy="10" r="2.5" />
+    </Svg>
+  );
+}
+
+export function BriefcaseIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <rect x="2.5" y="7" width="19" height="13" rx="2" />
+      <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />
+      <path d="M2.5 12.5h19" />
+    </Svg>
+  );
+}
+
+export function CoinsIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <ellipse cx="9" cy="6.5" rx="6" ry="2.75" />
+      <path d="M3 6.5v5c0 1.5 2.7 2.75 6 2.75s6-1.25 6-2.75v-5" />
+      <path d="M15 12.2c3 .3 6 1.4 6 2.8v3c0 1.5-2.7 2.75-6 2.75s-6-1.25-6-2.75V17" />
+    </Svg>
+  );
+}
+
+export function BankIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <path d="M3 21h18" />
+      <path d="M5 21V10M10 21V10M14 21V10M19 21V10" />
+      <path d="M12 3 3 7.5h18L12 3Z" />
+    </Svg>
+  );
+}
+
+export function UsersIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <circle cx="9" cy="8" r="3.25" />
+      <path d="M2.5 20a6.5 6.5 0 0 1 13 0" />
+      <path d="M16 5.5a3.25 3.25 0 0 1 0 6.3" />
+      <path d="M17.5 14.5A6.5 6.5 0 0 1 21.5 20" />
+    </Svg>
+  );
+}
+
+export function DownloadIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <path d="M12 3v12" />
+      <path d="m7.5 10.5 4.5 4.5 4.5-4.5" />
+      <path d="M4 19h16" />
+    </Svg>
+  );
+}
+
 /* --------------------------------------------------------------- interface */
 
 export function SparkIcon(props: IconProps) {

@@ -5,6 +5,8 @@ import {
   CMS_STATUS_OPTIONS,
   CmsStatusPill,
   EXPERTISE_LABELS,
+  LinesEditor,
+  MediaPickerDialog,
   REGION_LABELS,
   ScheduleDialog,
   VOLUME_LABELS,
@@ -16,30 +18,48 @@ import {
 } from '../../components/admin/cms';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
-import { api, type ProjectItem } from '../../lib/api';
+import { api, assetUrl, type ProjectItem } from '../../lib/api';
 
 const PAGE_SIZE = 10;
 
 type Draft = {
   title: string;
-  country: string;
+  subtitle: string;
+  countries: string[];
   region: string;
   yearStart: string;
   yearEnd: string;
+  periodStart: string;
+  periodEnd: string;
   expertise: string;
   volume: string;
+  volumeAmount: string;
+  financing: string;
+  clientName: string;
   description: string;
+  body: string[];
+  image: string;
+  pdf: string;
 };
 
 const EMPTY: Draft = {
   title: '',
-  country: '',
+  subtitle: '',
+  countries: [],
   region: 'africa',
   yearStart: '',
   yearEnd: '',
+  periodStart: '',
+  periodEnd: '',
   expertise: 'economic-employment-promotion',
   volume: 'lt-100k',
+  volumeAmount: '',
+  financing: '',
+  clientName: '',
   description: '',
+  body: [],
+  image: '',
+  pdf: '',
 };
 
 export function ProjectsManagerPage() {
@@ -77,6 +97,8 @@ export function ProjectsManagerPage() {
   const [formError, setFormError] = useState('');
   const [scheduleFor, setScheduleFor] = useState<ProjectItem | null>(null);
   const [versionsFor, setVersionsFor] = useState<ProjectItem | null>(null);
+  /** Which field the media picker is currently filling. */
+  const [picker, setPicker] = useState<'image' | 'pdf' | null>(null);
 
   const onChanged = (_: ProjectItem, message: string) => {
     setNotice(message);
@@ -97,13 +119,26 @@ export function ProjectsManagerPage() {
     setCreating(false);
     setDraft({
       title: item.title,
-      country: item.country,
+      subtitle: item.subtitle ?? '',
+      countries: item.countries?.length
+        ? item.countries
+        : item.country
+          ? [item.country]
+          : [],
       region: item.region,
       yearStart: String(item.yearStart),
       yearEnd: String(item.yearEnd),
+      periodStart: item.periodStart ?? '',
+      periodEnd: item.periodEnd ?? '',
       expertise: item.expertise,
       volume: item.volume,
+      volumeAmount: item.volumeAmount ?? '',
+      financing: item.financing ?? '',
+      clientName: item.clientName ?? '',
       description: item.description,
+      body: item.body ?? [],
+      image: item.image ?? '',
+      pdf: item.pdf ?? '',
     });
     setFormError('');
   };
@@ -126,16 +161,36 @@ export function ProjectsManagerPage() {
       setSaving(false);
       return;
     }
+    const countries = draft.countries.map((c) => c.trim()).filter(Boolean);
+    if (countries.length === 0) {
+      setFormError('Enter at least one country.');
+      setSaving(false);
+      return;
+    }
+    if (draft.periodStart && draft.periodEnd && draft.periodEnd < draft.periodStart) {
+      setFormError('The exact end date cannot be before the start date.');
+      setSaving(false);
+      return;
+    }
 
     const payload = {
       title: draft.title,
-      country: draft.country,
+      subtitle: draft.subtitle || null,
+      countries,
       region: draft.region,
       yearStart: start,
       yearEnd: end,
+      periodStart: draft.periodStart || null,
+      periodEnd: draft.periodEnd || null,
       expertise: draft.expertise,
       volume: draft.volume,
+      volumeAmount: draft.volumeAmount || null,
+      financing: draft.financing || null,
+      clientName: draft.clientName || null,
       description: draft.description,
+      body: draft.body.filter((p) => p.trim()),
+      image: draft.image || null,
+      pdf: draft.pdf || null,
     };
     try {
       if (editing) {
@@ -273,6 +328,7 @@ export function ProjectsManagerPage() {
           </header>
 
           <fieldset className="admin-form" disabled={saving}>
+            <h3 className="admin-subhead">Heading</h3>
             <label>
               Title *
               <input
@@ -284,17 +340,68 @@ export function ProjectsManagerPage() {
               />
             </label>
             <label>
-              Country *
+              Subtitle
+              <input
+                type="text"
+                value={draft.subtitle}
+                onChange={(e) => setDraft({ ...draft, subtitle: e.target.value })}
+                placeholder="Integrated water catchment management in Zambia (AWARE 2.0)"
+              />
+              <span className="field-hint">
+                The longer descriptive line shown under the title on the project page.
+              </span>
+            </label>
+            <label>
+              Featured image
+              <span className="admin-image-field">
+                {draft.image && (
+                  <img
+                    src={assetUrl(
+                      draft.image.startsWith('/') || draft.image.startsWith('http')
+                        ? draft.image
+                        : `/images/${draft.image}`
+                    )}
+                    alt=""
+                    className="admin-image-field__preview"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                    }}
+                  />
+                )}
+                <input
+                  type="text"
+                  value={draft.image}
+                  placeholder="Choose from the media library →"
+                  onChange={(e) => setDraft({ ...draft, image: e.target.value })}
+                />
+                <button
+                  type="button"
+                  className="btn btn--light"
+                  onClick={() => setPicker('image')}
+                >
+                  Choose / upload
+                </button>
+              </span>
+            </label>
+
+            <h3 className="admin-subhead">Project facts (shown with icons)</h3>
+            <label>
+              Countries *
               <input
                 type="text"
                 required
-                value={draft.country}
-                onChange={(e) => setDraft({ ...draft, country: e.target.value })}
-                placeholder="Germany — or “Various countries”"
+                value={draft.countries.join(', ')}
+                onChange={(e) =>
+                  setDraft({ ...draft, countries: e.target.value.split(',') })
+                }
+                placeholder="Zambia — or Burkina Faso, Ghana, Nigeria"
               />
+              <span className="field-hint">
+                Separate several countries with commas. A project may span many.
+              </span>
             </label>
             <label>
-              Region *
+              Region * (drives the regional project pages and the filter)
               <select
                 value={draft.region}
                 onChange={(e) => setDraft({ ...draft, region: e.target.value })}
@@ -316,6 +423,7 @@ export function ProjectsManagerPage() {
                 value={draft.yearStart}
                 onChange={(e) => setDraft({ ...draft, yearStart: e.target.value })}
               />
+              <span className="field-hint">Used by the visitor's year filter.</span>
             </label>
             <label>
               Running period — end year *
@@ -326,6 +434,26 @@ export function ProjectsManagerPage() {
                 max={2100}
                 value={draft.yearEnd}
                 onChange={(e) => setDraft({ ...draft, yearEnd: e.target.value })}
+              />
+            </label>
+            <label>
+              Exact start date
+              <input
+                type="date"
+                value={draft.periodStart}
+                onChange={(e) => setDraft({ ...draft, periodStart: e.target.value })}
+              />
+              <span className="field-hint">
+                Optional. When both dates are set the project page shows the exact
+                period, e.g. 01/12/2025 - 31/01/2028.
+              </span>
+            </label>
+            <label>
+              Exact end date
+              <input
+                type="date"
+                value={draft.periodEnd}
+                onChange={(e) => setDraft({ ...draft, periodEnd: e.target.value })}
               />
             </label>
             <label>
@@ -340,9 +468,12 @@ export function ProjectsManagerPage() {
                   </option>
                 ))}
               </select>
+              <span className="field-hint">
+                Also picks the icon shown on the project card and page.
+              </span>
             </label>
             <label>
-              Project volume *
+              Volume bracket * (for the visitor's volume filter)
               <select
                 value={draft.volume}
                 onChange={(e) => setDraft({ ...draft, volume: e.target.value })}
@@ -355,14 +486,74 @@ export function ProjectsManagerPage() {
               </select>
             </label>
             <label>
-              Description *
+              Exact contract value
+              <input
+                type="text"
+                value={draft.volumeAmount}
+                onChange={(e) => setDraft({ ...draft, volumeAmount: e.target.value })}
+                placeholder="321.980 €"
+              />
+              <span className="field-hint">
+                Shown on the project page instead of the bracket when filled in.
+              </span>
+            </label>
+            <label>
+              Financing
+              <input
+                type="text"
+                value={draft.financing}
+                onChange={(e) => setDraft({ ...draft, financing: e.target.value })}
+                placeholder="Bundesministerium für Wirtschaftliche Zusammenarbeit (BMZ)"
+              />
+            </label>
+            <label>
+              Client name
+              <input
+                type="text"
+                value={draft.clientName}
+                onChange={(e) => setDraft({ ...draft, clientName: e.target.value })}
+                placeholder="Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH"
+              />
+            </label>
+
+            <h3 className="admin-subhead">Description</h3>
+            <label>
+              Summary *
               <textarea
-                rows={4}
+                rows={3}
                 required
                 minLength={10}
                 value={draft.description}
                 onChange={(e) => setDraft({ ...draft, description: e.target.value })}
               />
+              <span className="field-hint">
+                Short text used in listings and as the page's SEO description.
+              </span>
+            </label>
+            <LinesEditor
+              label="Full project description"
+              value={draft.body}
+              onChange={(body) => setDraft({ ...draft, body })}
+              rows={9}
+              hint="One paragraph per line. Falls back to the summary when empty."
+            />
+            <label>
+              Project PDF
+              <span className="admin-image-field">
+                <input
+                  type="text"
+                  value={draft.pdf}
+                  placeholder="Optional download shown on the project page"
+                  onChange={(e) => setDraft({ ...draft, pdf: e.target.value })}
+                />
+                <button
+                  type="button"
+                  className="btn btn--light"
+                  onClick={() => setPicker('pdf')}
+                >
+                  Choose / upload
+                </button>
+              </span>
             </label>
           </fieldset>
 
@@ -462,6 +653,15 @@ export function ProjectsManagerPage() {
         variant="admin"
       />
 
+      {picker && (
+        <MediaPickerDialog
+          kind={picker === 'pdf' ? 'document' : 'image'}
+          onClose={() => setPicker(null)}
+          onSelect={(m) =>
+            setDraft((d) => ({ ...d, [picker]: m.url }) as Draft)
+          }
+        />
+      )}
       {scheduleFor && (
         <ScheduleDialog
           item={scheduleFor}

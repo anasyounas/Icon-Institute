@@ -9,15 +9,12 @@ import {
 } from '../data/projects';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
+import { ProjectCard } from '../components/ProjectCard';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
 import { usePublished } from '../hooks/usePublished';
-
-const volumeLabels: Record<string, string> = Object.fromEntries(
-  projectFilters.volumes.map((v) => [v.value, v.label])
-);
 
 export function ProjectsPage() {
   // The published project catalogue, maintained through the CMS Projects
@@ -178,22 +175,9 @@ export function ProjectsPage() {
             </button>
           </div>
 
-          <div className="projects-list" id="projects-list">
+          <div className="projects-grid" id="projects-list">
             {pageItems.map((p) => (
-              <article key={p.id} className="project-card">
-                <h3>{p.title}</h3>
-                <p className="project-card__meta">
-                  {p.country} · {p.yearStart}–{p.yearEnd} ·{' '}
-                  {volumeLabels[p.volume] ?? p.volume}
-                </p>
-                <p>{p.description}</p>
-                <Link
-                  to={`/projects/${p.region}`}
-                  className="text-link"
-                >
-                  View all {p.region.replace(/-/g, ' ')} projects
-                </Link>
-              </article>
+              <ProjectCard key={p.slug ?? p.id} project={p} />
             ))}
             {filtered.length === 0 && (
               <p role="status">No projects match the selected search and filters.</p>

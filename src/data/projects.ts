@@ -20,14 +20,33 @@ export type ProjectFilters = {
 
 export type SampleProject = {
   id: string;
+  /** URL segment for the project's detail page. */
+  slug?: string;
   title: string;
+  /** Longer descriptive line shown under the title on the detail page. */
+  subtitle?: string;
+  /** Joined display string, kept in step with `countries` by the CMS. */
   country: string;
+  countries?: string[];
   region: string;
   yearStart: number;
   yearEnd: number;
+  /** Exact running period when known, e.g. 2025-12-01. */
+  periodStart?: string;
+  periodEnd?: string;
+  /** Pre-formatted period, e.g. `01/12/2025 - 31/01/2028`. */
+  periodLabel?: string;
   expertise: string;
   volume: string;
+  /** Exact contract value, e.g. `321.980 €`. */
+  volumeAmount?: string;
+  financing?: string;
+  clientName?: string;
   description: string;
+  /** Full project description, one paragraph per entry. */
+  body?: string[];
+  image?: string;
+  pdf?: string;
 };
 
 /**
