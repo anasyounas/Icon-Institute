@@ -16,9 +16,12 @@
   /* Cards carry a visible light-blue tint rather than pure white, so they read
      as surfaces on a white page instead of dissolving into it. */
   --card: 208 45% 96%;
-  --primary: 80 95% 52%;
-  --primary-foreground: 222 30% 8%;
-  --primary-glow: 80 100% 65%;
+  /* Brand accent. A cool grey carrying the same hue family as the neutrals
+     below, so buttons and highlights read as part of the palette rather than a
+     separate colour. Dark enough that white sits on it at AA contrast. */
+  --primary: 220 9% 42%;
+  --primary-foreground: 0 0% 100%;
+  --primary-glow: 220 12% 62%;
   --secondary: 220 14% 96%;
   /* Kept a step below --card so an alt section still reads as *behind* the
      cards sitting on it. */
@@ -31,10 +34,12 @@
   /* Separator lines *inside* cards, tables and lists. Kept light on purpose —
      at the outline colour every table row would read as a heavy dark grid. */
   --divider: 214 18% 86%;
-  --ring: 80 95% 52%;
+  /* Focus ring: darker than the accent so it stays visible against a button
+     already filled with the accent. */
+  --ring: 220 14% 28%;
 
-  /* Icon accent slots — lime leads, the rest harmonise with the mesh gradient */
-  --accent-1: 80 95% 52%;
+  /* Icon accent slots — grey leads, the rest harmonise with the mesh gradient */
+  --accent-1: 220 9% 42%;
   --accent-2: 200 100% 45%;
   --accent-3: 265 70% 60%;
   --accent-4: 32 90% 48%;
@@ -99,7 +104,7 @@
   --color-gray: hsl(var(--muted-foreground));
   --color-gray-light: hsl(220 8% 60%);
   --color-accent: hsl(var(--primary));
-  --color-accent-hover: hsl(80 95% 45%);
+  --color-accent-hover: hsl(220 12% 32%);
   --color-text: hsl(var(--muted-foreground));
   --color-heading: hsl(var(--foreground));
   --color-bg: hsl(var(--background));

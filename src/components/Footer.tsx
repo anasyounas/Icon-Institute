@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { footer } from '../data/footer';
+import { footer as bundledFooter, type FooterData } from '../data/footer';
+import { usePublished } from '../hooks/usePublished';
 import {
   GlobeIcon,
   MailIcon,
@@ -8,13 +9,17 @@ import {
 } from './Icons';
 
 export function Footer() {
+  // Edited under Content & Media → Footer; the bundled copy is the fallback
+  // until the published version arrives.
+  const footer = usePublished<FooterData>('/pages/footer', bundledFooter);
+
   return (
     <footer className="site-footer">
       <div className="site-footer__main">
         <div className="container site-footer__grid">
           <div className="site-footer__brand">
-            <p className="site-footer__name">ICON-INSTITUTE GmbH &amp; Co. KG</p>
-            <p className="site-footer__tagline">Consulting Gruppe</p>
+            <p className="site-footer__name">{footer.name}</p>
+            <p className="site-footer__tagline">{footer.tagline}</p>
             <address className="site-footer__address">
               {footer.addressLines.map((line) => (
                 <span key={line}>

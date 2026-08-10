@@ -4,6 +4,10 @@ export type FooterLink = {
 };
 
 export type FooterData = {
+  /** First line of the footer brand block. */
+  name: string;
+  /** Second line, under the name. */
+  tagline: string;
   companyName: string;
   addressLines: string[];
   phone: string;
@@ -17,6 +21,8 @@ export type FooterData = {
 };
 
 export const footer: FooterData = {
+  name: 'ICON-INSTITUTE GmbH & Co. KG',
+  tagline: 'Consulting Gruppe',
   companyName: 'ICON-INSTITUTE Consulting Gruppe',
   addressLines: ['Von-Groote-Straße 28', '50968 Köln', 'Germany'],
   phone: '+49 221 93 743 0',
