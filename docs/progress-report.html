@@ -1,0 +1,662 @@
+<title>ICON-INSTITUTE CMS — Progress Report</title>
+
+<style>
+  /* ── Palette carried over from the Technical Documentation and Review
+     Response already delivered: charcoal cover, burgundy rules, gold eyebrow,
+     blush section bars. Neutrals are warmed slightly toward the gold so the
+     page reads as part of the same set rather than a generic template. ── */
+  :root {
+    color-scheme: light;
+
+    --paper:        #FCFBF9;
+    --surface:      #FFFFFF;
+    --surface-sunk: #F6F3EF;
+    --ink:          #1B1A18;
+    --ink-soft:     #4A4640;
+    --ink-faint:    #7C766C;
+    --rule:         #E2DCD3;
+    --rule-strong:  #CFC7BA;
+
+    --burgundy:     #7B2430;
+    --burgundy-bar: #F7EDED;
+    --gold:         #9C7734;
+
+    --done:         #2E6B4C;
+    --done-bg:      #E9F2ED;
+    --active:       #9B6510;
+    --active-bg:    #FBF0DE;
+    --waiting:      #6E6A63;
+    --waiting-bg:   #EFECE7;
+
+    --shadow: 0 1px 2px rgba(27, 26, 24, .05), 0 8px 24px rgba(27, 26, 24, .05);
+
+    --measure: 68ch;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
+    --sans: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+
+      --paper:        #14130F;
+      --surface:      #1C1B17;
+      --surface-sunk: #221F1A;
+      --ink:          #F2EEE6;
+      --ink-soft:     #C4BDB0;
+      --ink-faint:    #8E877B;
+      --rule:         #33302A;
+      --rule-strong:  #453F37;
+
+      --burgundy:     #D98793;
+      --burgundy-bar: #2A1A1C;
+      --gold:         #D2A85C;
+
+      --done:         #7FC49F;
+      --done-bg:      #16251E;
+      --active:       #E0AE5C;
+      --active-bg:    #2A2013;
+      --waiting:      #9A938A;
+      --waiting-bg:   #232019;
+
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .28);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+
+    --paper:        #14130F;
+    --surface:      #1C1B17;
+    --surface-sunk: #221F1A;
+    --ink:          #F2EEE6;
+    --ink-soft:     #C4BDB0;
+    --ink-faint:    #8E877B;
+    --rule:         #33302A;
+    --rule-strong:  #453F37;
+
+    --burgundy:     #D98793;
+    --burgundy-bar: #2A1A1C;
+    --gold:         #D2A85C;
+
+    --done:         #7FC49F;
+    --done-bg:      #16251E;
+    --active:       #E0AE5C;
+    --active-bg:    #2A2013;
+    --waiting:      #9A938A;
+    --waiting-bg:   #232019;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .28);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1.5rem 5rem;
+  }
+
+  p { margin: 0 0 1rem; max-width: var(--measure); }
+  p:last-child { margin-bottom: 0; }
+  strong { font-weight: 650; color: var(--ink); }
+  a { color: var(--burgundy); }
+
+  /* ── cover ───────────────────────────────────────────────────────── */
+
+  .cover {
+    background: var(--ink);
+    color: #F4F1EA;
+    padding: 3.25rem 2.5rem 2.75rem;
+    margin: 2.5rem 0 0;
+    border-radius: 3px;
+  }
+  :root[data-theme="dark"] .cover,
+  :root:not([data-theme="light"]) .cover { border: 1px solid var(--rule); }
+
+  .cover__eyebrow {
+    margin: 0 0 1.1rem;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .cover h1 {
+    margin: 0 0 .6rem;
+    font-family: var(--serif);
+    font-size: clamp(2rem, 5vw, 2.9rem);
+    font-weight: 400;
+    line-height: 1.12;
+    letter-spacing: -.01em;
+    text-wrap: balance;
+    color: #FFFFFF;
+  }
+  .cover__sub {
+    margin: 0;
+    max-width: 46ch;
+    font-size: 1.02rem;
+    color: #C9C3B7;
+  }
+
+  .meta {
+    margin: 0;
+    border: 1px solid var(--rule);
+    border-top: 0;
+    background: var(--surface);
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+  }
+  .meta > div {
+    padding: .78rem 1.1rem;
+    border-top: 1px solid var(--rule);
+    font-size: .9rem;
+  }
+  .meta dt {
+    color: var(--ink-faint);
+    background: var(--surface-sunk);
+  }
+  .meta dd { margin: 0; font-weight: 600; }
+  @media (max-width: 34rem) {
+    .meta { grid-template-columns: 1fr; }
+    .meta dt { border-bottom: 0; padding-bottom: .2rem; }
+    .meta dd { padding-top: .2rem; }
+  }
+
+  /* ── at a glance ─────────────────────────────────────────────────── */
+
+  .glance {
+    margin: 2.75rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .glance div {
+    background: var(--surface);
+    padding: 1.1rem 1.15rem 1.2rem;
+  }
+  .glance b {
+    display: block;
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 1.65rem;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    color: var(--ink);
+  }
+  .glance span {
+    display: block;
+    margin-top: .18rem;
+    font-size: .8rem;
+    line-height: 1.35;
+    color: var(--ink-faint);
+  }
+
+  /* ── section headers, echoing the agreement documents ────────────── */
+
+  section { margin-top: 3.25rem; }
+
+  .bar {
+    display: flex;
+    align-items: stretch;
+    background: var(--burgundy-bar);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 1.4rem;
+  }
+  .bar__no {
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    min-width: 3rem;
+    padding: 0 .85rem;
+    background: var(--ink);
+    color: #FFFFFF;
+    font-family: var(--mono);
+    font-size: .82rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+  }
+  .bar h2 {
+    margin: 0;
+    padding: .72rem 1rem;
+    font-size: .93rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+
+  h3 {
+    margin: 2rem 0 .7rem;
+    font-family: var(--serif);
+    font-size: 1.22rem;
+    font-weight: 400;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  /* ── status chips ────────────────────────────────────────────────── */
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .16rem .55rem .18rem;
+    border-radius: 2px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .chip::before {
+    content: "";
+    width: .42rem;
+    height: .42rem;
+    border-radius: 50%;
+    background: currentColor;
+  }
+  .chip--done    { color: var(--done);    background: var(--done-bg); }
+  .chip--active  { color: var(--active);  background: var(--active-bg); }
+  .chip--waiting { color: var(--waiting); background: var(--waiting-bg); }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.1rem;
+    margin: 1.5rem 0 0;
+    padding: .9rem 1.1rem;
+    background: var(--surface-sunk);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    font-size: .84rem;
+    color: var(--ink-soft);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: .45rem; }
+
+  /* ── delivery table ──────────────────────────────────────────────── */
+
+  .scroll { overflow-x: auto; margin: 0 0 1.25rem; }
+
+  table {
+    width: 100%;
+    min-width: 34rem;
+    border-collapse: collapse;
+    font-size: .92rem;
+  }
+  caption {
+    text-align: left;
+    padding: 0 0 .6rem;
+    font-size: .85rem;
+    color: var(--ink-faint);
+  }
+  th, td {
+    text-align: left;
+    padding: .66rem .8rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  thead th {
+    border-bottom: 2px solid var(--rule-strong);
+    font-size: .74rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 600; }
+  .ref {
+    font-family: var(--mono);
+    font-size: .8rem;
+    color: var(--burgundy);
+    white-space: nowrap;
+  }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  /* ── callouts ────────────────────────────────────────────────────── */
+
+  .note {
+    margin: 1.4rem 0;
+    padding: 1.1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--burgundy);
+    border-radius: 2px;
+    box-shadow: var(--shadow);
+  }
+  .note--action { border-left-color: var(--active); }
+  .note h4 {
+    margin: 0 0 .45rem;
+    font-size: .76rem;
+    font-weight: 700;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+    color: var(--burgundy);
+  }
+  .note--action h4 { color: var(--active); }
+  .note p { font-size: .95rem; color: var(--ink-soft); }
+
+  /* ── task lists ──────────────────────────────────────────────────── */
+
+  ul.tasks { list-style: none; margin: 0 0 1rem; padding: 0; }
+  ul.tasks li {
+    display: grid;
+    grid-template-columns: 1.35rem 1fr;
+    gap: .6rem;
+    padding: .42rem 0;
+    border-bottom: 1px solid var(--rule);
+    max-width: var(--measure);
+  }
+  ul.tasks li:last-child { border-bottom: 0; }
+  ul.tasks li::before {
+    content: "";
+    margin-top: .52rem;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background: var(--rule-strong);
+  }
+  ul.tasks li.is-done::before   { background: var(--done); }
+  ul.tasks li.is-active::before { background: var(--active); }
+  ul.tasks small { display: block; color: var(--ink-faint); font-size: .86rem; }
+
+  ol.steps {
+    margin: 0;
+    padding-left: 1.3rem;
+    max-width: var(--measure);
+  }
+  ol.steps li { padding: .3rem 0; }
+
+  code {
+    font-family: var(--mono);
+    font-size: .87em;
+    padding: .1em .38em;
+    background: var(--surface-sunk);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+  }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.4rem;
+    border-top: 2px solid var(--burgundy);
+    font-size: .85rem;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="cover">
+    <p class="cover__eyebrow">Codexcape Solutions</p>
+    <h1>Website Redesign &amp; Local CMS</h1>
+    <p class="cover__sub">Progress report for ICON-INSTITUTE GmbH &amp; Co. KG Consulting Gruppe — what is built, what is under way, and what we need from you.</p>
+  </header>
+
+  <dl class="meta">
+    <dt>Client</dt><dd>ICON-INSTITUTE GmbH &amp; Co. KG Consulting Gruppe</dd>
+    <dt>Reference</dt><dd>Technical Documentation &amp; Technical Review Response, July 2026</dd>
+    <dt>Reported</dt><dd>9 August 2026</dd>
+    <dt>Stage</dt><dd>Build complete on all CMS modules — awaiting deployment and documentation</dd>
+  </dl>
+
+  <div class="glance">
+    <div><b>13 / 13</b><span>Review Response points addressed in the build</span></div>
+    <div><b>51</b><span>News articles migrated</span></div>
+    <div><b>17</b><span>Projects migrated</span></div>
+    <div><b>61</b><span>Images &amp; documents in the media library</span></div>
+    <div><b>182</b><span>Automated checks passing</span></div>
+  </div>
+
+  <div class="legend">
+    <span><span class="chip chip--done">Done</span> built and tested</span>
+    <span><span class="chip chip--active">In progress</span> under way now</span>
+    <span><span class="chip chip--waiting">Scheduled</span> not started yet</span>
+  </div>
+
+  <!-- 01 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">01</span><h2>Where the project stands</h2></div>
+
+    <p>Every function promised in the Technical Review Response has been built. The content management system is complete and working: your team can add and edit news, jobs, projects, page text, images, documents and search-engine details, and what they publish appears on the website.</p>
+
+    <p>Your existing content has been carried across — <strong>51 news articles, 17 projects, 4 job adverts</strong> and the images and brochures from your current site, all now managed through the CMS.</p>
+
+    <p>What remains is not construction. It is <strong>putting the finished build onto your server</strong>, writing the handover documentation, and completing the formal accessibility and browser checks that sign the project off.</p>
+
+    <div class="note">
+      <h4>The one thing holding things up</h4>
+      <p>The finished code is committed and ready, but the hosting has not picked up a new build for several days. Until it redeploys, the live address still shows an earlier version — so the newest work is not visible to you yet, even though it is complete and tested. Triggering a redeploy is the single step that unblocks review.</p>
+    </div>
+  </section>
+
+  <!-- 02 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">02</span><h2>What is finished</h2></div>
+
+    <div class="scroll">
+      <table>
+        <caption>Mapped to the sections of the Technical Review Response you signed off.</caption>
+        <thead>
+          <tr><th scope="col">Area</th><th scope="col">Ref</th><th scope="col">Status</th><th scope="col">Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Staff accounts &amp; permissions</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Four roles — Administrator, Publisher, Editor, Viewer — each limited to what it should touch.</td>
+          </tr>
+          <tr>
+            <td>Security</td><td class="ref">§02</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Modern password protection, two-factor sign-in by QR code, automatic lockout after repeated failures, and a complete activity log.</td>
+          </tr>
+          <tr>
+            <td>News Manager</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Headline, date, author, lead, picture, article text with bold and links, newsletter download and contact address.</td>
+          </tr>
+          <tr>
+            <td>Jobs Manager</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Adverts with all required fields, plus candidates applying on the site with a CV. <span class="num">12</span> applications already received in testing.</td>
+          </tr>
+          <tr>
+            <td>Projects Manager</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Replaces the automated upload channel. Each project now has its own page, matching your current site.</td>
+          </tr>
+          <tr>
+            <td>Page text &amp; images</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Home, About Us, Expertise, Download, Contact, Jobs, Projects and the footer — all editable without a developer.</td>
+          </tr>
+          <tr>
+            <td>Media library</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Pictures shrink automatically on upload. Files are held in the CMS database, so an image cannot go missing.</td>
+          </tr>
+          <tr>
+            <td>Search-engine details</td><td class="ref">§01 §08</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Title, description, sharing picture and indexing for every page.</td>
+          </tr>
+          <tr>
+            <td>Draft, preview &amp; approval</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Nothing reaches the public site until it is published. Editors submit, publishers approve.</td>
+          </tr>
+          <tr>
+            <td>Version history</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Every save kept and restorable. <span class="num">225</span> versions recorded so far.</td>
+          </tr>
+          <tr>
+            <td>Scheduled publishing</td><td class="ref">§01</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Set a date and time for something to appear or move to the archive.</td>
+          </tr>
+          <tr>
+            <td>Publish &amp; rollback</td><td class="ref">§03</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Generate, preview, publish, and roll the whole site back to any earlier build.</td>
+          </tr>
+          <tr>
+            <td>Backup &amp; recovery</td><td class="ref">§04</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>Automatic daily backup plus on-demand. Download and restore both tested.</td>
+          </tr>
+          <tr>
+            <td>Content migration</td><td class="ref">§10</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>News, projects, jobs, images, brochures, page text and search details brought over from your current site.</td>
+          </tr>
+          <tr>
+            <td>No vendor lock-in</td><td class="ref">§05 §06</td>
+            <td><span class="chip chip--done">Done</span></td>
+            <td>All source code in your repositories, no obfuscation, no paid components.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Two things we added beyond the original site</h3>
+    <ul class="tasks">
+      <li class="is-done"><span><strong>Project detail pages.</strong> Your current site gives every project its own page with period, country, expertise, volume, financing and client shown beside icons. The rebuild stopped at the list, so we built the pages and made every one of those fields editable.<small>Previously opening a project led nowhere.</small></span></li>
+      <li class="is-done"><span><strong>Applications handled on the site.</strong> Candidates apply directly with a CV instead of only an email address, and applications appear in the Jobs Manager for review.</span></li>
+    </ul>
+  </section>
+
+  <!-- 03 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">03</span><h2>In progress</h2></div>
+
+    <ul class="tasks">
+      <li class="is-active"><span><strong>Getting the finished build onto your server.</strong> <span class="chip chip--active">In progress</span><small>The code is ready and pushed. The hosting needs to redeploy, and one command run afterwards to copy the images across. Until then the live address shows an older version.</small></span></li>
+      <li class="is-active"><span><strong>Turning on HTTPS enforcement.</strong> <span class="chip chip--active">In progress</span><small>The security headers are built and switched on the moment the certificate is in place on your server. This is a hosting step, not a code change.</small></span></li>
+      <li class="is-active"><span><strong>Filling in the remaining content detail.</strong> <span class="chip chip--active">In progress</span><small>42 of 51 news articles have their full text. One project carries its complete set of facts as the worked example; the other 16 need financing, client and exact dates entered — these were never on the old site in a form we could copy.</small></span></li>
+    </ul>
+  </section>
+
+  <!-- 04 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">04</span><h2>Still to come</h2></div>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Item</th><th scope="col">Ref</th><th scope="col">Status</th><th scope="col">What it involves</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Handover documentation</td><td class="ref">§07</td>
+            <td><span class="chip chip--waiting">Scheduled</span></td>
+            <td>Five documents: installation guide, administrator manual, technical documentation, backup documentation and system architecture. Begins once the deployment is settled, so the instructions match the final setup.</td>
+          </tr>
+          <tr>
+            <td>Accessibility audit</td><td class="ref">§09</td>
+            <td><span class="chip chip--waiting">Scheduled</span></td>
+            <td>The site is built to WCAG 2.2 AA — keyboard use, semantic markup, alt text, visible focus. The formal audit and its written record still need to be carried out.</td>
+          </tr>
+          <tr>
+            <td>Browser &amp; device verification</td><td class="ref">§13</td>
+            <td><span class="chip chip--waiting">Scheduled</span></td>
+            <td>Recorded checks across the major browsers and on phone, tablet and desktop, for the acceptance record.</td>
+          </tr>
+          <tr>
+            <td>Warranty &amp; support terms</td><td class="ref">§12</td>
+            <td><span class="chip chip--waiting">Scheduled</span></td>
+            <td>Commercial paperwork: the bug-fixing period, response times and the optional maintenance agreement.</td>
+          </tr>
+          <tr>
+            <td>Videos page</td><td class="ref">§10</td>
+            <td><span class="chip chip--waiting">Scheduled</span></td>
+            <td>Marked “Under Construction” on your current site too. The page is ready for videos whenever you supply them.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 05 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">05</span><h2>What we need from you</h2></div>
+
+    <div class="note note--action">
+      <h4>Five items, in order of urgency</h4>
+      <ol class="steps">
+        <li><strong>Trigger a redeploy of the website and the CMS.</strong> Nothing else can be reviewed until this happens.</li>
+        <li><strong>Confirm the final web addresses</strong> for the live site and the CMS, and that the certificate is in place, so HTTPS enforcement can be switched on.</li>
+        <li><strong>Send the 50th Anniversary Brochure PDF.</strong> The other six brochures are linked and downloading; this one has no document on your current site, so the page currently reads “Document coming soon”.</li>
+        <li><strong>Decide the author names shown on news articles</strong> — whether each article carries a person's name, or all are published under the institute.</li>
+        <li><strong>Provide project details</strong> for the remaining projects (financing body, client name, exact start and end dates) so their pages match the worked example.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 06 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">06</span><h2>How to review it</h2></div>
+
+    <p>Once the redeploy is done, sign in to the CMS at <code>/admin/login</code> with the administrator account. You will be asked to choose your own password the first time — that step is deliberate, and afterwards you can switch on two-factor sign-in from <strong>Security &amp; 2FA</strong>, which shows a QR code to scan with an authenticator app.</p>
+
+    <h3>A five-minute test of the whole chain</h3>
+    <ol class="steps">
+      <li>Open <strong>News Manager</strong> and choose <em>Add news article</em>. Fill in a headline and date, pick an image, and save the draft.</li>
+      <li>Confirm it is <em>not</em> on the public news page yet — drafts stay private.</li>
+      <li>Press <strong>Publish</strong>, then reload the public news page. The article is there.</li>
+      <li>Edit the headline and reload again to see the change carry through.</li>
+      <li>Press <strong>Archive</strong> and confirm it disappears from the site.</li>
+    </ol>
+    <p>The same pattern applies to jobs, projects, page text, contact details and search-engine settings.</p>
+  </section>
+
+  <!-- 07 ───────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">07</span><h2>How we are checking the work</h2></div>
+
+    <p>Three automated suites run against the system, <strong>182 checks in total, all passing</strong>. They are part of the delivery, so your own developers can run them at any time.</p>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Suite</th><th scope="col">Checks</th><th scope="col">What it proves</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sign-in &amp; accounts</td><td class="num">54</td><td>Passwords, two-factor, lockout, session handling and role limits behave correctly.</td></tr>
+          <tr><td>CMS to website</td><td class="num">65</td><td>Content entered in the CMS reaches the public site — and drafts do not.</td></tr>
+          <tr><td>Content modules</td><td class="num">63</td><td>Every module's create, edit, publish, schedule and delete, plus required-field checks.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Alongside these, the CMS is driven in a real browser — signing in, opening each screen and checking pages load without broken images. That test caught a fault no other check could have: a security setting was quietly stopping the website from loading its own pictures. It is fixed.</p>
+  </section>
+
+  <footer>
+    <span>Codexcape Solutions — Sohaima Rasheed</span>
+    <span>Progress report · 9 August 2026 · Confidential</span>
+  </footer>
+
+</div>

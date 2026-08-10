@@ -1,0 +1,554 @@
+<title>ICON-INSTITUTE — Security Review Response</title>
+
+<style>
+  /* Continues the identity of the Technical Documentation and Technical
+     Review Response already delivered: charcoal cover, burgundy rules, gold
+     eyebrow, numbered section bars, warm near-white ground. */
+  :root {
+    color-scheme: light;
+
+    --paper:        #FCFBF9;
+    --surface:      #FFFFFF;
+    --surface-sunk: #F5F2EE;
+    --ink:          #1B1A18;
+    --ink-soft:     #46423C;
+    --ink-faint:    #7B756B;
+    --rule:         #E3DDD4;
+    --rule-strong:  #CEC6B9;
+
+    --burgundy:     #7B2430;
+    --burgundy-bar: #F7EDED;
+    --gold:         #9C7734;
+
+    --yes:      #2E6B4C;
+    --yes-bg:   #E9F2ED;
+    --note:     #9B6510;
+    --note-bg:  #FBF0DE;
+    --no:       #8E3320;
+    --no-bg:    #FAEBE6;
+
+    --measure: 70ch;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
+    --sans: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper:        #141310;
+      --surface:      #1C1B17;
+      --surface-sunk: #23201B;
+      --ink:          #F2EEE6;
+      --ink-soft:     #C5BEB1;
+      --ink-faint:    #8F887C;
+      --rule:         #33302A;
+      --rule-strong:  #464038;
+      --burgundy:     #D98793;
+      --burgundy-bar: #2A1A1C;
+      --gold:         #D2A85C;
+      --yes:      #7FC49F;  --yes-bg:  #16251E;
+      --note:     #E0AE5C;  --note-bg: #2A2013;
+      --no:       #E29079;  --no-bg:   #2C1A14;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper:        #141310;
+    --surface:      #1C1B17;
+    --surface-sunk: #23201B;
+    --ink:          #F2EEE6;
+    --ink-soft:     #C5BEB1;
+    --ink-faint:    #8F887C;
+    --rule:         #33302A;
+    --rule-strong:  #464038;
+    --burgundy:     #D98793;
+    --burgundy-bar: #2A1A1C;
+    --gold:         #D2A85C;
+    --yes:      #7FC49F;  --yes-bg:  #16251E;
+    --note:     #E0AE5C;  --note-bg: #2A2013;
+    --no:       #E29079;  --no-bg:   #2C1A14;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15.5px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 58rem; margin: 0 auto; padding: 0 1.5rem 4rem; }
+
+  p { margin: 0 0 .85rem; max-width: var(--measure); }
+  p:last-child { margin-bottom: 0; }
+  strong { font-weight: 650; }
+
+  /* ── cover ───────────────────────────────────────────────────────── */
+
+  .cover {
+    background: var(--ink);
+    color: #F4F1EA;
+    padding: 3rem 2.5rem 2.5rem;
+    margin: 2.5rem 0 0;
+    border-radius: 3px;
+  }
+  .cover__eyebrow {
+    margin: 0 0 1rem;
+    font-size: .71rem;
+    font-weight: 700;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .cover h1 {
+    margin: 0 0 .55rem;
+    font-family: var(--serif);
+    font-size: clamp(1.9rem, 4.6vw, 2.7rem);
+    font-weight: 400;
+    line-height: 1.14;
+    color: #FFFFFF;
+    text-wrap: balance;
+  }
+  .cover__sub { margin: 0; max-width: 48ch; color: #C8C2B6; font-size: 1rem; }
+
+  .meta {
+    margin: 0 0 2.5rem;
+    border: 1px solid var(--rule);
+    border-top: 0;
+    background: var(--surface);
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+  }
+  .meta > div { padding: .72rem 1.1rem; border-top: 1px solid var(--rule); font-size: .89rem; }
+  .meta dt { color: var(--ink-faint); background: var(--surface-sunk); }
+  .meta dd { margin: 0; font-weight: 600; }
+  @media (max-width: 34rem) {
+    .meta { grid-template-columns: 1fr; }
+    .meta dt { padding-bottom: .15rem; }
+    .meta dd { padding-top: .15rem; }
+  }
+
+  /* ── sections ────────────────────────────────────────────────────── */
+
+  section { margin-top: 2.75rem; }
+
+  .bar {
+    display: flex;
+    background: var(--burgundy-bar);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 1.35rem;
+  }
+  .bar__no {
+    display: grid;
+    place-items: center;
+    min-width: 3rem;
+    padding: 0 .8rem;
+    background: var(--ink);
+    color: #FFF;
+    font-family: var(--mono);
+    font-size: .8rem;
+    font-weight: 600;
+  }
+  .bar h2 {
+    margin: 0;
+    padding: .68rem 1rem;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+
+  /* ── question / answer ───────────────────────────────────────────── */
+
+  .qa { margin: 0 0 1.6rem; padding: 0 0 1.4rem; border-bottom: 1px solid var(--rule); }
+  .qa:last-child { border-bottom: 0; padding-bottom: 0; }
+
+  .qa__q {
+    display: flex;
+    gap: .7rem;
+    align-items: baseline;
+    margin: 0 0 .7rem;
+    font-family: var(--serif);
+    font-size: 1.12rem;
+    font-weight: 400;
+    color: var(--ink);
+    max-width: var(--measure);
+    text-wrap: balance;
+  }
+  .qa__q::before {
+    content: "Q";
+    flex: 0 0 auto;
+    font-family: var(--mono);
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: var(--burgundy);
+    transform: translateY(-.1em);
+  }
+  .qa__a { padding-left: 1.55rem; }
+  .qa__a > p { color: var(--ink-soft); }
+  .qa__a > p strong { color: var(--ink); }
+
+  .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    margin: 0 0 .6rem;
+    padding: .2rem .6rem .22rem;
+    border-radius: 2px;
+    font-size: .73rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .verdict::before { content: ""; width: .42rem; height: .42rem; border-radius: 50%; background: currentColor; }
+  .v-yes  { color: var(--yes);  background: var(--yes-bg); }
+  .v-note { color: var(--note); background: var(--note-bg); }
+  .v-na   { color: var(--ink-faint); background: var(--surface-sunk); }
+
+  /* ── tables & code ───────────────────────────────────────────────── */
+
+  .scroll { overflow-x: auto; margin: .9rem 0 1.1rem; }
+  table { width: 100%; min-width: 26rem; border-collapse: collapse; font-size: .89rem; }
+  th, td { text-align: left; padding: .55rem .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th {
+    border-bottom: 2px solid var(--rule-strong);
+    font-size: .71rem; font-weight: 700; letter-spacing: .09em;
+    text-transform: uppercase; color: var(--ink-faint);
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 600; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  code {
+    font-family: var(--mono);
+    font-size: .86em;
+    padding: .08em .36em;
+    background: var(--surface-sunk);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+  }
+  pre {
+    margin: .9rem 0 1.1rem;
+    padding: .9rem 1.05rem;
+    background: var(--surface-sunk);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--burgundy);
+    border-radius: 2px;
+    overflow-x: auto;
+    font-family: var(--mono);
+    font-size: .82rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+  pre code { background: none; border: 0; padding: 0; font-size: inherit; }
+
+  ul.plain { margin: .6rem 0 1rem; padding-left: 1.1rem; max-width: var(--measure); }
+  ul.plain li { padding: .16rem 0; color: var(--ink-soft); }
+  ul.plain li strong { color: var(--ink); }
+
+  .callout {
+    margin: 1.2rem 0;
+    padding: 1rem 1.15rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--note);
+    border-radius: 2px;
+    max-width: var(--measure);
+  }
+  .callout h4 {
+    margin: 0 0 .4rem;
+    font-size: .74rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--note);
+  }
+  .callout p { font-size: .93rem; color: var(--ink-soft); }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.2rem;
+    border-top: 2px solid var(--burgundy);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem;
+    font-size: .84rem; color: var(--ink-faint);
+  }
+
+  /* ── print / Save as PDF ─────────────────────────────────────────── */
+
+  @media print {
+    :root {
+      --paper: #FFFFFF; --surface: #FFFFFF; --surface-sunk: #F4F1ED;
+      --ink: #000000; --ink-soft: #26241F; --ink-faint: #5C574F;
+    }
+    @page { margin: 16mm 14mm; }
+    body { font-size: 10.5pt; background: #FFFFFF; }
+    .wrap { max-width: none; padding: 0; }
+    .cover { margin-top: 0; padding: 2rem; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .bar, .bar__no, .verdict, pre, .callout, thead th {
+      -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    }
+    section { break-inside: auto; }
+    .qa, .callout, table, pre { break-inside: avoid; }
+    .bar { break-after: avoid; }
+    .qa__q { break-after: avoid; }
+    footer { break-before: avoid; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="cover">
+    <p class="cover__eyebrow">Codexcape Solutions</p>
+    <h1>Security Review Response</h1>
+    <p class="cover__sub">Answers to the architecture, CMS security and file-upload questions raised by ICON-INSTITUTE's website host.</p>
+  </header>
+
+  <dl class="meta">
+    <dt>Client</dt><dd>ICON-INSTITUTE GmbH &amp; Co. KG Consulting Gruppe</dd>
+    <dt>Subject</dt><dd>Architecture, CMS security and file uploads</dd>
+    <dt>Reference</dt><dd>Addendum to the Technical Documentation &amp; Technical Review Response, July 2026</dd>
+    <dt>Prepared by</dt><dd>Codexcape Solutions — Sohaima Rasheed</dd>
+    <dt>Date</dt><dd>9 August 2026</dd>
+  </dl>
+
+  <p>Every answer below was verified against the running system rather than from documentation. Where something is not yet in place, it is stated plainly and listed again in section 04.</p>
+
+  <!-- 01 ─────────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">01</span><h2>Architecture &amp; technology</h2></div>
+
+    <div class="qa">
+      <p class="qa__q">What technology or framework is the website built with?</p>
+      <div class="qa__a">
+        <p>The public website is <strong>React 19 with TypeScript</strong>, compiled by Vite into plain static HTML, CSS and JavaScript. The CMS behind it is <strong>FastAPI on Python 3.13</strong> with <strong>MongoDB</strong> for storage.</p>
+        <p>There is <strong>no PHP, no WordPress, no Laravel</strong> anywhere in the stack. Serving a visitor a page involves no server-side rendering and no database query — the removal of that dynamic layer is one of the security objectives of the project.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Does the public website communicate directly with the CMS?</p>
+      <div class="qa__a">
+        <p>It reads from a <strong>separate, read-only public interface</strong> that returns published content only. Drafts, scheduled items and archived entries are not visible to it under any circumstances.</p>
+        <p>The public site holds no credentials, opens no session and has <strong>no write path of any kind</strong>. The single exception is the job-application form, covered in section 03.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Which components are publicly accessible from the Internet?</p>
+      <div class="qa__a">
+        <p>Of <strong class="num">86</strong> endpoints in the system, <strong class="num">10</strong> are reachable without authentication. All are read-only:</p>
+        <ul class="plain">
+          <li>Published news, jobs and projects — list and individual item</li>
+          <li>Published page content, contact details and search-engine metadata</li>
+          <li>Job applications — the one public submission point</li>
+          <li><code>/health</code> for monitoring, and <code>/media/&lt;file&gt;</code> for published images and documents</li>
+        </ul>
+        <p>Everything else — content editing, users, media management, the audit log, backups and publishing — refuses anonymous callers. Verified directly:</p>
+<pre><code>GET  /api/v1/news              → 401    GET  /api/v1/audit            → 401
+GET  /api/v1/users             → 401    GET  /api/v1/backups          → 401
+GET  /api/v1/media             → 401    POST /api/v1/publish/generate → 401</code></pre>
+        <p>The CMS service itself binds to <code>127.0.0.1</code> and is never exposed to the network directly; it is reached only through the web server in front of it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 ─────────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">02</span><h2>CMS security</h2></div>
+
+    <div class="qa">
+      <p class="qa__q">What CMS are you using, and what version?</p>
+      <div class="qa__a">
+        <span class="verdict v-na">Not a third-party CMS</span>
+        <p>This is a <strong>purpose-built CMS written for ICON-INSTITUTE</strong>, not a licensed or open-source product. That is the substance of the project: the WordPress installation, and the always-open automated upload channel feeding its Projects section, are both being removed.</p>
+        <p>The practical consequence is that there is no vendor CMS to be scanned for, no plugin marketplace, and none of the automated mass-exploitation traffic that follows a recognisable CMS fingerprint.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Is the CMS version currently supported by the vendor?</p>
+      <div class="qa__a">
+        <p>Not applicable in the usual sense — there is no vendor release cycle. What carries the equivalent risk is the set of libraries the system is built on, and each is on a current, supported release:</p>
+        <div class="scroll">
+          <table>
+            <thead><tr><th scope="col">Component</th><th scope="col">Version in use</th><th scope="col">Role</th></tr></thead>
+            <tbody>
+              <tr><td>Python</td><td class="num">3.13.7</td><td>Runtime</td></tr>
+              <tr><td>FastAPI</td><td class="num">0.141.1</td><td>Web framework</td></tr>
+              <tr><td>Starlette</td><td class="num">1.5.0</td><td>HTTP layer</td></tr>
+              <tr><td>Pydantic</td><td class="num">2.13.4</td><td>Input validation</td></tr>
+              <tr><td>PyMongo</td><td class="num">4.17.0</td><td>Database driver</td></tr>
+              <tr><td>MongoDB</td><td class="num">8.2</td><td>Database</td></tr>
+              <tr><td>PyJWT</td><td class="num">2.13.0</td><td>Session tokens</td></tr>
+              <tr><td>Pillow</td><td class="num">12.3.0</td><td>Image processing</td></tr>
+              <tr><td>argon2-cffi</td><td class="num">25.1.0</td><td>Password hashing</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The full list is eleven direct dependencies, all permissively licensed and pinned to exact versions in <code>requirements.txt</code>.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">How are security updates applied, and how quickly are critical vulnerabilities patched?</p>
+      <div class="qa__a">
+        <span class="verdict v-note">Process to be agreed</span>
+        <p>Updating is mechanical: versions are pinned in one file, so an update is a version change, a rebuild and a redeploy, with the automated test suites run before release.</p>
+        <p>We should be candid that <strong>an agreed monitoring and response process is not yet in place</strong>, because it belongs with the maintenance agreement (§12 of the Review Response), which is still open. Our recommendation, which we can configure immediately on request:</p>
+        <ul class="plain">
+          <li><strong>Dependabot</strong> on both repositories — raises a pull request per published advisory, at no cost</li>
+          <li><strong>pip-audit</strong> in the build, so a known-vulnerable dependency fails the build rather than shipping</li>
+          <li>A written response target — we suggest <strong>72 hours for critical, 14 days for high</strong> — to be fixed in the maintenance agreement</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Are plugins, modules or extensions installed?</p>
+      <div class="qa__a">
+        <span class="verdict v-yes">None</span>
+        <p>There is <strong>no plugin system</strong>, so no third-party code can be added to the CMS at runtime — by an administrator or by an attacker who obtains an administrator account. All behaviour comes from the delivered source code and its eleven pinned dependencies.</p>
+        <p>This closes the single largest source of CMS compromise in practice, which is a vulnerable or abandoned plugin rather than the CMS core.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">How do you monitor vulnerabilities in CMS components?</p>
+      <div class="qa__a">
+        <p>Covered by the same answer as patching above: the tooling is straightforward to enable and we recommend doing so, but the monitoring cadence and response times are a maintenance-agreement decision rather than something we should set unilaterally.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Can the administration panel be restricted to VPN, corporate IP addresses or another trusted network?</p>
+      <div class="qa__a">
+        <span class="verdict v-yes">Yes — and we recommend it</span>
+        <p>The administrative surface is cleanly separated by address: <code>/admin</code> on the website and <code>/api/v1/*</code> on the CMS service. Both can be restricted at your web server by IP range or behind VPN <strong>without affecting the public site at all</strong>, because the public site reads from <code>/api/v1/public/*</code>, which would remain open.</p>
+        <p>Since the CMS service already listens only on the loopback address and is reached solely through your web server, that server is the correct and only enforcement point. We will supply the exact configuration block for your web server on request.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 ─────────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">03</span><h2>File uploads</h2></div>
+
+    <div class="qa">
+      <p class="qa__q">What file types are allowed?</p>
+      <div class="qa__a">
+        <p>A strict allow-list. Anything not named here is refused:</p>
+        <div class="scroll">
+          <table>
+            <thead><tr><th scope="col">Context</th><th scope="col">Permitted types</th><th scope="col">Limits</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>Media library — images</td>
+                <td>jpg, jpeg, png, webp, gif</td>
+                <td class="num">25 MB</td>
+              </tr>
+              <tr>
+                <td>Media library — documents</td>
+                <td>pdf, doc, docx, xls, xlsx, ppt, pptx, zip, txt</td>
+                <td class="num">25 MB</td>
+              </tr>
+              <tr>
+                <td>Media library — video</td>
+                <td>mp4, webm</td>
+                <td class="num">25 MB</td>
+              </tr>
+              <tr>
+                <td>Job applications (public)</td>
+                <td>pdf, doc, docx, zip</td>
+                <td class="num">10 MB</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The public application form is deliberately the narrowest, since it is the only upload an unauthenticated visitor can perform. It accepts at most six files per application.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Are file extensions validated?</p>
+      <div class="qa__a">
+        <span class="verdict v-yes">Yes</span>
+        <p>The extension is checked against the allow-list before anything is written to storage. A file that fails is rejected outright with a validation error and never reaches the disk or the database.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Are uploaded files renamed?</p>
+      <div class="qa__a">
+        <span class="verdict v-yes">Yes, always</span>
+        <p>The original name is reduced to lower-case letters, digits and hyphens, truncated, and given a random suffix:</p>
+<pre><code>"My Report (final).PDF"   →   my-report-final-a3f91b2c.pdf</code></pre>
+        <p>The original name is kept only as a display label in the database, never as a path. This removes directory-traversal and name-collision attacks, and means a caller cannot predict or choose the stored path.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Are executable files blocked?</p>
+      <div class="qa__a">
+        <span class="verdict v-yes">Yes</span>
+        <p>Executable and script types — <code>.php</code>, <code>.exe</code>, <code>.sh</code>, <code>.js</code>, <code>.html</code> and everything else outside the list above — are simply not permitted. Because the rule is an allow-list rather than a block-list, a type nobody anticipated is refused by default.</p>
+        <p>Beyond that, <strong>every uploaded image is decoded and re-encoded</strong> before storage. Anything hidden in the image data does not survive that process, which closes the polyglot-file route where a payload is disguised inside an otherwise valid picture.</p>
+      </div>
+    </div>
+
+    <div class="qa">
+      <p class="qa__q">Are uploaded files stored outside the web root where possible?</p>
+      <div class="qa__a">
+        <span class="verdict v-yes">Yes — and for media, better than that</span>
+        <p><strong>Media files are not on the filesystem at all.</strong> They are held inside the CMS database and streamed out by the application. There is therefore no directory anywhere that a web server could be misconfigured into executing, and no path an attacker could reach directly.</p>
+        <p>Every file is served with a fixed content type, <code>X-Content-Type-Options: nosniff</code> so the browser cannot be talked into treating a document as script, and anything not meant to be viewed in place is sent as a download.</p>
+        <div class="callout">
+          <h4>One exception, stated for completeness</h4>
+          <p>Job-application CVs are still written to a directory on the server. That directory sits <strong>outside the web root</strong> and its contents are downloadable only through an authenticated CMS session with the correct permission — but it is the one upload path not yet moved into the database. We propose moving it for consistency and will do so on your confirmation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 ─────────────────────────────────────────────────────────────── -->
+  <section>
+    <div class="bar"><span class="bar__no">04</span><h2>Open points</h2></div>
+
+    <p>Three items from the answers above are not yet complete. None is a defect in the build; each needs a decision or a step on the hosting side.</p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th scope="col">Item</th><th scope="col">Owner</th><th scope="col">Next step</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Dependency vulnerability monitoring</td>
+            <td>Codexcape, on your approval</td>
+            <td>Enable Dependabot and pip-audit; agree response times in the maintenance agreement (§12).</td>
+          </tr>
+          <tr>
+            <td>HTTPS enforcement (HSTS)</td>
+            <td>Website host</td>
+            <td>Built and ready. It is switched on the moment the TLS certificate is active on the server.</td>
+          </tr>
+          <tr>
+            <td>Application CVs into the database</td>
+            <td>Codexcape, on your approval</td>
+            <td>Move the last upload path off the filesystem, matching the media library.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>We would also encourage taking up the network restriction on <code>/admin</code> described in section 02. It costs nothing, changes no code, and removes the CMS sign-in page from public view entirely.</p>
+  </section>
+
+  <footer>
+    <span>Codexcape Solutions — Sohaima Rasheed</span>
+    <span>Security Review Response · 9 August 2026 · Confidential</span>
+  </footer>
+
+</div>
