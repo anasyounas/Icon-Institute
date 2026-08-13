@@ -7,6 +7,9 @@ import { useEffect, useRef } from 'react';
  * Elements start hidden via CSS only when the browser supports IntersectionObserver
  * and the user hasn't asked for reduced motion — otherwise `.reveal-ready` is
  * never set on the root, so content stays visible with no animation at all.
+ *
+ * A MutationObserver re-watches nodes that appear later (e.g. homepage news
+ * cards swapped in when CMS `/news` replaces the bundled fallback).
  */
 export function useReveal<T extends HTMLElement = HTMLDivElement>() {
   const ref = useRef<T>(null);
@@ -21,10 +24,6 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>() {
     // Only now is it safe to hide things — the observer will reveal them.
     root.classList.add('reveal-ready');
 
-    const targets = Array.from(
-      root.querySelectorAll<HTMLElement>('[data-reveal]')
-    );
-
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -36,11 +35,26 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>() {
           observer.unobserve(el);
         }
       },
-      { rootMargin: '0px 0px -12% 0px', threshold: 0.12 }
+      // Slightly earlier than before so bottom-of-page sections (news) reveal
+      // as soon as they enter the viewport, not after a deep scroll threshold.
+      { rootMargin: '0px 0px -4% 0px', threshold: 0.05 }
     );
 
-    for (const el of targets) observer.observe(el);
-    return () => observer.disconnect();
+    const observePending = () => {
+      root.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => {
+        if (!el.classList.contains('is-revealed')) observer.observe(el);
+      });
+    };
+
+    observePending();
+
+    const mutations = new MutationObserver(observePending);
+    mutations.observe(root, { childList: true, subtree: true });
+
+    return () => {
+      observer.disconnect();
+      mutations.disconnect();
+    };
   }, []);
 
   return ref;

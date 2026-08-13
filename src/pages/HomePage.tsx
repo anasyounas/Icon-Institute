@@ -15,12 +15,16 @@ export function HomePage() {
   // featured news strip always shows the three latest published articles.
   const cmsHome = usePublished<HomeData>('/pages/home', bundledHome);
   const latestNews = usePublished<NewsItem[]>('/news', bundledNews);
+  // Keep bundled articles on screen until a non-empty CMS list arrives so the
+  // strip never flashes empty while `/news` is slow.
+  const newsItems =
+    Array.isArray(latestNews) && latestNews.length > 0 ? latestNews : bundledNews;
   const homePage: HomeData = {
     ...bundledHome,
     ...cmsHome,
     featuredNews: {
       title: cmsHome.featuredNews?.title ?? bundledHome.featuredNews.title,
-      items: latestNews.slice(0, 3),
+      items: newsItems.slice(0, 3),
     },
   };
 
