@@ -15,11 +15,11 @@
   --foreground: 222 30% 8%;
   /* Cards carry a visible light-blue tint rather than pure white, so they read
      as surfaces on a white page instead of dissolving into it. */
-  --card: 208 45% 96%;
+  --card: 220 10% 95%;
   /* Brand accent. A cool grey carrying the same hue family as the neutrals
      below, so buttons and highlights read as part of the palette rather than a
      separate colour. Dark enough that white sits on it at AA contrast. */
-  --primary: 220 9% 42%;
+  --primary: 354 100% 27%;
   --primary-foreground: 0 0% 100%;
   --primary-glow: 220 12% 62%;
   --secondary: 220 14% 96%;
@@ -30,7 +30,7 @@
   --accent: 222 30% 8%;
   --accent-foreground: 0 0% 100%;
   /* Card and control outlines: a soft, desaturated black. */
-  --border: 215 10% 30%;
+  --border: 220 10% 85%;
   /* Separator lines *inside* cards, tables and lists. Kept light on purpose —
      at the outline colour every table row would read as a heavy dark grid. */
   --divider: 214 18% 86%;
@@ -74,7 +74,7 @@
   --dur-slow: 0.6s;
 
   /* Type */
-  --font: 'Inter', system-ui, -apple-system, sans-serif;
+  --font: 'Open Sans', system-ui, sans-serif;
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-admin: 'Inter', system-ui, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -134,7 +134,7 @@ body {
   margin: 0;
   font-family: var(--font);
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.25;
   color: hsl(var(--muted-foreground));
   background: hsl(var(--background));
   -webkit-font-smoothing: antialiased;
@@ -149,7 +149,7 @@ img {
 }
 
 a {
-  color: hsl(var(--foreground));
+  color: hsl(var(--primary));
   text-decoration: none;
   text-underline-offset: 0.25em;
   text-decoration-thickness: 1px;
@@ -211,10 +211,11 @@ h5 {
   font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.1;
-  color: hsl(var(--foreground));
+  color:  hsl(var(--muted-foreground));
   letter-spacing: -0.03em;
   margin: 0 0 1rem;
   text-wrap: balance;
+
 }
 
 h1 {
@@ -337,7 +338,7 @@ code {
 
 .lede {
   font-size: 1.2rem;
-  line-height: 1.7;
+  line-height: 1.25;
   color: hsl(var(--muted-foreground));
   max-width: 68ch;
 }
@@ -696,7 +697,7 @@ code {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  height: 46px;
+  height: 75px;
   max-width: min(240px, 46vw);
   transition: opacity var(--dur) var(--transition-smooth);
 }
@@ -785,7 +786,7 @@ code {
 }
 
 .site-nav__link.is-active {
-  color: hsl(var(--foreground));
+  color: hsl(var(--primary));
   font-weight: 600;
 }
 
@@ -1138,7 +1139,7 @@ code {
   margin: 0 auto 2.75rem;
   color: hsl(var(--foreground));
   font-size: clamp(1.05rem, 1.7vw, 1.28rem);
-  line-height: 1.7;
+  line-height: 1.25;
   max-width: 60ch;
 }
 
@@ -1226,7 +1227,7 @@ code {
   color: hsl(var(--muted-foreground));
   margin: 0;
   font-size: 1.15rem;
-  line-height: 1.7;
+  line-height: 1.25;
 }
 
 .home-services__grid {
@@ -1285,7 +1286,7 @@ code {
   color: hsl(var(--muted-foreground));
   flex: 1;
   font-size: 0.98rem;
-  line-height: 1.68;
+  line-height: 1.25;
 }
 
 .home-services__more {
@@ -2437,10 +2438,10 @@ code {
 .site-footer__main {
   position: relative;
   overflow: hidden;
-  background: hsl(var(--ink));
+  background-size: cover;
+  background-position: center;
   padding: 5rem 0 4rem;
 }
-
 .site-footer__main::before {
   content: '';
   position: absolute;
@@ -2481,7 +2482,7 @@ code {
 .site-footer__address {
   margin: 0;
   font-style: normal;
-  line-height: 1.85;
+  line-height: 1.25;
   font-size: 0.95rem;
   color: hsl(0 0% 100% / 0.6);
 }
@@ -2679,7 +2680,7 @@ a.site-footer__contact:hover .site-footer__icon {
 .admin-login__lead {
   margin: 1.5rem 0 0;
   font-size: clamp(1rem, 1.6vw, 1.15rem);
-  line-height: 1.7;
+  line-height: 1.25;
   color: hsl(0 0% 100% / 0.66);
   max-width: 30rem;
 }
@@ -3009,7 +3010,7 @@ a.site-footer__contact:hover .site-footer__icon {
   min-height: 100vh;
   font-family: var(--font-admin);
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.25;
   color: hsl(var(--muted-foreground));
 
   /* CMS surface tuning. The public site's hairline (91% L) disappears against
@@ -3457,7 +3458,7 @@ a.site-footer__contact:hover .site-footer__icon {
   font-weight: 700;
   color: hsl(var(--foreground));
   letter-spacing: -0.05em;
-  line-height: 1;
+  line-height: 1.25;
 }
 
 .admin-stat span {
@@ -3531,7 +3532,7 @@ a.site-footer__contact:hover .site-footer__icon {
   margin: 0;
   color: hsl(var(--muted-foreground));
   font-size: 0.92rem;
-  line-height: 1.55;
+  line-height: 1.25;
 }
 
 /* Admin buttons */
@@ -4964,6 +4965,27 @@ a.site-footer__contact:hover .site-footer__icon {
   }
 }
 
+.home-hero-triple {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.home-hero-triple__item {
+  position: relative;
+}
+.home-hero-triple__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-hero-triple__word {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
 /* --------------------------------------------------------------------------
    27. Motion preferences
    -------------------------------------------------------------------------- */
@@ -5968,7 +5990,7 @@ a.site-footer__contact:hover .site-footer__icon {
 
 .news-detail__lead {
   font-size: 1.08rem;
-  line-height: 1.6;
+  line-height: 1.25;
   font-weight: 500;
   color: hsl(var(--foreground));
   padding-left: 1rem;

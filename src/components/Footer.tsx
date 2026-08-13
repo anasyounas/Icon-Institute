@@ -15,7 +15,10 @@ export function Footer() {
 
   return (
     <footer className="site-footer">
-      <div className="site-footer__main">
+      <div  className="site-footer__main"
+            style={{
+              backgroundImage: `linear-gradient(hsla(220, 10%, 40%, 0.6), hsla(220, 10%, 40%, 0.6)), url(/images/${footer.backgroundImage})`,
+                   }}>
         <div className="container site-footer__grid">
           <div className="site-footer__brand">
             <p className="site-footer__name">{footer.name}</p>

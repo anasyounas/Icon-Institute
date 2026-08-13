@@ -50,67 +50,39 @@ export function HomePage() {
         ]}
       />
 
-      <section className="home-hero" aria-roledescription="carousel" aria-label="Highlights">
-        <div className="home-hero__bg" aria-hidden="true">
-          {slides.map((s, i) => (
-            <div
-              key={s.image}
-              className={`home-hero__slide ${i === slide ? 'is-active' : ''}`}
-            >
-              <PlaceholderImage
-                src={s.image}
-                alt=""
-                className="home-hero__img"
-                aspectRatio="21 / 9"
-              />
-            </div>
-          ))}
-          <div className="home-hero__fade" />
-        </div>
-
-        <div className="home-hero__radial" aria-hidden="true" />
-        <div className="home-hero__mesh" aria-hidden="true" />
-
+   <section className="home-hero" aria-label="Highlights">
         <div className="container home-hero__inner">
-          <div className="home-hero__panel">
-            <p className="home-hero__brand">
-              <SparkIcon className="home-hero__brand-icon" />
-              Consulting Gruppe · Since 1975
-            </p>
+          <p className="home-hero__brand">
+            <SparkIcon className="home-hero__brand-icon" />
+            Consulting Gruppe · Since 1975
+          </p>
 
-            <h1>
-              ICON-
-              <span className="home-hero__mark">
-                <span className="home-hero__mark-text">INSTITUTE</span>
-                <span className="home-hero__mark-bar" aria-hidden="true" />
-              </span>
-            </h1>
+          <h1>
+            ICON-
+            <span className="home-hero__mark">
+              <span className="home-hero__mark-text">INSTITUTE</span>
+              <span className="home-hero__mark-bar" aria-hidden="true" />
+            </span>
+          </h1>
 
-            <p className="home-hero__text">{homePage.welcome.text}</p>
+          <p className="home-hero__text">{homePage.welcome.text}</p>
 
-            <div className="home-hero__actions">
-              <Link to={homePage.welcome.ctaHref} className="btn btn--accent">
-                {homePage.welcome.ctaLabel}
-              </Link>
-              <Link to={homePage.projectsWorldwide.href} className="btn btn--light">
-                {homePage.projectsWorldwide.title}
-              </Link>
-            </div>
+          <div className="home-hero-triple">
+            {slides.map((s) => (
+              <div key={s.overlayWord} className="home-hero-triple__item">
+                <img src={s.image} alt="" className="home-hero-triple__img" />
+                <h2 className="home-hero-triple__word">{s.overlayWord}</h2>
+              </div>
+            ))}
           </div>
 
-          <div className="home-hero__pillars">
-            {slides.map((s, i) => (
-              <button
-                key={s.overlayWord}
-                type="button"
-                className={`home-hero__pillar ${i === slide ? 'is-active' : ''}`}
-                aria-label={`Show slide ${i + 1}`}
-                aria-current={i === slide ? 'true' : undefined}
-                onClick={() => setSlide(i)}
-              >
-                <span className="home-hero__pillar-word">{s.overlayWord}</span>
-              </button>
-            ))}
+          <div className="home-hero__actions">
+            <Link to={homePage.welcome.ctaHref} className="btn btn--accent">
+              {homePage.welcome.ctaLabel}
+            </Link>
+            <Link to={homePage.projectsWorldwide.href} className="btn btn--light">
+              {homePage.projectsWorldwide.title}
+            </Link>
           </div>
         </div>
       </section>
