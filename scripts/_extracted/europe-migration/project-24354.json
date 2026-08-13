@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24354",
+    "permalink": "https://hp.icon-institute.de/refprojects/adult-alphabetisation-and-basic-education/",
+    "title": "Adult Alphabetisation and Basic Education",
+    "subtitle": "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\"",
+    "countries": [
+      "Germany"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2013,
+    "periodStart": "2010-01-01",
+    "periodEnd": "2013-03-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "487.961 €",
+    "financing": "German Federal Government",
+    "clientName": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "description": "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\"",
+    "body": [
+      "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\""
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Adult Alphabetisation and Basic Education",
+    "subtitle": "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\"",
+    "countries": [
+      "Germany"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2013,
+    "periodStart": "2010-01-01",
+    "periodEnd": "2013-03-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "487.961 €",
+    "financing": "German Federal Government",
+    "clientName": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "description": "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\"",
+    "body": [
+      "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\""
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24354",
+    "permalink": "https://hp.icon-institute.de/refprojects/adult-alphabetisation-and-basic-education/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8c7851519dfc6cecf7d",
+    "item": {
+      "id": "6a78a8c7851519dfc6cecf7d",
+      "slug": "adult-alphabetisation-and-basic-education",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:23.991716Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:23.991716Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Adult Alphabetisation and Basic Education",
+      "subtitle": "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\"",
+      "countries": [
+        "Germany"
+      ],
+      "region": "europe",
+      "yearStart": 2010,
+      "yearEnd": 2013,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2010-01-01",
+      "periodEnd": "2013-03-31",
+      "volumeAmount": "487.961 €",
+      "financing": "German Federal Government",
+      "clientName": "Bundesministerium für Bildung und Forschung (BMBF)",
+      "description": "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\"",
+      "body": [
+        "Evaluation des BMBF-Förderschwerpunktes zur Förderung von Forschungs- und Entwicklungsvorhaben im Bereich \"Alphabetisierung/Grundbildung für Erwachsene\""
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Germany",
+      "periodLabel": "01/01/2010 - 31/03/2013"
+    }
+  }
+}

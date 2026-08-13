@@ -3,6 +3,63 @@
 The front end is a single-page application: the public site and the CMS admin
 (`/admin/...`) are one build, served as static files.
 
+## Dokploy (current host) — fix refresh 404s
+
+If hard-refresh on `/news`, `/admin/login`, etc. returns **`404 Not Found
+nginx/…`**, Dokploy is serving `dist` with stock nginx and **no SPA fallback**.
+
+Your deploy log shows exactly that path:
+
+1. Nixpacks builds the Vite app (`npm run build` → `dist/`)
+2. Dokploy then builds a tiny image: `FROM nginx:alpine` + `COPY ./dist .`
+3. That image ignores this repo’s `nginx.conf`, `Dockerfile`, and `serve -s`
+
+### Fix — pick one, then redeploy
+
+**A. Recommended — Build type: Dockerfile**
+
+| Setting | Value |
+| --- | --- |
+| Build type | `Dockerfile` |
+| Dockerfile path | `Dockerfile` |
+| Docker context | `.` |
+| Container port | `80` |
+
+This image already ships `nginx.conf` with
+`try_files $uri $uri/ /index.html`.
+
+**B. Keep Nixpacks + Publish Directory `dist`**
+
+| Setting | Value |
+| --- | --- |
+| Build type | `Nixpacks` |
+| Publish Directory | `dist` |
+| **Single Page Application (SPA)** | **enabled** (required) |
+| Container port | `80` |
+
+Without the SPA checkbox, Dokploy’s generated nginx has no `try_files` and
+every deep link 404s on refresh.
+
+**C. Nixpacks without Publish Directory**
+
+| Setting | Value |
+| --- | --- |
+| Build type | `Nixpacks` |
+| Publish Directory | *(empty)* |
+| Container port | `3000` (or whatever `PORT` is) |
+
+Nixpacks then runs `serve -s dist`, which rewrites unknown paths to
+`index.html`.
+
+After changing settings, redeploy and verify:
+
+```bash
+curl -I https://<site-domain>/admin/login   # must be 200, not 404
+curl -I https://<site-domain>/news          # must be 200, not 404
+```
+
+---
+
 ## Two things must be right
 
 ### 1. SPA fallback — otherwise every page except `/` returns 404
@@ -12,11 +69,13 @@ for any path that is not a real file. Without this, `/news`, `/jobs`,
 `/projects` and `/admin/login` return **404** on a direct visit or hard reload —
 the site only works if you land on `/` and navigate by clicking.
 
-This repository ships the fix three ways; use whichever your host supports:
+This repository ships the fix several ways; use whichever your host supports:
 
 | Host style | File | What it does |
 | --- | --- | --- |
-| Docker / nginx | `Dockerfile` + `nginx.conf` | `try_files $uri $uri/ /index.html` |
+| Dokploy (Dockerfile) | `Dockerfile` + `nginx.conf` | `try_files $uri $uri/ /index.html` |
+| Dokploy (Nixpacks + publish dir) | Dokploy **SPA** checkbox | same `try_files` in generated nginx |
+| Dokploy (Nixpacks, no publish dir) | `nixpacks.toml` / `npm start` | `serve -s dist` |
 | Netlify, Cloudflare Pages | `public/_redirects` | `/* /index.html 200` |
 | Other nginx | `nginx.conf` | copy into the server block |
 

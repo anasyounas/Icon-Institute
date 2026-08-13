@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24175",
+    "permalink": "https://hp.icon-institute.de/refprojects/financial-services-to-smes-2/",
+    "title": "Financial Services to SMEs",
+    "subtitle": "Financial Services to SMEs – Services for Improving Financial Access (SIFA)",
+    "countries": [
+      "Thailand"
+    ],
+    "region": "asia",
+    "yearStart": 2007,
+    "yearEnd": 2009,
+    "periodStart": "2007-01-01",
+    "periodEnd": "2009-12-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "826.000 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Financial Services to SMEs – Services for Improving Financial Access (SIFA)",
+    "body": [
+      "Financial Services to SMEs – Services for Improving Financial Access (SIFA)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Financial Services to SMEs",
+    "subtitle": "Financial Services to SMEs – Services for Improving Financial Access (SIFA)",
+    "countries": [
+      "Thailand"
+    ],
+    "region": "asia",
+    "yearStart": 2007,
+    "yearEnd": 2009,
+    "periodStart": "2007-01-01",
+    "periodEnd": "2009-12-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "826.000 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Financial Services to SMEs – Services for Improving Financial Access (SIFA)",
+    "body": [
+      "Financial Services to SMEs – Services for Improving Financial Access (SIFA)"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24175",
+    "permalink": "https://hp.icon-institute.de/refprojects/financial-services-to-smes-2/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789caa851519dfc6cec94c",
+    "item": {
+      "id": "6a789caa851519dfc6cec94c",
+      "slug": "financial-services-to-smes",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:42.730644Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:42.730644Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Financial Services to SMEs",
+      "subtitle": "Financial Services to SMEs – Services for Improving Financial Access (SIFA)",
+      "countries": [
+        "Thailand"
+      ],
+      "region": "asia",
+      "yearStart": 2007,
+      "yearEnd": 2009,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2007-01-01",
+      "periodEnd": "2009-12-31",
+      "volumeAmount": "826.000 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Financial Services to SMEs – Services for Improving Financial Access (SIFA)",
+      "body": [
+        "Financial Services to SMEs – Services for Improving Financial Access (SIFA)"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Thailand",
+      "periodLabel": "01/01/2007 - 31/12/2009"
+    }
+  }
+}

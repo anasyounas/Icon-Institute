@@ -1,0 +1,2110 @@
+[
+  {
+    "ok": true,
+    "wpId": "28849",
+    "title": "Water management and landscape protection",
+    "action": "updated",
+    "cmsId": "6a773d07ac35dc16c3123fb3",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "29170",
+    "title": "Circular Economy",
+    "action": "updated",
+    "cmsId": "6a773d08ac35dc16c3123fb7",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "28991",
+    "title": "Prior Learning Policy Development",
+    "action": "created",
+    "cmsId": "6a78a924851519dfc6ced031",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "29014",
+    "title": "Market oriented value chains",
+    "action": "updated",
+    "cmsId": "6a773d0aac35dc16c3123fbb",
+    "image": true,
+    "bodyParas": 6
+  },
+  {
+    "ok": true,
+    "wpId": "28901",
+    "title": "Gender Directive for Basic Education",
+    "action": "updated",
+    "cmsId": "6a773d0bac35dc16c3123fbf",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "29013",
+    "title": "Job partnership and SME promotion",
+    "action": "updated",
+    "cmsId": "6a773d0eac35dc16c3123fc5",
+    "image": true,
+    "bodyParas": 12
+  },
+  {
+    "ok": true,
+    "wpId": "28902",
+    "title": "Programme for startups and MSMEs",
+    "action": "created",
+    "cmsId": "6a78a92a851519dfc6ced04b",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "28721",
+    "title": "TVET Sector Support in Mozambique",
+    "action": "created",
+    "cmsId": "6a78a92b851519dfc6ced04f",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27649",
+    "title": "Developing a tool on Green Public Financial Management",
+    "action": "created",
+    "cmsId": "6a78a92c851519dfc6ced053",
+    "image": true,
+    "bodyParas": 6
+  },
+  {
+    "ok": true,
+    "wpId": "27525",
+    "title": "Study on contribution of home gardens to nutrition",
+    "action": "created",
+    "cmsId": "6a78a92c851519dfc6ced057",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "27815",
+    "title": "Promotion of Productive Agriculture",
+    "action": "created",
+    "cmsId": "6a78a92e851519dfc6ced05f",
+    "image": true,
+    "bodyParas": 9
+  },
+  {
+    "ok": true,
+    "wpId": "28129",
+    "title": "Gender at the Centre Initiative",
+    "action": "created",
+    "cmsId": "6a78a92f851519dfc6ced067",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27814",
+    "title": "CPE: Agricultural Mechanisation for Smallholder Farmers",
+    "action": "created",
+    "cmsId": "6a78a930851519dfc6ced06f",
+    "image": true,
+    "bodyParas": 10
+  },
+  {
+    "ok": true,
+    "wpId": "27448",
+    "title": "Supporting the private and financial sector in Ghana",
+    "action": "created",
+    "cmsId": "6a78a932851519dfc6ced077",
+    "image": true,
+    "bodyParas": 6
+  },
+  {
+    "ok": true,
+    "wpId": "28128",
+    "title": "Strengthening Civil Registration and Vital Statistics",
+    "action": "created",
+    "cmsId": "6a78a933851519dfc6ced07f",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27419",
+    "title": "Access to financial services for small-scale farmers",
+    "action": "created",
+    "cmsId": "6a78a935851519dfc6ced088",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27364",
+    "title": "Support the Incubator/Accelerator Facility at NIRDA",
+    "action": "created",
+    "cmsId": "6a78a936851519dfc6ced090",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27365",
+    "title": "Technical Expert Support for the Implementation of the NDC on Climate Change",
+    "action": "created",
+    "cmsId": "6a78a937851519dfc6ced099",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27502",
+    "title": "Regional SFF SI VET and Employment",
+    "action": "created",
+    "cmsId": "6a78a939851519dfc6ced0a1",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27366",
+    "title": "Improving the quality of TVET in light manufacturing",
+    "action": "created",
+    "cmsId": "6a78a93a851519dfc6ced0aa",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27363",
+    "title": "Centres of Competence in the Construction and Wood working sectors",
+    "action": "created",
+    "cmsId": "6a78a93c851519dfc6ced0b2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "27407",
+    "title": "Evaluation of the project 'Strengthening Education Information Systems'",
+    "action": "created",
+    "cmsId": "6a78a93d851519dfc6ced0b6",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27526",
+    "title": "Sustainable Fisheries and Aquaculture – EVAS",
+    "action": "created",
+    "cmsId": "6a78a93d851519dfc6ced0ba",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27361",
+    "title": "Capacity strengthening activities to government and local communities",
+    "action": "created",
+    "cmsId": "6a78a93e851519dfc6ced0be",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "27354",
+    "title": "Job Partnerships and Promotions of SMEs in Morocco",
+    "action": "created",
+    "cmsId": "6a78a940851519dfc6ced0c6",
+    "image": true,
+    "bodyParas": 6
+  },
+  {
+    "ok": true,
+    "wpId": "27432",
+    "title": "Labour Market Analysis",
+    "action": "created",
+    "cmsId": "6a78a94a851519dfc6ced0db",
+    "image": true,
+    "bodyParas": 5
+  },
+  {
+    "ok": true,
+    "wpId": "27352",
+    "title": "Developing two Centres of Competence in the Agribusiness and Tourism Sectors",
+    "action": "created",
+    "cmsId": "6a78a94c851519dfc6ced0df",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27088",
+    "title": "Agriculture and Food Sector (GIC)",
+    "action": "created",
+    "cmsId": "6a78a94d851519dfc6ced0e3",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27422",
+    "title": "Increasing Market Share of Tanneries",
+    "action": "created",
+    "cmsId": "6a78a94f851519dfc6ced0eb",
+    "image": true,
+    "bodyParas": 5
+  },
+  {
+    "ok": true,
+    "wpId": "26931",
+    "title": "Access to Finance",
+    "action": "created",
+    "cmsId": "6a78a951851519dfc6ced0f4",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27085",
+    "title": "Higher Education Support Programme UNI.AO",
+    "action": "created",
+    "cmsId": "6a78a952851519dfc6ced0fc",
+    "image": true,
+    "bodyParas": 15
+  },
+  {
+    "ok": true,
+    "wpId": "26816",
+    "title": "BACKUP Health / RSSH / HSS",
+    "action": "created",
+    "cmsId": "6a78a95e851519dfc6ced105",
+    "image": true,
+    "bodyParas": 5
+  },
+  {
+    "ok": true,
+    "wpId": "26932",
+    "title": "Pan-African e-Commerce Initiative",
+    "action": "created",
+    "cmsId": "6a78a960851519dfc6ced109",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26827",
+    "title": "Study on children with disability in Burundi",
+    "action": "created",
+    "cmsId": "6a78a962851519dfc6ced111",
+    "image": true,
+    "bodyParas": 6
+  },
+  {
+    "ok": true,
+    "wpId": "27418",
+    "title": "Globalvorhaben Ernährungssicherung und Resilienzstärkung",
+    "action": "created",
+    "cmsId": "6a78a963851519dfc6ced115",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26930",
+    "title": "Competences for the Promotion of Employment",
+    "action": "created",
+    "cmsId": "6a78a964851519dfc6ced119",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26793",
+    "title": "Sustainable Economic Development",
+    "action": "created",
+    "cmsId": "6a78a966851519dfc6ced121",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26933",
+    "title": "Promotion of Economy and Employment",
+    "action": "created",
+    "cmsId": "6a78a970851519dfc6ced12a",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26814",
+    "title": "Protected Areas",
+    "action": "created",
+    "cmsId": "6a78a975851519dfc6ced134",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26784",
+    "title": "African Legal Support Facility (ALSF)",
+    "action": "created",
+    "cmsId": "6a78a977851519dfc6ced13c",
+    "image": true,
+    "bodyParas": 14
+  },
+  {
+    "ok": true,
+    "wpId": "27359",
+    "title": "Evaluation: Empowering Adolescent Girls and Young Women through Education",
+    "action": "created",
+    "cmsId": "6a78a978851519dfc6ced140",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27087",
+    "title": "Nutrition-sensitive Potato Value Chain",
+    "action": "created",
+    "cmsId": "6a78a97a851519dfc6ced148",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26393",
+    "title": "Agricultural Finance for Agribased Enterprises",
+    "action": "created",
+    "cmsId": "6a78a97c851519dfc6ced150",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27356",
+    "title": "Management of implementation of the 2017 Mozambique Thematic Studies",
+    "action": "created",
+    "cmsId": "6a78a97d851519dfc6ced158",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "28144",
+    "title": "Scalling up of Drinking Water and Sanitation Supply",
+    "action": "created",
+    "cmsId": "6a78a97f851519dfc6ced160",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27421",
+    "title": "Evaluation of the Country Package Ghana",
+    "action": "created",
+    "cmsId": "6a78a980851519dfc6ced164",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "26386",
+    "title": "Bêkou Fund Health Programme",
+    "action": "created",
+    "cmsId": "6a78a982851519dfc6ced16d",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26381",
+    "title": "Supply and Development of Access to Health Care",
+    "action": "created",
+    "cmsId": "6a78a983851519dfc6ced171",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26447",
+    "title": "ProSoil – Consulting on external review methodology and conduction",
+    "action": "created",
+    "cmsId": "6a78a984851519dfc6ced175",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26445",
+    "title": "Modernisation of Public Finances",
+    "action": "created",
+    "cmsId": "6a78a987851519dfc6ced17e",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26389",
+    "title": "Participatory Regional e-Commerce Strategy",
+    "action": "created",
+    "cmsId": "6a78a989851519dfc6ced187",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26374",
+    "title": "Eco-Emploi",
+    "action": "created",
+    "cmsId": "6a78a98a851519dfc6ced18f",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26361",
+    "title": "Promotion of Employment II",
+    "action": "created",
+    "cmsId": "6a78a98c851519dfc6ced198",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26363",
+    "title": "Youth Employment and VET",
+    "action": "created",
+    "cmsId": "6a78a98d851519dfc6ced19c",
+    "image": true,
+    "bodyParas": 5
+  },
+  {
+    "ok": true,
+    "wpId": "26383",
+    "title": "Strengthening Drought Resilience",
+    "action": "created",
+    "cmsId": "6a78a98f851519dfc6ced1a5",
+    "image": true,
+    "bodyParas": 5
+  },
+  {
+    "ok": true,
+    "wpId": "26378",
+    "title": "Health Systems (focus Reproductive Health)",
+    "action": "created",
+    "cmsId": "6a78a991851519dfc6ced1ad",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26379",
+    "title": "Rural Development",
+    "action": "created",
+    "cmsId": "6a78a992851519dfc6ced1b5",
+    "image": true,
+    "bodyParas": 5
+  },
+  {
+    "ok": true,
+    "wpId": "25831",
+    "title": "Support Project for Vocational Training and Integration",
+    "action": "created",
+    "cmsId": "6a78a993851519dfc6ced1b9",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25852",
+    "title": "Jobpartnership and Small- and Medium-sized Business Promotion",
+    "action": "created",
+    "cmsId": "6a78a994851519dfc6ced1bd",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25830",
+    "title": "Green Innovation Centres in the Agricultural and Food Sector",
+    "action": "created",
+    "cmsId": "6a78a995851519dfc6ced1c1",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25851",
+    "title": "Promotion of Market-oriented Agriculture (MOAP)",
+    "action": "created",
+    "cmsId": "6a78a996851519dfc6ced1c5",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25834",
+    "title": "Empowering Adolescent Girls and Young Women through Education",
+    "action": "created",
+    "cmsId": "6a78a997851519dfc6ced1c9",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "26376",
+    "title": "Solid Waste & Circular Economy",
+    "action": "created",
+    "cmsId": "6a78a999851519dfc6ced1d2",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26375",
+    "title": "ToT in Mechanical & Electrical Technology",
+    "action": "created",
+    "cmsId": "6a78a99b851519dfc6ced1da",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25807",
+    "title": "FONERWA – National Fund for Environment",
+    "action": "created",
+    "cmsId": "6a78a99d851519dfc6ced1e4",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26392",
+    "title": "Promotion of Rural Development in Northern Uganda (PRUDEV)",
+    "action": "created",
+    "cmsId": "6a78a99f851519dfc6ced1ec",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25829",
+    "title": "Good Financial Governance in the Health Sector",
+    "action": "created",
+    "cmsId": "6a78a9a1851519dfc6ced1f4",
+    "image": true,
+    "bodyParas": 10
+  },
+  {
+    "ok": true,
+    "wpId": "25823",
+    "title": "Social Sector Support",
+    "action": "created",
+    "cmsId": "6a78a9a2851519dfc6ced1fc",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25865",
+    "title": "Food Security & Enhancing Resilience",
+    "action": "created",
+    "cmsId": "6a78a9a3851519dfc6ced200",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "25635",
+    "title": "Mechanical Technology, Electrical Technology/ Solar PV and Plumbing",
+    "action": "created",
+    "cmsId": "6a78a9a4851519dfc6ced204",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25604",
+    "title": "National Rural Water Supply and Sanitation Programme (NRWSSP)",
+    "action": "created",
+    "cmsId": "6a78a9a6851519dfc6ced20d",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "26360",
+    "title": "Business Sector Involvement in TVET",
+    "action": "created",
+    "cmsId": "6a78a9a7851519dfc6ced211",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25182",
+    "title": "Quality Assessment of Information Systems on Food Security & Nutrition",
+    "action": "created",
+    "cmsId": "6a78a9a8851519dfc6ced215",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25474",
+    "title": "Access to Financial Services for SMEs",
+    "action": "created",
+    "cmsId": "6a78a9a9851519dfc6ced21d",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25472",
+    "title": "Center for Entrepreneurship",
+    "action": "created",
+    "cmsId": "6a78a9aa851519dfc6ced221",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25632",
+    "title": "International Institute for Education Planning",
+    "action": "created",
+    "cmsId": "6a78a9ab851519dfc6ced225",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25475",
+    "title": "Vocational Training and Food Security",
+    "action": "created",
+    "cmsId": "6a78a9ac851519dfc6ced229",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25473",
+    "title": "Skill Up! Strengthen VET",
+    "action": "created",
+    "cmsId": "6a78a9ad851519dfc6ced22d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25011",
+    "title": "Health Situation Inventory",
+    "action": "created",
+    "cmsId": "6a78a9ae851519dfc6ced231",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25009",
+    "title": "Uganda's 2nd National Development Plan",
+    "action": "created",
+    "cmsId": "6a78a9b3851519dfc6ced23e",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25013",
+    "title": "Health Sector Policy",
+    "action": "created",
+    "cmsId": "6a78a9be851519dfc6ced247",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24698",
+    "title": "“SDG4 Pilot Programme” within CapED",
+    "action": "created",
+    "cmsId": "6a78a9bf851519dfc6ced24b",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25000",
+    "title": "TVET Occupational Analysis & Curriculum Development",
+    "action": "created",
+    "cmsId": "6a78a9c0851519dfc6ced24f",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24684",
+    "title": "Mechanical & Electrical Technology/ Solar PV & Plumbing",
+    "action": "created",
+    "cmsId": "6a78a9c1851519dfc6ced253",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24695",
+    "title": "Rural Development Promotion",
+    "action": "created",
+    "cmsId": "6a78a9c4851519dfc6ced25b",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24702",
+    "title": "Renewable Energies & Energy Efficiency",
+    "action": "created",
+    "cmsId": "6a78a9c7851519dfc6ced263",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "25010",
+    "title": "Skills & Technical Education Programme",
+    "action": "created",
+    "cmsId": "6a78a9c8851519dfc6ced267",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24692",
+    "title": "Agricultural Value Chains adapted to Climate Change",
+    "action": "created",
+    "cmsId": "6a78a9c9851519dfc6ced26f",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25833",
+    "title": "Evaluation of NET-MED Youth Project",
+    "action": "created",
+    "cmsId": "6a78a9cb851519dfc6ced277",
+    "image": true,
+    "bodyParas": 8
+  },
+  {
+    "ok": true,
+    "wpId": "24697",
+    "title": "LCF Proposals / Conduction of Due Diligence",
+    "action": "created",
+    "cmsId": "6a78a9cc851519dfc6ced27b",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24672",
+    "title": "Monitoring Food & Nutritional Security",
+    "action": "created",
+    "cmsId": "6a78a9cd851519dfc6ced27f",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24670",
+    "title": "African Legal Support Facility (ALSF)",
+    "action": "updated",
+    "cmsId": "6a78a977851519dfc6ced13c",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24667",
+    "title": "10th EDF Health",
+    "action": "created",
+    "cmsId": "6a78a9ce851519dfc6ced285",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24682",
+    "title": "Population Drought Resilience in Arid & Semi-arid Areas",
+    "action": "created",
+    "cmsId": "6a78a9cf851519dfc6ced289",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24678",
+    "title": "Small & Medium Town Water Utilities",
+    "action": "created",
+    "cmsId": "6a78a9d0851519dfc6ced28d",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24681",
+    "title": "Higher Education Excellence in Development Cooperation – exceed",
+    "action": "created",
+    "cmsId": "6a78a9d1851519dfc6ced291",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25631",
+    "title": "Sustainable Small-Scale Irrigation",
+    "action": "created",
+    "cmsId": "6a78a9d2851519dfc6ced295",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24689",
+    "title": "Active Citizenship – PROCIVIS 11th EDF",
+    "action": "created",
+    "cmsId": "6a78a9d4851519dfc6ced29d",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24701",
+    "title": "Renewable Energy and Energy Efficiency",
+    "action": "created",
+    "cmsId": "6a78a9d8851519dfc6ced2a7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24655",
+    "title": "Water Delivery",
+    "action": "created",
+    "cmsId": "6a78a9d9851519dfc6ced2ab",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24676",
+    "title": "Kitchen and School Garden Program",
+    "action": "created",
+    "cmsId": "6a78a9da851519dfc6ced2af",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24661",
+    "title": "Business Skills and Partnership Skills (Lot 4)",
+    "action": "created",
+    "cmsId": "6a78a9db851519dfc6ced2b3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24660",
+    "title": "Business Skills and Partnership Skills (Lot 2)",
+    "action": "created",
+    "cmsId": "6a78a9dc851519dfc6ced2b7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24652",
+    "title": "Modernisation of Public Finance",
+    "action": "created",
+    "cmsId": "6a78a9dd851519dfc6ced2bb",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24649",
+    "title": "Interactive Gender Data Portal",
+    "action": "created",
+    "cmsId": "6a78a9de851519dfc6ced2bf",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24675",
+    "title": "Population Drought Resilience Arid & Semi-Arid Lowlands",
+    "action": "created",
+    "cmsId": "6a78a9df851519dfc6ced2c3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24643",
+    "title": "Training / Vocational Education & Training",
+    "action": "created",
+    "cmsId": "6a78a9e0851519dfc6ced2c7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24659",
+    "title": "Demographic Dividend Programming Guide",
+    "action": "created",
+    "cmsId": "6a78a9e2851519dfc6ced2cf",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24637",
+    "title": "Economy and Employment – LMIA-System",
+    "action": "created",
+    "cmsId": "6a78a9e3851519dfc6ced2d3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24673",
+    "title": "Capacity Building in Statistics Project",
+    "action": "created",
+    "cmsId": "6a78a9e4851519dfc6ced2d7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24705",
+    "title": "Green Innovation Centres in Agricultural & Food Sector",
+    "action": "created",
+    "cmsId": "6a78a9e5851519dfc6ced2db",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24642",
+    "title": "Green Innovation Centres in the Agricultural & Food Sector",
+    "action": "created",
+    "cmsId": "6a78a9e6851519dfc6ced2df",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24634",
+    "title": "Climate Partnerships with the Private Sector",
+    "action": "created",
+    "cmsId": "6a78a9e7851519dfc6ced2e3",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24636",
+    "title": "Business Associations under the EU PACS",
+    "action": "created",
+    "cmsId": "6a78a9e8851519dfc6ced2e7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24635",
+    "title": "Technical Vocational Education and Training",
+    "action": "created",
+    "cmsId": "6a78a9ea851519dfc6ced2f0",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24646",
+    "title": "Sustainable Agricultural Development",
+    "action": "created",
+    "cmsId": "6a78a9eb851519dfc6ced2f4",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24677",
+    "title": "LCF Call for Proposals and Performing Due Diligence",
+    "action": "created",
+    "cmsId": "6a78a9ec851519dfc6ced2f8",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24618",
+    "title": "TVET and Labour Market Needs",
+    "action": "created",
+    "cmsId": "6a78a9ee851519dfc6ced301",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24632",
+    "title": "NAO System & the NAO Support Office",
+    "action": "created",
+    "cmsId": "6a78a9f9851519dfc6ced31f",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24631",
+    "title": "Global Assessments, Peer Reviews & Sector Assessments",
+    "action": "created",
+    "cmsId": "6a78a9fa851519dfc6ced323",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24611",
+    "title": "Eco-Emploi – PSD Component",
+    "action": "created",
+    "cmsId": "6a78a9fb851519dfc6ced327",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24620",
+    "title": "Eco-Emploi: TVET & Skills Development",
+    "action": "created",
+    "cmsId": "6a78a9fd851519dfc6ced330",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24647",
+    "title": "Lowland Population Drought Resilience",
+    "action": "created",
+    "cmsId": "6a78a9fe851519dfc6ced334",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24621",
+    "title": "MDG 4 and 5 Acceleration Programme",
+    "action": "created",
+    "cmsId": "6a78a9ff851519dfc6ced338",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24607",
+    "title": "Institutional Audit of Ministry of Health",
+    "action": "created",
+    "cmsId": "6a78aa00851519dfc6ced33c",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24644",
+    "title": "Skills and Employment",
+    "action": "created",
+    "cmsId": "6a78aa01851519dfc6ced340",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24615",
+    "title": "Mapping Resilience & Food/ Nutrition Security (FNS) Interventions",
+    "action": "created",
+    "cmsId": "6a78aa02851519dfc6ced344",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24604",
+    "title": "TVET Institutions",
+    "action": "created",
+    "cmsId": "6a78aa03851519dfc6ced348",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24616",
+    "title": "National Strategy for Adaption for Climate Change",
+    "action": "created",
+    "cmsId": "6a78aa04851519dfc6ced34c",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24609",
+    "title": "Soil Conservation & Food Security Rehabilitation",
+    "action": "created",
+    "cmsId": "6a78aa05851519dfc6ced350",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24610",
+    "title": "Pastoral & Agropastoral Lowlands Population Drought Resilience",
+    "action": "created",
+    "cmsId": "6a78aa06851519dfc6ced354",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24605",
+    "title": "Irregular Migration Reduction through Youth Employment & Income Generation",
+    "action": "created",
+    "cmsId": "6a78aa07851519dfc6ced358",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24597",
+    "title": "Green Innovation Centres in the Agricultural & Food Sector",
+    "action": "updated",
+    "cmsId": "6a78a9e6851519dfc6ced2df",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24589",
+    "title": "Training Programme for the ENP-South Countries",
+    "action": "created",
+    "cmsId": "6a78aa09851519dfc6ced35e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24602",
+    "title": "WASH, Nutrition & Sectoral Governance",
+    "action": "created",
+    "cmsId": "6a78aa0b851519dfc6ced367",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24590",
+    "title": "Regional Seminars in Third Countries",
+    "action": "created",
+    "cmsId": "6a78aa0c851519dfc6ced36b",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24598",
+    "title": "Improving Quality Teacher Education",
+    "action": "created",
+    "cmsId": "6a78aa0d851519dfc6ced36f",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24588",
+    "title": "Applied Macroeconomics",
+    "action": "created",
+    "cmsId": "6a78aa0e851519dfc6ced373",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24582",
+    "title": "Banco Comercial e de Investimento: MSME Lending",
+    "action": "created",
+    "cmsId": "6a78aa0f851519dfc6ced377",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24594",
+    "title": "Computerised Public Finance Management Integrated Strategy",
+    "action": "created",
+    "cmsId": "6a78aa10851519dfc6ced37b",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24586",
+    "title": "Food Security: Soil Conservation & Rehabilitation",
+    "action": "created",
+    "cmsId": "6a78aa11851519dfc6ced37f",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24593",
+    "title": "Food Security: Soil Conservation & Rehabilitation – Afar Region",
+    "action": "created",
+    "cmsId": "6a78aa12851519dfc6ced383",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24581",
+    "title": "Entrepreneurship and Enterprise Skills",
+    "action": "created",
+    "cmsId": "6a78aa12851519dfc6ced387",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24562",
+    "title": "Wood and Furniture Project Monastir",
+    "action": "created",
+    "cmsId": "6a78aa13851519dfc6ced38b",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24573",
+    "title": "Private Sector Development Support",
+    "action": "created",
+    "cmsId": "6a78aa14851519dfc6ced38f",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24558",
+    "title": "Planning, Monitoring and Evaluation",
+    "action": "created",
+    "cmsId": "6a78aa15851519dfc6ced393",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24580",
+    "title": "National Employment Programme (NEP)",
+    "action": "created",
+    "cmsId": "6a78aa16851519dfc6ced397",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24555",
+    "title": "Science Service Centre for Climate Change & Adaptive Land Mgt. (SASSCAL)",
+    "action": "created",
+    "cmsId": "6a78aa18851519dfc6ced39f",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24557",
+    "title": "National Authorising Officer (NAO)",
+    "action": "created",
+    "cmsId": "6a78aa19851519dfc6ced3a3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24567",
+    "title": "Organisational Development for CORP",
+    "action": "created",
+    "cmsId": "6a78aa1a851519dfc6ced3a7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24551",
+    "title": "Manager Training Programm",
+    "action": "created",
+    "cmsId": "6a78aa1b851519dfc6ced3ab",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24547",
+    "title": "Fight against Poverty",
+    "action": "created",
+    "cmsId": "6a78aa1c851519dfc6ced3b3",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24549",
+    "title": "SME Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "action": "created",
+    "cmsId": "6a78aa1d851519dfc6ced3b7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24542",
+    "title": "Institutional Support to Statistics – Project II",
+    "action": "created",
+    "cmsId": "6a78aa1e851519dfc6ced3bb",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24541",
+    "title": "Modernisation of the Public Finances",
+    "action": "created",
+    "cmsId": "6a78aa1f851519dfc6ced3bf",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24559",
+    "title": "\"Hakama\" (Public Governance)",
+    "action": "created",
+    "cmsId": "6a78aa20851519dfc6ced3c3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24533",
+    "title": "MDG 4 & 5 Acceleration Programme – Child Health",
+    "action": "created",
+    "cmsId": "6a78aa21851519dfc6ced3c7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24526",
+    "title": "PAPSBU Evaluation, 10th EDF",
+    "action": "created",
+    "cmsId": "6a78aa22851519dfc6ced3cb",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24522",
+    "title": "Training Programme for the ENP-South countries",
+    "action": "updated",
+    "cmsId": "6a78aa09851519dfc6ced35e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24521",
+    "title": "Labour Market-Oriented Skills Planning & Research Mechanism",
+    "action": "created",
+    "cmsId": "6a78aa24851519dfc6ced3d1",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24511",
+    "title": "Organisation of Statistical Seminars",
+    "action": "created",
+    "cmsId": "6a78aa25851519dfc6ced3d5",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24514",
+    "title": "Tourism Development",
+    "action": "created",
+    "cmsId": "6a78aa26851519dfc6ced3d9",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24512",
+    "title": "Baseline Evaluation of MENA MSME TA Facility",
+    "action": "created",
+    "cmsId": "6a78aa27851519dfc6ced3dd",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24517",
+    "title": "Malawi Growth and Development Strategy: Macro Model and Statistics",
+    "action": "created",
+    "cmsId": "6a78aa28851519dfc6ced3e1",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24530",
+    "title": "EU Election Observation Mission to Madagascar",
+    "action": "created",
+    "cmsId": "6a78aa28851519dfc6ced3e5",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24531",
+    "title": "EU Election Observation Mission to in Guinea",
+    "action": "created",
+    "cmsId": "6a78aa29851519dfc6ced3e9",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24502",
+    "title": "Social Partner Development in ETF activities",
+    "action": "created",
+    "cmsId": "6a78aa2a851519dfc6ced3ed",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24498",
+    "title": "HIV Workplace Program in Education Sector",
+    "action": "created",
+    "cmsId": "6a78aa2c851519dfc6ced3f5",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24508",
+    "title": "Lindi & Mtwara Agribusiness Support (LIMAS)",
+    "action": "created",
+    "cmsId": "6a78aa2d851519dfc6ced3f9",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24505",
+    "title": "Development of SME Clusters",
+    "action": "created",
+    "cmsId": "6a78aa2e851519dfc6ced3fd",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24496",
+    "title": "Export Initiative Renewable Energy",
+    "action": "created",
+    "cmsId": "6a78aa2f851519dfc6ced401",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25014",
+    "title": "National Rural Water Supply and Sanitation Programme",
+    "action": "created",
+    "cmsId": "6a78aa30851519dfc6ced405",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24467",
+    "title": "Non-State Actors Support Programme",
+    "action": "created",
+    "cmsId": "6a78aa31851519dfc6ced409",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24470",
+    "title": "National Statistical System",
+    "action": "created",
+    "cmsId": "6a78aa32851519dfc6ced40d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24476",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24488",
+    "title": "Egyptian Competition Authority",
+    "action": "created",
+    "cmsId": "6a78aa33851519dfc6ced411",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24457",
+    "title": "Revision of the Investment Code",
+    "action": "created",
+    "cmsId": "6a78aa34851519dfc6ced415",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24451",
+    "title": "Livestock Development & Animal Health Project",
+    "action": "created",
+    "cmsId": "6a78aa35851519dfc6ced419",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24536",
+    "title": "Export Initiatives Renewable Energy & Energy Efficiency",
+    "action": "created",
+    "cmsId": "6a78aa36851519dfc6ced41d",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24440",
+    "title": "Higher Education & Vocational Training Programme",
+    "action": "created",
+    "cmsId": "6a78aa37851519dfc6ced421",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24449",
+    "title": "Civil Society and National Reconciliation",
+    "action": "created",
+    "cmsId": "6a78aa38851519dfc6ced425",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24439",
+    "title": "Implementation of the Paris Declaration",
+    "action": "created",
+    "cmsId": "6a78aa39851519dfc6ced429",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24445",
+    "title": "Teacher Training Institutes (IFMs)",
+    "action": "created",
+    "cmsId": "6a78aa3a851519dfc6ced42d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24443",
+    "title": "SASSCAL Implementation Plan Elaboration",
+    "action": "created",
+    "cmsId": "6a78aa3b851519dfc6ced431",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24437",
+    "title": "Market Entry & Export Coaching",
+    "action": "created",
+    "cmsId": "6a78aa3c851519dfc6ced435",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24460",
+    "title": "Management Institute Capacity Enhancement",
+    "action": "created",
+    "cmsId": "6a78aa3d851519dfc6ced439",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24429",
+    "title": "Health and Education Programs of the Aga Khan University (AKU)",
+    "action": "created",
+    "cmsId": "6a78aa3e851519dfc6ced43d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24403",
+    "title": "SMEs/ SMIs and ICT Management",
+    "action": "created",
+    "cmsId": "6a78aa3f851519dfc6ced441",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24424",
+    "title": "SASSCAL Business Plans within \"Climate Change & Sustainable Land Mgt.\"",
+    "action": "created",
+    "cmsId": "6a78aa40851519dfc6ced445",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24421",
+    "title": "Managing Direct Labour Activities",
+    "action": "created",
+    "cmsId": "6a78aa41851519dfc6ced449",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24417",
+    "title": "Health Facility Survey – Round 1",
+    "action": "created",
+    "cmsId": "6a78aa42851519dfc6ced44d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24400",
+    "title": "Kvinna till Kvinna's regional Middle East Program",
+    "action": "created",
+    "cmsId": "6a78aa43851519dfc6ced451",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24396",
+    "title": "Quality Assurance, Planning, Monitoring & Evaluation",
+    "action": "created",
+    "cmsId": "6a78aa44851519dfc6ced455",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24391",
+    "title": "SBM Line of Credit II – Sub-Loans",
+    "action": "created",
+    "cmsId": "6a78aa45851519dfc6ced459",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24419",
+    "title": "Diversification of the Economy (DIVECO)",
+    "action": "created",
+    "cmsId": "6a78aa46851519dfc6ced45d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24397",
+    "title": "ACP FLEGT Programme",
+    "action": "created",
+    "cmsId": "6a78aa47851519dfc6ced461",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24482",
+    "title": "Management Skills",
+    "action": "created",
+    "cmsId": "6a78aa48851519dfc6ced465",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24436",
+    "title": "Training Engineering – International Expertise",
+    "action": "created",
+    "cmsId": "6a78aa49851519dfc6ced469",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24405",
+    "title": "Financing Concept for Competence Centres",
+    "action": "created",
+    "cmsId": "6a78aa4a851519dfc6ced46d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24380",
+    "title": "Agricultural Marketing Development",
+    "action": "created",
+    "cmsId": "6a78aa4b851519dfc6ced471",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24369",
+    "title": "Strengthening of the NAO Function",
+    "action": "created",
+    "cmsId": "6a78aa4c851519dfc6ced475",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24388",
+    "title": "Democratic Governance and Accountability",
+    "action": "created",
+    "cmsId": "6a78aa4d851519dfc6ced479",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24385",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24361",
+    "title": "Health Care Reform – PASS",
+    "action": "created",
+    "cmsId": "6a78aa4e851519dfc6ced47d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24370",
+    "title": "Statistical Training in International Co-operation: ASTRA Information System",
+    "action": "created",
+    "cmsId": "6a78aa4f851519dfc6ced481",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24418",
+    "title": "Environment and Economic Development",
+    "action": "created",
+    "cmsId": "6a78aa50851519dfc6ced485",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24368",
+    "title": "MEDSTAT III Phase 3",
+    "action": "created",
+    "cmsId": "6a78aa51851519dfc6ced489",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24350",
+    "title": "Social Development Programme",
+    "action": "created",
+    "cmsId": "6a78aa52851519dfc6ced48d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24377",
+    "title": "Regular Employment & Labour Market",
+    "action": "created",
+    "cmsId": "6a78aa53851519dfc6ced491",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24307",
+    "title": "Labour Market Observatory",
+    "action": "created",
+    "cmsId": "6a78aa54851519dfc6ced495",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24360",
+    "title": "Recruitment Campaign",
+    "action": "created",
+    "cmsId": "6a78aa55851519dfc6ced499",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24345",
+    "title": "Agriculture and Food Security Focal Sector",
+    "action": "created",
+    "cmsId": "6a78aa56851519dfc6ced49d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24309",
+    "title": "Water Resources Management Reform",
+    "action": "created",
+    "cmsId": "6a78aa57851519dfc6ced4a1",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24272",
+    "title": "Technical & Business Education Initiative (TABEISA)",
+    "action": "created",
+    "cmsId": "6a78aa58851519dfc6ced4a5",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24300",
+    "title": "Regional Cooperation in Vocational Education",
+    "action": "created",
+    "cmsId": "6a78aa59851519dfc6ced4a9",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24352",
+    "title": "Management Skills",
+    "action": "updated",
+    "cmsId": "6a78aa48851519dfc6ced465",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24280",
+    "title": "Competitiveness and Trade",
+    "action": "created",
+    "cmsId": "6a78aa5b851519dfc6ced4af",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24268",
+    "title": "Banque Rwandaise de Développement / Banque Commerciale du Rwanda",
+    "action": "created",
+    "cmsId": "6a78aa5c851519dfc6ced4b3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24291",
+    "title": "Employment-oriented Private Sector Development",
+    "action": "created",
+    "cmsId": "6a78aa5d851519dfc6ced4b7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24260",
+    "title": "Development Bank of Ethiopia (DBE)",
+    "action": "created",
+    "cmsId": "6a78aa5e851519dfc6ced4bb",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24247",
+    "title": "Support of Education Sector",
+    "action": "created",
+    "cmsId": "6a78aa5f851519dfc6ced4bf",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24235",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24274",
+    "title": "National Planning System",
+    "action": "created",
+    "cmsId": "6a78aa60851519dfc6ced4c3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24252",
+    "title": "Statistics – MEDSTAT II",
+    "action": "created",
+    "cmsId": "6a78aa61851519dfc6ced4c7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24236",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24262",
+    "title": "SME Improved Market Access",
+    "action": "created",
+    "cmsId": "6a78aa67851519dfc6ced4db",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24251",
+    "title": "Livestock Epidemio-Surveillance",
+    "action": "created",
+    "cmsId": "6a78aa68851519dfc6ced4df",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24289",
+    "title": "National Rural Agriculture Development",
+    "action": "created",
+    "cmsId": "6a78aa69851519dfc6ced4e3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24259",
+    "title": "Business Development Gateway",
+    "action": "created",
+    "cmsId": "6a78aa6a851519dfc6ced4eb",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24213",
+    "title": "Local and Regional Economic Development",
+    "action": "created",
+    "cmsId": "6a78aa6b851519dfc6ced4ef",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24221",
+    "title": "Capacities of Non-State-Actors",
+    "action": "created",
+    "cmsId": "6a78aa6c851519dfc6ced4f3",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24220",
+    "title": "Local Government, Local Economic Development",
+    "action": "created",
+    "cmsId": "6a78aa6d851519dfc6ced4f7",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24222",
+    "title": "Technical and Vocational Education and Training (IP-TVET)",
+    "action": "created",
+    "cmsId": "6a78aa6e851519dfc6ced4fb",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24219",
+    "title": "Good Governance",
+    "action": "created",
+    "cmsId": "6a78aa6f851519dfc6ced4ff",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24215",
+    "title": "EAC Integration Processes",
+    "action": "created",
+    "cmsId": "6a78aa70851519dfc6ced503",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24181",
+    "title": "Economic Governance and Legal Governance",
+    "action": "created",
+    "cmsId": "6a78aa71851519dfc6ced50b",
+    "image": true,
+    "bodyParas": 1
+  }
+]

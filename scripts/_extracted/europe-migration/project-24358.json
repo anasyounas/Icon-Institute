@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24358",
+    "permalink": "https://hp.icon-institute.de/refprojects/high-level-seminar-for-enp-east-countries/",
+    "title": "High Level Seminar for ENP-East Countries",
+    "subtitle": "High Level Seminar for ENP-East Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-12-04",
+    "periodEnd": "2010-12-04",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "98.980 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "The project aimed to organize a high-level seminar for senior management of national statistical institutes (NSIs) from Newly Independent States, including Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, and others.",
+    "body": [
+      "The project aimed to organize a high-level seminar for senior management of national statistical institutes (NSIs) from Newly Independent States, including Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, and others.",
+      "The seminar focused on discussing key statistical issues affecting their institutes and provided a platform for NSI leaders to meet, share practices, and explore common challenges. Held at the ICON-INSTITUT premises in Cologne, Germany, from 28-30 September 2010, the seminar addressed the role of NSIs as coordinators of national statistical systems. It covered two main aspects: internal coordination within NSIs to standardize definitions and concepts, and external coordination to ensure other national data producers use the same statistical standards. Additional topics, including data quality monitoring, the use of administrative records, and data confidentiality, were also discussed."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6605125.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "High Level Seminar for ENP-East Countries",
+    "subtitle": "High Level Seminar for ENP-East Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-12-04",
+    "periodEnd": "2010-12-04",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "98.980 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "The project aimed to organize a high-level seminar for senior management of national statistical institutes (NSIs) from Newly Independent States, including Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, and others.",
+    "body": [
+      "The project aimed to organize a high-level seminar for senior management of national statistical institutes (NSIs) from Newly Independent States, including Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, and others.",
+      "The seminar focused on discussing key statistical issues affecting their institutes and provided a platform for NSI leaders to meet, share practices, and explore common challenges. Held at the ICON-INSTITUT premises in Cologne, Germany, from 28-30 September 2010, the seminar addressed the role of NSIs as coordinators of national statistical systems. It covered two main aspects: internal coordination within NSIs to standardize definitions and concepts, and external coordination to ensure other national data producers use the same statistical standards. Additional topics, including data quality monitoring, the use of administrative records, and data confidentiality, were also discussed."
+    ],
+    "image": "/media/6605125-d5d85987.jpg",
+    "pdf": null,
+    "wpId": "24358",
+    "permalink": "https://hp.icon-institute.de/refprojects/high-level-seminar-for-enp-east-countries/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6605125.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8c9851519dfc6cecf85",
+    "item": {
+      "id": "6a78a8c9851519dfc6cecf85",
+      "slug": "high-level-seminar-for-enp-east-countries-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:25.934021Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:25.934021Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "High Level Seminar for ENP-East Countries",
+      "subtitle": "High Level Seminar for ENP-East Countries",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2009,
+      "yearEnd": 2010,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2009-12-04",
+      "periodEnd": "2010-12-04",
+      "volumeAmount": "98.980 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "The project aimed to organize a high-level seminar for senior management of national statistical institutes (NSIs) from Newly Independent States, including Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, and others.",
+      "body": [
+        "The project aimed to organize a high-level seminar for senior management of national statistical institutes (NSIs) from Newly Independent States, including Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, and others.",
+        "The seminar focused on discussing key statistical issues affecting their institutes and provided a platform for NSI leaders to meet, share practices, and explore common challenges. Held at the ICON-INSTITUT premises in Cologne, Germany, from 28-30 September 2010, the seminar addressed the role of NSIs as coordinators of national statistical systems. It covered two main aspects: internal coordination within NSIs to standardize definitions and concepts, and external coordination to ensure other national data producers use the same statistical standards. Additional topics, including data quality monitoring, the use of administrative records, and data confidentiality, were also discussed."
+      ],
+      "image": "/media/6605125-d5d85987.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "04/12/2009 - 04/12/2010"
+    }
+  }
+}

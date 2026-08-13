@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24492",
+    "permalink": "https://hp.icon-institute.de/refprojects/system-of-national-accounts-sna/",
+    "title": "System of National Accounts (SNA)",
+    "subtitle": "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2011,
+    "yearEnd": 2012,
+    "periodStart": "2011-04-01",
+    "periodEnd": "2012-03-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "98.862 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation",
+    "body": [
+      "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "System of National Accounts (SNA)",
+    "subtitle": "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2011,
+    "yearEnd": 2012,
+    "periodStart": "2011-04-01",
+    "periodEnd": "2012-03-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "98.862 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation",
+    "body": [
+      "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24492",
+    "permalink": "https://hp.icon-institute.de/refprojects/system-of-national-accounts-sna/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8a9851519dfc6cecf03",
+    "item": {
+      "id": "6a78a8a9851519dfc6cecf03",
+      "slug": "system-of-national-accounts-sna",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:53.331689Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:53.331689Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "System of National Accounts (SNA)",
+      "subtitle": "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2011,
+      "yearEnd": 2012,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2011-04-01",
+      "periodEnd": "2012-03-31",
+      "volumeAmount": "98.862 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation",
+      "body": [
+        "Essential System of National Accounts (SNA): Methodological Support and Tools in the Context of Cooperation"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/04/2011 - 31/03/2012"
+    }
+  }
+}

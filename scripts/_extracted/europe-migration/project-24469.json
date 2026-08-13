@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24469",
+    "permalink": "https://hp.icon-institute.de/refprojects/new-skills-for-new-jobsbr/",
+    "title": "New Skills for New Jobs",
+    "subtitle": "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service",
+    "countries": [
+      "Belgium"
+    ],
+    "region": "europe",
+    "yearStart": 2012,
+    "yearEnd": 2014,
+    "periodStart": "2012-06-11",
+    "periodEnd": "2014-06-10",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "500k-1m",
+    "volumeAmount": "691.678 €",
+    "financing": "European Union",
+    "clientName": "European Union, Employment, Social Affairs and Equal Opportunities DG, Unit D/3",
+    "description": "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service",
+    "body": [
+      "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "New Skills for New Jobs",
+    "subtitle": "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service",
+    "countries": [
+      "Belgium"
+    ],
+    "region": "europe",
+    "yearStart": 2012,
+    "yearEnd": 2014,
+    "periodStart": "2012-06-11",
+    "periodEnd": "2014-06-10",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "500k-1m",
+    "volumeAmount": "691.678 €",
+    "financing": "European Union",
+    "clientName": "European Union, Employment, Social Affairs and Equal Opportunities DG, Unit D/3",
+    "description": "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service",
+    "body": [
+      "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24469",
+    "permalink": "https://hp.icon-institute.de/refprojects/new-skills-for-new-jobsbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a89b851519dfc6cececb",
+    "item": {
+      "id": "6a78a89b851519dfc6cececb",
+      "slug": "new-skills-for-new-jobs",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:39.912072Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:39.912072Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "New Skills for New Jobs",
+      "subtitle": "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service",
+      "countries": [
+        "Belgium"
+      ],
+      "region": "europe",
+      "yearStart": 2012,
+      "yearEnd": 2014,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "500k-1m",
+      "periodStart": "2012-06-11",
+      "periodEnd": "2014-06-10",
+      "volumeAmount": "691.678 €",
+      "financing": "European Union",
+      "clientName": "European Union, Employment, Social Affairs and Equal Opportunities DG, Unit D/3",
+      "description": "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service",
+      "body": [
+        "New Skills for New Jobs – Background on Monitoring Labour Market Developments in the EU and the Key Role of Employment Service"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Belgium",
+      "periodLabel": "11/06/2012 - 10/06/2014"
+    }
+  }
+}

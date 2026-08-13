@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24384",
+    "permalink": "https://hp.icon-institute.de/refprojects/municipal-land-management/",
+    "title": "Municipal Land Management",
+    "subtitle": "Strengthening Municipal Land Management in Serbia",
+    "countries": [
+      "Serbia"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2012,
+    "periodStart": "2010-01-01",
+    "periodEnd": "2012-12-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.119.456 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Strengthening Municipal Land Management in Serbia",
+    "body": [
+      "Strengthening Municipal Land Management in Serbia"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Municipal Land Management",
+    "subtitle": "Strengthening Municipal Land Management in Serbia",
+    "countries": [
+      "Serbia"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2012,
+    "periodStart": "2010-01-01",
+    "periodEnd": "2012-12-31",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.119.456 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Strengthening Municipal Land Management in Serbia",
+    "body": [
+      "Strengthening Municipal Land Management in Serbia"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24384",
+    "permalink": "https://hp.icon-institute.de/refprojects/municipal-land-management/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "updated",
+    "id": "6a78a88c851519dfc6cece63",
+    "item": {
+      "id": "6a78a88c851519dfc6cece63",
+      "slug": "municipal-land-management",
+      "cms_status": "published",
+      "version": 2,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:24.137000Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:23.179468Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": "2026-08-09T16:19:24.289000Z",
+      "title": "Municipal Land Management",
+      "subtitle": "Strengthening Municipal Land Management in Serbia",
+      "countries": [
+        "Serbia"
+      ],
+      "region": "europe",
+      "yearStart": 2010,
+      "yearEnd": 2012,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2010-01-01",
+      "periodEnd": "2012-12-31",
+      "volumeAmount": "2.119.456 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Strengthening Municipal Land Management in Serbia",
+      "body": [
+        "Strengthening Municipal Land Management in Serbia"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Serbia",
+      "periodLabel": "01/01/2010 - 31/12/2012"
+    }
+  }
+}

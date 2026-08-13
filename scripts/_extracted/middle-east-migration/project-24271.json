@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24271",
+    "permalink": "https://hp.icon-institute.de/refprojects/rainfed-agriculture-and-livestock-project-ralp/",
+    "title": "Rainfed Agriculture and Livestock Project (RALP)",
+    "subtitle": "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources",
+    "countries": [
+      "Yemen"
+    ],
+    "region": "middle-east",
+    "yearStart": 2009,
+    "yearEnd": 2013,
+    "periodStart": "2009-03-09",
+    "periodEnd": "2013-05-01",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "300k-500k",
+    "volumeAmount": "356.305 €",
+    "financing": "World Bank IDA credit: 4420 Yemen",
+    "clientName": "General Directorate of Animal Resources (GDAR)",
+    "description": "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources",
+    "body": [
+      "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Rainfed Agriculture and Livestock Project (RALP)",
+    "subtitle": "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources",
+    "countries": [
+      "Yemen"
+    ],
+    "region": "middle-east",
+    "yearStart": 2009,
+    "yearEnd": 2013,
+    "periodStart": "2009-03-09",
+    "periodEnd": "2013-05-01",
+    "expertise": "governance-education-social-development",
+    "volume": "300k-500k",
+    "volumeAmount": "356.305 €",
+    "financing": "World Bank IDA credit: 4420 Yemen",
+    "clientName": "General Directorate of Animal Resources (GDAR)",
+    "description": "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources",
+    "body": [
+      "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24271",
+    "permalink": "https://hp.icon-institute.de/refprojects/rainfed-agriculture-and-livestock-project-ralp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aaea851519dfc6ced6a6",
+    "item": {
+      "id": "6a78aaea851519dfc6ced6a6",
+      "slug": "rainfed-agriculture-and-livestock-project-ralp",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:29:30.803839Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:30.803839Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Rainfed Agriculture and Livestock Project (RALP)",
+      "subtitle": "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources",
+      "countries": [
+        "Yemen"
+      ],
+      "region": "middle-east",
+      "yearStart": 2009,
+      "yearEnd": 2013,
+      "expertise": "governance-education-social-development",
+      "volume": "300k-500k",
+      "periodStart": "2009-03-09",
+      "periodEnd": "2013-05-01",
+      "volumeAmount": "356.305 €",
+      "financing": "World Bank IDA credit: 4420 Yemen",
+      "clientName": "General Directorate of Animal Resources (GDAR)",
+      "description": "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources",
+      "body": [
+        "Rainfed Agriculture and Livestock Project (RALP), International Experts for the General Directorate of Animal Resources"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Yemen",
+      "periodLabel": "09/03/2009 - 01/05/2013"
+    }
+  }
+}

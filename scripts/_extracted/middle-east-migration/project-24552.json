@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24552",
+    "permalink": "https://hp.icon-institute.de/refprojects/environmental-control-unitbr/",
+    "title": "Environmental Control Unit",
+    "subtitle": "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2014,
+    "yearEnd": 2017,
+    "periodStart": "2014-09-19",
+    "periodEnd": "2017-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "500k-1m",
+    "volumeAmount": "624.686 €",
+    "financing": "Kreditanstalt für Wiederaufbau (KfW)",
+    "clientName": "Nablus Municipality",
+    "description": "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus",
+    "body": [
+      "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Environmental Control Unit",
+    "subtitle": "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2014,
+    "yearEnd": 2017,
+    "periodStart": "2014-09-19",
+    "periodEnd": "2017-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "500k-1m",
+    "volumeAmount": "624.686 €",
+    "financing": "Kreditanstalt für Wiederaufbau (KfW)",
+    "clientName": "Nablus Municipality",
+    "description": "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus",
+    "body": [
+      "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus"
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24552",
+    "permalink": "https://hp.icon-institute.de/refprojects/environmental-control-unitbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aabe851519dfc6ced5f2",
+    "item": {
+      "id": "6a78aabe851519dfc6ced5f2",
+      "slug": "environmental-control-unit",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:46.407131Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:46.407131Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Environmental Control Unit",
+      "subtitle": "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus",
+      "countries": [
+        "Palestine"
+      ],
+      "region": "middle-east",
+      "yearStart": 2014,
+      "yearEnd": 2017,
+      "expertise": "agriculture-rural-development",
+      "volume": "500k-1m",
+      "periodStart": "2014-09-19",
+      "periodEnd": "2017-12-31",
+      "volumeAmount": "624.686 €",
+      "financing": "Kreditanstalt für Wiederaufbau (KfW)",
+      "clientName": "Nablus Municipality",
+      "description": "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus",
+      "body": [
+        "Consulting Services for the Implementation of an Environmental Control Unit (ECU) in the Municipality of Nablus"
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Palestine",
+      "periodLabel": "19/09/2014 - 31/12/2017"
+    }
+  }
+}

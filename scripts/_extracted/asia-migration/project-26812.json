@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "26812",
+    "permalink": "https://hp.icon-institute.de/refprojects/padvancing-digitally-enabled-learningp/",
+    "title": "Advancing Digitally Enabled Learning",
+    "subtitle": "Provision of Technical Support to the Ministry of Education and Science of the Republic of Tajikistan in Advancing Digitally Enabled Learning",
+    "countries": [
+      "Tajikistan"
+    ],
+    "region": "asia",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "periodStart": "2022-08-08",
+    "periodEnd": "2023-12-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "454.850 €",
+    "financing": "United Nations Children’s Fund (UNICEF)",
+    "clientName": "United Nations Children’s Fund (UNICEF)",
+    "description": "The government of Tajikistan has been making significant efforts to move towards a knowledge-based economy with the introduction of a competence-based education system to increase the quality and relevance of learning experiences for the labour market needs. The Ministry of…",
+    "body": [
+      "The government of Tajikistan has been making significant efforts to move towards a knowledge-based economy with the introduction of a competence-based education system to increase the quality and relevance of learning experiences for the labour market needs. The Ministry of Education and Science (MoES) is revising the curricula of general secondary and vocational education to ensure that adolescents are able to gain the skills and competencies required for a successful transition from school to work. However, quality and relevance of education still needs to improve. To this end, UNICEF supports the MoES with the digital transformation of the education system. A national Roadmap has been developed in 2021 within the framework of the EU funded project \"Improving skills and competencies of adolescent girls and boys for school to work transition in Tajikistan and national support to continuity of learning within the framework of the National Education Preparedness and Response Plan for COVID-19\". This Roadmap for digital development, in conjunction with the concept of the digital economy in Tajikistan, is expected to guide the application of information and communication technologies (ICT) at secondary school level. Challenges that have to be overcome, include unequal connectivity with less than 20% of schools with internet access, limited capacity at institutional level in relation to ICT in education, and overall infrastructural constraints.",
+      "ICON-INSTITUT has supported the development of the Roadmap for digital transformation of the education system in 2021, and continues to support its operationalisation in 2022-2023, as well as the development of financing scenarios and capacity development of national partner institutions.",
+      "(4410319)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/08/4410319-research.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Advancing Digitally Enabled Learning",
+    "subtitle": "Provision of Technical Support to the Ministry of Education and Science of the Republic of Tajikistan in Advancing Digitally Enabled Learning",
+    "countries": [
+      "Tajikistan"
+    ],
+    "region": "asia",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "periodStart": "2022-08-08",
+    "periodEnd": "2023-12-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "454.850 €",
+    "financing": "United Nations Children’s Fund (UNICEF)",
+    "clientName": "United Nations Children’s Fund (UNICEF)",
+    "description": "The government of Tajikistan has been making significant efforts to move towards a knowledge-based economy with the introduction of a competence-based education system to increase the quality and relevance of learning experiences for the labour market needs. The Ministry of…",
+    "body": [
+      "The government of Tajikistan has been making significant efforts to move towards a knowledge-based economy with the introduction of a competence-based education system to increase the quality and relevance of learning experiences for the labour market needs. The Ministry of Education and Science (MoES) is revising the curricula of general secondary and vocational education to ensure that adolescents are able to gain the skills and competencies required for a successful transition from school to work. However, quality and relevance of education still needs to improve. To this end, UNICEF supports the MoES with the digital transformation of the education system. A national Roadmap has been developed in 2021 within the framework of the EU funded project \"Improving skills and competencies of adolescent girls and boys for school to work transition in Tajikistan and national support to continuity of learning within the framework of the National Education Preparedness and Response Plan for COVID-19\". This Roadmap for digital development, in conjunction with the concept of the digital economy in Tajikistan, is expected to guide the application of information and communication technologies (ICT) at secondary school level. Challenges that have to be overcome, include unequal connectivity with less than 20% of schools with internet access, limited capacity at institutional level in relation to ICT in education, and overall infrastructural constraints.",
+      "ICON-INSTITUT has supported the development of the Roadmap for digital transformation of the education system in 2021, and continues to support its operationalisation in 2022-2023, as well as the development of financing scenarios and capacity development of national partner institutions.",
+      "(4410319)"
+    ],
+    "image": "/media/4410319-research-7f54b381.jpg",
+    "pdf": null,
+    "wpId": "26812",
+    "permalink": "https://hp.icon-institute.de/refprojects/padvancing-digitally-enabled-learningp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/08/4410319-research.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c31851519dfc6cec6ae",
+    "item": {
+      "id": "6a789c31851519dfc6cec6ae",
+      "slug": "advancing-digitally-enabled-learning",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:26:41.368150Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:26:41.368150Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Advancing Digitally Enabled Learning",
+      "subtitle": "Provision of Technical Support to the Ministry of Education and Science of the Republic of Tajikistan in Advancing Digitally Enabled Learning",
+      "countries": [
+        "Tajikistan"
+      ],
+      "region": "asia",
+      "yearStart": 2022,
+      "yearEnd": 2023,
+      "expertise": "economic-employment-promotion",
+      "volume": "300k-500k",
+      "periodStart": "2022-08-08",
+      "periodEnd": "2023-12-31",
+      "volumeAmount": "454.850 €",
+      "financing": "United Nations Children’s Fund (UNICEF)",
+      "clientName": "United Nations Children’s Fund (UNICEF)",
+      "description": "The government of Tajikistan has been making significant efforts to move towards a knowledge-based economy with the introduction of a competence-based education system to increase the quality and relevance of learning experiences for the labour market needs. The Ministry of…",
+      "body": [
+        "The government of Tajikistan has been making significant efforts to move towards a knowledge-based economy with the introduction of a competence-based education system to increase the quality and relevance of learning experiences for the labour market needs. The Ministry of Education and Science (MoES) is revising the curricula of general secondary and vocational education to ensure that adolescents are able to gain the skills and competencies required for a successful transition from school to work. However, quality and relevance of education still needs to improve. To this end, UNICEF supports the MoES with the digital transformation of the education system. A national Roadmap has been developed in 2021 within the framework of the EU funded project \"Improving skills and competencies of adolescent girls and boys for school to work transition in Tajikistan and national support to continuity of learning within the framework of the National Education Preparedness and Response Plan for COVID-19\". This Roadmap for digital development, in conjunction with the concept of the digital economy in Tajikistan, is expected to guide the application of information and communication technologies (ICT) at secondary school level. Challenges that have to be overcome, include unequal connectivity with less than 20% of schools with internet access, limited capacity at institutional level in relation to ICT in education, and overall infrastructural constraints.",
+        "ICON-INSTITUT has supported the development of the Roadmap for digital transformation of the education system in 2021, and continues to support its operationalisation in 2022-2023, as well as the development of financing scenarios and capacity development of national partner institutions.",
+        "(4410319)"
+      ],
+      "image": "/media/4410319-research-7f54b381.jpg",
+      "pdf": null,
+      "country": "Tajikistan",
+      "periodLabel": "08/08/2022 - 31/12/2023"
+    }
+  }
+}

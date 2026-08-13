@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24181",
+    "permalink": "https://hp.icon-institute.de/refprojects/economic-governance-and-legal-governancebr/",
+    "title": "Economic Governance and Legal Governance",
+    "subtitle": "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)",
+    "countries": [
+      "Senegal"
+    ],
+    "region": "africa",
+    "yearStart": 2006,
+    "yearEnd": 2010,
+    "periodStart": "2006-03-01",
+    "periodEnd": "2010-05-19",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.048.366 €",
+    "financing": "European Union - EDF",
+    "clientName": "Delegation of the European Union in Senegal",
+    "description": "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)",
+    "body": [
+      "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Senegal-6602947.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Economic Governance and Legal Governance",
+    "subtitle": "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)",
+    "countries": [
+      "Senegal"
+    ],
+    "region": "africa",
+    "yearStart": 2006,
+    "yearEnd": 2010,
+    "periodStart": "2006-03-01",
+    "periodEnd": "2010-05-19",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.048.366 €",
+    "financing": "European Union - EDF",
+    "clientName": "Delegation of the European Union in Senegal",
+    "description": "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)",
+    "body": [
+      "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)"
+    ],
+    "image": "/media/senegal-6602947-a7cf2a48.jpg",
+    "pdf": null,
+    "wpId": "24181",
+    "permalink": "https://hp.icon-institute.de/refprojects/economic-governance-and-legal-governancebr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Senegal-6602947.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa71851519dfc6ced50b",
+    "item": {
+      "id": "6a78aa71851519dfc6ced50b",
+      "slug": "economic-governance-and-legal-governance",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:27:29.693096Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:27:29.693096Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Economic Governance and Legal Governance",
+      "subtitle": "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)",
+      "countries": [
+        "Senegal"
+      ],
+      "region": "africa",
+      "yearStart": 2006,
+      "yearEnd": 2010,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2006-03-01",
+      "periodEnd": "2010-05-19",
+      "volumeAmount": "2.048.366 €",
+      "financing": "European Union - EDF",
+      "clientName": "Delegation of the European Union in Senegal",
+      "description": "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)",
+      "body": [
+        "Set-up of a Technical Assistance Programme Management Unit (PMU) for the components Economic Governance and Legal Governance of the Support Programme to the National Programme of Good Governance (PAPNBG)"
+      ],
+      "image": "/media/senegal-6602947-a7cf2a48.jpg",
+      "pdf": null,
+      "country": "Senegal",
+      "periodLabel": "01/03/2006 - 19/05/2010"
+    }
+  }
+}

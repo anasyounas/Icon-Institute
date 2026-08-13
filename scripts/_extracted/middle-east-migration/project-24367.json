@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24367",
+    "permalink": "https://hp.icon-institute.de/refprojects/turkey-political-criteria-programme-ii/",
+    "title": "Turkey Political Criteria Programme II",
+    "subtitle": "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP",
+    "countries": [
+      "Turkey"
+    ],
+    "region": "middle-east",
+    "yearStart": 2009,
+    "yearEnd": 2012,
+    "periodStart": "2009-07-01",
+    "periodEnd": "2012-04-30",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.600.000 €",
+    "financing": "Danish Government",
+    "clientName": "DANIDA",
+    "description": "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP",
+    "body": [
+      "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Turkey Political Criteria Programme II",
+    "subtitle": "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP",
+    "countries": [
+      "Turkey"
+    ],
+    "region": "middle-east",
+    "yearStart": 2009,
+    "yearEnd": 2012,
+    "periodStart": "2009-07-01",
+    "periodEnd": "2012-04-30",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.600.000 €",
+    "financing": "Danish Government",
+    "clientName": "DANIDA",
+    "description": "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP",
+    "body": [
+      "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24367",
+    "permalink": "https://hp.icon-institute.de/refprojects/turkey-political-criteria-programme-ii/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aae9851519dfc6ced6a2",
+    "item": {
+      "id": "6a78aae9851519dfc6ced6a2",
+      "slug": "turkey-political-criteria-programme-ii-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:29:29.833617Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:29.833617Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Turkey Political Criteria Programme II",
+      "subtitle": "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP",
+      "countries": [
+        "Turkey"
+      ],
+      "region": "middle-east",
+      "yearStart": 2009,
+      "yearEnd": 2012,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2009-07-01",
+      "periodEnd": "2012-04-30",
+      "volumeAmount": "2.600.000 €",
+      "financing": "Danish Government",
+      "clientName": "DANIDA",
+      "description": "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP",
+      "body": [
+        "Turkey Political Criteria Programme II – Support to the Ministry of Interior/ Support to IHOP"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Turkey",
+      "periodLabel": "01/07/2009 - 30/04/2012"
+    }
+  }
+}

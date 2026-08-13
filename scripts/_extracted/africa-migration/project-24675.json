@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24675",
+    "permalink": "https://hp.icon-institute.de/refprojects/population-drought-resilience-arid-amp-semi-arid-lowlands/",
+    "title": "Population Drought Resilience Arid & Semi-Arid Lowlands",
+    "subtitle": "Strengthening Drought Resilience of the Pastoral and Agro-Pastoral Populations in the Arid and Semi-Arid Lowlands in Ethiopia (SDR-ASAL)",
+    "countries": [
+      "Ethiopia"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2017,
+    "periodStart": "2017-09-20",
+    "periodEnd": "2017-11-20",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "lt-100k",
+    "volumeAmount": "13.380 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Population Drought Resilience Arid & Semi-Arid Lowlands",
+    "subtitle": "Strengthening Drought Resilience of the Pastoral and Agro-Pastoral Populations in the Arid and Semi-Arid Lowlands in Ethiopia (SDR-ASAL)",
+    "countries": [
+      "Ethiopia"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2017,
+    "periodStart": "2017-09-20",
+    "periodEnd": "2017-11-20",
+    "expertise": "agriculture-rural-development",
+    "volume": "lt-100k",
+    "volumeAmount": "13.380 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24675",
+    "permalink": "https://hp.icon-institute.de/refprojects/population-drought-resilience-arid-amp-semi-arid-lowlands/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9df851519dfc6ced2c3",
+    "item": {
+      "id": "6a78a9df851519dfc6ced2c3",
+      "slug": "population-drought-resilience-arid-semi-arid-lowlands",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:03.320048Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:03.320048Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Population Drought Resilience Arid & Semi-Arid Lowlands",
+      "subtitle": "Strengthening Drought Resilience of the Pastoral and Agro-Pastoral Populations in the Arid and Semi-Arid Lowlands in Ethiopia (SDR-ASAL)",
+      "countries": [
+        "Ethiopia"
+      ],
+      "region": "africa",
+      "yearStart": 2017,
+      "yearEnd": 2017,
+      "expertise": "agriculture-rural-development",
+      "volume": "lt-100k",
+      "periodStart": "2017-09-20",
+      "periodEnd": "2017-11-20",
+      "volumeAmount": "13.380 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Ethiopia",
+      "periodLabel": "20/09/2017 - 20/11/2017"
+    }
+  }
+}

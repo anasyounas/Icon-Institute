@@ -63,6 +63,7 @@ export function InformationMaterialPage() {
                 : file.startsWith('/media/')
                   ? assetUrl(file)
                   : '';
+              const isPdf = /\.pdf(\?|#|$)/i.test(file);
 
               return (
                 <li key={m.title}>
@@ -71,9 +72,15 @@ export function InformationMaterialPage() {
                     {m.description && <p>{m.description}</p>}
                   </div>
                   {href ? (
-                    <a className="download-list__file" href={href} download>
+                    <a
+                      className="download-list__file"
+                      href={href}
+                      {...(isPdf
+                        ? { download: true }
+                        : { target: '_blank', rel: 'noopener noreferrer' })}
+                    >
                       <DownloadIcon className="btn__icon" aria-hidden="true" />
-                      Download PDF
+                      {isPdf ? 'Download PDF' : 'Open brochure'}
                     </a>
                   ) : (
                     // Nothing uploaded yet — say so rather than offer a dead link.

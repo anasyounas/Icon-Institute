@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24428",
+    "permalink": "https://hp.icon-institute.de/refprojects/development-amp-quality-assurance-in-occupational-training/",
+    "title": "Development & Quality Assurance in Occupational Training",
+    "subtitle": "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\"",
+    "countries": [
+      "Germany"
+    ],
+    "region": "europe",
+    "yearStart": 2011,
+    "yearEnd": 2014,
+    "periodStart": "2011-03-01",
+    "periodEnd": "2014-04-01",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "334.390 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Bundesinstitut für Berufsbildung (BIBB)",
+    "description": "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\"",
+    "body": [
+      "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\""
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Development & Quality Assurance in Occupational Training",
+    "subtitle": "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\"",
+    "countries": [
+      "Germany"
+    ],
+    "region": "europe",
+    "yearStart": 2011,
+    "yearEnd": 2014,
+    "periodStart": "2011-03-01",
+    "periodEnd": "2014-04-01",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "334.390 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Bundesinstitut für Berufsbildung (BIBB)",
+    "description": "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\"",
+    "body": [
+      "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\""
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24428",
+    "permalink": "https://hp.icon-institute.de/refprojects/development-amp-quality-assurance-in-occupational-training/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8ac851519dfc6cecf0f",
+    "item": {
+      "id": "6a78a8ac851519dfc6cecf0f",
+      "slug": "development-quality-assurance-in-occupational-training",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:56.265716Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:56.265716Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Development & Quality Assurance in Occupational Training",
+      "subtitle": "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\"",
+      "countries": [
+        "Germany"
+      ],
+      "region": "europe",
+      "yearStart": 2011,
+      "yearEnd": 2014,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2011-03-01",
+      "periodEnd": "2014-04-01",
+      "volumeAmount": "334.390 €",
+      "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+      "clientName": "Bundesinstitut für Berufsbildung (BIBB)",
+      "description": "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\"",
+      "body": [
+        "Scientific monitoring of pilot projects in the priority area \"Development and quality assurance in occupational training\""
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Germany",
+      "periodLabel": "01/03/2011 - 01/04/2014"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24437",
+    "permalink": "https://hp.icon-institute.de/refprojects/market-entry-amp-export-coachingbr/",
+    "title": "Market Entry & Export Coaching",
+    "subtitle": "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of Sectors and Companies",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-01-01",
+    "periodEnd": "2012-12-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "247.825 €",
+    "financing": "World Bank",
+    "clientName": "The State of Minas Gerais",
+    "description": "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of…",
+    "body": [
+      "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of…"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/05/image027-e1569935211786.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Market Entry & Export Coaching",
+    "subtitle": "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of Sectors and Companies",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-01-01",
+    "periodEnd": "2012-12-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "247.825 €",
+    "financing": "World Bank",
+    "clientName": "The State of Minas Gerais",
+    "description": "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of…",
+    "body": [
+      "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of…"
+    ],
+    "image": "/media/image027-e1569935211786-e0afaad2.jpg",
+    "pdf": null,
+    "wpId": "24437",
+    "permalink": "https://hp.icon-institute.de/refprojects/market-entry-amp-export-coachingbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/05/image027-e1569935211786.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa3c851519dfc6ced435",
+    "item": {
+      "id": "6a78aa3c851519dfc6ced435",
+      "slug": "market-entry-export-coaching-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:36.451862Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:36.451862Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Market Entry & Export Coaching",
+      "subtitle": "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of Sectors and Companies",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2012,
+      "yearEnd": 2012,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2012-01-01",
+      "periodEnd": "2012-12-31",
+      "volumeAmount": "247.825 €",
+      "financing": "World Bank",
+      "clientName": "The State of Minas Gerais",
+      "description": "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of…",
+      "body": [
+        "Consultancy on Market Entry and Export Coaching to Minas Gerais – Based Companies for Middle East and North Africa (MENA ) Markets, including Business Opportunities Identification and Development of Internationalisation Strategies for the State and for a selected Group of…"
+      ],
+      "image": "/media/image027-e1569935211786-e0afaad2.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/01/2012 - 31/12/2012"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24115",
+    "permalink": "https://hp.icon-institute.de/refprojects/secondary-education/",
+    "title": "Secondary Education",
+    "subtitle": "Rehabilitation Programme Secondary Education",
+    "countries": [
+      "Indonesia"
+    ],
+    "region": "asia",
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "periodStart": "2005-09-01",
+    "periodEnd": "2009-12-01",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "2.650.000 €",
+    "financing": "German Federal Government",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "The RESA Project was a key part of a German initiative to rehabilitate and modernize secondary education in Indonesia’s Tsunami and earthquake-affected regions, particularly in Nanggroe Aceh Darussalam (NAD) and Nias island. It provided financial assistance to rebuild Senior…",
+    "body": [
+      "The RESA Project was a key part of a German initiative to rehabilitate and modernize secondary education in Indonesia’s Tsunami and earthquake-affected regions, particularly in Nanggroe Aceh Darussalam (NAD) and Nias island. It provided financial assistance to rebuild Senior General Secondary Schools (SMA) and Senior Secondary Vocational Schools (SMK) under the Ministry of National Education.",
+      "After assessing damage and the relevance of vocational programs, reconstruction plans were developed for 34 schools, formalized through agreements with district governments. ICON-INSTITUT’s scope covered also engineering planning, equipment provision, tendering, supervision of works, and teacher training in modern equipment use. In its second phase, the project extended support to schools not directly affected by the disaster but needing modernization and equipment upgrades, contributing to a more resilient education system."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5502731.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Secondary Education",
+    "subtitle": "Rehabilitation Programme Secondary Education",
+    "countries": [
+      "Indonesia"
+    ],
+    "region": "asia",
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "periodStart": "2005-09-01",
+    "periodEnd": "2009-12-01",
+    "expertise": "economic-employment-promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "2.650.000 €",
+    "financing": "German Federal Government",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "The RESA Project was a key part of a German initiative to rehabilitate and modernize secondary education in Indonesia’s Tsunami and earthquake-affected regions, particularly in Nanggroe Aceh Darussalam (NAD) and Nias island. It provided financial assistance to rebuild Senior…",
+    "body": [
+      "The RESA Project was a key part of a German initiative to rehabilitate and modernize secondary education in Indonesia’s Tsunami and earthquake-affected regions, particularly in Nanggroe Aceh Darussalam (NAD) and Nias island. It provided financial assistance to rebuild Senior General Secondary Schools (SMA) and Senior Secondary Vocational Schools (SMK) under the Ministry of National Education.",
+      "After assessing damage and the relevance of vocational programs, reconstruction plans were developed for 34 schools, formalized through agreements with district governments. ICON-INSTITUT’s scope covered also engineering planning, equipment provision, tendering, supervision of works, and teacher training in modern equipment use. In its second phase, the project extended support to schools not directly affected by the disaster but needing modernization and equipment upgrades, contributing to a more resilient education system."
+    ],
+    "image": "/media/5502731-5f0e21e2.jpg",
+    "pdf": null,
+    "wpId": "24115",
+    "permalink": "https://hp.icon-institute.de/refprojects/secondary-education/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5502731.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789cae851519dfc6cec960",
+    "item": {
+      "id": "6a789cae851519dfc6cec960",
+      "slug": "secondary-education",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:46.386006Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:46.386006Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Secondary Education",
+      "subtitle": "Rehabilitation Programme Secondary Education",
+      "countries": [
+        "Indonesia"
+      ],
+      "region": "asia",
+      "yearStart": 2005,
+      "yearEnd": 2009,
+      "expertise": "economic-employment-promotion",
+      "volume": "1m-3m",
+      "periodStart": "2005-09-01",
+      "periodEnd": "2009-12-01",
+      "volumeAmount": "2.650.000 €",
+      "financing": "German Federal Government",
+      "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+      "description": "The RESA Project was a key part of a German initiative to rehabilitate and modernize secondary education in Indonesia’s Tsunami and earthquake-affected regions, particularly in Nanggroe Aceh Darussalam (NAD) and Nias island. It provided financial assistance to rebuild Senior…",
+      "body": [
+        "The RESA Project was a key part of a German initiative to rehabilitate and modernize secondary education in Indonesia’s Tsunami and earthquake-affected regions, particularly in Nanggroe Aceh Darussalam (NAD) and Nias island. It provided financial assistance to rebuild Senior General Secondary Schools (SMA) and Senior Secondary Vocational Schools (SMK) under the Ministry of National Education.",
+        "After assessing damage and the relevance of vocational programs, reconstruction plans were developed for 34 schools, formalized through agreements with district governments. ICON-INSTITUT’s scope covered also engineering planning, equipment provision, tendering, supervision of works, and teacher training in modern equipment use. In its second phase, the project extended support to schools not directly affected by the disaster but needing modernization and equipment upgrades, contributing to a more resilient education system."
+      ],
+      "image": "/media/5502731-5f0e21e2.jpg",
+      "pdf": null,
+      "country": "Indonesia",
+      "periodLabel": "01/09/2005 - 01/12/2009"
+    }
+  }
+}

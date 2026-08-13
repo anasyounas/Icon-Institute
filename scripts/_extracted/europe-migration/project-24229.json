@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24229",
+    "permalink": "https://hp.icon-institute.de/refprojects/european-statistical-training-programme/",
+    "title": "European Statistical Training Programme",
+    "subtitle": "European Statistical Training Programme",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2007,
+    "yearEnd": 2011,
+    "periodStart": "2007-10-01",
+    "periodEnd": "2011-09-02",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.279.935 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "European Statistical Training Programme",
+    "body": [
+      "European Statistical Training Programme"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "European Statistical Training Programme",
+    "subtitle": "European Statistical Training Programme",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2007,
+    "yearEnd": 2011,
+    "periodStart": "2007-10-01",
+    "periodEnd": "2011-09-02",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.279.935 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "European Statistical Training Programme",
+    "body": [
+      "European Statistical Training Programme"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24229",
+    "permalink": "https://hp.icon-institute.de/refprojects/european-statistical-training-programme/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "updated",
+    "id": "6a78a7f0851519dfc6cecbb0",
+    "item": {
+      "id": "6a78a7f0851519dfc6cecbb0",
+      "slug": "european-statistical-training-programme",
+      "cms_status": "published",
+      "version": 2,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:48.440000Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:21:04.176846Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": "2026-08-09T16:16:48.599000Z",
+      "title": "European Statistical Training Programme",
+      "subtitle": "European Statistical Training Programme",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2007,
+      "yearEnd": 2011,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2007-10-01",
+      "periodEnd": "2011-09-02",
+      "volumeAmount": "1.279.935 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "European Statistical Training Programme",
+      "body": [
+        "European Statistical Training Programme"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/10/2007 - 02/09/2011"
+    }
+  }
+}

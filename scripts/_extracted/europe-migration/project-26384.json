@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26384",
+    "permalink": "https://hp.icon-institute.de/refprojects/pageing-policiesp/",
+    "title": "Ageing Policies",
+    "subtitle": "Study on “Ageing policies – Access to services in different Member States”",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2021,
+    "yearEnd": 2021,
+    "periodStart": "2021-04-28",
+    "periodEnd": "2021-07-30",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "lt-100k",
+    "volumeAmount": "77.600 €",
+    "financing": "European Union",
+    "clientName": null,
+    "description": "Access to social, health care and long-term care, housing as well as other essential services including digital communication, play a key role for ensuring active ageing. The recent pandemic has only exacerbated the already existing pressure on providing equal and timely…",
+    "body": [
+      "Access to social, health care and long-term care, housing as well as other essential services including digital communication, play a key role for ensuring active ageing. The recent pandemic has only exacerbated the already existing pressure on providing equal and timely access to high-quality and affordable services, notably for the most vulnerable elderly and the disabled, while also putting a strain on the sustainability of social security and pension systems.",
+      "The European Parliament has requested a study on “Ageing policies - Access to services in different Member States”, with the aim of providing members of the committee with a comparative analysis identifying good practices on ageing policies, regarding access to services in Member States and reflecting on policy actions to be pursued at EU level.",
+      "The study comprises three parts: Part 1 - definition of ageing policies and identification of possible qualitative and quantitative criteria and indicators of modern and sustainable social protection and pension systems. Part 2 - overview of the state of play in the EU Member States on access to quality services and illustration of good practices in 6-8 Member states through individual Country Reports. Part 3 - outlines policy recommendations at EU level including EU funding and legislation.",
+      "(6610132)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Ageing Policies",
+    "subtitle": "Study on “Ageing policies – Access to services in different Member States”",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2021,
+    "yearEnd": 2021,
+    "periodStart": "2021-04-28",
+    "periodEnd": "2021-07-30",
+    "expertise": "governance-education-social-development",
+    "volume": "lt-100k",
+    "volumeAmount": "77.600 €",
+    "financing": "European Union",
+    "clientName": null,
+    "description": "Access to social, health care and long-term care, housing as well as other essential services including digital communication, play a key role for ensuring active ageing. The recent pandemic has only exacerbated the already existing pressure on providing equal and timely…",
+    "body": [
+      "Access to social, health care and long-term care, housing as well as other essential services including digital communication, play a key role for ensuring active ageing. The recent pandemic has only exacerbated the already existing pressure on providing equal and timely access to high-quality and affordable services, notably for the most vulnerable elderly and the disabled, while also putting a strain on the sustainability of social security and pension systems.",
+      "The European Parliament has requested a study on “Ageing policies - Access to services in different Member States”, with the aim of providing members of the committee with a comparative analysis identifying good practices on ageing policies, regarding access to services in Member States and reflecting on policy actions to be pursued at EU level.",
+      "The study comprises three parts: Part 1 - definition of ageing policies and identification of possible qualitative and quantitative criteria and indicators of modern and sustainable social protection and pension systems. Part 2 - overview of the state of play in the EU Member States on access to quality services and illustration of good practices in 6-8 Member states through individual Country Reports. Part 3 - outlines policy recommendations at EU level including EU funding and legislation.",
+      "(6610132)"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "26384",
+    "permalink": "https://hp.icon-institute.de/refprojects/pageing-policiesp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7ed851519dfc6cecba0",
+    "item": {
+      "id": "6a78a7ed851519dfc6cecba0",
+      "slug": "ageing-policies",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:45.153476Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:45.153476Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Ageing Policies",
+      "subtitle": "Study on “Ageing policies – Access to services in different Member States”",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2021,
+      "yearEnd": 2021,
+      "expertise": "governance-education-social-development",
+      "volume": "lt-100k",
+      "periodStart": "2021-04-28",
+      "periodEnd": "2021-07-30",
+      "volumeAmount": "77.600 €",
+      "financing": "European Union",
+      "clientName": null,
+      "description": "Access to social, health care and long-term care, housing as well as other essential services including digital communication, play a key role for ensuring active ageing. The recent pandemic has only exacerbated the already existing pressure on providing equal and timely…",
+      "body": [
+        "Access to social, health care and long-term care, housing as well as other essential services including digital communication, play a key role for ensuring active ageing. The recent pandemic has only exacerbated the already existing pressure on providing equal and timely access to high-quality and affordable services, notably for the most vulnerable elderly and the disabled, while also putting a strain on the sustainability of social security and pension systems.",
+        "The European Parliament has requested a study on “Ageing policies - Access to services in different Member States”, with the aim of providing members of the committee with a comparative analysis identifying good practices on ageing policies, regarding access to services in Member States and reflecting on policy actions to be pursued at EU level.",
+        "The study comprises three parts: Part 1 - definition of ageing policies and identification of possible qualitative and quantitative criteria and indicators of modern and sustainable social protection and pension systems. Part 2 - overview of the state of play in the EU Member States on access to quality services and illustration of good practices in 6-8 Member states through individual Country Reports. Part 3 - outlines policy recommendations at EU level including EU funding and legislation.",
+        "(6610132)"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "28/04/2021 - 30/07/2021"
+    }
+  }
+}

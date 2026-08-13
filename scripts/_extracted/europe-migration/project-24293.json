@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24293",
+    "permalink": "https://hp.icon-institute.de/refprojects/public-information-strategy/",
+    "title": "Public Information Strategy",
+    "subtitle": "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH",
+    "countries": [
+      "Albania"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-09-24",
+    "periodEnd": "2010-10-15",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "249.100 €",
+    "financing": "World Bank",
+    "clientName": "Financial Planning Department, Ministry of Health",
+    "description": "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH",
+    "body": [
+      "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Public Information Strategy",
+    "subtitle": "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH",
+    "countries": [
+      "Albania"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-09-24",
+    "periodEnd": "2010-10-15",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "249.100 €",
+    "financing": "World Bank",
+    "clientName": "Financial Planning Department, Ministry of Health",
+    "description": "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH",
+    "body": [
+      "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24293",
+    "permalink": "https://hp.icon-institute.de/refprojects/public-information-strategy/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8cf851519dfc6cecf9d",
+    "item": {
+      "id": "6a78a8cf851519dfc6cecf9d",
+      "slug": "public-information-strategy",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:31.769432Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:31.769432Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Public Information Strategy",
+      "subtitle": "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH",
+      "countries": [
+        "Albania"
+      ],
+      "region": "europe",
+      "yearStart": 2009,
+      "yearEnd": 2010,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2009-09-24",
+      "periodEnd": "2010-10-15",
+      "volumeAmount": "249.100 €",
+      "financing": "World Bank",
+      "clientName": "Financial Planning Department, Ministry of Health",
+      "description": "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH",
+      "body": [
+        "Communication Consultant to Develop and Implement a Public Information Strategy with the MOH"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Albania",
+      "periodLabel": "24/09/2009 - 15/10/2010"
+    }
+  }
+}

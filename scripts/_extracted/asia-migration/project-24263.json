@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "24263",
+    "permalink": "https://hp.icon-institute.de/refprojects/development-of-national-statistics/",
+    "title": "Development of National Statistics",
+    "subtitle": "Further Development of National Statistics – Statistics 11",
+    "countries": [
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "region": "asia",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-01-05",
+    "periodEnd": "2011-04-15",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.799.486 €",
+    "financing": "European Union - Tacis",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "The project aimed to strengthen the technical capacities of the Statistical Offices in Kyrgyzstan, Tajikistan, and Turkmenistan, enabling them to provide accurate, reliable, and timely data aligned with international and EU standards. It focused on improving data quality for…",
+    "body": [
+      "The project aimed to strengthen the technical capacities of the Statistical Offices in Kyrgyzstan, Tajikistan, and Turkmenistan, enabling them to provide accurate, reliable, and timely data aligned with international and EU standards. It focused on improving data quality for decision-makers, enhancing user relations, and implementing modern statistical practices like data confidentiality and multi-annual planning.",
+      "ICON-INSTITUT implemented the project, focusing on GIS, business statistics, and environment statistics. Tajikistan worked on agricultural statistics and household surveys, while Turkmenistan improved its official statistics system and national accounts. The project provided training, consultancy, and study visits to equip staff with EU methodologies, raising the quality of statistical data and facilitating knowledge exchange through international conferences."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6604551.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Development of National Statistics",
+    "subtitle": "Further Development of National Statistics – Statistics 11",
+    "countries": [
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "region": "asia",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-01-05",
+    "periodEnd": "2011-04-15",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.799.486 €",
+    "financing": "European Union - Tacis",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "The project aimed to strengthen the technical capacities of the Statistical Offices in Kyrgyzstan, Tajikistan, and Turkmenistan, enabling them to provide accurate, reliable, and timely data aligned with international and EU standards. It focused on improving data quality for…",
+    "body": [
+      "The project aimed to strengthen the technical capacities of the Statistical Offices in Kyrgyzstan, Tajikistan, and Turkmenistan, enabling them to provide accurate, reliable, and timely data aligned with international and EU standards. It focused on improving data quality for decision-makers, enhancing user relations, and implementing modern statistical practices like data confidentiality and multi-annual planning.",
+      "ICON-INSTITUT implemented the project, focusing on GIS, business statistics, and environment statistics. Tajikistan worked on agricultural statistics and household surveys, while Turkmenistan improved its official statistics system and national accounts. The project provided training, consultancy, and study visits to equip staff with EU methodologies, raising the quality of statistical data and facilitating knowledge exchange through international conferences."
+    ],
+    "image": "/media/6604551-f27bd5f0.jpg",
+    "pdf": null,
+    "wpId": "24263",
+    "permalink": "https://hp.icon-institute.de/refprojects/development-of-national-statistics/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6604551.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789ca0851519dfc6cec918",
+    "item": {
+      "id": "6a789ca0851519dfc6cec918",
+      "slug": "development-of-national-statistics",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:32.742145Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:32.742145Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Development of National Statistics",
+      "subtitle": "Further Development of National Statistics – Statistics 11",
+      "countries": [
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Turkmenistan"
+      ],
+      "region": "asia",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2009-01-05",
+      "periodEnd": "2011-04-15",
+      "volumeAmount": "1.799.486 €",
+      "financing": "European Union - Tacis",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "The project aimed to strengthen the technical capacities of the Statistical Offices in Kyrgyzstan, Tajikistan, and Turkmenistan, enabling them to provide accurate, reliable, and timely data aligned with international and EU standards. It focused on improving data quality for…",
+      "body": [
+        "The project aimed to strengthen the technical capacities of the Statistical Offices in Kyrgyzstan, Tajikistan, and Turkmenistan, enabling them to provide accurate, reliable, and timely data aligned with international and EU standards. It focused on improving data quality for decision-makers, enhancing user relations, and implementing modern statistical practices like data confidentiality and multi-annual planning.",
+        "ICON-INSTITUT implemented the project, focusing on GIS, business statistics, and environment statistics. Tajikistan worked on agricultural statistics and household surveys, while Turkmenistan improved its official statistics system and national accounts. The project provided training, consultancy, and study visits to equip staff with EU methodologies, raising the quality of statistical data and facilitating knowledge exchange through international conferences."
+      ],
+      "image": "/media/6604551-f27bd5f0.jpg",
+      "pdf": null,
+      "country": "Kyrgyzstan, Tajikistan, Turkmenistan",
+      "periodLabel": "05/01/2009 - 15/04/2011"
+    }
+  }
+}

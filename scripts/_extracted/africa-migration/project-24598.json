@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24598",
+    "permalink": "https://hp.icon-institute.de/refprojects/improving-quality-teacher-education/",
+    "title": "Improving Quality Teacher Education",
+    "subtitle": "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-12-01",
+    "periodEnd": "2016-11-30",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "128.720 €",
+    "financing": "UNESCO-China Trust Fund",
+    "clientName": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+    "description": "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa",
+    "body": [
+      "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Improving Quality Teacher Education",
+    "subtitle": "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-12-01",
+    "periodEnd": "2016-11-30",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "128.720 €",
+    "financing": "UNESCO-China Trust Fund",
+    "clientName": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+    "description": "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa",
+    "body": [
+      "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24598",
+    "permalink": "https://hp.icon-institute.de/refprojects/improving-quality-teacher-education/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa0d851519dfc6ced36f",
+    "item": {
+      "id": "6a78aa0d851519dfc6ced36f",
+      "slug": "improving-quality-teacher-education",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:49.201262Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:49.201262Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Improving Quality Teacher Education",
+      "subtitle": "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2015,
+      "yearEnd": 2016,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2015-12-01",
+      "periodEnd": "2016-11-30",
+      "volumeAmount": "128.720 €",
+      "financing": "UNESCO-China Trust Fund",
+      "clientName": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+      "description": "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa",
+      "body": [
+        "Evaluation of UNESCO-China Funds-in-Trust (CFIT) Project: Improving Quality Teacher Education in a selected number of countries in Sub-Saharan Africa"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/12/2015 - 30/11/2016"
+    }
+  }
+}

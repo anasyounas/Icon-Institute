@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "26381",
+    "permalink": "https://hp.icon-institute.de/refprojects/psupply-and-development-of-access-to-health-carep/",
+    "title": "Supply and Development of Access to Health Care",
+    "subtitle": "Mid-term evaluation of the 11th EDF Health Programme: Programme to strengthen the supply and development of access to health care in the DRC (PRO DS)",
+    "countries": [
+      "Congo Dem. Rep."
+    ],
+    "region": "africa",
+    "yearStart": 2021,
+    "yearEnd": 2022,
+    "periodStart": "2021-05-03",
+    "periodEnd": "2022-02-03",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "243.615 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the Democratic Republic of Congo",
+    "description": "The European Union (EU) has been supporting the health sector in the Democratic Republic of Congo (DRC) since the 1990s. Over the course of three successive EDFs, it has pursued the improvement of the health status of beneficiary populations, with priority given to women and…",
+    "body": [
+      "The European Union (EU) has been supporting the health sector in the Democratic Republic of Congo (DRC) since the 1990s. Over the course of three successive EDFs, it has pursued the improvement of the health status of beneficiary populations, with priority given to women and children, through subsidies for the provision of quality health services. The form of support provided by the EU to the health system is systemic and aligned with the country's sectoral policies and strategies, and also with the general EU support focused on strengthening national systems.",
+      "By commissioning a mid-term evaluation of the \"Programme for Strengthening the Supply and Development of Access to Health Care in the DRC (PRO DS)\", the EU wishes to provide the relevant EU services and interested stakeholders for one with a comprehensive and independent analysis of the performance of the programme with particular attention to its intermediate results, in comparison with the expected objectives, and the reasons behind these results; and secondly with lessons learned, conclusions and associated recommendations, so as to improve, where appropriate, present (if necessary) and future interventions. Evaluation focuses on the analysis of the achievements, attainment and quality of results of interventions, in the context of an evolving cooperation policy, and with an increasing emphasis on results-oriented approaches and contribution to the implementation of the Sustainable Development Goals (SDGs).",
+      "(6610104)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/10/4410320.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Supply and Development of Access to Health Care",
+    "subtitle": "Mid-term evaluation of the 11th EDF Health Programme: Programme to strengthen the supply and development of access to health care in the DRC (PRO DS)",
+    "countries": [
+      "Congo Dem. Rep."
+    ],
+    "region": "africa",
+    "yearStart": 2021,
+    "yearEnd": 2022,
+    "periodStart": "2021-05-03",
+    "periodEnd": "2022-02-03",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "243.615 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the Democratic Republic of Congo",
+    "description": "The European Union (EU) has been supporting the health sector in the Democratic Republic of Congo (DRC) since the 1990s. Over the course of three successive EDFs, it has pursued the improvement of the health status of beneficiary populations, with priority given to women and…",
+    "body": [
+      "The European Union (EU) has been supporting the health sector in the Democratic Republic of Congo (DRC) since the 1990s. Over the course of three successive EDFs, it has pursued the improvement of the health status of beneficiary populations, with priority given to women and children, through subsidies for the provision of quality health services. The form of support provided by the EU to the health system is systemic and aligned with the country's sectoral policies and strategies, and also with the general EU support focused on strengthening national systems.",
+      "By commissioning a mid-term evaluation of the \"Programme for Strengthening the Supply and Development of Access to Health Care in the DRC (PRO DS)\", the EU wishes to provide the relevant EU services and interested stakeholders for one with a comprehensive and independent analysis of the performance of the programme with particular attention to its intermediate results, in comparison with the expected objectives, and the reasons behind these results; and secondly with lessons learned, conclusions and associated recommendations, so as to improve, where appropriate, present (if necessary) and future interventions. Evaluation focuses on the analysis of the achievements, attainment and quality of results of interventions, in the context of an evolving cooperation policy, and with an increasing emphasis on results-oriented approaches and contribution to the implementation of the Sustainable Development Goals (SDGs).",
+      "(6610104)"
+    ],
+    "image": "/media/4410320-84a6e72a.jpg",
+    "pdf": null,
+    "wpId": "26381",
+    "permalink": "https://hp.icon-institute.de/refprojects/psupply-and-development-of-access-to-health-carep/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/10/4410320.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a983851519dfc6ced171",
+    "item": {
+      "id": "6a78a983851519dfc6ced171",
+      "slug": "supply-and-development-of-access-to-health-care",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:23:31.908594Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:23:31.908594Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Supply and Development of Access to Health Care",
+      "subtitle": "Mid-term evaluation of the 11th EDF Health Programme: Programme to strengthen the supply and development of access to health care in the DRC (PRO DS)",
+      "countries": [
+        "Congo Dem. Rep."
+      ],
+      "region": "africa",
+      "yearStart": 2021,
+      "yearEnd": 2022,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2021-05-03",
+      "periodEnd": "2022-02-03",
+      "volumeAmount": "243.615 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to the Democratic Republic of Congo",
+      "description": "The European Union (EU) has been supporting the health sector in the Democratic Republic of Congo (DRC) since the 1990s. Over the course of three successive EDFs, it has pursued the improvement of the health status of beneficiary populations, with priority given to women and…",
+      "body": [
+        "The European Union (EU) has been supporting the health sector in the Democratic Republic of Congo (DRC) since the 1990s. Over the course of three successive EDFs, it has pursued the improvement of the health status of beneficiary populations, with priority given to women and children, through subsidies for the provision of quality health services. The form of support provided by the EU to the health system is systemic and aligned with the country's sectoral policies and strategies, and also with the general EU support focused on strengthening national systems.",
+        "By commissioning a mid-term evaluation of the \"Programme for Strengthening the Supply and Development of Access to Health Care in the DRC (PRO DS)\", the EU wishes to provide the relevant EU services and interested stakeholders for one with a comprehensive and independent analysis of the performance of the programme with particular attention to its intermediate results, in comparison with the expected objectives, and the reasons behind these results; and secondly with lessons learned, conclusions and associated recommendations, so as to improve, where appropriate, present (if necessary) and future interventions. Evaluation focuses on the analysis of the achievements, attainment and quality of results of interventions, in the context of an evolving cooperation policy, and with an increasing emphasis on results-oriented approaches and contribution to the implementation of the Sustainable Development Goals (SDGs).",
+        "(6610104)"
+      ],
+      "image": "/media/4410320-84a6e72a.jpg",
+      "pdf": null,
+      "country": "Congo Dem. Rep.",
+      "periodLabel": "03/05/2021 - 03/02/2022"
+    }
+  }
+}

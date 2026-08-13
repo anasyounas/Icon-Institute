@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { jobsPage as bundledJobsPage, type JobListing } from '../data/jobs';
+import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { usePublished } from '../hooks/usePublished';
@@ -7,6 +8,10 @@ import { usePublished } from '../hooks/usePublished';
 export function JobDetailPage() {
   const { jobId } = useParams();
   const listings = usePublished<JobListing[]>('/jobs', bundledJobsPage.listings);
+  const home = usePublished<HomeData>('/pages/home', bundledHome);
+  const heroImage =
+    home.quickLinks.find((l) => l.href === '/jobs')?.image ??
+    'icon_institute_jobs.jpg';
   const job = jobId ? listings.find((j) => j.id === jobId) : undefined;
 
   if (!job) {
@@ -27,7 +32,7 @@ export function JobDetailPage() {
         description={job.summary}
         path={`/jobs/${job.id}`}
       />
-      <PageHero title="JOBS" image="icon_institute_jobs.jpg" imageAlt="" />
+      <PageHero title="JOBS" image={heroImage} imageAlt="" />
       <section className="content-section">
         <div className="container narrow">
           <p className="back-link">

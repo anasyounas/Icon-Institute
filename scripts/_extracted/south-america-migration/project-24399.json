@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24399",
+    "permalink": "https://hp.icon-institute.de/refprojects/agricultural-policy/",
+    "title": "Agricultural Policy",
+    "subtitle": "Consultancy to Develop the CARICOM Community Agricultural Policy",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "south-america",
+    "yearStart": 2010,
+    "yearEnd": 2010,
+    "periodStart": "2010-04-19",
+    "periodEnd": "2010-12-18",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "100k-300k",
+    "volumeAmount": "197.320 €",
+    "financing": "European Union - EDF",
+    "clientName": "CARICOM",
+    "description": "The project aimed to enhance CARICOM's agricultural sector by developing a Community Agricultural Policy (CAP) and Implementation Plan. It supported Member States in improving their agricultural policy formulation, planning, and monitoring processes, ensuring alignment with…",
+    "body": [
+      "The project aimed to enhance CARICOM's agricultural sector by developing a Community Agricultural Policy (CAP) and Implementation Plan. It supported Member States in improving their agricultural policy formulation, planning, and monitoring processes, ensuring alignment with national, regional, and international goals.",
+      "ICON-INSTITUT conducted a review of agricultural policies across Member States, resulting in an updated matrix and the creation of a CAP aligned with global trade agreements and the Revised Treaty of Chaguaramas. An implementation plan was developed to guide agricultural development and resource mobilization.",
+      "The project also provided capacity-building support, helping Member States update their national agricultural policies. Finally, it delivered training to agricultural policy analysts in the region, ensuring effective application of the policies and plans developed."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Belize-2205349-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Agricultural Policy",
+    "subtitle": "Consultancy to Develop the CARICOM Community Agricultural Policy",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "south-america",
+    "yearStart": 2010,
+    "yearEnd": 2010,
+    "periodStart": "2010-04-19",
+    "periodEnd": "2010-12-18",
+    "expertise": "agriculture-rural-development",
+    "volume": "100k-300k",
+    "volumeAmount": "197.320 €",
+    "financing": "European Union - EDF",
+    "clientName": "CARICOM",
+    "description": "The project aimed to enhance CARICOM's agricultural sector by developing a Community Agricultural Policy (CAP) and Implementation Plan. It supported Member States in improving their agricultural policy formulation, planning, and monitoring processes, ensuring alignment with…",
+    "body": [
+      "The project aimed to enhance CARICOM's agricultural sector by developing a Community Agricultural Policy (CAP) and Implementation Plan. It supported Member States in improving their agricultural policy formulation, planning, and monitoring processes, ensuring alignment with national, regional, and international goals.",
+      "ICON-INSTITUT conducted a review of agricultural policies across Member States, resulting in an updated matrix and the creation of a CAP aligned with global trade agreements and the Revised Treaty of Chaguaramas. An implementation plan was developed to guide agricultural development and resource mobilization.",
+      "The project also provided capacity-building support, helping Member States update their national agricultural policies. Finally, it delivered training to agricultural policy analysts in the region, ensuring effective application of the policies and plans developed."
+    ],
+    "image": "/media/belize-2205349-scaled-f32ac0e8.jpg",
+    "pdf": null,
+    "wpId": "24399",
+    "permalink": "https://hp.icon-institute.de/refprojects/agricultural-policy/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Belize-2205349-scaled.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a12c851519dfc6cecad0",
+    "item": {
+      "id": "6a78a12c851519dfc6cecad0",
+      "slug": "agricultural-policy-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:47:56.301796Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:47:56.301796Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Agricultural Policy",
+      "subtitle": "Consultancy to Develop the CARICOM Community Agricultural Policy",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "south-america",
+      "yearStart": 2010,
+      "yearEnd": 2010,
+      "expertise": "agriculture-rural-development",
+      "volume": "100k-300k",
+      "periodStart": "2010-04-19",
+      "periodEnd": "2010-12-18",
+      "volumeAmount": "197.320 €",
+      "financing": "European Union - EDF",
+      "clientName": "CARICOM",
+      "description": "The project aimed to enhance CARICOM's agricultural sector by developing a Community Agricultural Policy (CAP) and Implementation Plan. It supported Member States in improving their agricultural policy formulation, planning, and monitoring processes, ensuring alignment with…",
+      "body": [
+        "The project aimed to enhance CARICOM's agricultural sector by developing a Community Agricultural Policy (CAP) and Implementation Plan. It supported Member States in improving their agricultural policy formulation, planning, and monitoring processes, ensuring alignment with national, regional, and international goals.",
+        "ICON-INSTITUT conducted a review of agricultural policies across Member States, resulting in an updated matrix and the creation of a CAP aligned with global trade agreements and the Revised Treaty of Chaguaramas. An implementation plan was developed to guide agricultural development and resource mobilization.",
+        "The project also provided capacity-building support, helping Member States update their national agricultural policies. Finally, it delivered training to agricultural policy analysts in the region, ensuring effective application of the policies and plans developed."
+      ],
+      "image": "/media/belize-2205349-scaled-f32ac0e8.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "19/04/2010 - 18/12/2010"
+    }
+  }
+}

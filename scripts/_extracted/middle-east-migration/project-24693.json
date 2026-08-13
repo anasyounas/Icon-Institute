@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24693",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-and-wastewater-service-providers/",
+    "title": "Water and Wastewater Service Providers",
+    "subtitle": "Support the Financial and Commercial Viability of Water and Wastewater Service Providers in the West Bank and Gaza",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2018,
+    "yearEnd": 2018,
+    "periodStart": "2018-11-01",
+    "periodEnd": "2018-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "lt-100k",
+    "volumeAmount": "26.221 €",
+    "financing": "United Nations Office for Project Services (UNOPS)",
+    "clientName": "United Nations Office for Project Services (UNOPS)",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Water and Wastewater Service Providers",
+    "subtitle": "Support the Financial and Commercial Viability of Water and Wastewater Service Providers in the West Bank and Gaza",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2018,
+    "yearEnd": 2018,
+    "periodStart": "2018-11-01",
+    "periodEnd": "2018-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "lt-100k",
+    "volumeAmount": "26.221 €",
+    "financing": "United Nations Office for Project Services (UNOPS)",
+    "clientName": "United Nations Office for Project Services (UNOPS)",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24693",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-and-wastewater-service-providers/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aaa4851519dfc6ced595",
+    "item": {
+      "id": "6a78aaa4851519dfc6ced595",
+      "slug": "water-and-wastewater-service-providers",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:20.517883Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:20.517883Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Water and Wastewater Service Providers",
+      "subtitle": "Support the Financial and Commercial Viability of Water and Wastewater Service Providers in the West Bank and Gaza",
+      "countries": [
+        "Palestine"
+      ],
+      "region": "middle-east",
+      "yearStart": 2018,
+      "yearEnd": 2018,
+      "expertise": "agriculture-rural-development",
+      "volume": "lt-100k",
+      "periodStart": "2018-11-01",
+      "periodEnd": "2018-12-31",
+      "volumeAmount": "26.221 €",
+      "financing": "United Nations Office for Project Services (UNOPS)",
+      "clientName": "United Nations Office for Project Services (UNOPS)",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Palestine",
+      "periodLabel": "01/11/2018 - 31/12/2018"
+    }
+  }
+}

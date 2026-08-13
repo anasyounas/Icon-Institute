@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24431",
+    "permalink": "https://hp.icon-institute.de/refprojects/etf-labour-market-activities/",
+    "title": "ETF Labour Market Activities",
+    "subtitle": "Evaluation of ETF Labour Market Activities",
+    "countries": [
+      "Italy",
+      "Montenegro",
+      "Ukraine"
+    ],
+    "region": "europe",
+    "yearStart": 2011,
+    "yearEnd": 2012,
+    "periodStart": "2011-07-01",
+    "periodEnd": "2012-01-15",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "74.310 €",
+    "financing": "European Union",
+    "clientName": "European Training Foundation (ETF)",
+    "description": "Evaluation of ETF Labour Market Activities",
+    "body": [
+      "Evaluation of ETF Labour Market Activities"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "ETF Labour Market Activities",
+    "subtitle": "Evaluation of ETF Labour Market Activities",
+    "countries": [
+      "Italy",
+      "Montenegro",
+      "Ukraine"
+    ],
+    "region": "europe",
+    "yearStart": 2011,
+    "yearEnd": 2012,
+    "periodStart": "2011-07-01",
+    "periodEnd": "2012-01-15",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "74.310 €",
+    "financing": "European Union",
+    "clientName": "European Training Foundation (ETF)",
+    "description": "Evaluation of ETF Labour Market Activities",
+    "body": [
+      "Evaluation of ETF Labour Market Activities"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24431",
+    "permalink": "https://hp.icon-institute.de/refprojects/etf-labour-market-activities/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8a6851519dfc6cecef7",
+    "item": {
+      "id": "6a78a8a6851519dfc6cecef7",
+      "slug": "etf-labour-market-activities",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:50.466283Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:50.466283Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "ETF Labour Market Activities",
+      "subtitle": "Evaluation of ETF Labour Market Activities",
+      "countries": [
+        "Italy",
+        "Montenegro",
+        "Ukraine"
+      ],
+      "region": "europe",
+      "yearStart": 2011,
+      "yearEnd": 2012,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2011-07-01",
+      "periodEnd": "2012-01-15",
+      "volumeAmount": "74.310 €",
+      "financing": "European Union",
+      "clientName": "European Training Foundation (ETF)",
+      "description": "Evaluation of ETF Labour Market Activities",
+      "body": [
+        "Evaluation of ETF Labour Market Activities"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Italy, Montenegro, Ukraine",
+      "periodLabel": "01/07/2011 - 15/01/2012"
+    }
+  }
+}

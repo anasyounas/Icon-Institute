@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "25011",
+    "permalink": "https://hp.icon-institute.de/refprojects/health-situation-inventory/",
+    "title": "Health Situation Inventory",
+    "subtitle": "Mission of the Initial Inventory of the Health Situation in the six provinces supported by the PRO DS",
+    "countries": [
+      "Congo Dem. Rep."
+    ],
+    "region": "africa",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "periodStart": "2019-03-01",
+    "periodEnd": "2019-08-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "299.950 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the Congo Democratic Republic",
+    "description": "Despite an exceptional potential in natural resources and a growth rate of more than 7% per year from 2010 to 2015, the Democratic Republic of Congo (DRC) is one of the poorest countries in the world with almost two thirds of the population considered to be poor, and a…",
+    "body": [
+      "Despite an exceptional potential in natural resources and a growth rate of more than 7% per year from 2010 to 2015, the Democratic Republic of Congo (DRC) is one of the poorest countries in the world with almost two thirds of the population considered to be poor, and a literacy rate of 77.3%. Although macroeconomic stability and growth of the economy in recent years have resulted in an improvement in the human development indicators, the current situation of political crisis still jeopardizes these fragile equilibriums and further progress.",
+      "The objectives of project achieved the aims of the PNDS (Support Programme for the National Plan of Action Health Development) through a coherent and coordinated implementation of the PRODS (Program to strengthen the offer and develop access to health care in DRC) and thus contributed to the efficiency, effectiveness and sustainability of the assistance provided under PRODS. The study was conducted in the form of a mixed exercise comprising, on the one hand, of a retrospective approach dedicated to the collection of data relating to the year 2016, the start year of the PRO DS, and on the other hand, of a mid-term evaluation. 38 health zones in 7 provinces were assessed. A detailed initial inventory was established by proposing baseline values (qualitative and quantitative) for impact, outcome and result indicators in accordance with the PRO DS logical framework. This baseline study enables to establish the starting point for the various indicators (situation in 2016) and to assess the contribution of each component to the achievement of the objectives, in the overall context of poverty reduction and improving the health of the population of the DRC.",
+      "(6609517)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Health Situation Inventory",
+    "subtitle": "Mission of the Initial Inventory of the Health Situation in the six provinces supported by the PRO DS",
+    "countries": [
+      "Congo Dem. Rep."
+    ],
+    "region": "africa",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "periodStart": "2019-03-01",
+    "periodEnd": "2019-08-31",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "299.950 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the Congo Democratic Republic",
+    "description": "Despite an exceptional potential in natural resources and a growth rate of more than 7% per year from 2010 to 2015, the Democratic Republic of Congo (DRC) is one of the poorest countries in the world with almost two thirds of the population considered to be poor, and a…",
+    "body": [
+      "Despite an exceptional potential in natural resources and a growth rate of more than 7% per year from 2010 to 2015, the Democratic Republic of Congo (DRC) is one of the poorest countries in the world with almost two thirds of the population considered to be poor, and a literacy rate of 77.3%. Although macroeconomic stability and growth of the economy in recent years have resulted in an improvement in the human development indicators, the current situation of political crisis still jeopardizes these fragile equilibriums and further progress.",
+      "The objectives of project achieved the aims of the PNDS (Support Programme for the National Plan of Action Health Development) through a coherent and coordinated implementation of the PRODS (Program to strengthen the offer and develop access to health care in DRC) and thus contributed to the efficiency, effectiveness and sustainability of the assistance provided under PRODS. The study was conducted in the form of a mixed exercise comprising, on the one hand, of a retrospective approach dedicated to the collection of data relating to the year 2016, the start year of the PRO DS, and on the other hand, of a mid-term evaluation. 38 health zones in 7 provinces were assessed. A detailed initial inventory was established by proposing baseline values (qualitative and quantitative) for impact, outcome and result indicators in accordance with the PRO DS logical framework. This baseline study enables to establish the starting point for the various indicators (situation in 2016) and to assess the contribution of each component to the achievement of the objectives, in the overall context of poverty reduction and improving the health of the population of the DRC.",
+      "(6609517)"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "25011",
+    "permalink": "https://hp.icon-institute.de/refprojects/health-situation-inventory/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9ae851519dfc6ced231",
+    "item": {
+      "id": "6a78a9ae851519dfc6ced231",
+      "slug": "health-situation-inventory",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:24:14.890916Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:24:14.890916Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Health Situation Inventory",
+      "subtitle": "Mission of the Initial Inventory of the Health Situation in the six provinces supported by the PRO DS",
+      "countries": [
+        "Congo Dem. Rep."
+      ],
+      "region": "africa",
+      "yearStart": 2019,
+      "yearEnd": 2019,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2019-03-01",
+      "periodEnd": "2019-08-31",
+      "volumeAmount": "299.950 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to the Congo Democratic Republic",
+      "description": "Despite an exceptional potential in natural resources and a growth rate of more than 7% per year from 2010 to 2015, the Democratic Republic of Congo (DRC) is one of the poorest countries in the world with almost two thirds of the population considered to be poor, and a…",
+      "body": [
+        "Despite an exceptional potential in natural resources and a growth rate of more than 7% per year from 2010 to 2015, the Democratic Republic of Congo (DRC) is one of the poorest countries in the world with almost two thirds of the population considered to be poor, and a literacy rate of 77.3%. Although macroeconomic stability and growth of the economy in recent years have resulted in an improvement in the human development indicators, the current situation of political crisis still jeopardizes these fragile equilibriums and further progress.",
+        "The objectives of project achieved the aims of the PNDS (Support Programme for the National Plan of Action Health Development) through a coherent and coordinated implementation of the PRODS (Program to strengthen the offer and develop access to health care in DRC) and thus contributed to the efficiency, effectiveness and sustainability of the assistance provided under PRODS. The study was conducted in the form of a mixed exercise comprising, on the one hand, of a retrospective approach dedicated to the collection of data relating to the year 2016, the start year of the PRO DS, and on the other hand, of a mid-term evaluation. 38 health zones in 7 provinces were assessed. A detailed initial inventory was established by proposing baseline values (qualitative and quantitative) for impact, outcome and result indicators in accordance with the PRO DS logical framework. This baseline study enables to establish the starting point for the various indicators (situation in 2016) and to assess the contribution of each component to the achievement of the objectives, in the overall context of poverty reduction and improving the health of the population of the DRC.",
+        "(6609517)"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Congo Dem. Rep.",
+      "periodLabel": "01/03/2019 - 31/08/2019"
+    }
+  }
+}

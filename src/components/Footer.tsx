@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { footer as bundledFooter, type FooterData } from '../data/footer';
 import { usePublished } from '../hooks/usePublished';
+import { assetUrl } from '../lib/api';
 import {
   GlobeIcon,
   MailIcon,
@@ -17,7 +18,7 @@ export function Footer() {
     <footer className="site-footer">
       <div  className="site-footer__main"
             style={{
-              backgroundImage: `linear-gradient(hsla(220, 10%, 40%, 0.6), hsla(220, 10%, 40%, 0.6)), url(/images/${footer.backgroundImage})`,
+              backgroundImage: `linear-gradient(hsla(220, 10%, 40%, 0.6), hsla(220, 10%, 40%, 0.6)), url(${assetUrl(footer.backgroundImage)})`,
                    }}>
         <div className="container site-footer__grid">
           <div className="site-footer__brand">

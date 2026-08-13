@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24601",
+    "permalink": "https://hp.icon-institute.de/refprojects/municipal-land-management-iii/",
+    "title": "Municipal Land Management III",
+    "subtitle": "Strengthening of Municipal Land Management III",
+    "countries": [
+      "Serbia"
+    ],
+    "region": "europe",
+    "yearStart": 2016,
+    "yearEnd": 2018,
+    "periodStart": "2016-04-01",
+    "periodEnd": "2018-12-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "500k-1m",
+    "volumeAmount": "929.886 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Strengthening of Municipal Land Management III",
+    "body": [
+      "Strengthening of Municipal Land Management III"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Municipal Land Management III",
+    "subtitle": "Strengthening of Municipal Land Management III",
+    "countries": [
+      "Serbia"
+    ],
+    "region": "europe",
+    "yearStart": 2016,
+    "yearEnd": 2018,
+    "periodStart": "2016-04-01",
+    "periodEnd": "2018-12-31",
+    "expertise": "governance-education-social-development",
+    "volume": "500k-1m",
+    "volumeAmount": "929.886 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Strengthening of Municipal Land Management III",
+    "body": [
+      "Strengthening of Municipal Land Management III"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24601",
+    "permalink": "https://hp.icon-institute.de/refprojects/municipal-land-management-iii/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a856851519dfc6cecdbc",
+    "item": {
+      "id": "6a78a856851519dfc6cecdbc",
+      "slug": "municipal-land-management-iii",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:30.329395Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:30.329395Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Municipal Land Management III",
+      "subtitle": "Strengthening of Municipal Land Management III",
+      "countries": [
+        "Serbia"
+      ],
+      "region": "europe",
+      "yearStart": 2016,
+      "yearEnd": 2018,
+      "expertise": "governance-education-social-development",
+      "volume": "500k-1m",
+      "periodStart": "2016-04-01",
+      "periodEnd": "2018-12-31",
+      "volumeAmount": "929.886 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Strengthening of Municipal Land Management III",
+      "body": [
+        "Strengthening of Municipal Land Management III"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Serbia",
+      "periodLabel": "01/04/2016 - 31/12/2018"
+    }
+  }
+}

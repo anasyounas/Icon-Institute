@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24283",
+    "permalink": "https://hp.icon-institute.de/refprojects/process-development-assistance-project-at-the-abu-dhabi-education-council-adec/",
+    "title": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC)",
+    "subtitle": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors",
+    "countries": [
+      "United Arab Emirates"
+    ],
+    "region": "middle-east",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-09-29",
+    "periodEnd": "2010-06-14",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "621.780 €",
+    "financing": "Abu Dhabi Education Council (ADEC)",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors",
+    "body": [
+      "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC)",
+    "subtitle": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors",
+    "countries": [
+      "United Arab Emirates"
+    ],
+    "region": "middle-east",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-09-29",
+    "periodEnd": "2010-06-14",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "621.780 €",
+    "financing": "Abu Dhabi Education Council (ADEC)",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors",
+    "body": [
+      "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24283",
+    "permalink": "https://hp.icon-institute.de/refprojects/process-development-assistance-project-at-the-abu-dhabi-education-council-adec/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aae4851519dfc6ced68e",
+    "item": {
+      "id": "6a78aae4851519dfc6ced68e",
+      "slug": "process-development-assistance-project-at-the-abu-dhabi-education-council-adec",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:29:24.990248Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:24.990248Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC)",
+      "subtitle": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors",
+      "countries": [
+        "United Arab Emirates"
+      ],
+      "region": "middle-east",
+      "yearStart": 2009,
+      "yearEnd": 2010,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2009-09-29",
+      "periodEnd": "2010-06-14",
+      "volumeAmount": "621.780 €",
+      "financing": "Abu Dhabi Education Council (ADEC)",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors",
+      "body": [
+        "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC) – Academic Sectors"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "United Arab Emirates",
+      "periodLabel": "29/09/2009 - 14/06/2010"
+    }
+  }
+}

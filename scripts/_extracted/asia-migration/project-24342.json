@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24342",
+    "permalink": "https://hp.icon-institute.de/refprojects/food-security/",
+    "title": "Food Security",
+    "subtitle": "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK",
+    "countries": [
+      "North Korea"
+    ],
+    "region": "asia",
+    "yearStart": 2007,
+    "yearEnd": 2009,
+    "periodStart": "2007-04-15",
+    "periodEnd": "2009-04-01",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "300k-500k",
+    "volumeAmount": "497.673 €",
+    "financing": "European Union - Food Security Programme",
+    "clientName": "European Union",
+    "description": "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK",
+    "body": [
+      "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/2203589.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Food Security",
+    "subtitle": "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK",
+    "countries": [
+      "North Korea"
+    ],
+    "region": "asia",
+    "yearStart": 2007,
+    "yearEnd": 2009,
+    "periodStart": "2007-04-15",
+    "periodEnd": "2009-04-01",
+    "expertise": "agriculture-rural-development",
+    "volume": "300k-500k",
+    "volumeAmount": "497.673 €",
+    "financing": "European Union - Food Security Programme",
+    "clientName": "European Union",
+    "description": "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK",
+    "body": [
+      "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK"
+    ],
+    "image": "/media/2203589-74548a55.jpg",
+    "pdf": null,
+    "wpId": "24342",
+    "permalink": "https://hp.icon-institute.de/refprojects/food-security/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/2203589.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789ca7851519dfc6cec940",
+    "item": {
+      "id": "6a789ca7851519dfc6cec940",
+      "slug": "food-security",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:39.952015Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:39.952015Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Food Security",
+      "subtitle": "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK",
+      "countries": [
+        "North Korea"
+      ],
+      "region": "asia",
+      "yearStart": 2007,
+      "yearEnd": 2009,
+      "expertise": "agriculture-rural-development",
+      "volume": "300k-500k",
+      "periodStart": "2007-04-15",
+      "periodEnd": "2009-04-01",
+      "volumeAmount": "497.673 €",
+      "financing": "European Union - Food Security Programme",
+      "clientName": "European Union",
+      "description": "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK",
+      "body": [
+        "Technical Assistance to assist the European Commission in the Implementation of Food Security Programme in DPRK"
+      ],
+      "image": "/media/2203589-74548a55.jpg",
+      "pdf": null,
+      "country": "North Korea",
+      "periodLabel": "15/04/2007 - 01/04/2009"
+    }
+  }
+}

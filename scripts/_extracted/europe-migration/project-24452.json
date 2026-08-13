@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24452",
+    "permalink": "https://hp.icon-institute.de/refprojects/russia-renewable-energy-program/",
+    "title": "Russia Renewable Energy Program",
+    "subtitle": "Mid-Term Evaluation for Russia Renewable Energy Program",
+    "countries": [
+      "Russian Federation"
+    ],
+    "region": "europe",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-04-18",
+    "periodEnd": "2012-06-29",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "16.321 €",
+    "financing": "World Bank",
+    "clientName": "International Finance Corporation (IFC)",
+    "description": "Mid-Term Evaluation for Russia Renewable Energy Program",
+    "body": [
+      "Mid-Term Evaluation for Russia Renewable Energy Program"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Russia Renewable Energy Program",
+    "subtitle": "Mid-Term Evaluation for Russia Renewable Energy Program",
+    "countries": [
+      "Russian Federation"
+    ],
+    "region": "europe",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-04-18",
+    "periodEnd": "2012-06-29",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "16.321 €",
+    "financing": "World Bank",
+    "clientName": "International Finance Corporation (IFC)",
+    "description": "Mid-Term Evaluation for Russia Renewable Energy Program",
+    "body": [
+      "Mid-Term Evaluation for Russia Renewable Energy Program"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24452",
+    "permalink": "https://hp.icon-institute.de/refprojects/russia-renewable-energy-program/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a89d851519dfc6ceced3",
+    "item": {
+      "id": "6a78a89d851519dfc6ceced3",
+      "slug": "russia-renewable-energy-program",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:41.798760Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:41.798760Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Russia Renewable Energy Program",
+      "subtitle": "Mid-Term Evaluation for Russia Renewable Energy Program",
+      "countries": [
+        "Russian Federation"
+      ],
+      "region": "europe",
+      "yearStart": 2012,
+      "yearEnd": 2012,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2012-04-18",
+      "periodEnd": "2012-06-29",
+      "volumeAmount": "16.321 €",
+      "financing": "World Bank",
+      "clientName": "International Finance Corporation (IFC)",
+      "description": "Mid-Term Evaluation for Russia Renewable Energy Program",
+      "body": [
+        "Mid-Term Evaluation for Russia Renewable Energy Program"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Russian Federation",
+      "periodLabel": "18/04/2012 - 29/06/2012"
+    }
+  }
+}

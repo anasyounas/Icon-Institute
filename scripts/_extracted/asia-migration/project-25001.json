@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "25001",
+    "permalink": "https://hp.icon-institute.de/refprojects/conduction-of-human-capital-study/",
+    "title": "Conduction of Human Capital Study",
+    "subtitle": "Hiring of Consultancy Services for Conducting the Human Capital Study in Afghanistan",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2017,
+    "yearEnd": 2017,
+    "periodStart": "2017-07-31",
+    "periodEnd": "2017-12-08",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "69.000 €",
+    "financing": "World Bank / Italian cooperation",
+    "clientName": "Ministry of Labour, Social Affairs, Martyrs and Disabled",
+    "description": "ICON-INSTITUTE was contracted by the World Bank to conduct a study aiming to deepen the understanding of human capital formation and utilization in Afghanistan, providing valuable insights for shaping future policies in education, higher education, TVET, labor, and economic…",
+    "body": [
+      "ICON-INSTITUTE was contracted by the World Bank to conduct a study aiming to deepen the understanding of human capital formation and utilization in Afghanistan, providing valuable insights for shaping future policies in education, higher education, TVET, labor, and economic development. Its ultimate goal was to support the operationalization of Afghanistan's National Peace and Development Framework (2017-2021), ensuring that key priority areas in the country’s development plan were effectively addressed.",
+      "Drawing on a combination of qualitative and quantitative data, the study involved extensive interviews with stakeholders across both the public and private sectors, alongside a detailed analysis of labor and education data from the Afghanistan Living Condition Survey (2013-2014). This approach allowed for a comprehensive assessment of the current state of human capital in the country, examining not only how human capital is being formed but also how it is utilized, and identifying significant mismatches between the supply and demand for skilled workers.",
+      "The findings of the study were crucial in offering actionable recommendations to the Ministry of Labour, Social Affairs, Martyrs and Disabled (MoLSAMD) and the National Skills Development Program (NSDP). These recommendations aimed to improve the creation and strategic use of human capital, which is essential for Afghanistan’s economic and social development."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/06/6608656.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Conduction of Human Capital Study",
+    "subtitle": "Hiring of Consultancy Services for Conducting the Human Capital Study in Afghanistan",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2017,
+    "yearEnd": 2017,
+    "periodStart": "2017-07-31",
+    "periodEnd": "2017-12-08",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "69.000 €",
+    "financing": "World Bank / Italian cooperation",
+    "clientName": "Ministry of Labour, Social Affairs, Martyrs and Disabled",
+    "description": "ICON-INSTITUTE was contracted by the World Bank to conduct a study aiming to deepen the understanding of human capital formation and utilization in Afghanistan, providing valuable insights for shaping future policies in education, higher education, TVET, labor, and economic…",
+    "body": [
+      "ICON-INSTITUTE was contracted by the World Bank to conduct a study aiming to deepen the understanding of human capital formation and utilization in Afghanistan, providing valuable insights for shaping future policies in education, higher education, TVET, labor, and economic development. Its ultimate goal was to support the operationalization of Afghanistan's National Peace and Development Framework (2017-2021), ensuring that key priority areas in the country’s development plan were effectively addressed.",
+      "Drawing on a combination of qualitative and quantitative data, the study involved extensive interviews with stakeholders across both the public and private sectors, alongside a detailed analysis of labor and education data from the Afghanistan Living Condition Survey (2013-2014). This approach allowed for a comprehensive assessment of the current state of human capital in the country, examining not only how human capital is being formed but also how it is utilized, and identifying significant mismatches between the supply and demand for skilled workers.",
+      "The findings of the study were crucial in offering actionable recommendations to the Ministry of Labour, Social Affairs, Martyrs and Disabled (MoLSAMD) and the National Skills Development Program (NSDP). These recommendations aimed to improve the creation and strategic use of human capital, which is essential for Afghanistan’s economic and social development."
+    ],
+    "image": "/media/6608656-17d32554.jpg",
+    "pdf": null,
+    "wpId": "25001",
+    "permalink": "https://hp.icon-institute.de/refprojects/conduction-of-human-capital-study/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/06/6608656.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c59851519dfc6cec791",
+    "item": {
+      "id": "6a789c59851519dfc6cec791",
+      "slug": "conduction-of-human-capital-study",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:21.673743Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:21.673743Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Conduction of Human Capital Study",
+      "subtitle": "Hiring of Consultancy Services for Conducting the Human Capital Study in Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2017,
+      "yearEnd": 2017,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2017-07-31",
+      "periodEnd": "2017-12-08",
+      "volumeAmount": "69.000 €",
+      "financing": "World Bank / Italian cooperation",
+      "clientName": "Ministry of Labour, Social Affairs, Martyrs and Disabled",
+      "description": "ICON-INSTITUTE was contracted by the World Bank to conduct a study aiming to deepen the understanding of human capital formation and utilization in Afghanistan, providing valuable insights for shaping future policies in education, higher education, TVET, labor, and economic…",
+      "body": [
+        "ICON-INSTITUTE was contracted by the World Bank to conduct a study aiming to deepen the understanding of human capital formation and utilization in Afghanistan, providing valuable insights for shaping future policies in education, higher education, TVET, labor, and economic development. Its ultimate goal was to support the operationalization of Afghanistan's National Peace and Development Framework (2017-2021), ensuring that key priority areas in the country’s development plan were effectively addressed.",
+        "Drawing on a combination of qualitative and quantitative data, the study involved extensive interviews with stakeholders across both the public and private sectors, alongside a detailed analysis of labor and education data from the Afghanistan Living Condition Survey (2013-2014). This approach allowed for a comprehensive assessment of the current state of human capital in the country, examining not only how human capital is being formed but also how it is utilized, and identifying significant mismatches between the supply and demand for skilled workers.",
+        "The findings of the study were crucial in offering actionable recommendations to the Ministry of Labour, Social Affairs, Martyrs and Disabled (MoLSAMD) and the National Skills Development Program (NSDP). These recommendations aimed to improve the creation and strategic use of human capital, which is essential for Afghanistan’s economic and social development."
+      ],
+      "image": "/media/6608656-17d32554.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "31/07/2017 - 08/12/2017"
+    }
+  }
+}

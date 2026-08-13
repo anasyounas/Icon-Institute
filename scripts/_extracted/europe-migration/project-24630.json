@@ -1,0 +1,113 @@
+{
+  "scraped": {
+    "wpId": "24630",
+    "permalink": "https://hp.icon-institute.de/refprojects/hellenic-statistical-authority/",
+    "title": "Hellenic Statistical Authority",
+    "subtitle": "Provision of Expertise to the Hellenic Statistical Authority in selected Statistical Domains, including Public Finance Statistics",
+    "countries": [
+      "Greece"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2019,
+    "periodStart": "2017-10-04",
+    "periodEnd": "2019-01-03",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "175.000 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Financed by the European Union and commissioned by Eurostat, this project supports the Hellenic Statistical Authority (ELSTAT) in improving its institutional environment, enhancing its capacity to produce high-quality statistical data, and ensuring compliance with EU…",
+    "body": [
+      "Financed by the European Union and commissioned by Eurostat, this project supports the Hellenic Statistical Authority (ELSTAT) in improving its institutional environment, enhancing its capacity to produce high-quality statistical data, and ensuring compliance with EU standards. The project aligns with the Joint Official Statistics Greece Action Plan (JOSGAP), with a particular focus on strengthening national accounts and government finance statistics.",
+      "ICON is providing project management assistance and expert consultancy to facilitate ELSTAT’s development. The key output is the formulation of a coherent work program, translating ELSTAT’s priorities into expert missions and actionable terms of reference while ensuring full alignment with JOSGAP objectives. Regular reporting and follow-up ensure Eurostat is informed of progress and any challenges encountered. ICON is responsible for:",
+      "Supporting ELSTAT in implementing a structured work program for statistical development.",
+      "Managing and coordinating consultancy missions across various statistical domains.",
+      "Providing technical expertise to improve national accounts and public finance statistics, ensuring alignment with EU regulations.",
+      "Selecting experienced experts in close cooperation with ELSTAT and Eurostat."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608492.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Hellenic Statistical Authority",
+    "subtitle": "Provision of Expertise to the Hellenic Statistical Authority in selected Statistical Domains, including Public Finance Statistics",
+    "countries": [
+      "Greece"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2019,
+    "periodStart": "2017-10-04",
+    "periodEnd": "2019-01-03",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "175.000 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Financed by the European Union and commissioned by Eurostat, this project supports the Hellenic Statistical Authority (ELSTAT) in improving its institutional environment, enhancing its capacity to produce high-quality statistical data, and ensuring compliance with EU…",
+    "body": [
+      "Financed by the European Union and commissioned by Eurostat, this project supports the Hellenic Statistical Authority (ELSTAT) in improving its institutional environment, enhancing its capacity to produce high-quality statistical data, and ensuring compliance with EU standards. The project aligns with the Joint Official Statistics Greece Action Plan (JOSGAP), with a particular focus on strengthening national accounts and government finance statistics.",
+      "ICON is providing project management assistance and expert consultancy to facilitate ELSTAT’s development. The key output is the formulation of a coherent work program, translating ELSTAT’s priorities into expert missions and actionable terms of reference while ensuring full alignment with JOSGAP objectives. Regular reporting and follow-up ensure Eurostat is informed of progress and any challenges encountered. ICON is responsible for:",
+      "Supporting ELSTAT in implementing a structured work program for statistical development.",
+      "Managing and coordinating consultancy missions across various statistical domains.",
+      "Providing technical expertise to improve national accounts and public finance statistics, ensuring alignment with EU regulations.",
+      "Selecting experienced experts in close cooperation with ELSTAT and Eurostat."
+    ],
+    "image": "/media/6608492-dac39bb1.jpg",
+    "pdf": null,
+    "wpId": "24630",
+    "permalink": "https://hp.icon-institute.de/refprojects/hellenic-statistical-authority/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608492.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a846851519dfc6cecd3c",
+    "item": {
+      "id": "6a78a846851519dfc6cecd3c",
+      "slug": "hellenic-statistical-authority",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:14.823043Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:14.823043Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Hellenic Statistical Authority",
+      "subtitle": "Provision of Expertise to the Hellenic Statistical Authority in selected Statistical Domains, including Public Finance Statistics",
+      "countries": [
+        "Greece"
+      ],
+      "region": "europe",
+      "yearStart": 2017,
+      "yearEnd": 2019,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2017-10-04",
+      "periodEnd": "2019-01-03",
+      "volumeAmount": "175.000 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Financed by the European Union and commissioned by Eurostat, this project supports the Hellenic Statistical Authority (ELSTAT) in improving its institutional environment, enhancing its capacity to produce high-quality statistical data, and ensuring compliance with EU…",
+      "body": [
+        "Financed by the European Union and commissioned by Eurostat, this project supports the Hellenic Statistical Authority (ELSTAT) in improving its institutional environment, enhancing its capacity to produce high-quality statistical data, and ensuring compliance with EU standards. The project aligns with the Joint Official Statistics Greece Action Plan (JOSGAP), with a particular focus on strengthening national accounts and government finance statistics.",
+        "ICON is providing project management assistance and expert consultancy to facilitate ELSTAT’s development. The key output is the formulation of a coherent work program, translating ELSTAT’s priorities into expert missions and actionable terms of reference while ensuring full alignment with JOSGAP objectives. Regular reporting and follow-up ensure Eurostat is informed of progress and any challenges encountered. ICON is responsible for:",
+        "Supporting ELSTAT in implementing a structured work program for statistical development.",
+        "Managing and coordinating consultancy missions across various statistical domains.",
+        "Providing technical expertise to improve national accounts and public finance statistics, ensuring alignment with EU regulations.",
+        "Selecting experienced experts in close cooperation with ELSTAT and Eurostat."
+      ],
+      "image": "/media/6608492-dac39bb1.jpg",
+      "pdf": null,
+      "country": "Greece",
+      "periodLabel": "04/10/2017 - 03/01/2019"
+    }
+  }
+}

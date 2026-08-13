@@ -24,6 +24,7 @@ export function PageHero({
             src={image}
             alt={imageAlt}
             className="page-hero__img"
+            loading="eager"
           />
           <div className="page-hero__overlay" aria-hidden="true" />
         </div>

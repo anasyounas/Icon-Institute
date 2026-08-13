@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "26372",
+    "permalink": "https://hp.icon-institute.de/refprojects/pstatistical-communication-big-data-admin-data-and-censusesp/",
+    "title": "Statistical communication, Big Data, Admin. Data and Censuses",
+    "subtitle": "ESTP 2020 – Statistical communication, Big Data for official statistics and Administrative Data and Censuses",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-11-03",
+    "periodEnd": "2020-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "122.125 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON-INSTITUT Public Sector GmbH, together with partners and Eurostat organizing different training courses within European Statistical Training Programme (ESTP). ESTP aims at maintaining a high level of competence and ensuring that quality is consistent…",
+    "body": [
+      "Since 2007, ICON-INSTITUT Public Sector GmbH, together with partners and Eurostat organizing different training courses within European Statistical Training Programme (ESTP). ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "ICON is in charge of organising and conducting the following training courses: • Media Relations in statistical offices – Advanced course • Writing statistical texts with an impact for different audiences - 4 Web-seminars • Online job vacancies (OJV) data for official statistics: sources, tools and methodologies • Big Data tools for IT professionals supporting statisticians - 4 Web-seminars • Introduction to Big Data in official statistics - 4 Web-seminars • AIS vessel data with application to maritime and fluvial statistics: sources, tools and methodologies • Administrative data and Censuses, moving from traditional censuses towards register-based and combined census",
+      "(6609748)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Statistical communication, Big Data, Admin. Data and Censuses",
+    "subtitle": "ESTP 2020 – Statistical communication, Big Data for official statistics and Administrative Data and Censuses",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-11-03",
+    "periodEnd": "2020-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "122.125 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON-INSTITUT Public Sector GmbH, together with partners and Eurostat organizing different training courses within European Statistical Training Programme (ESTP). ESTP aims at maintaining a high level of competence and ensuring that quality is consistent…",
+    "body": [
+      "Since 2007, ICON-INSTITUT Public Sector GmbH, together with partners and Eurostat organizing different training courses within European Statistical Training Programme (ESTP). ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "ICON is in charge of organising and conducting the following training courses: • Media Relations in statistical offices – Advanced course • Writing statistical texts with an impact for different audiences - 4 Web-seminars • Online job vacancies (OJV) data for official statistics: sources, tools and methodologies • Big Data tools for IT professionals supporting statisticians - 4 Web-seminars • Introduction to Big Data in official statistics - 4 Web-seminars • AIS vessel data with application to maritime and fluvial statistics: sources, tools and methodologies • Administrative data and Censuses, moving from traditional censuses towards register-based and combined census",
+      "(6609748)"
+    ],
+    "image": "/media/6608930-ee414304.jpg",
+    "pdf": null,
+    "wpId": "26372",
+    "permalink": "https://hp.icon-institute.de/refprojects/pstatistical-communication-big-data-admin-data-and-censusesp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7fa851519dfc6cecbe0",
+    "item": {
+      "id": "6a78a7fa851519dfc6cecbe0",
+      "slug": "statistical-communication-big-data-admin-data-and-censuses",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:58.714403Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:58.714403Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Statistical communication, Big Data, Admin. Data and Censuses",
+      "subtitle": "ESTP 2020 – Statistical communication, Big Data for official statistics and Administrative Data and Censuses",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2019,
+      "yearEnd": 2020,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2019-11-03",
+      "periodEnd": "2020-12-31",
+      "volumeAmount": "122.125 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Since 2007, ICON-INSTITUT Public Sector GmbH, together with partners and Eurostat organizing different training courses within European Statistical Training Programme (ESTP). ESTP aims at maintaining a high level of competence and ensuring that quality is consistent…",
+      "body": [
+        "Since 2007, ICON-INSTITUT Public Sector GmbH, together with partners and Eurostat organizing different training courses within European Statistical Training Programme (ESTP). ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+        "ICON is in charge of organising and conducting the following training courses: • Media Relations in statistical offices – Advanced course • Writing statistical texts with an impact for different audiences - 4 Web-seminars • Online job vacancies (OJV) data for official statistics: sources, tools and methodologies • Big Data tools for IT professionals supporting statisticians - 4 Web-seminars • Introduction to Big Data in official statistics - 4 Web-seminars • AIS vessel data with application to maritime and fluvial statistics: sources, tools and methodologies • Administrative data and Censuses, moving from traditional censuses towards register-based and combined census",
+        "(6609748)"
+      ],
+      "image": "/media/6608930-ee414304.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "03/11/2019 - 31/12/2020"
+    }
+  }
+}

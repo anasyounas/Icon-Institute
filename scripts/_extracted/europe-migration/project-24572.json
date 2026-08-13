@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24572",
+    "permalink": "https://hp.icon-institute.de/refprojects/peuropean-social-surveysintegrated-systembrp/",
+    "title": "European Social Surveys Integrated System",
+    "subtitle": "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-01-14",
+    "periodEnd": "2016-03-13",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "175.200 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects",
+    "body": [
+      "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "European Social Surveys Integrated System",
+    "subtitle": "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-01-14",
+    "periodEnd": "2016-03-13",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "175.200 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects",
+    "body": [
+      "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24572",
+    "permalink": "https://hp.icon-institute.de/refprojects/peuropean-social-surveysintegrated-systembrp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a861cf6717bc43c61fd5",
+    "item": {
+      "id": "6a78a861cf6717bc43c61fd5",
+      "slug": "european-social-surveys-integrated-system",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:41.673394Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:41.673394Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "European Social Surveys Integrated System",
+      "subtitle": "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2015,
+      "yearEnd": 2016,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2015-01-14",
+      "periodEnd": "2016-03-13",
+      "volumeAmount": "175.200 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects",
+      "body": [
+        "Integrated System of European Social Surveys – Generalisation of the Existing Framework to Cover Longitudinal and other Complex Aspects"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "14/01/2015 - 13/03/2016"
+    }
+  }
+}

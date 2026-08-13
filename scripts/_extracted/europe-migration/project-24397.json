@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24397",
+    "permalink": "https://hp.icon-institute.de/refprojects/acp-flegt-programme/",
+    "title": "ACP FLEGT Programme",
+    "subtitle": "Mid Term Evaluation of ACP FLEGT Programme",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-12-09",
+    "periodEnd": "2011-02-28",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "116.950 €",
+    "financing": "European Union",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Mid Term Evaluation of ACP FLEGT Programme",
+    "body": [
+      "Mid Term Evaluation of ACP FLEGT Programme"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "ACP FLEGT Programme",
+    "subtitle": "Mid Term Evaluation of ACP FLEGT Programme",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-12-09",
+    "periodEnd": "2011-02-28",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "116.950 €",
+    "financing": "European Union",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Mid Term Evaluation of ACP FLEGT Programme",
+    "body": [
+      "Mid Term Evaluation of ACP FLEGT Programme"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24397",
+    "permalink": "https://hp.icon-institute.de/refprojects/acp-flegt-programme/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8b2851519dfc6cecf27",
+    "item": {
+      "id": "6a78a8b2851519dfc6cecf27",
+      "slug": "acp-flegt-programme-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:02.000731Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:02.000731Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "ACP FLEGT Programme",
+      "subtitle": "Mid Term Evaluation of ACP FLEGT Programme",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2010,
+      "yearEnd": 2011,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2010-12-09",
+      "periodEnd": "2011-02-28",
+      "volumeAmount": "116.950 €",
+      "financing": "European Union",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "Mid Term Evaluation of ACP FLEGT Programme",
+      "body": [
+        "Mid Term Evaluation of ACP FLEGT Programme"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "09/12/2010 - 28/02/2011"
+    }
+  }
+}

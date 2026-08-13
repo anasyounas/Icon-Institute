@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24649",
+    "permalink": "https://hp.icon-institute.de/refprojects/interactive-gender-data-portalbr/",
+    "title": "Interactive Gender Data Portal",
+    "subtitle": "Developing an Interactive Gender Data Portal for the African Development Bank",
+    "countries": [
+      "Ivory Coast"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-09-25",
+    "periodEnd": "2018-09-24",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "129.650 €",
+    "financing": "African Development Bank (AfDB)",
+    "clientName": "African Development Bank (AfDB)",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Interactive Gender Data Portal",
+    "subtitle": "Developing an Interactive Gender Data Portal for the African Development Bank",
+    "countries": [
+      "Ivory Coast"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-09-25",
+    "periodEnd": "2018-09-24",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "129.650 €",
+    "financing": "African Development Bank (AfDB)",
+    "clientName": "African Development Bank (AfDB)",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24649",
+    "permalink": "https://hp.icon-institute.de/refprojects/interactive-gender-data-portalbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9de851519dfc6ced2bf",
+    "item": {
+      "id": "6a78a9de851519dfc6ced2bf",
+      "slug": "interactive-gender-data-portal",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:02.328658Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:02.328658Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Interactive Gender Data Portal",
+      "subtitle": "Developing an Interactive Gender Data Portal for the African Development Bank",
+      "countries": [
+        "Ivory Coast"
+      ],
+      "region": "africa",
+      "yearStart": 2017,
+      "yearEnd": 2018,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2017-09-25",
+      "periodEnd": "2018-09-24",
+      "volumeAmount": "129.650 €",
+      "financing": "African Development Bank (AfDB)",
+      "clientName": "African Development Bank (AfDB)",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Ivory Coast",
+      "periodLabel": "25/09/2017 - 24/09/2018"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24679",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-and-energy-sector-ii-tweed/",
+    "title": "Water and Energy Sector II TWEED",
+    "subtitle": "Promotion of Training to Improve Efficiency in Water and Energy Sector II in Jordan (TWEED), Develop a didactic Module and Conduct Training Programs for Vocational Teachers and In-company Based Instructors",
+    "countries": [
+      "Jordan"
+    ],
+    "region": "middle-east",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-10-16",
+    "periodEnd": "2018-05-15",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "164.251 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Water and Energy Sector II TWEED",
+    "subtitle": "Promotion of Training to Improve Efficiency in Water and Energy Sector II in Jordan (TWEED), Develop a didactic Module and Conduct Training Programs for Vocational Teachers and In-company Based Instructors",
+    "countries": [
+      "Jordan"
+    ],
+    "region": "middle-east",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-10-16",
+    "periodEnd": "2018-05-15",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "164.251 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24679",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-and-energy-sector-ii-tweed/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aab1851519dfc6ced5ba",
+    "item": {
+      "id": "6a78aab1851519dfc6ced5ba",
+      "slug": "water-and-energy-sector-ii-tweed",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:33.089343Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:33.089343Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Water and Energy Sector II TWEED",
+      "subtitle": "Promotion of Training to Improve Efficiency in Water and Energy Sector II in Jordan (TWEED), Develop a didactic Module and Conduct Training Programs for Vocational Teachers and In-company Based Instructors",
+      "countries": [
+        "Jordan"
+      ],
+      "region": "middle-east",
+      "yearStart": 2017,
+      "yearEnd": 2018,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2017-10-16",
+      "periodEnd": "2018-05-15",
+      "volumeAmount": "164.251 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Jordan",
+      "periodLabel": "16/10/2017 - 15/05/2018"
+    }
+  }
+}

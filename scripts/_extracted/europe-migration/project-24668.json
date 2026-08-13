@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24668",
+    "permalink": "https://hp.icon-institute.de/refprojects/pprojects-in-the-areas-of-par-pfmp/",
+    "title": "Projects in the Areas of PAR / PFM",
+    "subtitle": "Preparation of Terms of Reference and Technical Specifications for Projects in the Areas of PAR / PFM",
+    "countries": [
+      "North Macedonia"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-12-29",
+    "periodEnd": "2018-12-28",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "lt-100k",
+    "volumeAmount": "76.630 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the former Yugoslav Republic of Macedonia",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Projects in the Areas of PAR / PFM",
+    "subtitle": "Preparation of Terms of Reference and Technical Specifications for Projects in the Areas of PAR / PFM",
+    "countries": [
+      "North Macedonia"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-12-29",
+    "periodEnd": "2018-12-28",
+    "expertise": "governance-education-social-development",
+    "volume": "lt-100k",
+    "volumeAmount": "76.630 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the former Yugoslav Republic of Macedonia",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24668",
+    "permalink": "https://hp.icon-institute.de/refprojects/pprojects-in-the-areas-of-par-pfmp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a83f851519dfc6ceccf5",
+    "item": {
+      "id": "6a78a83f851519dfc6ceccf5",
+      "slug": "projects-in-the-areas-of-par-pfm",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:07.697508Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:07.697508Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Projects in the Areas of PAR / PFM",
+      "subtitle": "Preparation of Terms of Reference and Technical Specifications for Projects in the Areas of PAR / PFM",
+      "countries": [
+        "North Macedonia"
+      ],
+      "region": "europe",
+      "yearStart": 2017,
+      "yearEnd": 2018,
+      "expertise": "governance-education-social-development",
+      "volume": "lt-100k",
+      "periodStart": "2017-12-29",
+      "periodEnd": "2018-12-28",
+      "volumeAmount": "76.630 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to the former Yugoslav Republic of Macedonia",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "North Macedonia",
+      "periodLabel": "29/12/2017 - 28/12/2018"
+    }
+  }
+}

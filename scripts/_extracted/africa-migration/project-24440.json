@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24440",
+    "permalink": "https://hp.icon-institute.de/refprojects/higher-education-amp-vocational-training-programmebr/",
+    "title": "Higher Education & Vocational Training Programme",
+    "subtitle": "Higher Education and Vocational Training Programme in Ethiopia (Phase III)",
+    "countries": [
+      "Ethiopia"
+    ],
+    "region": "africa",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-02-20",
+    "periodEnd": "2012-04-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "117.686 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Higher Education and Vocational Training Programme in Ethiopia (Phase III)",
+    "body": [
+      "Higher Education and Vocational Training Programme in Ethiopia (Phase III)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Higher Education & Vocational Training Programme",
+    "subtitle": "Higher Education and Vocational Training Programme in Ethiopia (Phase III)",
+    "countries": [
+      "Ethiopia"
+    ],
+    "region": "africa",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-02-20",
+    "periodEnd": "2012-04-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "117.686 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Higher Education and Vocational Training Programme in Ethiopia (Phase III)",
+    "body": [
+      "Higher Education and Vocational Training Programme in Ethiopia (Phase III)"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24440",
+    "permalink": "https://hp.icon-institute.de/refprojects/higher-education-amp-vocational-training-programmebr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa37851519dfc6ced421",
+    "item": {
+      "id": "6a78aa37851519dfc6ced421",
+      "slug": "higher-education-vocational-training-programme",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:31.584423Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:31.584423Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Higher Education & Vocational Training Programme",
+      "subtitle": "Higher Education and Vocational Training Programme in Ethiopia (Phase III)",
+      "countries": [
+        "Ethiopia"
+      ],
+      "region": "africa",
+      "yearStart": 2012,
+      "yearEnd": 2012,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2012-02-20",
+      "periodEnd": "2012-04-30",
+      "volumeAmount": "117.686 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+      "description": "Higher Education and Vocational Training Programme in Ethiopia (Phase III)",
+      "body": [
+        "Higher Education and Vocational Training Programme in Ethiopia (Phase III)"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Ethiopia",
+      "periodLabel": "20/02/2012 - 30/04/2012"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24570",
+    "permalink": "https://hp.icon-institute.de/refprojects/childrens-amp-youth-legal-alignment/",
+    "title": "Children's & Youth Legal Alignment",
+    "subtitle": "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs",
+    "countries": [
+      "Germany"
+    ],
+    "region": "europe",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-05-04",
+    "periodEnd": "2016-02-15",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "241.147 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs",
+    "body": [
+      "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Children's & Youth Legal Alignment",
+    "subtitle": "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs",
+    "countries": [
+      "Germany"
+    ],
+    "region": "europe",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-05-04",
+    "periodEnd": "2016-02-15",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "241.147 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs",
+    "body": [
+      "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24570",
+    "permalink": "https://hp.icon-institute.de/refprojects/childrens-amp-youth-legal-alignment/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a85d851519dfc6cecdf9",
+    "item": {
+      "id": "6a78a85d851519dfc6cecdf9",
+      "slug": "children-s-youth-legal-alignment",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:37.703440Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:37.703440Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Children's & Youth Legal Alignment",
+      "subtitle": "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs",
+      "countries": [
+        "Germany"
+      ],
+      "region": "europe",
+      "yearStart": 2015,
+      "yearEnd": 2016,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2015-05-04",
+      "periodEnd": "2016-02-15",
+      "volumeAmount": "241.147 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs",
+      "body": [
+        "Analysis of Children's and Youth Legal Alignment of the German Development Cooperation Projects and Programs"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Germany",
+      "periodLabel": "04/05/2015 - 15/02/2016"
+    }
+  }
+}

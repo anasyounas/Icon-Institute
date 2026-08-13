@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24576",
+    "permalink": "https://hp.icon-institute.de/refprojects/it-smes-promotion-through-public-private-dialogue/",
+    "title": "IT SMEs Promotion through Public-Private Dialogue",
+    "subtitle": "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector",
+    "countries": [
+      "Iraq"
+    ],
+    "region": "middle-east",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-02-01",
+    "periodEnd": "2014-06-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "176.275 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector",
+    "body": [
+      "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/08/4410385-Iraq.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "IT SMEs Promotion through Public-Private Dialogue",
+    "subtitle": "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector",
+    "countries": [
+      "Iraq"
+    ],
+    "region": "middle-east",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-02-01",
+    "periodEnd": "2014-06-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "176.275 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector",
+    "body": [
+      "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector"
+    ],
+    "image": "/media/4410385-iraq-9f3f989c.jpg",
+    "pdf": null,
+    "wpId": "24576",
+    "permalink": "https://hp.icon-institute.de/refprojects/it-smes-promotion-through-public-private-dialogue/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/08/4410385-Iraq.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aac6851519dfc6ced610",
+    "item": {
+      "id": "6a78aac6851519dfc6ced610",
+      "slug": "it-smes-promotion-through-public-private-dialogue",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:54.101482Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:54.101482Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "IT SMEs Promotion through Public-Private Dialogue",
+      "subtitle": "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector",
+      "countries": [
+        "Iraq"
+      ],
+      "region": "middle-east",
+      "yearStart": 2013,
+      "yearEnd": 2014,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2013-02-01",
+      "periodEnd": "2014-06-30",
+      "volumeAmount": "176.275 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector",
+      "body": [
+        "Initiation of public-private dialogue processes to promote Iraqi SMEs in the IT sector"
+      ],
+      "image": "/media/4410385-iraq-9f3f989c.jpg",
+      "pdf": null,
+      "country": "Iraq",
+      "periodLabel": "01/02/2013 - 30/06/2014"
+    }
+  }
+}

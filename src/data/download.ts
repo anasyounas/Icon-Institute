@@ -27,32 +27,34 @@ export const downloadPage: DownloadPage = {
     materials: [
       {
         title: '50th Anniversary Brochure',
-        file: '50th-anniversary-brochure.pdf',
-        description: 'Celebrating 50 years of ICON-INSTITUTE expertise in international cooperation.',
+        // Interactive flipbook on the legacy site (no standalone PDF).
+        file: 'https://hp.icon-institute.de/flipbook/flipbook-ICON50.html',
+        description:
+          'Celebrating 50 years of ICON-INSTITUTE expertise in international cooperation.',
       },
       {
         title: 'Agriculture and Rural Development',
-        file: 'agriculture-and-rural-development.pdf',
+        file: '/media/flyer-agriculture-469ae5b2.pdf',
       },
       {
         title: 'Economic Development',
-        file: 'economic-development.pdf',
+        file: '/media/flyer-economics-b7c844fb.pdf',
       },
       {
         title: 'Education and Training',
-        file: 'education-and-training.pdf',
+        file: '/media/flyer-education-c7a49cd4.pdf',
       },
       {
         title: 'Financial Sector Development',
-        file: 'financial-sector-development.pdf',
+        file: '/media/flyer-finance-98127a24.pdf',
       },
       {
         title: 'Good Governance',
-        file: 'good-governance.pdf',
+        file: '/media/flyer-governance-c7e42e82.pdf',
       },
       {
         title: 'Statistics, Social Research and Evaluation',
-        file: 'statistics-social-research-and-evaluation.pdf',
+        file: '/media/flyer-evaluation-b1efccf9.pdf',
       },
     ],
   },

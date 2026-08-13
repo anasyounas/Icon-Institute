@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24372",
+    "permalink": "https://hp.icon-institute.de/refprojects/national-risk-and-vulnerability-br/",
+    "title": "National Risk and Vulnerability",
+    "subtitle": "Support to CSO for Conducting the National Risk and Vulnerability Assessment in 2010",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2010,
+    "yearEnd": 2013,
+    "periodStart": "2010-07-24",
+    "periodEnd": "2013-12-23",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.720.000 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union in Afghanistan",
+    "description": "The project \"Support to CSO for conducting the National Risk and Vulnerability Assessment (NRVA) in 2010\" aimed to equip Afghanistan's Central Statistics Organization (CSO) with the skills to independently conduct data collection and analysis for the NRVA report.",
+    "body": [
+      "The project \"Support to CSO for conducting the National Risk and Vulnerability Assessment (NRVA) in 2010\" aimed to equip Afghanistan's Central Statistics Organization (CSO) with the skills to independently conduct data collection and analysis for the NRVA report.",
+      "ICON-INSTITUT was contracted to generate reliable statistical data on Afghan households' living conditions, transition NRVA to a CSO-led, recurrent activity, and build sustainable capacity within CSO to manage future surveys without external help. It also sought to ensure the consistent implementation of the 2010 NRVA in line with the Afghan National Statistical Plan. Key results included consultancy to CSO, planning the NRVA 2010 survey with a 21,000 household sample, and managing data entry, cleaning, and analysis. Tailor-made training programs were developed for the NRVA team, covering topics like poverty, food security, health, labor, gender equality, and other socio-economic indicators."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6606876.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "National Risk and Vulnerability",
+    "subtitle": "Support to CSO for Conducting the National Risk and Vulnerability Assessment in 2010",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2010,
+    "yearEnd": 2013,
+    "periodStart": "2010-07-24",
+    "periodEnd": "2013-12-23",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.720.000 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union in Afghanistan",
+    "description": "The project \"Support to CSO for conducting the National Risk and Vulnerability Assessment (NRVA) in 2010\" aimed to equip Afghanistan's Central Statistics Organization (CSO) with the skills to independently conduct data collection and analysis for the NRVA report.",
+    "body": [
+      "The project \"Support to CSO for conducting the National Risk and Vulnerability Assessment (NRVA) in 2010\" aimed to equip Afghanistan's Central Statistics Organization (CSO) with the skills to independently conduct data collection and analysis for the NRVA report.",
+      "ICON-INSTITUT was contracted to generate reliable statistical data on Afghan households' living conditions, transition NRVA to a CSO-led, recurrent activity, and build sustainable capacity within CSO to manage future surveys without external help. It also sought to ensure the consistent implementation of the 2010 NRVA in line with the Afghan National Statistical Plan. Key results included consultancy to CSO, planning the NRVA 2010 survey with a 21,000 household sample, and managing data entry, cleaning, and analysis. Tailor-made training programs were developed for the NRVA team, covering topics like poverty, food security, health, labor, gender equality, and other socio-economic indicators."
+    ],
+    "image": "/media/6606876-8986e7e5.jpg",
+    "pdf": null,
+    "wpId": "24372",
+    "permalink": "https://hp.icon-institute.de/refprojects/national-risk-and-vulnerability-br/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6606876.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c96851519dfc6cec8e0",
+    "item": {
+      "id": "6a789c96851519dfc6cec8e0",
+      "slug": "national-risk-and-vulnerability",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:22.487694Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:22.487694Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "National Risk and Vulnerability",
+      "subtitle": "Support to CSO for Conducting the National Risk and Vulnerability Assessment in 2010",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2010,
+      "yearEnd": 2013,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2010-07-24",
+      "periodEnd": "2013-12-23",
+      "volumeAmount": "1.720.000 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union in Afghanistan",
+      "description": "The project \"Support to CSO for conducting the National Risk and Vulnerability Assessment (NRVA) in 2010\" aimed to equip Afghanistan's Central Statistics Organization (CSO) with the skills to independently conduct data collection and analysis for the NRVA report.",
+      "body": [
+        "The project \"Support to CSO for conducting the National Risk and Vulnerability Assessment (NRVA) in 2010\" aimed to equip Afghanistan's Central Statistics Organization (CSO) with the skills to independently conduct data collection and analysis for the NRVA report.",
+        "ICON-INSTITUT was contracted to generate reliable statistical data on Afghan households' living conditions, transition NRVA to a CSO-led, recurrent activity, and build sustainable capacity within CSO to manage future surveys without external help. It also sought to ensure the consistent implementation of the 2010 NRVA in line with the Afghan National Statistical Plan. Key results included consultancy to CSO, planning the NRVA 2010 survey with a 21,000 household sample, and managing data entry, cleaning, and analysis. Tailor-made training programs were developed for the NRVA team, covering topics like poverty, food security, health, labor, gender equality, and other socio-economic indicators."
+      ],
+      "image": "/media/6606876-8986e7e5.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "24/07/2010 - 23/12/2013"
+    }
+  }
+}

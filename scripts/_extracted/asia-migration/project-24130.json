@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24130",
+    "permalink": "https://hp.icon-institute.de/refprojects/national-poverty-vulnerability-and-food-security-surveillance-systembr/",
+    "title": "National Poverty, Vulnerability and Food Security Surveillance System",
+    "subtitle": "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "periodStart": "2005-03-01",
+    "periodEnd": "2009-10-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "3m-5m",
+    "volumeAmount": "3.168.733 €",
+    "financing": "European Union - ALA",
+    "clientName": "Delegation of the European Union in Afghanistan",
+    "description": "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)",
+    "body": [
+      "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "National Poverty, Vulnerability and Food Security Surveillance System",
+    "subtitle": "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "periodStart": "2005-03-01",
+    "periodEnd": "2009-10-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "3m-5m",
+    "volumeAmount": "3.168.733 €",
+    "financing": "European Union - ALA",
+    "clientName": "Delegation of the European Union in Afghanistan",
+    "description": "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)",
+    "body": [
+      "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)"
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24130",
+    "permalink": "https://hp.icon-institute.de/refprojects/national-poverty-vulnerability-and-food-security-surveillance-systembr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789caf851519dfc6cec968",
+    "item": {
+      "id": "6a789caf851519dfc6cec968",
+      "slug": "national-poverty-vulnerability-and-food-security-surveillance-system",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:47.725880Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:47.725880Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "National Poverty, Vulnerability and Food Security Surveillance System",
+      "subtitle": "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2005,
+      "yearEnd": 2009,
+      "expertise": "agriculture-rural-development",
+      "volume": "3m-5m",
+      "periodStart": "2005-03-01",
+      "periodEnd": "2009-10-31",
+      "volumeAmount": "3.168.733 €",
+      "financing": "European Union - ALA",
+      "clientName": "Delegation of the European Union in Afghanistan",
+      "description": "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)",
+      "body": [
+        "Further Development of a National Poverty, Vulnerability and Food Security Surveillance System (Phase 1 and 2)"
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "01/03/2005 - 31/10/2009"
+    }
+  }
+}

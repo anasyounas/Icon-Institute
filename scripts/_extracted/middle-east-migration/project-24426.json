@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24426",
+    "permalink": "https://hp.icon-institute.de/refprojects/lean-production-and-management/",
+    "title": "Lean Production and Management",
+    "subtitle": "Advanced Management Workshop: Lean Production / Lean Management",
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "region": "middle-east",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-10-04",
+    "periodEnd": "2011-10-14",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "16.000 €",
+    "financing": "Fritz Werner Industrie-Ausrüstungen GmbH",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Advanced Management Workshop: Lean Production / Lean Management",
+    "body": [
+      "Advanced Management Workshop: Lean Production / Lean Management"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Lean Production and Management",
+    "subtitle": "Advanced Management Workshop: Lean Production / Lean Management",
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "region": "middle-east",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-10-04",
+    "periodEnd": "2011-10-14",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "16.000 €",
+    "financing": "Fritz Werner Industrie-Ausrüstungen GmbH",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Advanced Management Workshop: Lean Production / Lean Management",
+    "body": [
+      "Advanced Management Workshop: Lean Production / Lean Management"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24426",
+    "permalink": "https://hp.icon-institute.de/refprojects/lean-production-and-management/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aad2851519dfc6ced642",
+    "item": {
+      "id": "6a78aad2851519dfc6ced642",
+      "slug": "lean-production-and-management",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:29:06.535074Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:06.535074Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Lean Production and Management",
+      "subtitle": "Advanced Management Workshop: Lean Production / Lean Management",
+      "countries": [
+        "Saudi Arabia"
+      ],
+      "region": "middle-east",
+      "yearStart": 2011,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2011-10-04",
+      "periodEnd": "2011-10-14",
+      "volumeAmount": "16.000 €",
+      "financing": "Fritz Werner Industrie-Ausrüstungen GmbH",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "Advanced Management Workshop: Lean Production / Lean Management",
+      "body": [
+        "Advanced Management Workshop: Lean Production / Lean Management"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Saudi Arabia",
+      "periodLabel": "04/10/2011 - 14/10/2011"
+    }
+  }
+}

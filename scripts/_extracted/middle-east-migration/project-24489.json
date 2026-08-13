@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24489",
+    "permalink": "https://hp.icon-institute.de/refprojects/increase-productivity-in-organisations/",
+    "title": "Increase Productivity in Organisations",
+    "subtitle": "Initialisation of Processes to Increase Productivity in Organisations",
+    "countries": [
+      "Iran"
+    ],
+    "region": "middle-east",
+    "yearStart": 2013,
+    "yearEnd": 2013,
+    "periodStart": "2013-01-12",
+    "periodEnd": "2013-01-18",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "4.480 €",
+    "financing": "AHK Tehran",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Initialisation of Processes to Increase Productivity in Organisations",
+    "body": [
+      "Initialisation of Processes to Increase Productivity in Organisations"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Increase Productivity in Organisations",
+    "subtitle": "Initialisation of Processes to Increase Productivity in Organisations",
+    "countries": [
+      "Iran"
+    ],
+    "region": "middle-east",
+    "yearStart": 2013,
+    "yearEnd": 2013,
+    "periodStart": "2013-01-12",
+    "periodEnd": "2013-01-18",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "4.480 €",
+    "financing": "AHK Tehran",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Initialisation of Processes to Increase Productivity in Organisations",
+    "body": [
+      "Initialisation of Processes to Increase Productivity in Organisations"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24489",
+    "permalink": "https://hp.icon-institute.de/refprojects/increase-productivity-in-organisations/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aac7851519dfc6ced614",
+    "item": {
+      "id": "6a78aac7851519dfc6ced614",
+      "slug": "increase-productivity-in-organisations",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:55.067174Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:55.067174Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Increase Productivity in Organisations",
+      "subtitle": "Initialisation of Processes to Increase Productivity in Organisations",
+      "countries": [
+        "Iran"
+      ],
+      "region": "middle-east",
+      "yearStart": 2013,
+      "yearEnd": 2013,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2013-01-12",
+      "periodEnd": "2013-01-18",
+      "volumeAmount": "4.480 €",
+      "financing": "AHK Tehran",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "Initialisation of Processes to Increase Productivity in Organisations",
+      "body": [
+        "Initialisation of Processes to Increase Productivity in Organisations"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Iran",
+      "periodLabel": "12/01/2013 - 18/01/2013"
+    }
+  }
+}

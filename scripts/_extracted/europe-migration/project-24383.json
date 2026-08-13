@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24383",
+    "permalink": "https://hp.icon-institute.de/refprojects/paccreditation-system-strengtheningp/",
+    "title": "Accreditation System Strengthening",
+    "subtitle": "Strengthening of the BiH Accreditation System",
+    "countries": [
+      "Bosnia",
+      "Herzegovina"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-10-14",
+    "periodEnd": "2011-04-13",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "500k-1m",
+    "volumeAmount": "998.000 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Bosnia and Herzegovina",
+    "description": "Strengthening of the BiH Accreditation System",
+    "body": [
+      "Strengthening of the BiH Accreditation System"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Accreditation System Strengthening",
+    "subtitle": "Strengthening of the BiH Accreditation System",
+    "countries": [
+      "Bosnia",
+      "Herzegovina"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-10-14",
+    "periodEnd": "2011-04-13",
+    "expertise": "agriculture-rural-development",
+    "volume": "500k-1m",
+    "volumeAmount": "998.000 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Bosnia and Herzegovina",
+    "description": "Strengthening of the BiH Accreditation System",
+    "body": [
+      "Strengthening of the BiH Accreditation System"
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24383",
+    "permalink": "https://hp.icon-institute.de/refprojects/paccreditation-system-strengtheningp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8ce851519dfc6cecf99",
+    "item": {
+      "id": "6a78a8ce851519dfc6cecf99",
+      "slug": "accreditation-system-strengthening",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:30.803133Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:30.803133Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Accreditation System Strengthening",
+      "subtitle": "Strengthening of the BiH Accreditation System",
+      "countries": [
+        "Bosnia",
+        "Herzegovina"
+      ],
+      "region": "europe",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "agriculture-rural-development",
+      "volume": "500k-1m",
+      "periodStart": "2009-10-14",
+      "periodEnd": "2011-04-13",
+      "volumeAmount": "998.000 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to Bosnia and Herzegovina",
+      "description": "Strengthening of the BiH Accreditation System",
+      "body": [
+        "Strengthening of the BiH Accreditation System"
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Bosnia, Herzegovina",
+      "periodLabel": "14/10/2009 - 13/04/2011"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24288",
+    "permalink": "https://hp.icon-institute.de/refprojects/global-assessments-of-statistical-systems/",
+    "title": "Global Assessments of Statistical Systems",
+    "subtitle": "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-11-20",
+    "periodEnd": "2010-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "220.000 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries",
+    "body": [
+      "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Global Assessments of Statistical Systems",
+    "subtitle": "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2010,
+    "periodStart": "2009-11-20",
+    "periodEnd": "2010-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "220.000 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries",
+    "body": [
+      "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24288",
+    "permalink": "https://hp.icon-institute.de/refprojects/global-assessments-of-statistical-systems/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8cc851519dfc6cecf91",
+    "item": {
+      "id": "6a78a8cc851519dfc6cecf91",
+      "slug": "global-assessments-of-statistical-systems",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:28.856475Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:28.856475Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Global Assessments of Statistical Systems",
+      "subtitle": "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2009,
+      "yearEnd": 2010,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2009-11-20",
+      "periodEnd": "2010-12-31",
+      "volumeAmount": "220.000 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries",
+      "body": [
+        "Global Assessments of Statistical Systems of Candidate and Potential Candidate Countries as well as ENP Countries"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "20/11/2009 - 31/12/2010"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "25012",
+    "permalink": "https://hp.icon-institute.de/refprojects/ptraining-in-water-and-energy-efficiencyp/",
+    "title": "Training in Water and Energy Efficiency",
+    "subtitle": "Training in Water and Energy Efficiency Development (TWEED) II: Mafraq COA Business Model",
+    "countries": [
+      "Jordan"
+    ],
+    "region": "middle-east",
+    "yearStart": 2018,
+    "yearEnd": 2019,
+    "periodStart": "2018-08-14",
+    "periodEnd": "2019-10-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "195.510 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Jordan has long struggled with high unemployment rates, particularly among its youth, a situation worsened by the influx of refugees. At the same time, the country's economy faced challenges due to the inefficient use of natural resources such as water and energy. Compounding…",
+    "body": [
+      "Jordan has long struggled with high unemployment rates, particularly among its youth, a situation worsened by the influx of refugees. At the same time, the country's economy faced challenges due to the inefficient use of natural resources such as water and energy. Compounding this issue, Jordanian companies found it difficult to recruit skilled professionals, especially in the fields of water and energy efficiency. In response, the GIZ project “Training in Water and Energy Efficiency Development (TWEED) II” was established to address these workforce shortages and support companies in accessing qualified workers.",
+      "To further tackle these challenges, a Centre of Excellence (CoE) for solar energy was created in Mafraq. The primary goal of this initiative was to improve both employment opportunities and the overall sectoral situation in Jordan by providing specialized training in renewable energy.",
+      "ICON-INSTITUTE was contracted by the GIZ to support the management of the CoE by helping them develop and implement a business model that closely aligned with the needs of the business sector. Through this, the CoE sought to provide tailored vocational education and training (VET) in solar energy, ensuring that the programs were highly practical and closely connected to labor market demands. ICON successfully guided the CoE on business and administrative matters, supporting quality control, implementing short-term training programs for employees, and building both management and training capacities. Additionally, the project aimed to ensure the long-term sustainability of the CoE, helping it become a cornerstone of Jordan’s efforts to modernize its energy sector and create more job opportunities."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/12/4410389-class.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Training in Water and Energy Efficiency",
+    "subtitle": "Training in Water and Energy Efficiency Development (TWEED) II: Mafraq COA Business Model",
+    "countries": [
+      "Jordan"
+    ],
+    "region": "middle-east",
+    "yearStart": 2018,
+    "yearEnd": 2019,
+    "periodStart": "2018-08-14",
+    "periodEnd": "2019-10-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "195.510 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Jordan has long struggled with high unemployment rates, particularly among its youth, a situation worsened by the influx of refugees. At the same time, the country's economy faced challenges due to the inefficient use of natural resources such as water and energy. Compounding…",
+    "body": [
+      "Jordan has long struggled with high unemployment rates, particularly among its youth, a situation worsened by the influx of refugees. At the same time, the country's economy faced challenges due to the inefficient use of natural resources such as water and energy. Compounding this issue, Jordanian companies found it difficult to recruit skilled professionals, especially in the fields of water and energy efficiency. In response, the GIZ project “Training in Water and Energy Efficiency Development (TWEED) II” was established to address these workforce shortages and support companies in accessing qualified workers.",
+      "To further tackle these challenges, a Centre of Excellence (CoE) for solar energy was created in Mafraq. The primary goal of this initiative was to improve both employment opportunities and the overall sectoral situation in Jordan by providing specialized training in renewable energy.",
+      "ICON-INSTITUTE was contracted by the GIZ to support the management of the CoE by helping them develop and implement a business model that closely aligned with the needs of the business sector. Through this, the CoE sought to provide tailored vocational education and training (VET) in solar energy, ensuring that the programs were highly practical and closely connected to labor market demands. ICON successfully guided the CoE on business and administrative matters, supporting quality control, implementing short-term training programs for employees, and building both management and training capacities. Additionally, the project aimed to ensure the long-term sustainability of the CoE, helping it become a cornerstone of Jordan’s efforts to modernize its energy sector and create more job opportunities."
+    ],
+    "image": "/media/4410389-class-3a8e336e.jpg",
+    "pdf": null,
+    "wpId": "25012",
+    "permalink": "https://hp.icon-institute.de/refprojects/ptraining-in-water-and-energy-efficiencyp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/12/4410389-class.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aaa6851519dfc6ced59d",
+    "item": {
+      "id": "6a78aaa6851519dfc6ced59d",
+      "slug": "training-in-water-and-energy-efficiency",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:22.397468Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:22.397468Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Training in Water and Energy Efficiency",
+      "subtitle": "Training in Water and Energy Efficiency Development (TWEED) II: Mafraq COA Business Model",
+      "countries": [
+        "Jordan"
+      ],
+      "region": "middle-east",
+      "yearStart": 2018,
+      "yearEnd": 2019,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2018-08-14",
+      "periodEnd": "2019-10-31",
+      "volumeAmount": "195.510 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Jordan has long struggled with high unemployment rates, particularly among its youth, a situation worsened by the influx of refugees. At the same time, the country's economy faced challenges due to the inefficient use of natural resources such as water and energy. Compounding…",
+      "body": [
+        "Jordan has long struggled with high unemployment rates, particularly among its youth, a situation worsened by the influx of refugees. At the same time, the country's economy faced challenges due to the inefficient use of natural resources such as water and energy. Compounding this issue, Jordanian companies found it difficult to recruit skilled professionals, especially in the fields of water and energy efficiency. In response, the GIZ project “Training in Water and Energy Efficiency Development (TWEED) II” was established to address these workforce shortages and support companies in accessing qualified workers.",
+        "To further tackle these challenges, a Centre of Excellence (CoE) for solar energy was created in Mafraq. The primary goal of this initiative was to improve both employment opportunities and the overall sectoral situation in Jordan by providing specialized training in renewable energy.",
+        "ICON-INSTITUTE was contracted by the GIZ to support the management of the CoE by helping them develop and implement a business model that closely aligned with the needs of the business sector. Through this, the CoE sought to provide tailored vocational education and training (VET) in solar energy, ensuring that the programs were highly practical and closely connected to labor market demands. ICON successfully guided the CoE on business and administrative matters, supporting quality control, implementing short-term training programs for employees, and building both management and training capacities. Additionally, the project aimed to ensure the long-term sustainability of the CoE, helping it become a cornerstone of Jordan’s efforts to modernize its energy sector and create more job opportunities."
+      ],
+      "image": "/media/4410389-class-3a8e336e.jpg",
+      "pdf": null,
+      "country": "Jordan",
+      "periodLabel": "14/08/2018 - 31/10/2019"
+    }
+  }
+}

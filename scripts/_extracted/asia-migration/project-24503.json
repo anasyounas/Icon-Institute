@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24503",
+    "permalink": "https://hp.icon-institute.de/refprojects/national-risk-amp-vulnerability-assessment/",
+    "title": "National Risk & Vulnerability Assessment",
+    "subtitle": "National Risk and Vulnerability Assessment year 1391 (2012-2013) and 1392 (2013-2014)",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2013,
+    "yearEnd": 2018,
+    "periodStart": "2013-06-15",
+    "periodEnd": "2018-05-14",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "3m-5m",
+    "volumeAmount": "3.975.000 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union in Afghanistan",
+    "description": "The project aimed to enhance Afghanistan's statistical system, led by the Central Statistics Organization (CSO), by improving the surveying system and ensuring its sustainability. It focused on strengthening technical, institutional, and organizational management, using the…",
+    "body": [
+      "The project aimed to enhance Afghanistan's statistical system, led by the Central Statistics Organization (CSO), by improving the surveying system and ensuring its sustainability. It focused on strengthening technical, institutional, and organizational management, using the National Risk and Vulnerability Assessment (NRVA) as a model to build a robust National Statistical System. The project also aimed to improve CSO's proficiency in planning, managing, and reporting survey activities, while promoting institutional and capacity building.",
+      "ICON-INSTITUT was contracted by the Delegation of the European Union in Afghanistan to provide consultancy to the CSO, planning and conducting two rounds of the Afghanistan Living Conditions Survey (ALCS) with a sample of 21,000 households, and improving data collection, processing, and analysis in areas like food security, poverty, demography, and health. Tailor-made training programs were developed for the ALCS team, and capacity building efforts were integrated into the regional statistical system, including management training and cascading training programs to further strengthen institutional capacity."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6606876.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "National Risk & Vulnerability Assessment",
+    "subtitle": "National Risk and Vulnerability Assessment year 1391 (2012-2013) and 1392 (2013-2014)",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2013,
+    "yearEnd": 2018,
+    "periodStart": "2013-06-15",
+    "periodEnd": "2018-05-14",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "3m-5m",
+    "volumeAmount": "3.975.000 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union in Afghanistan",
+    "description": "The project aimed to enhance Afghanistan's statistical system, led by the Central Statistics Organization (CSO), by improving the surveying system and ensuring its sustainability. It focused on strengthening technical, institutional, and organizational management, using the…",
+    "body": [
+      "The project aimed to enhance Afghanistan's statistical system, led by the Central Statistics Organization (CSO), by improving the surveying system and ensuring its sustainability. It focused on strengthening technical, institutional, and organizational management, using the National Risk and Vulnerability Assessment (NRVA) as a model to build a robust National Statistical System. The project also aimed to improve CSO's proficiency in planning, managing, and reporting survey activities, while promoting institutional and capacity building.",
+      "ICON-INSTITUT was contracted by the Delegation of the European Union in Afghanistan to provide consultancy to the CSO, planning and conducting two rounds of the Afghanistan Living Conditions Survey (ALCS) with a sample of 21,000 households, and improving data collection, processing, and analysis in areas like food security, poverty, demography, and health. Tailor-made training programs were developed for the ALCS team, and capacity building efforts were integrated into the regional statistical system, including management training and cascading training programs to further strengthen institutional capacity."
+    ],
+    "image": "/media/6606876-8986e7e5.jpg",
+    "pdf": null,
+    "wpId": "24503",
+    "permalink": "https://hp.icon-institute.de/refprojects/national-risk-amp-vulnerability-assessment/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6606876.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c7c851519dfc6cec851",
+    "item": {
+      "id": "6a789c7c851519dfc6cec851",
+      "slug": "national-risk-vulnerability-assessment",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:56.939693Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:56.939693Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "National Risk & Vulnerability Assessment",
+      "subtitle": "National Risk and Vulnerability Assessment year 1391 (2012-2013) and 1392 (2013-2014)",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2013,
+      "yearEnd": 2018,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "3m-5m",
+      "periodStart": "2013-06-15",
+      "periodEnd": "2018-05-14",
+      "volumeAmount": "3.975.000 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union in Afghanistan",
+      "description": "The project aimed to enhance Afghanistan's statistical system, led by the Central Statistics Organization (CSO), by improving the surveying system and ensuring its sustainability. It focused on strengthening technical, institutional, and organizational management, using the…",
+      "body": [
+        "The project aimed to enhance Afghanistan's statistical system, led by the Central Statistics Organization (CSO), by improving the surveying system and ensuring its sustainability. It focused on strengthening technical, institutional, and organizational management, using the National Risk and Vulnerability Assessment (NRVA) as a model to build a robust National Statistical System. The project also aimed to improve CSO's proficiency in planning, managing, and reporting survey activities, while promoting institutional and capacity building.",
+        "ICON-INSTITUT was contracted by the Delegation of the European Union in Afghanistan to provide consultancy to the CSO, planning and conducting two rounds of the Afghanistan Living Conditions Survey (ALCS) with a sample of 21,000 households, and improving data collection, processing, and analysis in areas like food security, poverty, demography, and health. Tailor-made training programs were developed for the ALCS team, and capacity building efforts were integrated into the regional statistical system, including management training and cascading training programs to further strengthen institutional capacity."
+      ],
+      "image": "/media/6606876-8986e7e5.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "15/06/2013 - 14/05/2018"
+    }
+  }
+}

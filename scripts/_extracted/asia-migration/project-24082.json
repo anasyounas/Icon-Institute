@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24082",
+    "permalink": "https://hp.icon-institute.de/refprojects/pprivatisation-in-afghanistanp/",
+    "title": "Privatisation in Afghanistan",
+    "subtitle": "Privatisation in Afghanistan",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2004,
+    "yearEnd": 2010,
+    "periodStart": "2004-02-29",
+    "periodEnd": "2010-12-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "399.860 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Privatisation played a key role in Afghanistan's broader state enterprise reform, as outlined in the Afghanistan Interim Administration's National Development Framework (NDF).",
+    "body": [
+      "Privatisation played a key role in Afghanistan's broader state enterprise reform, as outlined in the Afghanistan Interim Administration's National Development Framework (NDF).",
+      "ICON-INSTITUT was contracted by the GTZ to support the private sector and market forces in regard to more effectiveness in driving sustained growth than state-led efforts. and second, that the rule of law, transparency, and a supportive environment were essential for enabling private sector development and fostering long-term economic progress."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4401195.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Privatisation in Afghanistan",
+    "subtitle": "Privatisation in Afghanistan",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2004,
+    "yearEnd": 2010,
+    "periodStart": "2004-02-29",
+    "periodEnd": "2010-12-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "399.860 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Privatisation played a key role in Afghanistan's broader state enterprise reform, as outlined in the Afghanistan Interim Administration's National Development Framework (NDF).",
+    "body": [
+      "Privatisation played a key role in Afghanistan's broader state enterprise reform, as outlined in the Afghanistan Interim Administration's National Development Framework (NDF).",
+      "ICON-INSTITUT was contracted by the GTZ to support the private sector and market forces in regard to more effectiveness in driving sustained growth than state-led efforts. and second, that the rule of law, transparency, and a supportive environment were essential for enabling private sector development and fostering long-term economic progress."
+    ],
+    "image": "/media/4401195-6412b484.jpg",
+    "pdf": null,
+    "wpId": "24082",
+    "permalink": "https://hp.icon-institute.de/refprojects/pprivatisation-in-afghanistanp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4401195.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789cb2851519dfc6cec976",
+    "item": {
+      "id": "6a789cb2851519dfc6cec976",
+      "slug": "privatisation-in-afghanistan",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:50.196222Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:50.196222Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Privatisation in Afghanistan",
+      "subtitle": "Privatisation in Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2004,
+      "yearEnd": 2010,
+      "expertise": "economic-employment-promotion",
+      "volume": "300k-500k",
+      "periodStart": "2004-02-29",
+      "periodEnd": "2010-12-31",
+      "volumeAmount": "399.860 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Privatisation played a key role in Afghanistan's broader state enterprise reform, as outlined in the Afghanistan Interim Administration's National Development Framework (NDF).",
+      "body": [
+        "Privatisation played a key role in Afghanistan's broader state enterprise reform, as outlined in the Afghanistan Interim Administration's National Development Framework (NDF).",
+        "ICON-INSTITUT was contracted by the GTZ to support the private sector and market forces in regard to more effectiveness in driving sustained growth than state-led efforts. and second, that the rule of law, transparency, and a supportive environment were essential for enabling private sector development and fostering long-term economic progress."
+      ],
+      "image": "/media/4401195-6412b484.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "29/02/2004 - 31/12/2010"
+    }
+  }
+}

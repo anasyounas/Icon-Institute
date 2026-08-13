@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24581",
+    "permalink": "https://hp.icon-institute.de/refprojects/entrepreneurship-and-enterprise-skills/",
+    "title": "Entrepreneurship and Enterprise Skills",
+    "subtitle": "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2015,
+    "yearEnd": 2015,
+    "periodStart": "2015-07-01",
+    "periodEnd": "2015-12-15",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "82.852 €",
+    "financing": "European Union",
+    "clientName": "European Training Foundation (ETF)",
+    "description": "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries",
+    "body": [
+      "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Entrepreneurship and Enterprise Skills",
+    "subtitle": "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2015,
+    "yearEnd": 2015,
+    "periodStart": "2015-07-01",
+    "periodEnd": "2015-12-15",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "82.852 €",
+    "financing": "European Union",
+    "clientName": "European Training Foundation (ETF)",
+    "description": "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries",
+    "body": [
+      "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24581",
+    "permalink": "https://hp.icon-institute.de/refprojects/entrepreneurship-and-enterprise-skills/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa12851519dfc6ced387",
+    "item": {
+      "id": "6a78aa12851519dfc6ced387",
+      "slug": "entrepreneurship-and-enterprise-skills-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:54.973405Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:54.973405Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Entrepreneurship and Enterprise Skills",
+      "subtitle": "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2015,
+      "yearEnd": 2015,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2015-07-01",
+      "periodEnd": "2015-12-15",
+      "volumeAmount": "82.852 €",
+      "financing": "European Union",
+      "clientName": "European Training Foundation (ETF)",
+      "description": "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries",
+      "body": [
+        "Evaluation of Entrepreneurship and Enterprise Skills development in ETF partner countries"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/07/2015 - 15/12/2015"
+    }
+  }
+}

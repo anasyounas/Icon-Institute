@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "27088",
+    "permalink": "https://hp.icon-institute.de/refprojects/pagriculture-and-food-sector-gicp/",
+    "title": "Agriculture and Food Sector (GIC)",
+    "subtitle": "Global Project \"Green Innovation Centres in the Agriculture and Food Sector (GIC)\" – Evaluative Studies",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2023,
+    "yearEnd": 2025,
+    "periodStart": "2023-03-03",
+    "periodEnd": "2025-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "500k-1m",
+    "volumeAmount": "599.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Since 2014, the Global Project (GP) \"Green Innovation Centers in the Agricultural and Food Sector (GIC)\" supports measures to modernise the agricultural and food sector along selected value chains in 16 countries, aiming at raised incomed of small farmers and employment in…",
+    "body": [
+      "Since 2014, the Global Project (GP) \"Green Innovation Centers in the Agricultural and Food Sector (GIC)\" supports measures to modernise the agricultural and food sector along selected value chains in 16 countries, aiming at raised incomed of small farmers and employment in agriculture as well as improved food security. New application knowledge, innovative technologies and organisational improvements are promoted to produce more sustainably, using fewer resources and improving the food situation. The GIC have been working along nearly 20 value chains, incl. rice, maize, (sweet) potato, soya, beans, groundnut, cashew, tomato, mango, apples, cacao, milk, poultry. The innovations promoted are manifold: e.g., improved use of quality seed, introduction of good agricultural practices, improved cultivation systems (SRI) or improved processing techniques.",
+      "In preparation of a central project evaluation at the end of the overall implementation of the GP GIC, the ICON team was tasked to conduct Evaluative Studies in 14 countries: Benin, Burkina Faso, Cameroon, Cote d’Ivoire, Ethiopia, India, Malawi, Mali, Mozambique, Nigeria, Togo, Tunisia, Viet Nam and Zambia. The EVAS include an assessment based on the six OECD/DAC evaluation criteria: Relevance, Coherence, Effectiveness, Efficiency, Impact and Sustainability. The results will be used for evidence-based decisions, transparency and accountability, and organisational learning.",
+      "(8810441)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/07/4409827-8810441-farmer-tablet-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Agriculture and Food Sector (GIC)",
+    "subtitle": "Global Project \"Green Innovation Centres in the Agriculture and Food Sector (GIC)\" – Evaluative Studies",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2023,
+    "yearEnd": 2025,
+    "periodStart": "2023-03-03",
+    "periodEnd": "2025-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "500k-1m",
+    "volumeAmount": "599.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Since 2014, the Global Project (GP) \"Green Innovation Centers in the Agricultural and Food Sector (GIC)\" supports measures to modernise the agricultural and food sector along selected value chains in 16 countries, aiming at raised incomed of small farmers and employment in…",
+    "body": [
+      "Since 2014, the Global Project (GP) \"Green Innovation Centers in the Agricultural and Food Sector (GIC)\" supports measures to modernise the agricultural and food sector along selected value chains in 16 countries, aiming at raised incomed of small farmers and employment in agriculture as well as improved food security. New application knowledge, innovative technologies and organisational improvements are promoted to produce more sustainably, using fewer resources and improving the food situation. The GIC have been working along nearly 20 value chains, incl. rice, maize, (sweet) potato, soya, beans, groundnut, cashew, tomato, mango, apples, cacao, milk, poultry. The innovations promoted are manifold: e.g., improved use of quality seed, introduction of good agricultural practices, improved cultivation systems (SRI) or improved processing techniques.",
+      "In preparation of a central project evaluation at the end of the overall implementation of the GP GIC, the ICON team was tasked to conduct Evaluative Studies in 14 countries: Benin, Burkina Faso, Cameroon, Cote d’Ivoire, Ethiopia, India, Malawi, Mali, Mozambique, Nigeria, Togo, Tunisia, Viet Nam and Zambia. The EVAS include an assessment based on the six OECD/DAC evaluation criteria: Relevance, Coherence, Effectiveness, Efficiency, Impact and Sustainability. The results will be used for evidence-based decisions, transparency and accountability, and organisational learning.",
+      "(8810441)"
+    ],
+    "image": "/media/4409827-8810441-farmer-tablet-scaled-40e41e9e.jpg",
+    "pdf": null,
+    "wpId": "27088",
+    "permalink": "https://hp.icon-institute.de/refprojects/pagriculture-and-food-sector-gicp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/07/4409827-8810441-farmer-tablet-scaled.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7e4851519dfc6cecb77",
+    "item": {
+      "id": "6a78a7e4851519dfc6cecb77",
+      "slug": "agriculture-and-food-sector-gic-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:36.526276Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:36.526276Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Agriculture and Food Sector (GIC)",
+      "subtitle": "Global Project \"Green Innovation Centres in the Agriculture and Food Sector (GIC)\" – Evaluative Studies",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2023,
+      "yearEnd": 2025,
+      "expertise": "agriculture-rural-development",
+      "volume": "500k-1m",
+      "periodStart": "2023-03-03",
+      "periodEnd": "2025-12-31",
+      "volumeAmount": "599.400 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Since 2014, the Global Project (GP) \"Green Innovation Centers in the Agricultural and Food Sector (GIC)\" supports measures to modernise the agricultural and food sector along selected value chains in 16 countries, aiming at raised incomed of small farmers and employment in…",
+      "body": [
+        "Since 2014, the Global Project (GP) \"Green Innovation Centers in the Agricultural and Food Sector (GIC)\" supports measures to modernise the agricultural and food sector along selected value chains in 16 countries, aiming at raised incomed of small farmers and employment in agriculture as well as improved food security. New application knowledge, innovative technologies and organisational improvements are promoted to produce more sustainably, using fewer resources and improving the food situation. The GIC have been working along nearly 20 value chains, incl. rice, maize, (sweet) potato, soya, beans, groundnut, cashew, tomato, mango, apples, cacao, milk, poultry. The innovations promoted are manifold: e.g., improved use of quality seed, introduction of good agricultural practices, improved cultivation systems (SRI) or improved processing techniques.",
+        "In preparation of a central project evaluation at the end of the overall implementation of the GP GIC, the ICON team was tasked to conduct Evaluative Studies in 14 countries: Benin, Burkina Faso, Cameroon, Cote d’Ivoire, Ethiopia, India, Malawi, Mali, Mozambique, Nigeria, Togo, Tunisia, Viet Nam and Zambia. The EVAS include an assessment based on the six OECD/DAC evaluation criteria: Relevance, Coherence, Effectiveness, Efficiency, Impact and Sustainability. The results will be used for evidence-based decisions, transparency and accountability, and organisational learning.",
+        "(8810441)"
+      ],
+      "image": "/media/4409827-8810441-farmer-tablet-scaled-40e41e9e.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "03/03/2023 - 31/12/2025"
+    }
+  }
+}

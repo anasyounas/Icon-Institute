@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24308",
+    "permalink": "https://hp.icon-institute.de/refprojects/approximation-to-eu-statistical-standards/",
+    "title": "Approximation to EU Statistical Standards",
+    "subtitle": "Assisting Montenegro in the Approximation to EU Standards in Statistics",
+    "countries": [
+      "Montenegro"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-08-05",
+    "periodEnd": "2011-08-04",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "500k-1m",
+    "volumeAmount": "815.840 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Montenegro",
+    "description": "Assisting Montenegro in the Approximation to EU Standards in Statistics",
+    "body": [
+      "Assisting Montenegro in the Approximation to EU Standards in Statistics"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Approximation to EU Statistical Standards",
+    "subtitle": "Assisting Montenegro in the Approximation to EU Standards in Statistics",
+    "countries": [
+      "Montenegro"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-08-05",
+    "periodEnd": "2011-08-04",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "500k-1m",
+    "volumeAmount": "815.840 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Montenegro",
+    "description": "Assisting Montenegro in the Approximation to EU Standards in Statistics",
+    "body": [
+      "Assisting Montenegro in the Approximation to EU Standards in Statistics"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24308",
+    "permalink": "https://hp.icon-institute.de/refprojects/approximation-to-eu-statistical-standards/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8d1851519dfc6cecfa3",
+    "item": {
+      "id": "6a78a8d1851519dfc6cecfa3",
+      "slug": "approximation-to-eu-statistical-standards",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:33.593420Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:33.593420Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Approximation to EU Statistical Standards",
+      "subtitle": "Assisting Montenegro in the Approximation to EU Standards in Statistics",
+      "countries": [
+        "Montenegro"
+      ],
+      "region": "europe",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "500k-1m",
+      "periodStart": "2009-08-05",
+      "periodEnd": "2011-08-04",
+      "volumeAmount": "815.840 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to Montenegro",
+      "description": "Assisting Montenegro in the Approximation to EU Standards in Statistics",
+      "body": [
+        "Assisting Montenegro in the Approximation to EU Standards in Statistics"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Montenegro",
+      "periodLabel": "05/08/2009 - 04/08/2011"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24467",
+    "permalink": "https://hp.icon-institute.de/refprojects/non-state-actors-support-programme/",
+    "title": "Non-State Actors Support Programme",
+    "subtitle": "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF",
+    "countries": [
+      "Mozambique"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2018,
+    "periodStart": "2013-02-05",
+    "periodEnd": "2018-08-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.353.733 €",
+    "financing": "European Union - EDF",
+    "clientName": "Ministry of Foreign Affairs and Cooperation, NAO",
+    "description": "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF",
+    "body": [
+      "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Non-State Actors Support Programme",
+    "subtitle": "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF",
+    "countries": [
+      "Mozambique"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2018,
+    "periodStart": "2013-02-05",
+    "periodEnd": "2018-08-31",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.353.733 €",
+    "financing": "European Union - EDF",
+    "clientName": "Ministry of Foreign Affairs and Cooperation, NAO",
+    "description": "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF",
+    "body": [
+      "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24467",
+    "permalink": "https://hp.icon-institute.de/refprojects/non-state-actors-support-programme/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa31851519dfc6ced409",
+    "item": {
+      "id": "6a78aa31851519dfc6ced409",
+      "slug": "non-state-actors-support-programme",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:25.152783Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:25.152783Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Non-State Actors Support Programme",
+      "subtitle": "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF",
+      "countries": [
+        "Mozambique"
+      ],
+      "region": "africa",
+      "yearStart": 2013,
+      "yearEnd": 2018,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2013-02-05",
+      "periodEnd": "2018-08-31",
+      "volumeAmount": "1.353.733 €",
+      "financing": "European Union - EDF",
+      "clientName": "Ministry of Foreign Affairs and Cooperation, NAO",
+      "description": "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF",
+      "body": [
+        "Technical Assistance to the NAO for the Implementation of the Support Programme for Non-State Actors under the 10th EDF"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Mozambique",
+      "periodLabel": "05/02/2013 - 31/08/2018"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24468",
+    "permalink": "https://hp.icon-institute.de/refprojects/public-finance-management-it-sytem-modernisation/",
+    "title": "Public Finance Management: IT Sytem Modernisation",
+    "subtitle": "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti",
+    "countries": [
+      "Haiti"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2013,
+    "yearEnd": 2013,
+    "periodStart": "2013-02-03",
+    "periodEnd": "2013-07-12",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "391.028 €",
+    "financing": "European Union",
+    "clientName": "Ordonnateur National du FED",
+    "description": "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti",
+    "body": [
+      "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Public Finance Management: IT Sytem Modernisation",
+    "subtitle": "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti",
+    "countries": [
+      "Haiti"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2013,
+    "yearEnd": 2013,
+    "periodStart": "2013-02-03",
+    "periodEnd": "2013-07-12",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "391.028 €",
+    "financing": "European Union",
+    "clientName": "Ordonnateur National du FED",
+    "description": "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti",
+    "body": [
+      "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24468",
+    "permalink": "https://hp.icon-institute.de/refprojects/public-finance-management-it-sytem-modernisation/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a0f1851519dfc6cec9fa",
+    "item": {
+      "id": "6a78a0f1851519dfc6cec9fa",
+      "slug": "public-finance-management-it-sytem-modernisation",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:46:57.349235Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:46:57.349235Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Public Finance Management: IT Sytem Modernisation",
+      "subtitle": "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "region": "central-america-caribbean",
+      "yearStart": 2013,
+      "yearEnd": 2013,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2013-02-03",
+      "periodEnd": "2013-07-12",
+      "volumeAmount": "391.028 €",
+      "financing": "European Union",
+      "clientName": "Ordonnateur National du FED",
+      "description": "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti",
+      "body": [
+        "Master Plan for the Modernisation the IT system of Public Financial Management in the Republic of Haiti"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Haiti",
+      "periodLabel": "03/02/2013 - 12/07/2013"
+    }
+  }
+}

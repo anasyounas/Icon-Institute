@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24279",
+    "permalink": "https://hp.icon-institute.de/refprojects/sustainable-economic-development/",
+    "title": "Sustainable Economic Development",
+    "subtitle": "Sustainable Economic Development",
+    "countries": [
+      "Ukraine"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-04-02",
+    "periodEnd": "2011-12-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "747.250 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Sustainable Economic Development",
+    "body": [
+      "Sustainable Economic Development"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Sustainable Economic Development",
+    "subtitle": "Sustainable Economic Development",
+    "countries": [
+      "Ukraine"
+    ],
+    "region": "europe",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-04-02",
+    "periodEnd": "2011-12-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "747.250 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Sustainable Economic Development",
+    "body": [
+      "Sustainable Economic Development"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24279",
+    "permalink": "https://hp.icon-institute.de/refprojects/sustainable-economic-development/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8d7851519dfc6cecfbb",
+    "item": {
+      "id": "6a78a8d7851519dfc6cecfbb",
+      "slug": "sustainable-economic-development",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:39.601277Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:39.601277Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Sustainable Economic Development",
+      "subtitle": "Sustainable Economic Development",
+      "countries": [
+        "Ukraine"
+      ],
+      "region": "europe",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2009-04-02",
+      "periodEnd": "2011-12-31",
+      "volumeAmount": "747.250 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Sustainable Economic Development",
+      "body": [
+        "Sustainable Economic Development"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Ukraine",
+      "periodLabel": "02/04/2009 - 31/12/2011"
+    }
+  }
+}

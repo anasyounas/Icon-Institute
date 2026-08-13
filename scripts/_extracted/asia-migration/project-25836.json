@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "25836",
+    "permalink": "https://hp.icon-institute.de/refprojects/pdigital-development-strategyp/",
+    "title": "Digital Development Strategy",
+    "subtitle": "Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands",
+    "countries": [
+      "Wallis",
+      "Futuna Islands"
+    ],
+    "region": "asia",
+    "yearStart": 2019,
+    "yearEnd": 2021,
+    "periodStart": "2019-06-17",
+    "periodEnd": "2021-12-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "300k-500k",
+    "volumeAmount": "333.455 €",
+    "financing": "European Union",
+    "clientName": "European Union",
+    "description": "The project “Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands “aims at strengthening the capacities of the Territory of the Islands of Wallis and Futuna Islands in…",
+    "body": [
+      "The project “Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands “aims at strengthening the capacities of the Territory of the Islands of Wallis and Futuna Islands in monitoring and evaluating the implementation of the sectoral digital development strategy and the sectoral reform performance contract concluded with the EU.",
+      "The services provided by the consultant included among others the preparation of disbursement requests from the Territory of the Wallis and Futuna Islands; the strengthening of the capacities of local actors in the Wallis and Futuna Islands Territories and contributing to the strengthening of the dialogue between the European Union and the Territory of the Wallis and Futuna Islands.",
+      "(6609754)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/07/6609754-Accounting.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Digital Development Strategy",
+    "subtitle": "Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands",
+    "countries": [
+      "Wallis",
+      "Futuna Islands"
+    ],
+    "region": "asia",
+    "yearStart": 2019,
+    "yearEnd": 2021,
+    "periodStart": "2019-06-17",
+    "periodEnd": "2021-12-31",
+    "expertise": "governance-education-social-development",
+    "volume": "300k-500k",
+    "volumeAmount": "333.455 €",
+    "financing": "European Union",
+    "clientName": "European Union",
+    "description": "The project “Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands “aims at strengthening the capacities of the Territory of the Islands of Wallis and Futuna Islands in…",
+    "body": [
+      "The project “Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands “aims at strengthening the capacities of the Territory of the Islands of Wallis and Futuna Islands in monitoring and evaluating the implementation of the sectoral digital development strategy and the sectoral reform performance contract concluded with the EU.",
+      "The services provided by the consultant included among others the preparation of disbursement requests from the Territory of the Wallis and Futuna Islands; the strengthening of the capacities of local actors in the Wallis and Futuna Islands Territories and contributing to the strengthening of the dialogue between the European Union and the Territory of the Wallis and Futuna Islands.",
+      "(6609754)"
+    ],
+    "image": "/media/6609754-accounting-8772ad2f.jpg",
+    "pdf": null,
+    "wpId": "25836",
+    "permalink": "https://hp.icon-institute.de/refprojects/pdigital-development-strategyp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/07/6609754-Accounting.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c4a851519dfc6cec739",
+    "item": {
+      "id": "6a789c4a851519dfc6cec739",
+      "slug": "digital-development-strategy",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:06.010418Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:06.010418Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Digital Development Strategy",
+      "subtitle": "Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands",
+      "countries": [
+        "Wallis",
+        "Futuna Islands"
+      ],
+      "region": "asia",
+      "yearStart": 2019,
+      "yearEnd": 2021,
+      "expertise": "governance-education-social-development",
+      "volume": "300k-500k",
+      "periodStart": "2019-06-17",
+      "periodEnd": "2021-12-31",
+      "volumeAmount": "333.455 €",
+      "financing": "European Union",
+      "clientName": "European Union",
+      "description": "The project “Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands “aims at strengthening the capacities of the Territory of the Islands of Wallis and Futuna Islands in…",
+      "body": [
+        "The project “Long-Term Technical Assistance for the Transversal Piloting of the Budget Support Program for the Digital Development Strategy of the Wallis and Futuna Islands “aims at strengthening the capacities of the Territory of the Islands of Wallis and Futuna Islands in monitoring and evaluating the implementation of the sectoral digital development strategy and the sectoral reform performance contract concluded with the EU.",
+        "The services provided by the consultant included among others the preparation of disbursement requests from the Territory of the Wallis and Futuna Islands; the strengthening of the capacities of local actors in the Wallis and Futuna Islands Territories and contributing to the strengthening of the dialogue between the European Union and the Territory of the Wallis and Futuna Islands.",
+        "(6609754)"
+      ],
+      "image": "/media/6609754-accounting-8772ad2f.jpg",
+      "pdf": null,
+      "country": "Wallis, Futuna Islands",
+      "periodLabel": "17/06/2019 - 31/12/2021"
+    }
+  }
+}

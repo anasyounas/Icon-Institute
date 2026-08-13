@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "24125",
+    "permalink": "https://hp.icon-institute.de/refprojects/exporting-sector-competitivetybr/",
+    "title": "Exporting Sector Competitivety",
+    "subtitle": "Strengthening of the Competitivity of the Exporting Sector",
+    "countries": [
+      "Paraguay"
+    ],
+    "region": "south-america",
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "periodStart": "2005-09-01",
+    "periodEnd": "2009-12-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "2.944.187 €",
+    "financing": "European Union - ALA",
+    "clientName": "Delegation of the European Union in Paraguay",
+    "description": "The specific objectives of the program were focused on practical, impactful measures. First, public institutions responsible for the SNC needed strengthening, ensuring they could effectively oversee the quality system. Paraguay’s official agencies, tasked with sanitary and…",
+    "body": [
+      "The specific objectives of the program were focused on practical, impactful measures. First, public institutions responsible for the SNC needed strengthening, ensuring they could effectively oversee the quality system. Paraguay’s official agencies, tasked with sanitary and quality certifications, also required bolstering to meet international standards.",
+      "In addition, ICON-INSTITUT supported the realization of an agricultural census, a foundational tool for planning and development. It also aimed to enhance public-private partnerships, bringing together government and business to craft a more coherent competition policy.",
+      "A critical focus was on the small and medium-sized enterprises (SMEs) that formed the backbone of Paraguay’s economy. By strengthening existing clusters and providing essential business development services, the program aimed to improve the quality and competitiveness of these SMEs, helping them break into export markets and thrive.",
+      "Through these efforts, Paraguay was setting the stage for a more dynamic, globally connected economy—one where its products could compete on quality and standards, and where its institutions could reliably support sustainable growth."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6602595.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Exporting Sector Competitivety",
+    "subtitle": "Strengthening of the Competitivity of the Exporting Sector",
+    "countries": [
+      "Paraguay"
+    ],
+    "region": "south-america",
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "periodStart": "2005-09-01",
+    "periodEnd": "2009-12-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "2.944.187 €",
+    "financing": "European Union - ALA",
+    "clientName": "Delegation of the European Union in Paraguay",
+    "description": "The specific objectives of the program were focused on practical, impactful measures. First, public institutions responsible for the SNC needed strengthening, ensuring they could effectively oversee the quality system. Paraguay’s official agencies, tasked with sanitary and…",
+    "body": [
+      "The specific objectives of the program were focused on practical, impactful measures. First, public institutions responsible for the SNC needed strengthening, ensuring they could effectively oversee the quality system. Paraguay’s official agencies, tasked with sanitary and quality certifications, also required bolstering to meet international standards.",
+      "In addition, ICON-INSTITUT supported the realization of an agricultural census, a foundational tool for planning and development. It also aimed to enhance public-private partnerships, bringing together government and business to craft a more coherent competition policy.",
+      "A critical focus was on the small and medium-sized enterprises (SMEs) that formed the backbone of Paraguay’s economy. By strengthening existing clusters and providing essential business development services, the program aimed to improve the quality and competitiveness of these SMEs, helping them break into export markets and thrive.",
+      "Through these efforts, Paraguay was setting the stage for a more dynamic, globally connected economy—one where its products could compete on quality and standards, and where its institutions could reliably support sustainable growth."
+    ],
+    "image": "/media/6602595-a3e63825.jpg",
+    "pdf": null,
+    "wpId": "24125",
+    "permalink": "https://hp.icon-institute.de/refprojects/exporting-sector-competitivetybr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6602595.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a139851519dfc6cecb17",
+    "item": {
+      "id": "6a78a139851519dfc6cecb17",
+      "slug": "exporting-sector-competitivety",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:48:09.018753Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:48:09.018753Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Exporting Sector Competitivety",
+      "subtitle": "Strengthening of the Competitivity of the Exporting Sector",
+      "countries": [
+        "Paraguay"
+      ],
+      "region": "south-america",
+      "yearStart": 2005,
+      "yearEnd": 2009,
+      "expertise": "economic-employment-promotion",
+      "volume": "1m-3m",
+      "periodStart": "2005-09-01",
+      "periodEnd": "2009-12-31",
+      "volumeAmount": "2.944.187 €",
+      "financing": "European Union - ALA",
+      "clientName": "Delegation of the European Union in Paraguay",
+      "description": "The specific objectives of the program were focused on practical, impactful measures. First, public institutions responsible for the SNC needed strengthening, ensuring they could effectively oversee the quality system. Paraguay’s official agencies, tasked with sanitary and…",
+      "body": [
+        "The specific objectives of the program were focused on practical, impactful measures. First, public institutions responsible for the SNC needed strengthening, ensuring they could effectively oversee the quality system. Paraguay’s official agencies, tasked with sanitary and quality certifications, also required bolstering to meet international standards.",
+        "In addition, ICON-INSTITUT supported the realization of an agricultural census, a foundational tool for planning and development. It also aimed to enhance public-private partnerships, bringing together government and business to craft a more coherent competition policy.",
+        "A critical focus was on the small and medium-sized enterprises (SMEs) that formed the backbone of Paraguay’s economy. By strengthening existing clusters and providing essential business development services, the program aimed to improve the quality and competitiveness of these SMEs, helping them break into export markets and thrive.",
+        "Through these efforts, Paraguay was setting the stage for a more dynamic, globally connected economy—one where its products could compete on quality and standards, and where its institutions could reliably support sustainable growth."
+      ],
+      "image": "/media/6602595-a3e63825.jpg",
+      "pdf": null,
+      "country": "Paraguay",
+      "periodLabel": "01/09/2005 - 31/12/2009"
+    }
+  }
+}

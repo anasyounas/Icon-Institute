@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24220",
+    "permalink": "https://hp.icon-institute.de/refprojects/local-government-local-economic-development/",
+    "title": "Local Government, Local Economic Development",
+    "subtitle": "Strengthening Local Government, Local Economic Development",
+    "countries": [
+      "South Africa"
+    ],
+    "region": "africa",
+    "yearStart": 2007,
+    "yearEnd": 2010,
+    "periodStart": "2007-04-01",
+    "periodEnd": "2010-02-01",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "2.300.000 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Strengthening Local Government, Local Economic Development",
+    "body": [
+      "Strengthening Local Government, Local Economic Development"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Local Government, Local Economic Development",
+    "subtitle": "Strengthening Local Government, Local Economic Development",
+    "countries": [
+      "South Africa"
+    ],
+    "region": "africa",
+    "yearStart": 2007,
+    "yearEnd": 2010,
+    "periodStart": "2007-04-01",
+    "periodEnd": "2010-02-01",
+    "expertise": "economic-employment-promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "2.300.000 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Strengthening Local Government, Local Economic Development",
+    "body": [
+      "Strengthening Local Government, Local Economic Development"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24220",
+    "permalink": "https://hp.icon-institute.de/refprojects/local-government-local-economic-development/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa6d851519dfc6ced4f7",
+    "item": {
+      "id": "6a78aa6d851519dfc6ced4f7",
+      "slug": "local-government-local-economic-development",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:27:25.327269Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:27:25.327269Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Local Government, Local Economic Development",
+      "subtitle": "Strengthening Local Government, Local Economic Development",
+      "countries": [
+        "South Africa"
+      ],
+      "region": "africa",
+      "yearStart": 2007,
+      "yearEnd": 2010,
+      "expertise": "economic-employment-promotion",
+      "volume": "1m-3m",
+      "periodStart": "2007-04-01",
+      "periodEnd": "2010-02-01",
+      "volumeAmount": "2.300.000 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Strengthening Local Government, Local Economic Development",
+      "body": [
+        "Strengthening Local Government, Local Economic Development"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "South Africa",
+      "periodLabel": "01/04/2007 - 01/02/2010"
+    }
+  }
+}

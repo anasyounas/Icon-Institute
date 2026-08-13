@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24512",
+    "permalink": "https://hp.icon-institute.de/refprojects/baseline-evaluation-of-mena-msme-ta-facility/",
+    "title": "Baseline Evaluation of MENA MSME TA Facility",
+    "subtitle": "Baseline Evaluation of MENA MSME TA Facility",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "middle-east",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-10-21",
+    "periodEnd": "2014-04-22",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "106.000 €",
+    "financing": "International Finance Corporation",
+    "clientName": "World Bank",
+    "description": "Baseline Evaluation of MENA MSME TA Facility",
+    "body": [
+      "Baseline Evaluation of MENA MSME TA Facility"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Baseline Evaluation of MENA MSME TA Facility",
+    "subtitle": "Baseline Evaluation of MENA MSME TA Facility",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "middle-east",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-10-21",
+    "periodEnd": "2014-04-22",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "106.000 €",
+    "financing": "International Finance Corporation",
+    "clientName": "World Bank",
+    "description": "Baseline Evaluation of MENA MSME TA Facility",
+    "body": [
+      "Baseline Evaluation of MENA MSME TA Facility"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24512",
+    "permalink": "https://hp.icon-institute.de/refprojects/baseline-evaluation-of-mena-msme-ta-facility/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aac2851519dfc6ced600",
+    "item": {
+      "id": "6a78aac2851519dfc6ced600",
+      "slug": "baseline-evaluation-of-mena-msme-ta-facility-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:50.100873Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:50.100873Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Baseline Evaluation of MENA MSME TA Facility",
+      "subtitle": "Baseline Evaluation of MENA MSME TA Facility",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "middle-east",
+      "yearStart": 2013,
+      "yearEnd": 2014,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2013-10-21",
+      "periodEnd": "2014-04-22",
+      "volumeAmount": "106.000 €",
+      "financing": "International Finance Corporation",
+      "clientName": "World Bank",
+      "description": "Baseline Evaluation of MENA MSME TA Facility",
+      "body": [
+        "Baseline Evaluation of MENA MSME TA Facility"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "21/10/2013 - 22/04/2014"
+    }
+  }
+}

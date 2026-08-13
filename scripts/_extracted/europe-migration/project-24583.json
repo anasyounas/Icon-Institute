@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24583",
+    "permalink": "https://hp.icon-institute.de/refprojects/industry-led-skills-and-workforce/",
+    "title": "Industry-led Skills and Workforce",
+    "subtitle": "Industry-led Skills and Workforce Development Project Manager",
+    "countries": [
+      "Georgia"
+    ],
+    "region": "europe",
+    "yearStart": 2014,
+    "yearEnd": 2019,
+    "periodStart": "2014-09-02",
+    "periodEnd": "2019-03-14",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "3m-5m",
+    "volumeAmount": "3.171.760 €",
+    "financing": "MCC Millenium Challenge Corporation / USA through MCA Georgia",
+    "clientName": "Millennium Challenge Account - Georgia",
+    "description": "ICON implemented the Industry-led Skills and Workforce Development (ISWD) Project together with PEM Consult in Georgia under the Millennium Challenge Account. The objective of the ISWD Project aimed to improve the linkage between market-demanded skills and the supply of…",
+    "body": [
+      "ICON implemented the Industry-led Skills and Workforce Development (ISWD) Project together with PEM Consult in Georgia under the Millennium Challenge Account. The objective of the ISWD Project aimed to improve the linkage between market-demanded skills and the supply of Georgians with technical skills relevant to the local economy. Investments to support TVET were necessary to address industry demand for skilled technicians and to reach potential beneficiaries who did not have the opportunity to obtain further education and training. The project comprised the implementation of a successful Competitive Grant Programme to develop innovative and effective TVET approaches by providing investment funding. Beside this the TVET Provider Practice was strengthened through capacity building measures heading at labour market/industry needs. Additionally the TVET Sector Policy on national level has been strengthened by the measures of the project to round up the sustainability of the programme.",
+      "(5507621)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5507621.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Industry-led Skills and Workforce",
+    "subtitle": "Industry-led Skills and Workforce Development Project Manager",
+    "countries": [
+      "Georgia"
+    ],
+    "region": "europe",
+    "yearStart": 2014,
+    "yearEnd": 2019,
+    "periodStart": "2014-09-02",
+    "periodEnd": "2019-03-14",
+    "expertise": "economic-employment-promotion",
+    "volume": "3m-5m",
+    "volumeAmount": "3.171.760 €",
+    "financing": "MCC Millenium Challenge Corporation / USA through MCA Georgia",
+    "clientName": "Millennium Challenge Account - Georgia",
+    "description": "ICON implemented the Industry-led Skills and Workforce Development (ISWD) Project together with PEM Consult in Georgia under the Millennium Challenge Account. The objective of the ISWD Project aimed to improve the linkage between market-demanded skills and the supply of…",
+    "body": [
+      "ICON implemented the Industry-led Skills and Workforce Development (ISWD) Project together with PEM Consult in Georgia under the Millennium Challenge Account. The objective of the ISWD Project aimed to improve the linkage between market-demanded skills and the supply of Georgians with technical skills relevant to the local economy. Investments to support TVET were necessary to address industry demand for skilled technicians and to reach potential beneficiaries who did not have the opportunity to obtain further education and training. The project comprised the implementation of a successful Competitive Grant Programme to develop innovative and effective TVET approaches by providing investment funding. Beside this the TVET Provider Practice was strengthened through capacity building measures heading at labour market/industry needs. Additionally the TVET Sector Policy on national level has been strengthened by the measures of the project to round up the sustainability of the programme.",
+      "(5507621)"
+    ],
+    "image": "/media/5507621-964c785d.jpg",
+    "pdf": null,
+    "wpId": "24583",
+    "permalink": "https://hp.icon-institute.de/refprojects/industry-led-skills-and-workforce/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5507621.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a86ecf6717bc43c61fed",
+    "item": {
+      "id": "6a78a86ecf6717bc43c61fed",
+      "slug": "industry-led-skills-and-workforce",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:54.151758Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:54.151758Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Industry-led Skills and Workforce",
+      "subtitle": "Industry-led Skills and Workforce Development Project Manager",
+      "countries": [
+        "Georgia"
+      ],
+      "region": "europe",
+      "yearStart": 2014,
+      "yearEnd": 2019,
+      "expertise": "economic-employment-promotion",
+      "volume": "3m-5m",
+      "periodStart": "2014-09-02",
+      "periodEnd": "2019-03-14",
+      "volumeAmount": "3.171.760 €",
+      "financing": "MCC Millenium Challenge Corporation / USA through MCA Georgia",
+      "clientName": "Millennium Challenge Account - Georgia",
+      "description": "ICON implemented the Industry-led Skills and Workforce Development (ISWD) Project together with PEM Consult in Georgia under the Millennium Challenge Account. The objective of the ISWD Project aimed to improve the linkage between market-demanded skills and the supply of…",
+      "body": [
+        "ICON implemented the Industry-led Skills and Workforce Development (ISWD) Project together with PEM Consult in Georgia under the Millennium Challenge Account. The objective of the ISWD Project aimed to improve the linkage between market-demanded skills and the supply of Georgians with technical skills relevant to the local economy. Investments to support TVET were necessary to address industry demand for skilled technicians and to reach potential beneficiaries who did not have the opportunity to obtain further education and training. The project comprised the implementation of a successful Competitive Grant Programme to develop innovative and effective TVET approaches by providing investment funding. Beside this the TVET Provider Practice was strengthened through capacity building measures heading at labour market/industry needs. Additionally the TVET Sector Policy on national level has been strengthened by the measures of the project to round up the sustainability of the programme.",
+        "(5507621)"
+      ],
+      "image": "/media/5507621-964c785d.jpg",
+      "pdf": null,
+      "country": "Georgia",
+      "periodLabel": "02/09/2014 - 14/03/2019"
+    }
+  }
+}

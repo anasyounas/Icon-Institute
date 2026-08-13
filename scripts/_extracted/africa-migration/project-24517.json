@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24517",
+    "permalink": "https://hp.icon-institute.de/refprojects/pmalawi-growth-and-development-strategy-macro-model-and-statisticsp/",
+    "title": "Malawi Growth and Development Strategy: Macro Model and Statistics",
+    "subtitle": "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy",
+    "countries": [
+      "Malawi"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-10-03",
+    "periodEnd": "2014-01-15",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "59.500 €",
+    "financing": "Norwegian Government",
+    "clientName": "Norad",
+    "description": "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy",
+    "body": [
+      "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Malawi Growth and Development Strategy: Macro Model and Statistics",
+    "subtitle": "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy",
+    "countries": [
+      "Malawi"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-10-03",
+    "periodEnd": "2014-01-15",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "59.500 €",
+    "financing": "Norwegian Government",
+    "clientName": "Norad",
+    "description": "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy",
+    "body": [
+      "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24517",
+    "permalink": "https://hp.icon-institute.de/refprojects/pmalawi-growth-and-development-strategy-macro-model-and-statisticsp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa28851519dfc6ced3e1",
+    "item": {
+      "id": "6a78aa28851519dfc6ced3e1",
+      "slug": "malawi-growth-and-development-strategy-macro-model-and-statistics",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:16.045017Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:16.045017Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Malawi Growth and Development Strategy: Macro Model and Statistics",
+      "subtitle": "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy",
+      "countries": [
+        "Malawi"
+      ],
+      "region": "africa",
+      "yearStart": 2013,
+      "yearEnd": 2014,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2013-10-03",
+      "periodEnd": "2014-01-15",
+      "volumeAmount": "59.500 €",
+      "financing": "Norwegian Government",
+      "clientName": "Norad",
+      "description": "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy",
+      "body": [
+        "Mid-Term Reviews: Macro model for the Malawi Growth and Development Strategy and Statistics for the Malawi Growth and Development Strategy"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Malawi",
+      "periodLabel": "03/10/2013 - 15/01/2014"
+    }
+  }
+}

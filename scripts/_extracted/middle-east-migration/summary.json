@@ -1,0 +1,63 @@
+{
+  "total": 106,
+  "ok": 95,
+  "failed": [
+    {
+      "ok": false,
+      "wpId": "24237",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24239",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24207",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24206",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24204",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24198",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24208",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24338",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24201",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24174",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24121",
+      "error": "empty title on source page — skipped"
+    }
+  ],
+  "created": 90,
+  "updated": 5
+}

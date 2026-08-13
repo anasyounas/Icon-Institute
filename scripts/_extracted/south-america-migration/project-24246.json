@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "24246",
+    "permalink": "https://hp.icon-institute.de/refprojects/marketing-instrument-innovation-forum-for-co-operation-in-research/",
+    "title": "Marketing Instrument Innovation Forum for Co-operation in Research",
+    "subtitle": "Evaluation of the Marketing Instrument Innovation Forum for Co-operation in Research in the Region of Latin America 2008",
+    "countries": [
+      "Argentina",
+      "Brazil",
+      "Germany"
+    ],
+    "region": "south-america",
+    "yearStart": 2008,
+    "yearEnd": 2009,
+    "periodStart": "2008-10-01",
+    "periodEnd": "2009-05-30",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "54.814 €",
+    "financing": "German Federal Government",
+    "clientName": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "description": "The German Ministry of Research and Education (BMBF) launched an internationalisation strategy to strengthen Germany's role in education, science, research, and innovation globally. The strategy aimed to increase the visibility and appeal of German research and innovation actors.",
+    "body": [
+      "The German Ministry of Research and Education (BMBF) launched an internationalisation strategy to strengthen Germany's role in education, science, research, and innovation globally. The strategy aimed to increase the visibility and appeal of German research and innovation actors.",
+      "As part of this effort, the BMBF organised innovation fora in Argentina, Brazil, Chile, and Mexico—countries with strong bilateral cooperation with Germany in Latin America. These events focused on showcasing scientific-technical expertise and positioning German players in research and innovation as valuable partners. The fora featured presentations, discussions, and networking opportunities around specific thematic areas. The ICON-INSTITUTE was contracted to evaluate the preparation, implementation, and on-site outcomes of these events in the four countries."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/9504573.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Marketing Instrument Innovation Forum for Co-operation in Research",
+    "subtitle": "Evaluation of the Marketing Instrument Innovation Forum for Co-operation in Research in the Region of Latin America 2008",
+    "countries": [
+      "Argentina",
+      "Brazil",
+      "Germany"
+    ],
+    "region": "south-america",
+    "yearStart": 2008,
+    "yearEnd": 2009,
+    "periodStart": "2008-10-01",
+    "periodEnd": "2009-05-30",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "54.814 €",
+    "financing": "German Federal Government",
+    "clientName": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "description": "The German Ministry of Research and Education (BMBF) launched an internationalisation strategy to strengthen Germany's role in education, science, research, and innovation globally. The strategy aimed to increase the visibility and appeal of German research and innovation actors.",
+    "body": [
+      "The German Ministry of Research and Education (BMBF) launched an internationalisation strategy to strengthen Germany's role in education, science, research, and innovation globally. The strategy aimed to increase the visibility and appeal of German research and innovation actors.",
+      "As part of this effort, the BMBF organised innovation fora in Argentina, Brazil, Chile, and Mexico—countries with strong bilateral cooperation with Germany in Latin America. These events focused on showcasing scientific-technical expertise and positioning German players in research and innovation as valuable partners. The fora featured presentations, discussions, and networking opportunities around specific thematic areas. The ICON-INSTITUTE was contracted to evaluate the preparation, implementation, and on-site outcomes of these events in the four countries."
+    ],
+    "image": "/media/9504573-527935cd.jpg",
+    "pdf": null,
+    "wpId": "24246",
+    "permalink": "https://hp.icon-institute.de/refprojects/marketing-instrument-innovation-forum-for-co-operation-in-research/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/9504573.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a134851519dfc6cecafa",
+    "item": {
+      "id": "6a78a134851519dfc6cecafa",
+      "slug": "marketing-instrument-innovation-forum-for-co-operation-in-research",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:48:04.056834Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:48:04.056834Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Marketing Instrument Innovation Forum for Co-operation in Research",
+      "subtitle": "Evaluation of the Marketing Instrument Innovation Forum for Co-operation in Research in the Region of Latin America 2008",
+      "countries": [
+        "Argentina",
+        "Brazil",
+        "Germany"
+      ],
+      "region": "south-america",
+      "yearStart": 2008,
+      "yearEnd": 2009,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2008-10-01",
+      "periodEnd": "2009-05-30",
+      "volumeAmount": "54.814 €",
+      "financing": "German Federal Government",
+      "clientName": "Bundesministerium für Bildung und Forschung (BMBF)",
+      "description": "The German Ministry of Research and Education (BMBF) launched an internationalisation strategy to strengthen Germany's role in education, science, research, and innovation globally. The strategy aimed to increase the visibility and appeal of German research and innovation actors.",
+      "body": [
+        "The German Ministry of Research and Education (BMBF) launched an internationalisation strategy to strengthen Germany's role in education, science, research, and innovation globally. The strategy aimed to increase the visibility and appeal of German research and innovation actors.",
+        "As part of this effort, the BMBF organised innovation fora in Argentina, Brazil, Chile, and Mexico—countries with strong bilateral cooperation with Germany in Latin America. These events focused on showcasing scientific-technical expertise and positioning German players in research and innovation as valuable partners. The fora featured presentations, discussions, and networking opportunities around specific thematic areas. The ICON-INSTITUTE was contracted to evaluate the preparation, implementation, and on-site outcomes of these events in the four countries."
+      ],
+      "image": "/media/9504573-527935cd.jpg",
+      "pdf": null,
+      "country": "Argentina, Brazil, Germany",
+      "periodLabel": "01/10/2008 - 30/05/2009"
+    }
+  }
+}

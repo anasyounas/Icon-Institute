@@ -8,6 +8,7 @@ import { useReveal } from '../hooks/useReveal';
 import { usePublished } from '../hooks/usePublished';
 import { SparkIcon } from '../components/Icons';
 import { getExpertiseIcon, getServiceIcon } from '../components/iconMap';
+import { assetUrl } from '../lib/api';
 
 export function HomePage() {
   // Text and images are CMS-managed (Content & Media Editor → Home); the
@@ -61,7 +62,13 @@ export function HomePage() {
           <div className="home-hero-triple">
             {slides.map((s) => (
               <div key={s.overlayWord} className="home-hero-triple__item">
-                <img src={s.image} alt="" className="home-hero-triple__img" />
+                <img
+                  src={assetUrl(s.image)}
+                  alt=""
+                  className="home-hero-triple__img"
+                  loading="eager"
+                  fetchPriority="high"
+                />
                 <h2 className="home-hero-triple__word">{s.overlayWord}</h2>
               </div>
             ))}

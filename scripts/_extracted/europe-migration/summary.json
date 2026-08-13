@@ -1,0 +1,148 @@
+{
+  "total": 238,
+  "ok": 210,
+  "failed": [
+    {
+      "ok": false,
+      "wpId": "25007",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24663",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24472",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24265",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24351",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24240",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24238",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24234",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24231",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24232",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24207",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24210",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24206",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24205",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24197",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24199",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24200",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24338",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24201",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24174",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24171",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24172",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24121",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24120",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "29297",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24087",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24086",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24124",
+      "error": "empty title on source page — skipped"
+    }
+  ],
+  "created": 200,
+  "updated": 10
+}

@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24651",
+    "permalink": "https://hp.icon-institute.de/refprojects/education-for-life-and-work-eduvida-ii/",
+    "title": "Education for Life and Work – EDUVIDA II",
+    "subtitle": "Education for Life and Work – EDUVIDA II",
+    "countries": [
+      "Guatemala"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2017,
+    "yearEnd": 2020,
+    "periodStart": "2017-09-01",
+    "periodEnd": "2020-10-15",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "1.754.869 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Guatemala children and adolescents account for approximately half of the population. They grow up in a society that faces 54% of poverty, especially among the rural and indigenous population, and only 24% of young people complete their 12-years formal education. The…",
+    "body": [
+      "In Guatemala children and adolescents account for approximately half of the population. They grow up in a society that faces 54% of poverty, especially among the rural and indigenous population, and only 24% of young people complete their 12-years formal education. The indigenous youth in rural areas do not attend secondary school or drop out prematurely. The Government of Guatemala and international donors focused in the past on improving primary education, neglecting the following education levels. Secondary education hence lacks quality and practical relevance. An insufficient adaptation of the curriculum to the local and cultural conditions and demands of the labour market characterise the inadequacy of the current system. Issues of democracy, civil rights and competences for employment and entrepreneurship have little importance, hence, students are not taught to protect and exercise their rights as young people, as potential employees and citizens. Teachers’ capacities are limited as training of pedagogic skills is not provided.",
+      "With ICON-INSTITTUT’s support the framework conditions are improved in order to increase the quality of secondary education with regards to the provision of competences for the working world and active societal participation. The project is implemented nationwide with special focus on the administrative district of Quiché. The main focus is to advise the Ministry of Education and the Regional Department of Education of Quiché in adapting curricula to local needs and including democratic values, protection of human rights, awareness of specific economic, political, social, cultural and linguistic rights in multi-ethnic societies. This citizenship education contributes to enhance the approach to youth entrepreneurship.",
+      "(5508747)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5508747-EDUVIDA-II.png",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Education for Life and Work – EDUVIDA II",
+    "subtitle": "Education for Life and Work – EDUVIDA II",
+    "countries": [
+      "Guatemala"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2017,
+    "yearEnd": 2020,
+    "periodStart": "2017-09-01",
+    "periodEnd": "2020-10-15",
+    "expertise": "economic-employment-promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "1.754.869 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Guatemala children and adolescents account for approximately half of the population. They grow up in a society that faces 54% of poverty, especially among the rural and indigenous population, and only 24% of young people complete their 12-years formal education. The…",
+    "body": [
+      "In Guatemala children and adolescents account for approximately half of the population. They grow up in a society that faces 54% of poverty, especially among the rural and indigenous population, and only 24% of young people complete their 12-years formal education. The indigenous youth in rural areas do not attend secondary school or drop out prematurely. The Government of Guatemala and international donors focused in the past on improving primary education, neglecting the following education levels. Secondary education hence lacks quality and practical relevance. An insufficient adaptation of the curriculum to the local and cultural conditions and demands of the labour market characterise the inadequacy of the current system. Issues of democracy, civil rights and competences for employment and entrepreneurship have little importance, hence, students are not taught to protect and exercise their rights as young people, as potential employees and citizens. Teachers’ capacities are limited as training of pedagogic skills is not provided.",
+      "With ICON-INSTITTUT’s support the framework conditions are improved in order to increase the quality of secondary education with regards to the provision of competences for the working world and active societal participation. The project is implemented nationwide with special focus on the administrative district of Quiché. The main focus is to advise the Ministry of Education and the Regional Department of Education of Quiché in adapting curricula to local needs and including democratic values, protection of human rights, awareness of specific economic, political, social, cultural and linguistic rights in multi-ethnic societies. This citizenship education contributes to enhance the approach to youth entrepreneurship.",
+      "(5508747)"
+    ],
+    "image": "/media/5508747-eduvida-ii-4ddce8c8.png",
+    "pdf": null,
+    "wpId": "24651",
+    "permalink": "https://hp.icon-institute.de/refprojects/education-for-life-and-work-eduvida-ii/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5508747-EDUVIDA-II.png",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a0d7851519dfc6cec9c3",
+    "item": {
+      "id": "6a78a0d7851519dfc6cec9c3",
+      "slug": "education-for-life-and-work-eduvida-ii",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:46:31.894697Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:46:31.894697Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Education for Life and Work – EDUVIDA II",
+      "subtitle": "Education for Life and Work – EDUVIDA II",
+      "countries": [
+        "Guatemala"
+      ],
+      "region": "central-america-caribbean",
+      "yearStart": 2017,
+      "yearEnd": 2020,
+      "expertise": "economic-employment-promotion",
+      "volume": "1m-3m",
+      "periodStart": "2017-09-01",
+      "periodEnd": "2020-10-15",
+      "volumeAmount": "1.754.869 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "In Guatemala children and adolescents account for approximately half of the population. They grow up in a society that faces 54% of poverty, especially among the rural and indigenous population, and only 24% of young people complete their 12-years formal education. The…",
+      "body": [
+        "In Guatemala children and adolescents account for approximately half of the population. They grow up in a society that faces 54% of poverty, especially among the rural and indigenous population, and only 24% of young people complete their 12-years formal education. The indigenous youth in rural areas do not attend secondary school or drop out prematurely. The Government of Guatemala and international donors focused in the past on improving primary education, neglecting the following education levels. Secondary education hence lacks quality and practical relevance. An insufficient adaptation of the curriculum to the local and cultural conditions and demands of the labour market characterise the inadequacy of the current system. Issues of democracy, civil rights and competences for employment and entrepreneurship have little importance, hence, students are not taught to protect and exercise their rights as young people, as potential employees and citizens. Teachers’ capacities are limited as training of pedagogic skills is not provided.",
+        "With ICON-INSTITTUT’s support the framework conditions are improved in order to increase the quality of secondary education with regards to the provision of competences for the working world and active societal participation. The project is implemented nationwide with special focus on the administrative district of Quiché. The main focus is to advise the Ministry of Education and the Regional Department of Education of Quiché in adapting curricula to local needs and including democratic values, protection of human rights, awareness of specific economic, political, social, cultural and linguistic rights in multi-ethnic societies. This citizenship education contributes to enhance the approach to youth entrepreneurship.",
+        "(5508747)"
+      ],
+      "image": "/media/5508747-eduvida-ii-4ddce8c8.png",
+      "pdf": null,
+      "country": "Guatemala",
+      "periodLabel": "01/09/2017 - 15/10/2020"
+    }
+  }
+}

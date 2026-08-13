@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24473",
+    "permalink": "https://hp.icon-institute.de/refprojects/pmunicipal-infrastructurecredit-linep/",
+    "title": "Municipal Infrastructure Credit Line",
+    "subtitle": "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure",
+    "countries": [
+      "Turkey"
+    ],
+    "region": "europe",
+    "yearStart": 2012,
+    "yearEnd": 2015,
+    "periodStart": "2012-10-30",
+    "periodEnd": "2015-04-30",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "300k-500k",
+    "volumeAmount": "322.836 €",
+    "financing": "Kreditanstalt für Wiederaufbau (KfW)",
+    "clientName": "Türkiye Sinai Kalkinma Bankasi (TSKB)",
+    "description": "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure",
+    "body": [
+      "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Municipal Infrastructure Credit Line",
+    "subtitle": "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure",
+    "countries": [
+      "Turkey"
+    ],
+    "region": "europe",
+    "yearStart": 2012,
+    "yearEnd": 2015,
+    "periodStart": "2012-10-30",
+    "periodEnd": "2015-04-30",
+    "expertise": "agriculture-rural-development",
+    "volume": "300k-500k",
+    "volumeAmount": "322.836 €",
+    "financing": "Kreditanstalt für Wiederaufbau (KfW)",
+    "clientName": "Türkiye Sinai Kalkinma Bankasi (TSKB)",
+    "description": "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure",
+    "body": [
+      "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure"
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24473",
+    "permalink": "https://hp.icon-institute.de/refprojects/pmunicipal-infrastructurecredit-linep/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a897851519dfc6cecebb",
+    "item": {
+      "id": "6a78a897851519dfc6cecebb",
+      "slug": "municipal-infrastructure-credit-line",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:35.511197Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:35.511197Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Municipal Infrastructure Credit Line",
+      "subtitle": "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure",
+      "countries": [
+        "Turkey"
+      ],
+      "region": "europe",
+      "yearStart": 2012,
+      "yearEnd": 2015,
+      "expertise": "agriculture-rural-development",
+      "volume": "300k-500k",
+      "periodStart": "2012-10-30",
+      "periodEnd": "2015-04-30",
+      "volumeAmount": "322.836 €",
+      "financing": "Kreditanstalt für Wiederaufbau (KfW)",
+      "clientName": "Türkiye Sinai Kalkinma Bankasi (TSKB)",
+      "description": "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure",
+      "body": [
+        "Consulting Services for the Accompanying Measure (AM) for the Credit Line for Municipal Infrastructure"
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Turkey",
+      "periodLabel": "30/10/2012 - 30/04/2015"
+    }
+  }
+}

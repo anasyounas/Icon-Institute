@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26386",
+    "permalink": "https://hp.icon-institute.de/refprojects/pb%c3%aakou-fund-health-programmep/",
+    "title": "Bêkou Fund Health Programme",
+    "subtitle": "Technical Assistance to the Ministry of Health and Population (MSP) / EUTF Bêkou /Santé III (Bêkou Fund Health Programme Phase III)",
+    "countries": [
+      "Central African Republic"
+    ],
+    "region": "africa",
+    "yearStart": 2021,
+    "yearEnd": 2022,
+    "periodStart": "2021-06-01",
+    "periodEnd": "2022-06-30",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "500k-1m",
+    "volumeAmount": "599.800 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the CAR",
+    "description": "The project is part of the 3rd phase of the Bêkou Fund's health programme (Health III), with the general objective to \"provide basic health services to the Central African population with a progressive transfer of skills and means to national structures\" and is financed by…",
+    "body": [
+      "The project is part of the 3rd phase of the Bêkou Fund's health programme (Health III), with the general objective to \"provide basic health services to the Central African population with a progressive transfer of skills and means to national structures\" and is financed by the Bêkou Fund, the European Union's first trust fund and the 3 EU member states France, Germany and the Netherlands. The Fund aims to support the exit from the crisis and the reconstruction in all its dimensions in the CAR, and to support neighbouring countries affected by the crisis.",
+      "ICON-INSTITUT provides TA to the Ministry of Health and Population and to the activities of health projects implemented by NGOs and financed by the Bêkou Fund, ensuring continuity and strengthening of services between emergency, rehabilitation and development, as well as the continuity of the institutional support given during phase I, II and the beginning of phase III of the health programme.",
+      "The programme's objective is to strengthen the governance and leadership of the Ministry of Health and Population (MSP) and empower health facilities and contribute to the objectives of the partner NGOs that implement the health service delivery by providing a Minimum Package (MP) and complementary activities of quality care to the CAF population, by improving the management of maternal and child care, by improving the management of emergencies and disasters and by strengthening the fight against communicable and non-communicable diseases.",
+      "(6610027)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6610027-Ospedale-africano-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Bêkou Fund Health Programme",
+    "subtitle": "Technical Assistance to the Ministry of Health and Population (MSP) / EUTF Bêkou /Santé III (Bêkou Fund Health Programme Phase III)",
+    "countries": [
+      "Central African Republic"
+    ],
+    "region": "africa",
+    "yearStart": 2021,
+    "yearEnd": 2022,
+    "periodStart": "2021-06-01",
+    "periodEnd": "2022-06-30",
+    "expertise": "governance-education-social-development",
+    "volume": "500k-1m",
+    "volumeAmount": "599.800 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the CAR",
+    "description": "The project is part of the 3rd phase of the Bêkou Fund's health programme (Health III), with the general objective to \"provide basic health services to the Central African population with a progressive transfer of skills and means to national structures\" and is financed by…",
+    "body": [
+      "The project is part of the 3rd phase of the Bêkou Fund's health programme (Health III), with the general objective to \"provide basic health services to the Central African population with a progressive transfer of skills and means to national structures\" and is financed by the Bêkou Fund, the European Union's first trust fund and the 3 EU member states France, Germany and the Netherlands. The Fund aims to support the exit from the crisis and the reconstruction in all its dimensions in the CAR, and to support neighbouring countries affected by the crisis.",
+      "ICON-INSTITUT provides TA to the Ministry of Health and Population and to the activities of health projects implemented by NGOs and financed by the Bêkou Fund, ensuring continuity and strengthening of services between emergency, rehabilitation and development, as well as the continuity of the institutional support given during phase I, II and the beginning of phase III of the health programme.",
+      "The programme's objective is to strengthen the governance and leadership of the Ministry of Health and Population (MSP) and empower health facilities and contribute to the objectives of the partner NGOs that implement the health service delivery by providing a Minimum Package (MP) and complementary activities of quality care to the CAF population, by improving the management of maternal and child care, by improving the management of emergencies and disasters and by strengthening the fight against communicable and non-communicable diseases.",
+      "(6610027)"
+    ],
+    "image": "/media/6610027-ospedale-africano-scaled-69e4db97.jpg",
+    "pdf": null,
+    "wpId": "26386",
+    "permalink": "https://hp.icon-institute.de/refprojects/pb%c3%aakou-fund-health-programmep/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6610027-Ospedale-africano-scaled.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a982851519dfc6ced16d",
+    "item": {
+      "id": "6a78a982851519dfc6ced16d",
+      "slug": "bekou-fund-health-programme",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:23:30.786105Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:23:30.786105Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Bêkou Fund Health Programme",
+      "subtitle": "Technical Assistance to the Ministry of Health and Population (MSP) / EUTF Bêkou /Santé III (Bêkou Fund Health Programme Phase III)",
+      "countries": [
+        "Central African Republic"
+      ],
+      "region": "africa",
+      "yearStart": 2021,
+      "yearEnd": 2022,
+      "expertise": "governance-education-social-development",
+      "volume": "500k-1m",
+      "periodStart": "2021-06-01",
+      "periodEnd": "2022-06-30",
+      "volumeAmount": "599.800 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to the CAR",
+      "description": "The project is part of the 3rd phase of the Bêkou Fund's health programme (Health III), with the general objective to \"provide basic health services to the Central African population with a progressive transfer of skills and means to national structures\" and is financed by…",
+      "body": [
+        "The project is part of the 3rd phase of the Bêkou Fund's health programme (Health III), with the general objective to \"provide basic health services to the Central African population with a progressive transfer of skills and means to national structures\" and is financed by the Bêkou Fund, the European Union's first trust fund and the 3 EU member states France, Germany and the Netherlands. The Fund aims to support the exit from the crisis and the reconstruction in all its dimensions in the CAR, and to support neighbouring countries affected by the crisis.",
+        "ICON-INSTITUT provides TA to the Ministry of Health and Population and to the activities of health projects implemented by NGOs and financed by the Bêkou Fund, ensuring continuity and strengthening of services between emergency, rehabilitation and development, as well as the continuity of the institutional support given during phase I, II and the beginning of phase III of the health programme.",
+        "The programme's objective is to strengthen the governance and leadership of the Ministry of Health and Population (MSP) and empower health facilities and contribute to the objectives of the partner NGOs that implement the health service delivery by providing a Minimum Package (MP) and complementary activities of quality care to the CAF population, by improving the management of maternal and child care, by improving the management of emergencies and disasters and by strengthening the fight against communicable and non-communicable diseases.",
+        "(6610027)"
+      ],
+      "image": "/media/6610027-ospedale-africano-scaled-69e4db97.jpg",
+      "pdf": null,
+      "country": "Central African Republic",
+      "periodLabel": "01/06/2021 - 30/06/2022"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "27089",
+    "permalink": "https://hp.icon-institute.de/refprojects/psocial-protection-systemp/",
+    "title": "Social Protection System",
+    "subtitle": "Social Protection System Strengthening Experts Pool",
+    "countries": [
+      "Cambodia"
+    ],
+    "region": "asia",
+    "yearStart": 2022,
+    "yearEnd": 2024,
+    "periodStart": "2022-08-01",
+    "periodEnd": "2024-07-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "300k-500k",
+    "volumeAmount": "488.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Cambodia, services provided in the social protection and health systems are still largely inadequate in quality, cannot cope with the demands arising from external shocks and are not equally accessible to all population groups. Large parts of the population remain…",
+    "body": [
+      "In Cambodia, services provided in the social protection and health systems are still largely inadequate in quality, cannot cope with the demands arising from external shocks and are not equally accessible to all population groups. Large parts of the population remain vulnerable to the effects of individual and collective risks such as illness, loss of income, economic crises or extreme weather events. 35% - 45% of the population remain close to the poverty rate, 15% live below. When the textile sector collapsed during the COVID-19 pandemic, it was predominantly women who lost their jobs and income.",
+      "In this context, the German Technical Cooperation programme \"Improving Social Protection and Health (ISPH)” aims to strengthening the social protection and health system with regard to shock-responsiveness, inclusiveness and service quality. The General Secretariat - National Social Protection Council (GS-NSPC) and the Social Security Regulator (SSR) are the implementing partner for the ISPH programme.",
+      "ICON-INSTITUT has been providing support to the implementation of the programme components “Schemes and components of the social protection system take better account of the needs of vulnerable groups” and “The implementation capacities of social protection operators are strengthened”, by providing technical expertise with a pool of international and national specialists.",
+      "(4410306)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/05/4410336-IMG-20230428-WA0000.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Social Protection System",
+    "subtitle": "Social Protection System Strengthening Experts Pool",
+    "countries": [
+      "Cambodia"
+    ],
+    "region": "asia",
+    "yearStart": 2022,
+    "yearEnd": 2024,
+    "periodStart": "2022-08-01",
+    "periodEnd": "2024-07-31",
+    "expertise": "governance-education-social-development",
+    "volume": "300k-500k",
+    "volumeAmount": "488.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Cambodia, services provided in the social protection and health systems are still largely inadequate in quality, cannot cope with the demands arising from external shocks and are not equally accessible to all population groups. Large parts of the population remain…",
+    "body": [
+      "In Cambodia, services provided in the social protection and health systems are still largely inadequate in quality, cannot cope with the demands arising from external shocks and are not equally accessible to all population groups. Large parts of the population remain vulnerable to the effects of individual and collective risks such as illness, loss of income, economic crises or extreme weather events. 35% - 45% of the population remain close to the poverty rate, 15% live below. When the textile sector collapsed during the COVID-19 pandemic, it was predominantly women who lost their jobs and income.",
+      "In this context, the German Technical Cooperation programme \"Improving Social Protection and Health (ISPH)” aims to strengthening the social protection and health system with regard to shock-responsiveness, inclusiveness and service quality. The General Secretariat - National Social Protection Council (GS-NSPC) and the Social Security Regulator (SSR) are the implementing partner for the ISPH programme.",
+      "ICON-INSTITUT has been providing support to the implementation of the programme components “Schemes and components of the social protection system take better account of the needs of vulnerable groups” and “The implementation capacities of social protection operators are strengthened”, by providing technical expertise with a pool of international and national specialists.",
+      "(4410306)"
+    ],
+    "image": "/media/4410336-img-20230428-wa0000-05342507.jpg",
+    "pdf": null,
+    "wpId": "27089",
+    "permalink": "https://hp.icon-institute.de/refprojects/psocial-protection-systemp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/05/4410336-IMG-20230428-WA0000.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c32851519dfc6cec6b2",
+    "item": {
+      "id": "6a789c32851519dfc6cec6b2",
+      "slug": "social-protection-system",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:26:42.263018Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:26:42.263018Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Social Protection System",
+      "subtitle": "Social Protection System Strengthening Experts Pool",
+      "countries": [
+        "Cambodia"
+      ],
+      "region": "asia",
+      "yearStart": 2022,
+      "yearEnd": 2024,
+      "expertise": "governance-education-social-development",
+      "volume": "300k-500k",
+      "periodStart": "2022-08-01",
+      "periodEnd": "2024-07-31",
+      "volumeAmount": "488.400 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "In Cambodia, services provided in the social protection and health systems are still largely inadequate in quality, cannot cope with the demands arising from external shocks and are not equally accessible to all population groups. Large parts of the population remain…",
+      "body": [
+        "In Cambodia, services provided in the social protection and health systems are still largely inadequate in quality, cannot cope with the demands arising from external shocks and are not equally accessible to all population groups. Large parts of the population remain vulnerable to the effects of individual and collective risks such as illness, loss of income, economic crises or extreme weather events. 35% - 45% of the population remain close to the poverty rate, 15% live below. When the textile sector collapsed during the COVID-19 pandemic, it was predominantly women who lost their jobs and income.",
+        "In this context, the German Technical Cooperation programme \"Improving Social Protection and Health (ISPH)” aims to strengthening the social protection and health system with regard to shock-responsiveness, inclusiveness and service quality. The General Secretariat - National Social Protection Council (GS-NSPC) and the Social Security Regulator (SSR) are the implementing partner for the ISPH programme.",
+        "ICON-INSTITUT has been providing support to the implementation of the programme components “Schemes and components of the social protection system take better account of the needs of vulnerable groups” and “The implementation capacities of social protection operators are strengthened”, by providing technical expertise with a pool of international and national specialists.",
+        "(4410306)"
+      ],
+      "image": "/media/4410336-img-20230428-wa0000-05342507.jpg",
+      "pdf": null,
+      "country": "Cambodia",
+      "periodLabel": "01/08/2022 - 31/07/2024"
+    }
+  }
+}

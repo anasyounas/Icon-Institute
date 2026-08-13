@@ -1,0 +1,28 @@
+{
+  "total": 236,
+  "ok": 232,
+  "failed": [
+    {
+      "ok": false,
+      "wpId": "24476",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24385",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24235",
+      "error": "empty title on source page — skipped"
+    },
+    {
+      "ok": false,
+      "wpId": "24236",
+      "error": "empty title on source page — skipped"
+    }
+  ],
+  "created": 223,
+  "updated": 9
+}

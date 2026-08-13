@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26933",
+    "permalink": "https://hp.icon-institute.de/refprojects/ppromotion-of-economy-and-employmentp/",
+    "title": "Promotion of Economy and Employment",
+    "subtitle": "Promotion of Economy and Employment – Development of Rwandan National Cycling Tourism Strategy",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2022,
+    "yearEnd": 2022,
+    "periodStart": "2022-03-08",
+    "periodEnd": "2022-09-06",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "43.685 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Tourism in Africa currently represents only 2% of the world’s total market. Hence, the potential for growth is enormous.",
+    "body": [
+      "Tourism in Africa currently represents only 2% of the world’s total market. Hence, the potential for growth is enormous.",
+      "The Adventure Tourism market of which cycling is one part, is valued at $ 112 million and estimated to grow.",
+      "The National Cycling Tourism Strategy (NCTS) for Rwanda aims to support the country into becoming an international cycling destination and with that to contribute to job creation and economic growth. The scope of the NCTS will encompass the markets for elite sports, different types of cycling, including the use of eBikes, sports education and development programmes for youth among others.",
+      "(4410288)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/01/E4410288-Cycling.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Promotion of Economy and Employment",
+    "subtitle": "Promotion of Economy and Employment – Development of Rwandan National Cycling Tourism Strategy",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2022,
+    "yearEnd": 2022,
+    "periodStart": "2022-03-08",
+    "periodEnd": "2022-09-06",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "43.685 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Tourism in Africa currently represents only 2% of the world’s total market. Hence, the potential for growth is enormous.",
+    "body": [
+      "Tourism in Africa currently represents only 2% of the world’s total market. Hence, the potential for growth is enormous.",
+      "The Adventure Tourism market of which cycling is one part, is valued at $ 112 million and estimated to grow.",
+      "The National Cycling Tourism Strategy (NCTS) for Rwanda aims to support the country into becoming an international cycling destination and with that to contribute to job creation and economic growth. The scope of the NCTS will encompass the markets for elite sports, different types of cycling, including the use of eBikes, sports education and development programmes for youth among others.",
+      "(4410288)"
+    ],
+    "image": "/media/e4410288-cycling-efbfe26e.jpg",
+    "pdf": null,
+    "wpId": "26933",
+    "permalink": "https://hp.icon-institute.de/refprojects/ppromotion-of-economy-and-employmentp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/01/E4410288-Cycling.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a970851519dfc6ced12a",
+    "item": {
+      "id": "6a78a970851519dfc6ced12a",
+      "slug": "promotion-of-economy-and-employment",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:23:12.462163Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:23:12.462163Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Promotion of Economy and Employment",
+      "subtitle": "Promotion of Economy and Employment – Development of Rwandan National Cycling Tourism Strategy",
+      "countries": [
+        "Rwanda"
+      ],
+      "region": "africa",
+      "yearStart": 2022,
+      "yearEnd": 2022,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2022-03-08",
+      "periodEnd": "2022-09-06",
+      "volumeAmount": "43.685 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Tourism in Africa currently represents only 2% of the world’s total market. Hence, the potential for growth is enormous.",
+      "body": [
+        "Tourism in Africa currently represents only 2% of the world’s total market. Hence, the potential for growth is enormous.",
+        "The Adventure Tourism market of which cycling is one part, is valued at $ 112 million and estimated to grow.",
+        "The National Cycling Tourism Strategy (NCTS) for Rwanda aims to support the country into becoming an international cycling destination and with that to contribute to job creation and economic growth. The scope of the NCTS will encompass the markets for elite sports, different types of cycling, including the use of eBikes, sports education and development programmes for youth among others.",
+        "(4410288)"
+      ],
+      "image": "/media/e4410288-cycling-efbfe26e.jpg",
+      "pdf": null,
+      "country": "Rwanda",
+      "periodLabel": "08/03/2022 - 06/09/2022"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24405",
+    "permalink": "https://hp.icon-institute.de/refprojects/financing-concept-for-competence-centresbr/",
+    "title": "Financing Concept for Competence Centres",
+    "subtitle": "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa",
+    "countries": [
+      "Ghana",
+      "South Africa"
+    ],
+    "region": "africa",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-12-01",
+    "periodEnd": "2011-01-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "22.700 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa",
+    "body": [
+      "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Financing Concept for Competence Centres",
+    "subtitle": "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa",
+    "countries": [
+      "Ghana",
+      "South Africa"
+    ],
+    "region": "africa",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-12-01",
+    "periodEnd": "2011-01-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "22.700 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa",
+    "body": [
+      "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24405",
+    "permalink": "https://hp.icon-institute.de/refprojects/financing-concept-for-competence-centresbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa4a851519dfc6ced46d",
+    "item": {
+      "id": "6a78aa4a851519dfc6ced46d",
+      "slug": "financing-concept-for-competence-centres",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:50.213766Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:50.213766Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Financing Concept for Competence Centres",
+      "subtitle": "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa",
+      "countries": [
+        "Ghana",
+        "South Africa"
+      ],
+      "region": "africa",
+      "yearStart": 2010,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2010-12-01",
+      "periodEnd": "2011-01-31",
+      "volumeAmount": "22.700 €",
+      "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+      "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+      "description": "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa",
+      "body": [
+        "Possibilites for a Long-term and sustainable Financing Concept for Competence Centres (Regional Science Service Centers / RSSC) in Africa"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Ghana, South Africa",
+      "periodLabel": "01/12/2010 - 31/01/2011"
+    }
+  }
+}

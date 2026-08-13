@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24459",
+    "permalink": "https://hp.icon-institute.de/refprojects/ptvet-amp-private-sectorp/",
+    "title": "TVET & Private Sector",
+    "subtitle": "Strengthening the Partnership between TVET and Private Sector in Kurdistan",
+    "countries": [
+      "Iraq"
+    ],
+    "region": "middle-east",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-04-24",
+    "periodEnd": "2012-12-26",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "113.155 €",
+    "financing": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+    "clientName": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+    "description": "Strengthening the Partnership between TVET and Private Sector in Kurdistan",
+    "body": [
+      "Strengthening the Partnership between TVET and Private Sector in Kurdistan"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "TVET & Private Sector",
+    "subtitle": "Strengthening the Partnership between TVET and Private Sector in Kurdistan",
+    "countries": [
+      "Iraq"
+    ],
+    "region": "middle-east",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-04-24",
+    "periodEnd": "2012-12-26",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "113.155 €",
+    "financing": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+    "clientName": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+    "description": "Strengthening the Partnership between TVET and Private Sector in Kurdistan",
+    "body": [
+      "Strengthening the Partnership between TVET and Private Sector in Kurdistan"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24459",
+    "permalink": "https://hp.icon-institute.de/refprojects/ptvet-amp-private-sectorp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aacc851519dfc6ced62c",
+    "item": {
+      "id": "6a78aacc851519dfc6ced62c",
+      "slug": "tvet-private-sector",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:29:00.878039Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:00.878039Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "TVET & Private Sector",
+      "subtitle": "Strengthening the Partnership between TVET and Private Sector in Kurdistan",
+      "countries": [
+        "Iraq"
+      ],
+      "region": "middle-east",
+      "yearStart": 2012,
+      "yearEnd": 2012,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2012-04-24",
+      "periodEnd": "2012-12-26",
+      "volumeAmount": "113.155 €",
+      "financing": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+      "clientName": "UNESCO United Nations Educational, Scientific and Cultural Organisation",
+      "description": "Strengthening the Partnership between TVET and Private Sector in Kurdistan",
+      "body": [
+        "Strengthening the Partnership between TVET and Private Sector in Kurdistan"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Iraq",
+      "periodLabel": "24/04/2012 - 26/12/2012"
+    }
+  }
+}

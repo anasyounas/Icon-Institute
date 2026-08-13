@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26367",
+    "permalink": "https://hp.icon-institute.de/refprojects/pestp-iv-lot-2-trusted-smart-statistics-and-new-business-modelsp/",
+    "title": "ESTP IV – Lot 2: Trusted Smart Statistics and New Business Models",
+    "subtitle": "European Statistical Training Programme IV (ESTP IV) – Lot 2: Trusted Smart Statistics and New Business Models for Official Statistics",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2024,
+    "periodStart": "2020-09-28",
+    "periodEnd": "2024-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.702.800 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+    "body": [
+      "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+      "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "ICON INSTITUTE Public Sector GmbH is in charge of organising and conducting following training courses: • Introduction to Big Data in official statistics (webinars) • Disseminating Official Statistics as Linked Open Data • Big Data tools for data scientists (webinars) • Enterprise Architecture (EA) for official statistics",
+      "(6609909)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "ESTP IV – Lot 2: Trusted Smart Statistics and New Business Models",
+    "subtitle": "European Statistical Training Programme IV (ESTP IV) – Lot 2: Trusted Smart Statistics and New Business Models for Official Statistics",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2024,
+    "periodStart": "2020-09-28",
+    "periodEnd": "2024-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.702.800 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+    "body": [
+      "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+      "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "ICON INSTITUTE Public Sector GmbH is in charge of organising and conducting following training courses: • Introduction to Big Data in official statistics (webinars) • Disseminating Official Statistics as Linked Open Data • Big Data tools for data scientists (webinars) • Enterprise Architecture (EA) for official statistics",
+      "(6609909)"
+    ],
+    "image": "/media/6608930-ee414304.jpg",
+    "pdf": null,
+    "wpId": "26367",
+    "permalink": "https://hp.icon-institute.de/refprojects/pestp-iv-lot-2-trusted-smart-statistics-and-new-business-modelsp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7f4851519dfc6cecbc0",
+    "item": {
+      "id": "6a78a7f4851519dfc6cecbc0",
+      "slug": "estp-iv-lot-2-trusted-smart-statistics-and-new-business-models",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:52.239922Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:52.239922Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "ESTP IV – Lot 2: Trusted Smart Statistics and New Business Models",
+      "subtitle": "European Statistical Training Programme IV (ESTP IV) – Lot 2: Trusted Smart Statistics and New Business Models for Official Statistics",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2020,
+      "yearEnd": 2024,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2020-09-28",
+      "periodEnd": "2024-12-31",
+      "volumeAmount": "1.702.800 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+      "body": [
+        "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+        "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+        "ICON INSTITUTE Public Sector GmbH is in charge of organising and conducting following training courses: • Introduction to Big Data in official statistics (webinars) • Disseminating Official Statistics as Linked Open Data • Big Data tools for data scientists (webinars) • Enterprise Architecture (EA) for official statistics",
+        "(6609909)"
+      ],
+      "image": "/media/6608930-ee414304.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "28/09/2020 - 31/12/2024"
+    }
+  }
+}

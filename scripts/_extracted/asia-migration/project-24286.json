@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24286",
+    "permalink": "https://hp.icon-institute.de/refprojects/human-resource-management/",
+    "title": "Human Resource Management",
+    "subtitle": "Human Resource Management",
+    "countries": [
+      "Tajikistan"
+    ],
+    "region": "asia",
+    "yearStart": 2010,
+    "yearEnd": 2010,
+    "periodStart": "2010-01-16",
+    "periodEnd": "2010-12-15",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "231.767 €",
+    "financing": "World Bank",
+    "clientName": "Ministry of Health",
+    "description": "The project focused on strengthening the capacity of the Ministry of Health’s (MOH) Science, Medical, and Pharmaceutical Education Unit and developing a robust human resource strategy for the health sector. Recognizing the need for reform in staffing and resource allocation,…",
+    "body": [
+      "The project focused on strengthening the capacity of the Ministry of Health’s (MOH) Science, Medical, and Pharmaceutical Education Unit and developing a robust human resource strategy for the health sector. Recognizing the need for reform in staffing and resource allocation, the initiative aimed to bring transparency, improve productivity, and introduce performance-based salary adjustments across the sector.",
+      "Comprehensive assessments were conducted by ICON-INSTITUT to address issues such as staff misallocations, absenteeism, and productivity at all levels of healthcare. These assessments laid the groundwork for a new medium-term HR policy for 2009-2014, aligning it with broader public sector wage reforms. In addition to this policy, an implementation plan was developed to guide the MOH and regional health departments in making strategic HR decisions. A key outcome was the introduction of performance-based salary adjustments, designed to reward productivity and efficiency. Hospital and public administration staff underwent professional performance training, which helped them adapt to new job descriptions and enhanced their overall contribution to the sector. To improve HR management, new software was introduced at the MOH and regional health departments to monitor staff inflows, outflows, and the financial implications of resource allocation. This system allowed for better evaluation and planning of staffing needs across geographic regions and specialties.",
+      "The project also explored the potential for outsourcing non-medical tasks to the private sector, which further streamlined operations. Ultimately, the initiative enabled the MOH to take a more strategic, data-driven approach to human resource planning and management, ensuring that the health sector was better equipped to meet the needs of the population."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6606639.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Human Resource Management",
+    "subtitle": "Human Resource Management",
+    "countries": [
+      "Tajikistan"
+    ],
+    "region": "asia",
+    "yearStart": 2010,
+    "yearEnd": 2010,
+    "periodStart": "2010-01-16",
+    "periodEnd": "2010-12-15",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "231.767 €",
+    "financing": "World Bank",
+    "clientName": "Ministry of Health",
+    "description": "The project focused on strengthening the capacity of the Ministry of Health’s (MOH) Science, Medical, and Pharmaceutical Education Unit and developing a robust human resource strategy for the health sector. Recognizing the need for reform in staffing and resource allocation,…",
+    "body": [
+      "The project focused on strengthening the capacity of the Ministry of Health’s (MOH) Science, Medical, and Pharmaceutical Education Unit and developing a robust human resource strategy for the health sector. Recognizing the need for reform in staffing and resource allocation, the initiative aimed to bring transparency, improve productivity, and introduce performance-based salary adjustments across the sector.",
+      "Comprehensive assessments were conducted by ICON-INSTITUT to address issues such as staff misallocations, absenteeism, and productivity at all levels of healthcare. These assessments laid the groundwork for a new medium-term HR policy for 2009-2014, aligning it with broader public sector wage reforms. In addition to this policy, an implementation plan was developed to guide the MOH and regional health departments in making strategic HR decisions. A key outcome was the introduction of performance-based salary adjustments, designed to reward productivity and efficiency. Hospital and public administration staff underwent professional performance training, which helped them adapt to new job descriptions and enhanced their overall contribution to the sector. To improve HR management, new software was introduced at the MOH and regional health departments to monitor staff inflows, outflows, and the financial implications of resource allocation. This system allowed for better evaluation and planning of staffing needs across geographic regions and specialties.",
+      "The project also explored the potential for outsourcing non-medical tasks to the private sector, which further streamlined operations. Ultimately, the initiative enabled the MOH to take a more strategic, data-driven approach to human resource planning and management, ensuring that the health sector was better equipped to meet the needs of the population."
+    ],
+    "image": "/media/6606639-11aa549f.jpg",
+    "pdf": null,
+    "wpId": "24286",
+    "permalink": "https://hp.icon-institute.de/refprojects/human-resource-management/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6606639.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c9a851519dfc6cec8f4",
+    "item": {
+      "id": "6a789c9a851519dfc6cec8f4",
+      "slug": "human-resource-management",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:26.579093Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:26.579093Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Human Resource Management",
+      "subtitle": "Human Resource Management",
+      "countries": [
+        "Tajikistan"
+      ],
+      "region": "asia",
+      "yearStart": 2010,
+      "yearEnd": 2010,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2010-01-16",
+      "periodEnd": "2010-12-15",
+      "volumeAmount": "231.767 €",
+      "financing": "World Bank",
+      "clientName": "Ministry of Health",
+      "description": "The project focused on strengthening the capacity of the Ministry of Health’s (MOH) Science, Medical, and Pharmaceutical Education Unit and developing a robust human resource strategy for the health sector. Recognizing the need for reform in staffing and resource allocation,…",
+      "body": [
+        "The project focused on strengthening the capacity of the Ministry of Health’s (MOH) Science, Medical, and Pharmaceutical Education Unit and developing a robust human resource strategy for the health sector. Recognizing the need for reform in staffing and resource allocation, the initiative aimed to bring transparency, improve productivity, and introduce performance-based salary adjustments across the sector.",
+        "Comprehensive assessments were conducted by ICON-INSTITUT to address issues such as staff misallocations, absenteeism, and productivity at all levels of healthcare. These assessments laid the groundwork for a new medium-term HR policy for 2009-2014, aligning it with broader public sector wage reforms. In addition to this policy, an implementation plan was developed to guide the MOH and regional health departments in making strategic HR decisions. A key outcome was the introduction of performance-based salary adjustments, designed to reward productivity and efficiency. Hospital and public administration staff underwent professional performance training, which helped them adapt to new job descriptions and enhanced their overall contribution to the sector. To improve HR management, new software was introduced at the MOH and regional health departments to monitor staff inflows, outflows, and the financial implications of resource allocation. This system allowed for better evaluation and planning of staffing needs across geographic regions and specialties.",
+        "The project also explored the potential for outsourcing non-medical tasks to the private sector, which further streamlined operations. Ultimately, the initiative enabled the MOH to take a more strategic, data-driven approach to human resource planning and management, ensuring that the health sector was better equipped to meet the needs of the population."
+      ],
+      "image": "/media/6606639-11aa549f.jpg",
+      "pdf": null,
+      "country": "Tajikistan",
+      "periodLabel": "16/01/2010 - 15/12/2010"
+    }
+  }
+}

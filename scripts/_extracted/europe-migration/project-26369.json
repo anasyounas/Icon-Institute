@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26369",
+    "permalink": "https://hp.icon-institute.de/refprojects/pestp-iv-lot-4-environmental-statistics-and-accountsp/",
+    "title": "ESTP IV – Lot 4: Environmental Statistics and Accounts",
+    "subtitle": "European Statistical Training Programme IV (ESTP IV) – Lot 4: Environmental Statistics and Accounts",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2024,
+    "periodStart": "2020-09-28",
+    "periodEnd": "2024-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "423.000 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+    "body": [
+      "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+      "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "ICON INSTITUTE Public Sector GmbH is in charge of organising and conducting following training courses: • Physical Energy Flow Accounts (PEFA) - on-line course • Water statistics - on-line course • Monetary environmental accounts - 3 webinars • Monetary environmental accounts • Ecosystem Extent and Services Accounting based on SEEA-EEA",
+      "(6609911)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "ESTP IV – Lot 4: Environmental Statistics and Accounts",
+    "subtitle": "European Statistical Training Programme IV (ESTP IV) – Lot 4: Environmental Statistics and Accounts",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2024,
+    "periodStart": "2020-09-28",
+    "periodEnd": "2024-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "423.000 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+    "body": [
+      "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+      "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "ICON INSTITUTE Public Sector GmbH is in charge of organising and conducting following training courses: • Physical Energy Flow Accounts (PEFA) - on-line course • Water statistics - on-line course • Monetary environmental accounts - 3 webinars • Monetary environmental accounts • Ecosystem Extent and Services Accounting based on SEEA-EEA",
+      "(6609911)"
+    ],
+    "image": "/media/6608930-ee414304.jpg",
+    "pdf": null,
+    "wpId": "26369",
+    "permalink": "https://hp.icon-institute.de/refprojects/pestp-iv-lot-4-environmental-statistics-and-accountsp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7f2851519dfc6cecbb8",
+    "item": {
+      "id": "6a78a7f2851519dfc6cecbb8",
+      "slug": "estp-iv-lot-4-environmental-statistics-and-accounts",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:50.351655Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:50.351655Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "ESTP IV – Lot 4: Environmental Statistics and Accounts",
+      "subtitle": "European Statistical Training Programme IV (ESTP IV) – Lot 4: Environmental Statistics and Accounts",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2020,
+      "yearEnd": 2024,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2020-09-28",
+      "periodEnd": "2024-12-31",
+      "volumeAmount": "423.000 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+      "body": [
+        "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organising different training courses within European Statistical Training Programme (ESTP).",
+        "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+        "ICON INSTITUTE Public Sector GmbH is in charge of organising and conducting following training courses: • Physical Energy Flow Accounts (PEFA) - on-line course • Water statistics - on-line course • Monetary environmental accounts - 3 webinars • Monetary environmental accounts • Ecosystem Extent and Services Accounting based on SEEA-EEA",
+        "(6609911)"
+      ],
+      "image": "/media/6608930-ee414304.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "28/09/2020 - 31/12/2024"
+    }
+  }
+}

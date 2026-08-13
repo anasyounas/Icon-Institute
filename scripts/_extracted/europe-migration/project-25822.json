@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "25822",
+    "permalink": "https://hp.icon-institute.de/refprojects/micobiological-services-quality-safety-accessibilitybr/",
+    "title": "Micobiological Services (Quality, Safety, Accessibility)",
+    "subtitle": "Assessment of the Quality, Safety and Accessibility of Current Microbiological Services in Montenegro",
+    "countries": [
+      "Montenegro"
+    ],
+    "region": "europe",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-10-01",
+    "periodEnd": "2020-10-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "lt-100k",
+    "volumeAmount": "44.450 €",
+    "financing": "European Union - IPA",
+    "clientName": "Delegation of the European Union to Montenegro",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2020/02/6609731.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Micobiological Services (Quality, Safety, Accessibility)",
+    "subtitle": "Assessment of the Quality, Safety and Accessibility of Current Microbiological Services in Montenegro",
+    "countries": [
+      "Montenegro"
+    ],
+    "region": "europe",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-10-01",
+    "periodEnd": "2020-10-31",
+    "expertise": "governance-education-social-development",
+    "volume": "lt-100k",
+    "volumeAmount": "44.450 €",
+    "financing": "European Union - IPA",
+    "clientName": "Delegation of the European Union to Montenegro",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/6609731-f0de2745.jpg",
+    "pdf": null,
+    "wpId": "25822",
+    "permalink": "https://hp.icon-institute.de/refprojects/micobiological-services-quality-safety-accessibilitybr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2020/02/6609731.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7fc851519dfc6cecbea",
+    "item": {
+      "id": "6a78a7fc851519dfc6cecbea",
+      "slug": "micobiological-services-quality-safety-accessibility",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:17:00.045015Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:17:00.045015Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Micobiological Services (Quality, Safety, Accessibility)",
+      "subtitle": "Assessment of the Quality, Safety and Accessibility of Current Microbiological Services in Montenegro",
+      "countries": [
+        "Montenegro"
+      ],
+      "region": "europe",
+      "yearStart": 2019,
+      "yearEnd": 2020,
+      "expertise": "governance-education-social-development",
+      "volume": "lt-100k",
+      "periodStart": "2019-10-01",
+      "periodEnd": "2020-10-31",
+      "volumeAmount": "44.450 €",
+      "financing": "European Union - IPA",
+      "clientName": "Delegation of the European Union to Montenegro",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/6609731-f0de2745.jpg",
+      "pdf": null,
+      "country": "Montenegro",
+      "periodLabel": "01/10/2019 - 31/10/2020"
+    }
+  }
+}

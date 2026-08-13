@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26374",
+    "permalink": "https://hp.icon-institute.de/refprojects/peco-emploip/",
+    "title": "Eco-Emploi",
+    "subtitle": "Promotion of Economy and Employment (Eco-Emploi)",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2020,
+    "yearEnd": 2022,
+    "periodStart": "2020-12-01",
+    "periodEnd": "2022-11-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "1.051.250 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The Rwandan Government/ Ministry of Trade and Industry (MINICOM) and other institutions identified the wood sector, in particular the wooden furniture industry, as one the key sectors to create new jobs and to achieve global competitiveness. To achieve this strategic goal in…",
+    "body": [
+      "The Rwandan Government/ Ministry of Trade and Industry (MINICOM) and other institutions identified the wood sector, in particular the wooden furniture industry, as one the key sectors to create new jobs and to achieve global competitiveness. To achieve this strategic goal in the wooden sector, the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH closely works with the Rwandan Government under the Economy and Employment Promotion (Eco-Emploi) program . Momentarily the wood sector is characterised by insufficient market and customer orientation, inadequate sustainable business models, low productivity, lack of technical and management competencies.",
+      "Commissioned by the GIZ, ICON-INSTITUT GmbH will establish a national incubation/ acceleration facility for wood-processing start-ups and MSMEs, which will provide start-ups and companies from the wood sector with entrepreneurship and business management knowledge and skills at various stages of their business needs, from the early business ideation to running (incubation) and further developing their enterprises (acceleration). It will further help them to establish linkages with businesses, investors and financial institutions.",
+      "To help modernise the wooden sector, ICON also provides capacity building to national institutions, such as the National Industry Research and Development Agency, the Rwanda Forestry Authority, and the Rwanda Wood Value Chain Association",
+      "(4410007)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/E4410007-Rwanda.jpeg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Eco-Emploi",
+    "subtitle": "Promotion of Economy and Employment (Eco-Emploi)",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2020,
+    "yearEnd": 2022,
+    "periodStart": "2020-12-01",
+    "periodEnd": "2022-11-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "1.051.250 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The Rwandan Government/ Ministry of Trade and Industry (MINICOM) and other institutions identified the wood sector, in particular the wooden furniture industry, as one the key sectors to create new jobs and to achieve global competitiveness. To achieve this strategic goal in…",
+    "body": [
+      "The Rwandan Government/ Ministry of Trade and Industry (MINICOM) and other institutions identified the wood sector, in particular the wooden furniture industry, as one the key sectors to create new jobs and to achieve global competitiveness. To achieve this strategic goal in the wooden sector, the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH closely works with the Rwandan Government under the Economy and Employment Promotion (Eco-Emploi) program . Momentarily the wood sector is characterised by insufficient market and customer orientation, inadequate sustainable business models, low productivity, lack of technical and management competencies.",
+      "Commissioned by the GIZ, ICON-INSTITUT GmbH will establish a national incubation/ acceleration facility for wood-processing start-ups and MSMEs, which will provide start-ups and companies from the wood sector with entrepreneurship and business management knowledge and skills at various stages of their business needs, from the early business ideation to running (incubation) and further developing their enterprises (acceleration). It will further help them to establish linkages with businesses, investors and financial institutions.",
+      "To help modernise the wooden sector, ICON also provides capacity building to national institutions, such as the National Industry Research and Development Agency, the Rwanda Forestry Authority, and the Rwanda Wood Value Chain Association",
+      "(4410007)"
+    ],
+    "image": "/media/e4410007-rwanda-c9fc3719.jpeg",
+    "pdf": null,
+    "wpId": "26374",
+    "permalink": "https://hp.icon-institute.de/refprojects/peco-emploip/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/E4410007-Rwanda.jpeg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a98a851519dfc6ced18f",
+    "item": {
+      "id": "6a78a98a851519dfc6ced18f",
+      "slug": "eco-emploi",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:23:38.436105Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:23:38.436105Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Eco-Emploi",
+      "subtitle": "Promotion of Economy and Employment (Eco-Emploi)",
+      "countries": [
+        "Rwanda"
+      ],
+      "region": "africa",
+      "yearStart": 2020,
+      "yearEnd": 2022,
+      "expertise": "economic-employment-promotion",
+      "volume": "1m-3m",
+      "periodStart": "2020-12-01",
+      "periodEnd": "2022-11-30",
+      "volumeAmount": "1.051.250 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The Rwandan Government/ Ministry of Trade and Industry (MINICOM) and other institutions identified the wood sector, in particular the wooden furniture industry, as one the key sectors to create new jobs and to achieve global competitiveness. To achieve this strategic goal in…",
+      "body": [
+        "The Rwandan Government/ Ministry of Trade and Industry (MINICOM) and other institutions identified the wood sector, in particular the wooden furniture industry, as one the key sectors to create new jobs and to achieve global competitiveness. To achieve this strategic goal in the wooden sector, the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH closely works with the Rwandan Government under the Economy and Employment Promotion (Eco-Emploi) program . Momentarily the wood sector is characterised by insufficient market and customer orientation, inadequate sustainable business models, low productivity, lack of technical and management competencies.",
+        "Commissioned by the GIZ, ICON-INSTITUT GmbH will establish a national incubation/ acceleration facility for wood-processing start-ups and MSMEs, which will provide start-ups and companies from the wood sector with entrepreneurship and business management knowledge and skills at various stages of their business needs, from the early business ideation to running (incubation) and further developing their enterprises (acceleration). It will further help them to establish linkages with businesses, investors and financial institutions.",
+        "To help modernise the wooden sector, ICON also provides capacity building to national institutions, such as the National Industry Research and Development Agency, the Rwanda Forestry Authority, and the Rwanda Wood Value Chain Association",
+        "(4410007)"
+      ],
+      "image": "/media/e4410007-rwanda-c9fc3719.jpeg",
+      "pdf": null,
+      "country": "Rwanda",
+      "periodLabel": "01/12/2020 - 30/11/2022"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24594",
+    "permalink": "https://hp.icon-institute.de/refprojects/computerised-public-finance-management-integratednbsp-strategybr/",
+    "title": "Computerised Public Finance Management Integrated Strategy",
+    "subtitle": "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management",
+    "countries": [
+      "Cameroon"
+    ],
+    "region": "africa",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-10-01",
+    "periodEnd": "2016-04-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "134.183 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management",
+    "body": [
+      "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Computerised Public Finance Management Integrated Strategy",
+    "subtitle": "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management",
+    "countries": [
+      "Cameroon"
+    ],
+    "region": "africa",
+    "yearStart": 2015,
+    "yearEnd": 2016,
+    "periodStart": "2015-10-01",
+    "periodEnd": "2016-04-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "134.183 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management",
+    "body": [
+      "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24594",
+    "permalink": "https://hp.icon-institute.de/refprojects/computerised-public-finance-management-integratednbsp-strategybr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa10851519dfc6ced37b",
+    "item": {
+      "id": "6a78aa10851519dfc6ced37b",
+      "slug": "computerised-public-finance-management-integrated-strategy",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:52.110966Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:52.110966Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Computerised Public Finance Management Integrated Strategy",
+      "subtitle": "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management",
+      "countries": [
+        "Cameroon"
+      ],
+      "region": "africa",
+      "yearStart": 2015,
+      "yearEnd": 2016,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2015-10-01",
+      "periodEnd": "2016-04-30",
+      "volumeAmount": "134.183 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management",
+      "body": [
+        "Support the Modernisation of the Public Finances. Development of the Integrated Strategy of Computerised Public Finance Management"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Cameroon",
+      "periodLabel": "01/10/2015 - 30/04/2016"
+    }
+  }
+}

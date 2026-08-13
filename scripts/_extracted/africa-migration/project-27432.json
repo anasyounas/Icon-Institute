@@ -1,0 +1,110 @@
+{
+  "scraped": {
+    "wpId": "27432",
+    "permalink": "https://hp.icon-institute.de/refprojects/labour-market-analysisbr/",
+    "title": "Labour Market Analysis",
+    "subtitle": "Employment and Labor Market Analysis Benin / Promoting Small and Medium-sized businesses in Benin",
+    "countries": [
+      "Benin"
+    ],
+    "region": "africa",
+    "yearStart": 2023,
+    "yearEnd": 2024,
+    "periodStart": "2023-05-26",
+    "periodEnd": "2024-01-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "72.993 €",
+    "financing": "Federal Ministry for Economic Cooperation and Development (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The Beninese economy is poorly diversified and dependent on the agricultural sector and the export of unprocessed agricultural products, and the re-export of imported goods and raw materials to Nigeria. Benin needs to accelerate its economic transformation by focusing on new…",
+    "body": [
+      "The Beninese economy is poorly diversified and dependent on the agricultural sector and the export of unprocessed agricultural products, and the re-export of imported goods and raw materials to Nigeria. Benin needs to accelerate its economic transformation by focusing on new growth engines capable of increasing labour productivity and creating decent jobs especially for youth and women, inter alia through the development of entrepreneurship.",
+      "ICON conducted a comprehensive analysis of the employment situation and the labour market of Benin, in line with the guidelines of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) for the preparation of an \"Employment and Labour Market Analysis (ELMA)\", to gain a better understanding of country-specific challenges in job creation. The analysis’ findings assist:",
+      "The Beninese government towards further refining its national, regional and/or sectoral employment strategies and policies.",
+      "The German Federal Ministry for Economic Cooperation and Development (BMZ) in preparing its intergovernmental negotiations and in defining the priorities of its country portfolio and strategy to support the promotion of decent and productive employment.",
+      "The GIZ in developing suitable implementation strategies and intervention measures and establishing a baseline for ongoing and future projects implementing GIZ’ integrated employment promotion approach."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/01/E4410305-Benin.png",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Labour Market Analysis",
+    "subtitle": "Employment and Labor Market Analysis Benin / Promoting Small and Medium-sized businesses in Benin",
+    "countries": [
+      "Benin"
+    ],
+    "region": "africa",
+    "yearStart": 2023,
+    "yearEnd": 2024,
+    "periodStart": "2023-05-26",
+    "periodEnd": "2024-01-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "72.993 €",
+    "financing": "Federal Ministry for Economic Cooperation and Development (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The Beninese economy is poorly diversified and dependent on the agricultural sector and the export of unprocessed agricultural products, and the re-export of imported goods and raw materials to Nigeria. Benin needs to accelerate its economic transformation by focusing on new…",
+    "body": [
+      "The Beninese economy is poorly diversified and dependent on the agricultural sector and the export of unprocessed agricultural products, and the re-export of imported goods and raw materials to Nigeria. Benin needs to accelerate its economic transformation by focusing on new growth engines capable of increasing labour productivity and creating decent jobs especially for youth and women, inter alia through the development of entrepreneurship.",
+      "ICON conducted a comprehensive analysis of the employment situation and the labour market of Benin, in line with the guidelines of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) for the preparation of an \"Employment and Labour Market Analysis (ELMA)\", to gain a better understanding of country-specific challenges in job creation. The analysis’ findings assist:",
+      "The Beninese government towards further refining its national, regional and/or sectoral employment strategies and policies.",
+      "The German Federal Ministry for Economic Cooperation and Development (BMZ) in preparing its intergovernmental negotiations and in defining the priorities of its country portfolio and strategy to support the promotion of decent and productive employment.",
+      "The GIZ in developing suitable implementation strategies and intervention measures and establishing a baseline for ongoing and future projects implementing GIZ’ integrated employment promotion approach."
+    ],
+    "image": "/media/e4410305-benin-21a05e57.png",
+    "pdf": null,
+    "wpId": "27432",
+    "permalink": "https://hp.icon-institute.de/refprojects/labour-market-analysisbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/01/E4410305-Benin.png",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a94a851519dfc6ced0db",
+    "item": {
+      "id": "6a78a94a851519dfc6ced0db",
+      "slug": "labour-market-analysis",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:22:34.700314Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:22:34.700314Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Labour Market Analysis",
+      "subtitle": "Employment and Labor Market Analysis Benin / Promoting Small and Medium-sized businesses in Benin",
+      "countries": [
+        "Benin"
+      ],
+      "region": "africa",
+      "yearStart": 2023,
+      "yearEnd": 2024,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2023-05-26",
+      "periodEnd": "2024-01-31",
+      "volumeAmount": "72.993 €",
+      "financing": "Federal Ministry for Economic Cooperation and Development (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The Beninese economy is poorly diversified and dependent on the agricultural sector and the export of unprocessed agricultural products, and the re-export of imported goods and raw materials to Nigeria. Benin needs to accelerate its economic transformation by focusing on new…",
+      "body": [
+        "The Beninese economy is poorly diversified and dependent on the agricultural sector and the export of unprocessed agricultural products, and the re-export of imported goods and raw materials to Nigeria. Benin needs to accelerate its economic transformation by focusing on new growth engines capable of increasing labour productivity and creating decent jobs especially for youth and women, inter alia through the development of entrepreneurship.",
+        "ICON conducted a comprehensive analysis of the employment situation and the labour market of Benin, in line with the guidelines of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) for the preparation of an \"Employment and Labour Market Analysis (ELMA)\", to gain a better understanding of country-specific challenges in job creation. The analysis’ findings assist:",
+        "The Beninese government towards further refining its national, regional and/or sectoral employment strategies and policies.",
+        "The German Federal Ministry for Economic Cooperation and Development (BMZ) in preparing its intergovernmental negotiations and in defining the priorities of its country portfolio and strategy to support the promotion of decent and productive employment.",
+        "The GIZ in developing suitable implementation strategies and intervention measures and establishing a baseline for ongoing and future projects implementing GIZ’ integrated employment promotion approach."
+      ],
+      "image": "/media/e4410305-benin-21a05e57.png",
+      "pdf": null,
+      "country": "Benin",
+      "periodLabel": "26/05/2023 - 31/01/2024"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24310",
+    "permalink": "https://hp.icon-institute.de/refprojects/paccess-to-education-for-disabled-studentsbrp/",
+    "title": "Access to Education for Disabled Students",
+    "subtitle": "Access to Education by Students with Disabilities",
+    "countries": [
+      "Croatia"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-01-25",
+    "periodEnd": "2011-11-25",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "994.980 €",
+    "financing": "European Union",
+    "clientName": "Agency for Vocational Education and Training, Department for Financing and Contracting of IPA (DEFCO)",
+    "description": "Access to Education by Students with Disabilities",
+    "body": [
+      "Access to Education by Students with Disabilities"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Access to Education for Disabled Students",
+    "subtitle": "Access to Education by Students with Disabilities",
+    "countries": [
+      "Croatia"
+    ],
+    "region": "europe",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-01-25",
+    "periodEnd": "2011-11-25",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "994.980 €",
+    "financing": "European Union",
+    "clientName": "Agency for Vocational Education and Training, Department for Financing and Contracting of IPA (DEFCO)",
+    "description": "Access to Education by Students with Disabilities",
+    "body": [
+      "Access to Education by Students with Disabilities"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24310",
+    "permalink": "https://hp.icon-institute.de/refprojects/paccess-to-education-for-disabled-studentsbrp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8c1851519dfc6cecf63",
+    "item": {
+      "id": "6a78a8c1851519dfc6cecf63",
+      "slug": "access-to-education-for-disabled-students",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:17.321482Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:17.321482Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Access to Education for Disabled Students",
+      "subtitle": "Access to Education by Students with Disabilities",
+      "countries": [
+        "Croatia"
+      ],
+      "region": "europe",
+      "yearStart": 2010,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2010-01-25",
+      "periodEnd": "2011-11-25",
+      "volumeAmount": "994.980 €",
+      "financing": "European Union",
+      "clientName": "Agency for Vocational Education and Training, Department for Financing and Contracting of IPA (DEFCO)",
+      "description": "Access to Education by Students with Disabilities",
+      "body": [
+        "Access to Education by Students with Disabilities"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Croatia",
+      "periodLabel": "25/01/2010 - 25/11/2011"
+    }
+  }
+}

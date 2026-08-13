@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24223",
+    "permalink": "https://hp.icon-institute.de/refprojects/financial-sector-for-msmes/",
+    "title": "Financial Sector for MSMEs",
+    "subtitle": "Strengthening of the Financial Sector for MSMEs",
+    "countries": [
+      "Honduras"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2007,
+    "yearEnd": 2011,
+    "periodStart": "2007-08-07",
+    "periodEnd": "2011-03-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "798.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Strengthening of the Financial Sector for MSMEs",
+    "body": [
+      "Strengthening of the Financial Sector for MSMEs"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Financial Sector for MSMEs",
+    "subtitle": "Strengthening of the Financial Sector for MSMEs",
+    "countries": [
+      "Honduras"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2007,
+    "yearEnd": 2011,
+    "periodStart": "2007-08-07",
+    "periodEnd": "2011-03-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "798.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Strengthening of the Financial Sector for MSMEs",
+    "body": [
+      "Strengthening of the Financial Sector for MSMEs"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24223",
+    "permalink": "https://hp.icon-institute.de/refprojects/financial-sector-for-msmes/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a10a851519dfc6ceca65",
+    "item": {
+      "id": "6a78a10a851519dfc6ceca65",
+      "slug": "financial-sector-for-msmes",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:47:22.184825Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:47:22.184825Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Financial Sector for MSMEs",
+      "subtitle": "Strengthening of the Financial Sector for MSMEs",
+      "countries": [
+        "Honduras"
+      ],
+      "region": "central-america-caribbean",
+      "yearStart": 2007,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2007-08-07",
+      "periodEnd": "2011-03-31",
+      "volumeAmount": "798.400 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+      "description": "Strengthening of the Financial Sector for MSMEs",
+      "body": [
+        "Strengthening of the Financial Sector for MSMEs"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Honduras",
+      "periodLabel": "07/08/2007 - 31/03/2011"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24382",
+    "permalink": "https://hp.icon-institute.de/refprojects/eu-election-assessment-team-br/",
+    "title": "EU Election Assessment Team",
+    "subtitle": "Implementation of the EU Election Assessment Team to Afghanistan 2010",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-08-24",
+    "periodEnd": "2011-02-28",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.024.510 €",
+    "financing": "European Union - EIDHR",
+    "clientName": "European Union - AIDCO/F2",
+    "description": "This project, implemented under the EU Framework Contract (FWC) for EU Election Observation Missions (EU EOM), aimed to strengthen democratization, good governance, and conflict prevention in developing countries. The mission focused on supporting fair elections, reducing…",
+    "body": [
+      "This project, implemented under the EU Framework Contract (FWC) for EU Election Observation Missions (EU EOM), aimed to strengthen democratization, good governance, and conflict prevention in developing countries. The mission focused on supporting fair elections, reducing fraud, and improving public confidence in electoral institutions.",
+      "For Afghanistan's 2010 Legislative Elections (Wolesi Jirga), the project managed the security, logistics, and administration of the EU Election Assessment Mission. Key activities included contracting a team of experts, providing air travel, pre-departure training, office space, secure transportation, and communication equipment. A comprehensive security system was established to ensure the safety of all mission members, including close protection, armoured vehicles, and medical services."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "EU Election Assessment Team",
+    "subtitle": "Implementation of the EU Election Assessment Team to Afghanistan 2010",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "periodStart": "2010-08-24",
+    "periodEnd": "2011-02-28",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.024.510 €",
+    "financing": "European Union - EIDHR",
+    "clientName": "European Union - AIDCO/F2",
+    "description": "This project, implemented under the EU Framework Contract (FWC) for EU Election Observation Missions (EU EOM), aimed to strengthen democratization, good governance, and conflict prevention in developing countries. The mission focused on supporting fair elections, reducing…",
+    "body": [
+      "This project, implemented under the EU Framework Contract (FWC) for EU Election Observation Missions (EU EOM), aimed to strengthen democratization, good governance, and conflict prevention in developing countries. The mission focused on supporting fair elections, reducing fraud, and improving public confidence in electoral institutions.",
+      "For Afghanistan's 2010 Legislative Elections (Wolesi Jirga), the project managed the security, logistics, and administration of the EU Election Assessment Mission. Key activities included contracting a team of experts, providing air travel, pre-departure training, office space, secure transportation, and communication equipment. A comprehensive security system was established to ensure the safety of all mission members, including close protection, armoured vehicles, and medical services."
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24382",
+    "permalink": "https://hp.icon-institute.de/refprojects/eu-election-assessment-team-br/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c95851519dfc6cec8dc",
+    "item": {
+      "id": "6a789c95851519dfc6cec8dc",
+      "slug": "eu-election-assessment-team",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:21.527422Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:21.527422Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "EU Election Assessment Team",
+      "subtitle": "Implementation of the EU Election Assessment Team to Afghanistan 2010",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2010,
+      "yearEnd": 2011,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2010-08-24",
+      "periodEnd": "2011-02-28",
+      "volumeAmount": "2.024.510 €",
+      "financing": "European Union - EIDHR",
+      "clientName": "European Union - AIDCO/F2",
+      "description": "This project, implemented under the EU Framework Contract (FWC) for EU Election Observation Missions (EU EOM), aimed to strengthen democratization, good governance, and conflict prevention in developing countries. The mission focused on supporting fair elections, reducing…",
+      "body": [
+        "This project, implemented under the EU Framework Contract (FWC) for EU Election Observation Missions (EU EOM), aimed to strengthen democratization, good governance, and conflict prevention in developing countries. The mission focused on supporting fair elections, reducing fraud, and improving public confidence in electoral institutions.",
+        "For Afghanistan's 2010 Legislative Elections (Wolesi Jirga), the project managed the security, logistics, and administration of the EU Election Assessment Mission. Key activities included contracting a team of experts, providing air travel, pre-departure training, office space, secure transportation, and communication equipment. A comprehensive security system was established to ensure the safety of all mission members, including close protection, armoured vehicles, and medical services."
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "24/08/2010 - 28/02/2011"
+    }
+  }
+}

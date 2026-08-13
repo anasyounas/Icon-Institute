@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "29200",
+    "permalink": "https://hp.icon-institute.de/refprojects/iki-india-mel-approaches/",
+    "title": "IKI India – MEL Approaches",
+    "subtitle": "Optimising IKI India´s Throughcost centre: MEL Approaches",
+    "countries": [
+      "India"
+    ],
+    "region": "asia",
+    "yearStart": 2025,
+    "yearEnd": 2025,
+    "periodStart": "2025-06-15",
+    "periodEnd": "2025-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "lt-100k",
+    "volumeAmount": "29.258 €",
+    "financing": "BMZ",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH (Eschborn Deutschland)",
+    "description": "ICON-INSTITUT successfully implemented the project “Optimising IKI India’s Through-Cost Centre: MEL Approaches” in India under a GIZ programme, financed by the German Federal Ministry for Economic Cooperation and Development (BMZ). The project supported the Climate Action…",
+    "body": [
+      "ICON-INSTITUT successfully implemented the project “Optimising IKI India’s Through-Cost Centre: MEL Approaches” in India under a GIZ programme, financed by the German Federal Ministry for Economic Cooperation and Development (BMZ). The project supported the Climate Action Project (CAP) by strengthening Monitoring, Evaluation and Learning (MEL) approaches across the IKI India portfolio to better capture climate co-benefits and improve programme effectiveness.",
+      "ICON-INSTITUT conducted comprehensive MEL analyses, including document reviews, stakeholder interviews, and governance assessments, and facilitated a dedicated MEL session to validate findings and foster knowledge exchange. By delivering practical guidance, strategic recommendations, and tailored briefings, ICON-INSTITUT enhanced decision making, strengthened stakeholder alignment, and contributed to more impactful and evidence-based climate action across IKI priority areas."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2026/04/8810865_8810832.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "IKI India – MEL Approaches",
+    "subtitle": "Optimising IKI India´s Throughcost centre: MEL Approaches",
+    "countries": [
+      "India"
+    ],
+    "region": "asia",
+    "yearStart": 2025,
+    "yearEnd": 2025,
+    "periodStart": "2025-06-15",
+    "periodEnd": "2025-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "lt-100k",
+    "volumeAmount": "29.258 €",
+    "financing": "BMZ",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH (Eschborn Deutschland)",
+    "description": "ICON-INSTITUT successfully implemented the project “Optimising IKI India’s Through-Cost Centre: MEL Approaches” in India under a GIZ programme, financed by the German Federal Ministry for Economic Cooperation and Development (BMZ). The project supported the Climate Action…",
+    "body": [
+      "ICON-INSTITUT successfully implemented the project “Optimising IKI India’s Through-Cost Centre: MEL Approaches” in India under a GIZ programme, financed by the German Federal Ministry for Economic Cooperation and Development (BMZ). The project supported the Climate Action Project (CAP) by strengthening Monitoring, Evaluation and Learning (MEL) approaches across the IKI India portfolio to better capture climate co-benefits and improve programme effectiveness.",
+      "ICON-INSTITUT conducted comprehensive MEL analyses, including document reviews, stakeholder interviews, and governance assessments, and facilitated a dedicated MEL session to validate findings and foster knowledge exchange. By delivering practical guidance, strategic recommendations, and tailored briefings, ICON-INSTITUT enhanced decision making, strengthened stakeholder alignment, and contributed to more impactful and evidence-based climate action across IKI priority areas."
+    ],
+    "image": "/media/8810865-8810832-1024x683-8568b56e.jpg",
+    "pdf": null,
+    "wpId": "29200",
+    "permalink": "https://hp.icon-institute.de/refprojects/iki-india-mel-approaches/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2026/04/8810865_8810832.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "updated",
+    "id": "6a773d0cac35dc16c3123fc1",
+    "item": {
+      "id": "6a773d0cac35dc16c3123fc1",
+      "slug": "iki-india-mel-approaches",
+      "cms_status": "published",
+      "version": 5,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "migration@cms.local",
+      "created_at": "2026-08-08T14:28:28.527000Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:26:18.623841Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": "2026-08-08T14:28:28.527000Z",
+      "title": "IKI India – MEL Approaches",
+      "country": "India",
+      "region": "asia",
+      "yearStart": 2025,
+      "yearEnd": 2025,
+      "expertise": "agriculture-rural-development",
+      "volume": "lt-100k",
+      "description": "ICON-INSTITUT successfully implemented the project “Optimising IKI India’s Through-Cost Centre: MEL Approaches” in India under a GIZ programme, financed by the German Federal Ministry for Economic Cooperation and Development (BMZ). The project supported the Climate Action…",
+      "body": [
+        "ICON-INSTITUT successfully implemented the project “Optimising IKI India’s Through-Cost Centre: MEL Approaches” in India under a GIZ programme, financed by the German Federal Ministry for Economic Cooperation and Development (BMZ). The project supported the Climate Action Project (CAP) by strengthening Monitoring, Evaluation and Learning (MEL) approaches across the IKI India portfolio to better capture climate co-benefits and improve programme effectiveness.",
+        "ICON-INSTITUT conducted comprehensive MEL analyses, including document reviews, stakeholder interviews, and governance assessments, and facilitated a dedicated MEL session to validate findings and foster knowledge exchange. By delivering practical guidance, strategic recommendations, and tailored briefings, ICON-INSTITUT enhanced decision making, strengthened stakeholder alignment, and contributed to more impactful and evidence-based climate action across IKI priority areas."
+      ],
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH (Eschborn Deutschland)",
+      "countries": [
+        "India"
+      ],
+      "financing": "BMZ",
+      "image": "/media/8810865-8810832-1024x683-8568b56e.jpg",
+      "pdf": null,
+      "periodEnd": "2025-12-31",
+      "periodLabel": "15/06/2025 - 31/12/2025",
+      "periodStart": "2025-06-15",
+      "subtitle": "Optimising IKI India´s Throughcost centre: MEL Approaches",
+      "volumeAmount": "29.258 €"
+    }
+  }
+}

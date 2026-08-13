@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24419",
+    "permalink": "https://hp.icon-institute.de/refprojects/diversification-of-the-economy-diveco/",
+    "title": "Diversification of the Economy (DIVECO)",
+    "subtitle": "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)",
+    "countries": [
+      "Algeria"
+    ],
+    "region": "africa",
+    "yearStart": 2011,
+    "yearEnd": 2015,
+    "periodStart": "2011-01-12",
+    "periodEnd": "2015-03-29",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "gt-5m",
+    "volumeAmount": "8.829.171 €",
+    "financing": "European Union - ENPI",
+    "clientName": "Delegation of the European Union to Algeria",
+    "description": "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)",
+    "body": [
+      "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Diversification of the Economy (DIVECO)",
+    "subtitle": "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)",
+    "countries": [
+      "Algeria"
+    ],
+    "region": "africa",
+    "yearStart": 2011,
+    "yearEnd": 2015,
+    "periodStart": "2011-01-12",
+    "periodEnd": "2015-03-29",
+    "expertise": "economic-employment-promotion",
+    "volume": "gt-5m",
+    "volumeAmount": "8.829.171 €",
+    "financing": "European Union - ENPI",
+    "clientName": "Delegation of the European Union to Algeria",
+    "description": "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)",
+    "body": [
+      "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24419",
+    "permalink": "https://hp.icon-institute.de/refprojects/diversification-of-the-economy-diveco/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa46851519dfc6ced45d",
+    "item": {
+      "id": "6a78aa46851519dfc6ced45d",
+      "slug": "diversification-of-the-economy-diveco",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:46.292140Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:46.292140Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Diversification of the Economy (DIVECO)",
+      "subtitle": "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)",
+      "countries": [
+        "Algeria"
+      ],
+      "region": "africa",
+      "yearStart": 2011,
+      "yearEnd": 2015,
+      "expertise": "economic-employment-promotion",
+      "volume": "gt-5m",
+      "periodStart": "2011-01-12",
+      "periodEnd": "2015-03-29",
+      "volumeAmount": "8.829.171 €",
+      "financing": "European Union - ENPI",
+      "clientName": "Delegation of the European Union to Algeria",
+      "description": "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)",
+      "body": [
+        "Recruitment of Support Unit and Ad Hoc Technical Assistance for the Programme to Support Diversification of the Economy (DIVECO)"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Algeria",
+      "periodLabel": "12/01/2011 - 29/03/2015"
+    }
+  }
+}

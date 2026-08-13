@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24439",
+    "permalink": "https://hp.icon-institute.de/refprojects/implementation-of-the-paris-declaration/",
+    "title": "Implementation of the Paris Declaration",
+    "subtitle": "Support to the Implementation of the Paris Declaration",
+    "countries": [
+      "Cameroon"
+    ],
+    "region": "africa",
+    "yearStart": 2012,
+    "yearEnd": 2014,
+    "periodStart": "2012-02-01",
+    "periodEnd": "2014-08-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "929.695 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Support to the Implementation of the Paris Declaration",
+    "body": [
+      "Support to the Implementation of the Paris Declaration"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Implementation of the Paris Declaration",
+    "subtitle": "Support to the Implementation of the Paris Declaration",
+    "countries": [
+      "Cameroon"
+    ],
+    "region": "africa",
+    "yearStart": 2012,
+    "yearEnd": 2014,
+    "periodStart": "2012-02-01",
+    "periodEnd": "2014-08-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "929.695 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Support to the Implementation of the Paris Declaration",
+    "body": [
+      "Support to the Implementation of the Paris Declaration"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24439",
+    "permalink": "https://hp.icon-institute.de/refprojects/implementation-of-the-paris-declaration/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa39851519dfc6ced429",
+    "item": {
+      "id": "6a78aa39851519dfc6ced429",
+      "slug": "implementation-of-the-paris-declaration",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:33.604020Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:33.604020Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Implementation of the Paris Declaration",
+      "subtitle": "Support to the Implementation of the Paris Declaration",
+      "countries": [
+        "Cameroon"
+      ],
+      "region": "africa",
+      "yearStart": 2012,
+      "yearEnd": 2014,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2012-02-01",
+      "periodEnd": "2014-08-31",
+      "volumeAmount": "929.695 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Support to the Implementation of the Paris Declaration",
+      "body": [
+        "Support to the Implementation of the Paris Declaration"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Cameroon",
+      "periodLabel": "01/02/2012 - 31/08/2014"
+    }
+  }
+}

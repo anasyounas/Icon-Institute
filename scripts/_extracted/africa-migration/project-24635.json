@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24635",
+    "permalink": "https://hp.icon-institute.de/refprojects/technical-vocational-education-and-training-br/",
+    "title": "Technical Vocational Education and Training",
+    "subtitle": "Support to Technical Vocational Education and Training (TVET)",
+    "countries": [
+      "Mozambique"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2023,
+    "periodStart": "2017-03-01",
+    "periodEnd": "2023-03-21",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "3m-5m",
+    "volumeAmount": "4.314.900 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Apart from problems in finance, infrastructure, corruption and ineffective governance, Mozambique faces constraints in developing ‘inadequately trained workforce’. About 57% of the Mozambican population is illiterate and more than 80% of the labour force has no formal…",
+    "body": [
+      "Apart from problems in finance, infrastructure, corruption and ineffective governance, Mozambique faces constraints in developing ‘inadequately trained workforce’. About 57% of the Mozambican population is illiterate and more than 80% of the labour force has no formal training. Together with limited job opportunities, the Mozambican youth is forced into marginal jobs within the informal economy. Official estimates indicate that over 25 % of the population is unemployed, being the dark figure on youth rates much higher.",
+      "To tackle this, ICON-INSTITUT concentrates on the reform of the Mozambican Technical and Vocational Education and Training (TVET), contributing to improve the access to and quality of TVET. The aim not only increases the number of students passing final exams, but also increases the percentage of graduates who find an occupation related to their training. For instance, female students are more attracted by TVET institutions and those already enrolled tend to stay there until the end, whilst at the same time TVET teachers are improving their training capacities. Workshops and classrooms are equipped with necessary devices and teachers learn how to maintain the equipment. To improve the financial autonomy of TVET institutions, the trainer staff has been equipped with newly developed financial management tools. Moreover, it has been trained in cost calculations and human resource management, being now able to undertake activities generating revenues for the institutions. Companies willing to participate in TVET programmes have been mapped, cooperation with the private sector has been enhanced, leading to internship programmes, which have provided students in with first practical experience for their future jobs.",
+      "(5508461)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5508461-Mosambik-TVET.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Technical Vocational Education and Training",
+    "subtitle": "Support to Technical Vocational Education and Training (TVET)",
+    "countries": [
+      "Mozambique"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2023,
+    "periodStart": "2017-03-01",
+    "periodEnd": "2023-03-21",
+    "expertise": "economic-employment-promotion",
+    "volume": "3m-5m",
+    "volumeAmount": "4.314.900 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Apart from problems in finance, infrastructure, corruption and ineffective governance, Mozambique faces constraints in developing ‘inadequately trained workforce’. About 57% of the Mozambican population is illiterate and more than 80% of the labour force has no formal…",
+    "body": [
+      "Apart from problems in finance, infrastructure, corruption and ineffective governance, Mozambique faces constraints in developing ‘inadequately trained workforce’. About 57% of the Mozambican population is illiterate and more than 80% of the labour force has no formal training. Together with limited job opportunities, the Mozambican youth is forced into marginal jobs within the informal economy. Official estimates indicate that over 25 % of the population is unemployed, being the dark figure on youth rates much higher.",
+      "To tackle this, ICON-INSTITUT concentrates on the reform of the Mozambican Technical and Vocational Education and Training (TVET), contributing to improve the access to and quality of TVET. The aim not only increases the number of students passing final exams, but also increases the percentage of graduates who find an occupation related to their training. For instance, female students are more attracted by TVET institutions and those already enrolled tend to stay there until the end, whilst at the same time TVET teachers are improving their training capacities. Workshops and classrooms are equipped with necessary devices and teachers learn how to maintain the equipment. To improve the financial autonomy of TVET institutions, the trainer staff has been equipped with newly developed financial management tools. Moreover, it has been trained in cost calculations and human resource management, being now able to undertake activities generating revenues for the institutions. Companies willing to participate in TVET programmes have been mapped, cooperation with the private sector has been enhanced, leading to internship programmes, which have provided students in with first practical experience for their future jobs.",
+      "(5508461)"
+    ],
+    "image": "/media/5508461-mosambik-tvet-b3e61802.jpg",
+    "pdf": null,
+    "wpId": "24635",
+    "permalink": "https://hp.icon-institute.de/refprojects/technical-vocational-education-and-training-br/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/5508461-Mosambik-TVET.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9ea851519dfc6ced2f0",
+    "item": {
+      "id": "6a78a9ea851519dfc6ced2f0",
+      "slug": "technical-vocational-education-and-training",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:14.224604Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:14.224604Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Technical Vocational Education and Training",
+      "subtitle": "Support to Technical Vocational Education and Training (TVET)",
+      "countries": [
+        "Mozambique"
+      ],
+      "region": "africa",
+      "yearStart": 2017,
+      "yearEnd": 2023,
+      "expertise": "economic-employment-promotion",
+      "volume": "3m-5m",
+      "periodStart": "2017-03-01",
+      "periodEnd": "2023-03-21",
+      "volumeAmount": "4.314.900 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+      "description": "Apart from problems in finance, infrastructure, corruption and ineffective governance, Mozambique faces constraints in developing ‘inadequately trained workforce’. About 57% of the Mozambican population is illiterate and more than 80% of the labour force has no formal…",
+      "body": [
+        "Apart from problems in finance, infrastructure, corruption and ineffective governance, Mozambique faces constraints in developing ‘inadequately trained workforce’. About 57% of the Mozambican population is illiterate and more than 80% of the labour force has no formal training. Together with limited job opportunities, the Mozambican youth is forced into marginal jobs within the informal economy. Official estimates indicate that over 25 % of the population is unemployed, being the dark figure on youth rates much higher.",
+        "To tackle this, ICON-INSTITUT concentrates on the reform of the Mozambican Technical and Vocational Education and Training (TVET), contributing to improve the access to and quality of TVET. The aim not only increases the number of students passing final exams, but also increases the percentage of graduates who find an occupation related to their training. For instance, female students are more attracted by TVET institutions and those already enrolled tend to stay there until the end, whilst at the same time TVET teachers are improving their training capacities. Workshops and classrooms are equipped with necessary devices and teachers learn how to maintain the equipment. To improve the financial autonomy of TVET institutions, the trainer staff has been equipped with newly developed financial management tools. Moreover, it has been trained in cost calculations and human resource management, being now able to undertake activities generating revenues for the institutions. Companies willing to participate in TVET programmes have been mapped, cooperation with the private sector has been enhanced, leading to internship programmes, which have provided students in with first practical experience for their future jobs.",
+        "(5508461)"
+      ],
+      "image": "/media/5508461-mosambik-tvet-b3e61802.jpg",
+      "pdf": null,
+      "country": "Mozambique",
+      "periodLabel": "01/03/2017 - 21/03/2023"
+    }
+  }
+}

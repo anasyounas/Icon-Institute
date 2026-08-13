@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "24592",
+    "permalink": "https://hp.icon-institute.de/refprojects/european-statistical-training-programme-lot-2/",
+    "title": "European Statistical Training Programme Lot 2",
+    "subtitle": "European Statistical Training Programme (ESTP III): Information models and standards for data processes (including Qualilty) Lot 2",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2015,
+    "yearEnd": 2019,
+    "periodStart": "2015-07-05",
+    "periodEnd": "2019-11-29",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.335.050 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "This European Statistical Training Programme – Phase III aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide ESS statisticians with continuous training in new methods,…",
+    "body": [
+      "This European Statistical Training Programme – Phase III aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide ESS statisticians with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions. This project is implemented in close cooperation with trainers from 18 EU National Statistical Institutes, who guarantee the European dimension of the programme and enhance the exchange of best practices.",
+      "ICON-INSTITUT supports the raise of the overall quality of European statistics and qualification of statisticians in order to promote their independence, encouraging both theoretical and practical training and the exchange of best practices and experience.",
+      "ICON provides the organisation and implementation of Lot 2 \"Information Models and Standards for Data and processes (including quality)\", which covers information standards and technologies for describing, exchanging and disseminating data and metadata, statistical metadata, statistical classifications as well as quality and quality frameworks.",
+      "(6607864)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6607649.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "European Statistical Training Programme Lot 2",
+    "subtitle": "European Statistical Training Programme (ESTP III): Information models and standards for data processes (including Qualilty) Lot 2",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2015,
+    "yearEnd": 2019,
+    "periodStart": "2015-07-05",
+    "periodEnd": "2019-11-29",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.335.050 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "This European Statistical Training Programme – Phase III aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide ESS statisticians with continuous training in new methods,…",
+    "body": [
+      "This European Statistical Training Programme – Phase III aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide ESS statisticians with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions. This project is implemented in close cooperation with trainers from 18 EU National Statistical Institutes, who guarantee the European dimension of the programme and enhance the exchange of best practices.",
+      "ICON-INSTITUT supports the raise of the overall quality of European statistics and qualification of statisticians in order to promote their independence, encouraging both theoretical and practical training and the exchange of best practices and experience.",
+      "ICON provides the organisation and implementation of Lot 2 \"Information Models and Standards for Data and processes (including quality)\", which covers information standards and technologies for describing, exchanging and disseminating data and metadata, statistical metadata, statistical classifications as well as quality and quality frameworks.",
+      "(6607864)"
+    ],
+    "image": "/media/6607649-72c62229.jpg",
+    "pdf": null,
+    "wpId": "24592",
+    "permalink": "https://hp.icon-institute.de/refprojects/european-statistical-training-programme-lot-2/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6607649.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a85a851519dfc6cecde3",
+    "item": {
+      "id": "6a78a85a851519dfc6cecde3",
+      "slug": "european-statistical-training-programme-lot-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:34.672749Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:34.672749Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "European Statistical Training Programme Lot 2",
+      "subtitle": "European Statistical Training Programme (ESTP III): Information models and standards for data processes (including Qualilty) Lot 2",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2015,
+      "yearEnd": 2019,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2015-07-05",
+      "periodEnd": "2019-11-29",
+      "volumeAmount": "1.335.050 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "This European Statistical Training Programme – Phase III aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide ESS statisticians with continuous training in new methods,…",
+      "body": [
+        "This European Statistical Training Programme – Phase III aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide ESS statisticians with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions. This project is implemented in close cooperation with trainers from 18 EU National Statistical Institutes, who guarantee the European dimension of the programme and enhance the exchange of best practices.",
+        "ICON-INSTITUT supports the raise of the overall quality of European statistics and qualification of statisticians in order to promote their independence, encouraging both theoretical and practical training and the exchange of best practices and experience.",
+        "ICON provides the organisation and implementation of Lot 2 \"Information Models and Standards for Data and processes (including quality)\", which covers information standards and technologies for describing, exchanging and disseminating data and metadata, statistical metadata, statistical classifications as well as quality and quality frameworks.",
+        "(6607864)"
+      ],
+      "image": "/media/6607649-72c62229.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "05/07/2015 - 29/11/2019"
+    }
+  }
+}

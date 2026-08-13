@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "27361",
+    "permalink": "https://hp.icon-institute.de/refprojects/pcapacity-strengthening-activities-to-government-and-local-communitiesp/",
+    "title": "Capacity strengthening activities to government and local communities",
+    "subtitle": "Evaluation of capacity strengthening activities to government and local communities in Sao Tome and Principe from July 2019 to December 2022",
+    "countries": [
+      "Sao Tome",
+      "Principe"
+    ],
+    "region": "africa",
+    "yearStart": 2023,
+    "yearEnd": 2023,
+    "periodStart": "2023-07-03",
+    "periodEnd": "2023-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "84.280 €",
+    "financing": "United Nations",
+    "clientName": "World Food Programme (WFP)",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Capacity strengthening activities to government and local communities",
+    "subtitle": "Evaluation of capacity strengthening activities to government and local communities in Sao Tome and Principe from July 2019 to December 2022",
+    "countries": [
+      "Sao Tome",
+      "Principe"
+    ],
+    "region": "africa",
+    "yearStart": 2023,
+    "yearEnd": 2023,
+    "periodStart": "2023-07-03",
+    "periodEnd": "2023-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "84.280 €",
+    "financing": "United Nations",
+    "clientName": "World Food Programme (WFP)",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "27361",
+    "permalink": "https://hp.icon-institute.de/refprojects/pcapacity-strengthening-activities-to-government-and-local-communitiesp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a93e851519dfc6ced0be",
+    "item": {
+      "id": "6a78a93e851519dfc6ced0be",
+      "slug": "capacity-strengthening-activities-to-government-and-local-communities",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:22:22.913707Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:22:22.913707Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Capacity strengthening activities to government and local communities",
+      "subtitle": "Evaluation of capacity strengthening activities to government and local communities in Sao Tome and Principe from July 2019 to December 2022",
+      "countries": [
+        "Sao Tome",
+        "Principe"
+      ],
+      "region": "africa",
+      "yearStart": 2023,
+      "yearEnd": 2023,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2023-07-03",
+      "periodEnd": "2023-12-31",
+      "volumeAmount": "84.280 €",
+      "financing": "United Nations",
+      "clientName": "World Food Programme (WFP)",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Sao Tome, Principe",
+      "periodLabel": "03/07/2023 - 31/12/2023"
+    }
+  }
+}

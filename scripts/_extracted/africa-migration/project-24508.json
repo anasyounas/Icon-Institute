@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24508",
+    "permalink": "https://hp.icon-institute.de/refprojects/lindi-amp-mtwara-agribusiness-support-limas/",
+    "title": "Lindi & Mtwara Agribusiness Support (LIMAS)",
+    "subtitle": "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)",
+    "countries": [
+      "Tanzania"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2013,
+    "periodStart": "2013-05-31",
+    "periodEnd": "2013-11-15",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "98.080 €",
+    "financing": "Government of Finland",
+    "clientName": "Ministry for Foreign Affairs of Finland",
+    "description": "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)",
+    "body": [
+      "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Lindi & Mtwara Agribusiness Support (LIMAS)",
+    "subtitle": "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)",
+    "countries": [
+      "Tanzania"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2013,
+    "periodStart": "2013-05-31",
+    "periodEnd": "2013-11-15",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "98.080 €",
+    "financing": "Government of Finland",
+    "clientName": "Ministry for Foreign Affairs of Finland",
+    "description": "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)",
+    "body": [
+      "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24508",
+    "permalink": "https://hp.icon-institute.de/refprojects/lindi-amp-mtwara-agribusiness-support-limas/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa2d851519dfc6ced3f9",
+    "item": {
+      "id": "6a78aa2d851519dfc6ced3f9",
+      "slug": "lindi-mtwara-agribusiness-support-limas",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:21.220617Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:21.220617Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Lindi & Mtwara Agribusiness Support (LIMAS)",
+      "subtitle": "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)",
+      "countries": [
+        "Tanzania"
+      ],
+      "region": "africa",
+      "yearStart": 2013,
+      "yearEnd": 2013,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2013-05-31",
+      "periodEnd": "2013-11-15",
+      "volumeAmount": "98.080 €",
+      "financing": "Government of Finland",
+      "clientName": "Ministry for Foreign Affairs of Finland",
+      "description": "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)",
+      "body": [
+        "Mid-Term Evaluation of Lindi and Mtwara Agribusiness Support (LIMAS)"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Tanzania",
+      "periodLabel": "31/05/2013 - 15/11/2013"
+    }
+  }
+}

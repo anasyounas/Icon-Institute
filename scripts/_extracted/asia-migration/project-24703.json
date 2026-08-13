@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24703",
+    "permalink": "https://hp.icon-institute.de/refprojects/integrated-mineral-resource-initiative/",
+    "title": "Integrated Mineral Resource Initiative",
+    "subtitle": "Integrated Mineral Resource Initiative",
+    "countries": [
+      "Mongolia"
+    ],
+    "region": "asia",
+    "yearStart": 2018,
+    "yearEnd": 2019,
+    "periodStart": "2018-10-22",
+    "periodEnd": "2019-02-05",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "15.939 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The GIZ program (financed by the BMZ) focused on supporting Mongolia’s national and local institutions in promoting inclusive and sustainable economic growth, particularly by harnessing the country's rich mineral resources. A key component of this initiative was the…",
+    "body": [
+      "The GIZ program (financed by the BMZ) focused on supporting Mongolia’s national and local institutions in promoting inclusive and sustainable economic growth, particularly by harnessing the country's rich mineral resources. A key component of this initiative was the development of a comprehensive database for National Industry Enterprises, aimed at providing valuable insights into the industrial landscape of Mongolia. The database was designed to offer a clear picture of current industrial development, future trends, and potential risks, using official statistics and enterprise data. This information would serve as a vital tool for decision-makers, helping them to formulate policies and recommendations that promote economic growth. Additionally, the database aimed to foster communication and networking between enterprises, attracting both local and international investments.",
+      "To further enhance its functionality, ICON-INSTITUT supported the local IT team in developing the database. This included creating an online business center that offered consultancy services to small and medium-sized enterprises (SMEs), building a dynamic search engine with export options for investors, and enabling the classification of enterprises based on their activities and financial data. The platform also incorporated visually dynamic representations of statistics, making it easier to track industrial trends and inform future strategies."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4409548.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Integrated Mineral Resource Initiative",
+    "subtitle": "Integrated Mineral Resource Initiative",
+    "countries": [
+      "Mongolia"
+    ],
+    "region": "asia",
+    "yearStart": 2018,
+    "yearEnd": 2019,
+    "periodStart": "2018-10-22",
+    "periodEnd": "2019-02-05",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "15.939 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The GIZ program (financed by the BMZ) focused on supporting Mongolia’s national and local institutions in promoting inclusive and sustainable economic growth, particularly by harnessing the country's rich mineral resources. A key component of this initiative was the…",
+    "body": [
+      "The GIZ program (financed by the BMZ) focused on supporting Mongolia’s national and local institutions in promoting inclusive and sustainable economic growth, particularly by harnessing the country's rich mineral resources. A key component of this initiative was the development of a comprehensive database for National Industry Enterprises, aimed at providing valuable insights into the industrial landscape of Mongolia. The database was designed to offer a clear picture of current industrial development, future trends, and potential risks, using official statistics and enterprise data. This information would serve as a vital tool for decision-makers, helping them to formulate policies and recommendations that promote economic growth. Additionally, the database aimed to foster communication and networking between enterprises, attracting both local and international investments.",
+      "To further enhance its functionality, ICON-INSTITUT supported the local IT team in developing the database. This included creating an online business center that offered consultancy services to small and medium-sized enterprises (SMEs), building a dynamic search engine with export options for investors, and enabling the classification of enterprises based on their activities and financial data. The platform also incorporated visually dynamic representations of statistics, making it easier to track industrial trends and inform future strategies."
+    ],
+    "image": "/media/4409548-41bd3ec0.jpg",
+    "pdf": null,
+    "wpId": "24703",
+    "permalink": "https://hp.icon-institute.de/refprojects/integrated-mineral-resource-initiative/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4409548.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c4f851519dfc6cec757",
+    "item": {
+      "id": "6a789c4f851519dfc6cec757",
+      "slug": "integrated-mineral-resource-initiative",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:11.375904Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:11.375904Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Integrated Mineral Resource Initiative",
+      "subtitle": "Integrated Mineral Resource Initiative",
+      "countries": [
+        "Mongolia"
+      ],
+      "region": "asia",
+      "yearStart": 2018,
+      "yearEnd": 2019,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2018-10-22",
+      "periodEnd": "2019-02-05",
+      "volumeAmount": "15.939 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The GIZ program (financed by the BMZ) focused on supporting Mongolia’s national and local institutions in promoting inclusive and sustainable economic growth, particularly by harnessing the country's rich mineral resources. A key component of this initiative was the…",
+      "body": [
+        "The GIZ program (financed by the BMZ) focused on supporting Mongolia’s national and local institutions in promoting inclusive and sustainable economic growth, particularly by harnessing the country's rich mineral resources. A key component of this initiative was the development of a comprehensive database for National Industry Enterprises, aimed at providing valuable insights into the industrial landscape of Mongolia. The database was designed to offer a clear picture of current industrial development, future trends, and potential risks, using official statistics and enterprise data. This information would serve as a vital tool for decision-makers, helping them to formulate policies and recommendations that promote economic growth. Additionally, the database aimed to foster communication and networking between enterprises, attracting both local and international investments.",
+        "To further enhance its functionality, ICON-INSTITUT supported the local IT team in developing the database. This included creating an online business center that offered consultancy services to small and medium-sized enterprises (SMEs), building a dynamic search engine with export options for investors, and enabling the classification of enterprises based on their activities and financial data. The platform also incorporated visually dynamic representations of statistics, making it easier to track industrial trends and inform future strategies."
+      ],
+      "image": "/media/4409548-41bd3ec0.jpg",
+      "pdf": null,
+      "country": "Mongolia",
+      "periodLabel": "22/10/2018 - 05/02/2019"
+    }
+  }
+}

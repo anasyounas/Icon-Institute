@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24420",
+    "permalink": "https://hp.icon-institute.de/refprojects/geographical-information-systembr/",
+    "title": "Geographical Information System",
+    "subtitle": "Geographical Information System Component of the National Risk and Vulnerability Survey – Afghanistan",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-03-01",
+    "periodEnd": "2011-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "395.437 €",
+    "financing": "British Government",
+    "clientName": "Department for International Development (DFID)",
+    "description": "This project served as an additional component to the EU-funded initiative supporting the Central Statistical Office (CSO) in conducting the National Risk and Vulnerability Assessment (NRVA) in 2010/2011, implemented by ICON. The overall project aimed to sustainably gather…",
+    "body": [
+      "This project served as an additional component to the EU-funded initiative supporting the Central Statistical Office (CSO) in conducting the National Risk and Vulnerability Assessment (NRVA) in 2010/2011, implemented by ICON. The overall project aimed to sustainably gather and disseminate reliable statistical information on Afghan households' living conditions to support development policy monitoring and programming in Afghanistan. Specifically, this project addressed the need for a GIS component, including cartographic work (mapping, household listing, sampling), along with providing technical assistance and training."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6605957.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Geographical Information System",
+    "subtitle": "Geographical Information System Component of the National Risk and Vulnerability Survey – Afghanistan",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-03-01",
+    "periodEnd": "2011-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "395.437 €",
+    "financing": "British Government",
+    "clientName": "Department for International Development (DFID)",
+    "description": "This project served as an additional component to the EU-funded initiative supporting the Central Statistical Office (CSO) in conducting the National Risk and Vulnerability Assessment (NRVA) in 2010/2011, implemented by ICON. The overall project aimed to sustainably gather…",
+    "body": [
+      "This project served as an additional component to the EU-funded initiative supporting the Central Statistical Office (CSO) in conducting the National Risk and Vulnerability Assessment (NRVA) in 2010/2011, implemented by ICON. The overall project aimed to sustainably gather and disseminate reliable statistical information on Afghan households' living conditions to support development policy monitoring and programming in Afghanistan. Specifically, this project addressed the need for a GIS component, including cartographic work (mapping, household listing, sampling), along with providing technical assistance and training."
+    ],
+    "image": "/media/6605957-15af43a7.jpg",
+    "pdf": null,
+    "wpId": "24420",
+    "permalink": "https://hp.icon-institute.de/refprojects/geographical-information-systembr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6605957.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c91851519dfc6cec8c7",
+    "item": {
+      "id": "6a789c91851519dfc6cec8c7",
+      "slug": "geographical-information-system",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:17.969323Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:17.969323Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Geographical Information System",
+      "subtitle": "Geographical Information System Component of the National Risk and Vulnerability Survey – Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2011,
+      "yearEnd": 2011,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2011-03-01",
+      "periodEnd": "2011-12-31",
+      "volumeAmount": "395.437 €",
+      "financing": "British Government",
+      "clientName": "Department for International Development (DFID)",
+      "description": "This project served as an additional component to the EU-funded initiative supporting the Central Statistical Office (CSO) in conducting the National Risk and Vulnerability Assessment (NRVA) in 2010/2011, implemented by ICON. The overall project aimed to sustainably gather…",
+      "body": [
+        "This project served as an additional component to the EU-funded initiative supporting the Central Statistical Office (CSO) in conducting the National Risk and Vulnerability Assessment (NRVA) in 2010/2011, implemented by ICON. The overall project aimed to sustainably gather and disseminate reliable statistical information on Afghan households' living conditions to support development policy monitoring and programming in Afghanistan. Specifically, this project addressed the need for a GIS component, including cartographic work (mapping, household listing, sampling), along with providing technical assistance and training."
+      ],
+      "image": "/media/6605957-15af43a7.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "01/03/2011 - 31/12/2011"
+    }
+  }
+}

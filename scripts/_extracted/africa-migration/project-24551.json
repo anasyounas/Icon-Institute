@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24551",
+    "permalink": "https://hp.icon-institute.de/refprojects/manager-training-programm/",
+    "title": "Manager Training Programm",
+    "subtitle": "Manager Training Programm",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2014,
+    "yearEnd": 2014,
+    "periodStart": "2014-09-15",
+    "periodEnd": "2014-11-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "60.370 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Manager Training Programm",
+    "body": [
+      "Manager Training Programm"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Manager Training Programm",
+    "subtitle": "Manager Training Programm",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2014,
+    "yearEnd": 2014,
+    "periodStart": "2014-09-15",
+    "periodEnd": "2014-11-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "60.370 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Manager Training Programm",
+    "body": [
+      "Manager Training Programm"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24551",
+    "permalink": "https://hp.icon-institute.de/refprojects/manager-training-programm/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa1b851519dfc6ced3ab",
+    "item": {
+      "id": "6a78aa1b851519dfc6ced3ab",
+      "slug": "manager-training-programm",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:03.149503Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:03.149503Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Manager Training Programm",
+      "subtitle": "Manager Training Programm",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2014,
+      "yearEnd": 2014,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2014-09-15",
+      "periodEnd": "2014-11-30",
+      "volumeAmount": "60.370 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Manager Training Programm",
+      "body": [
+        "Manager Training Programm"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "15/09/2014 - 30/11/2014"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26371",
+    "permalink": "https://hp.icon-institute.de/refprojects/peuropean-statistical-training-programmebrp/",
+    "title": "European Statistical Training Programme",
+    "subtitle": "European Statistical Training Programme IV (ESTP IV)",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2025,
+    "periodStart": "2020-09-28",
+    "periodEnd": "2025-03-27",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "gt-5m",
+    "volumeAmount": "6.102.800 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organise various training courses within the European Statistical Training Programme (ESTP).",
+    "body": [
+      "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organise various training courses within the European Statistical Training Programme (ESTP).",
+      "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "In ESTP IV, ICON is in charge organising and conducting, until December 2024, with 200 international experts from 14 National Statistical Institutes and independent experts more than 480 training days for 5 different statistical topics: • Statistical Methods and tools in production • Trusted Smart Statistics and new business models for official statistics • Dissemination and Communication • Environmental Statistics and Accounts • Macro-economic and Social Statistics",
+      "(6608930)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "European Statistical Training Programme",
+    "subtitle": "European Statistical Training Programme IV (ESTP IV)",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2025,
+    "periodStart": "2020-09-28",
+    "periodEnd": "2025-03-27",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "gt-5m",
+    "volumeAmount": "6.102.800 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organise various training courses within the European Statistical Training Programme (ESTP).",
+    "body": [
+      "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organise various training courses within the European Statistical Training Programme (ESTP).",
+      "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+      "In ESTP IV, ICON is in charge organising and conducting, until December 2024, with 200 international experts from 14 National Statistical Institutes and independent experts more than 480 training days for 5 different statistical topics: • Statistical Methods and tools in production • Trusted Smart Statistics and new business models for official statistics • Dissemination and Communication • Environmental Statistics and Accounts • Macro-economic and Social Statistics",
+      "(6608930)"
+    ],
+    "image": "/media/6608930-ee414304.jpg",
+    "pdf": null,
+    "wpId": "26371",
+    "permalink": "https://hp.icon-institute.de/refprojects/peuropean-statistical-training-programmebrp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/6608930.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7f0851519dfc6cecbb0",
+    "item": {
+      "id": "6a78a7f0851519dfc6cecbb0",
+      "slug": "european-statistical-training-programme",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:48.440075Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:48.440075Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "European Statistical Training Programme",
+      "subtitle": "European Statistical Training Programme IV (ESTP IV)",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2020,
+      "yearEnd": 2025,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "gt-5m",
+      "periodStart": "2020-09-28",
+      "periodEnd": "2025-03-27",
+      "volumeAmount": "6.102.800 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organise various training courses within the European Statistical Training Programme (ESTP).",
+      "body": [
+        "Since 2007, ICON INSTITUT Public Sector GmbH, together with partners and Eurostat organise various training courses within the European Statistical Training Programme (ESTP).",
+        "ESTP aims at maintaining a high level of competence and ensuring that quality is consistent throughout the European Statistical System (ESS). The courses provide statisticians of the ESS with continuous training in new methods, techniques and best practices related to the statistical subject fields and integrate the application of European concepts and definitions.",
+        "In ESTP IV, ICON is in charge organising and conducting, until December 2024, with 200 international experts from 14 National Statistical Institutes and independent experts more than 480 training days for 5 different statistical topics: • Statistical Methods and tools in production • Trusted Smart Statistics and new business models for official statistics • Dissemination and Communication • Environmental Statistics and Accounts • Macro-economic and Social Statistics",
+        "(6608930)"
+      ],
+      "image": "/media/6608930-ee414304.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "28/09/2020 - 27/03/2025"
+    }
+  }
+}

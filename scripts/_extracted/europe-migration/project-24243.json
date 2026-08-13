@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24243",
+    "permalink": "https://hp.icon-institute.de/refprojects/monitoring-social-and-economic-transformation/",
+    "title": "Monitoring Social and Economic Transformation",
+    "subtitle": "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project",
+    "countries": [
+      "Ukraine"
+    ],
+    "region": "europe",
+    "yearStart": 2008,
+    "yearEnd": 2010,
+    "periodStart": "2008-05-02",
+    "periodEnd": "2010-10-04",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "3m-5m",
+    "volumeAmount": "3.687.500 €",
+    "financing": "World Bank",
+    "clientName": "Project Implementation Unit (PIU), State Statistics Committee of Ukraine",
+    "description": "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project",
+    "body": [
+      "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Monitoring Social and Economic Transformation",
+    "subtitle": "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project",
+    "countries": [
+      "Ukraine"
+    ],
+    "region": "europe",
+    "yearStart": 2008,
+    "yearEnd": 2010,
+    "periodStart": "2008-05-02",
+    "periodEnd": "2010-10-04",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "3m-5m",
+    "volumeAmount": "3.687.500 €",
+    "financing": "World Bank",
+    "clientName": "Project Implementation Unit (PIU), State Statistics Committee of Ukraine",
+    "description": "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project",
+    "body": [
+      "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24243",
+    "permalink": "https://hp.icon-institute.de/refprojects/monitoring-social-and-economic-transformation/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a8e6851519dfc6cecfeb",
+    "item": {
+      "id": "6a78a8e6851519dfc6cecfeb",
+      "slug": "monitoring-social-and-economic-transformation",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:20:54.633583Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:20:54.633583Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Monitoring Social and Economic Transformation",
+      "subtitle": "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project",
+      "countries": [
+        "Ukraine"
+      ],
+      "region": "europe",
+      "yearStart": 2008,
+      "yearEnd": 2010,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "3m-5m",
+      "periodStart": "2008-05-02",
+      "periodEnd": "2010-10-04",
+      "volumeAmount": "3.687.500 €",
+      "financing": "World Bank",
+      "clientName": "Project Implementation Unit (PIU), State Statistics Committee of Ukraine",
+      "description": "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project",
+      "body": [
+        "Development of the State Statistics System for Monitoring the Social and Economic Transformation Project"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Ukraine",
+      "periodLabel": "02/05/2008 - 04/10/2010"
+    }
+  }
+}

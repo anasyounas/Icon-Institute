@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24623",
+    "permalink": "https://hp.icon-institute.de/refprojects/pension-reform/",
+    "title": "Pension Reform",
+    "subtitle": "Technical Assistance to Support Pension Reform in Tajikistan",
+    "countries": [
+      "Tajikistan"
+    ],
+    "region": "asia",
+    "yearStart": 2017,
+    "yearEnd": 2020,
+    "periodStart": "2017-01-05",
+    "periodEnd": "2020-01-04",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.046.400 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Kazakhstan, Kyrgyzstan and Tajikistan",
+    "description": "An effective Tajik social protection system is not functioning, due to underfinancing and lack of reform - despite the high average GDP growth of 7-8% during the last decade. The same applies to the current pension system, which consists in itself of six different systems.…",
+    "body": [
+      "An effective Tajik social protection system is not functioning, due to underfinancing and lack of reform - despite the high average GDP growth of 7-8% during the last decade. The same applies to the current pension system, which consists in itself of six different systems. Furthermore, a unified database containing information on all pensioners and on pension payments does not exist. On the other hand, paper-based lists and a myriad of individual Excel sheets spread across the country are available.",
+      "To tackle this situation, and within the European Union’s Human Development Support Programme II, the Consortium led by ICON-INSTITUT supports the State Agency for Social Insurance and Pensions (ASIP) in the establishment and management of a sustainable and universal pension system. Special training of the ASIP staff provides it with skills enabling to use data base management systems and to clean and migrate data. An easy capture and use of information on social taxes paid by the citizens is improved. In some cases, the staff is now able to share the acquired knowledge with colleagues in oth-er districts that were not part of the project activities. The ASIP staff is trained for actuarial calculations and financial projections in order to assess the sustainability of the pension system, individual outcomes for different categories of citizens and the implicit obligations the pension system has towards citizens. In the end an efficient and transparent implementation of the new pension law in Tajikistan is endorsed.",
+      "(6608482)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608482-Tajikistan-Pension.jpeg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Pension Reform",
+    "subtitle": "Technical Assistance to Support Pension Reform in Tajikistan",
+    "countries": [
+      "Tajikistan"
+    ],
+    "region": "asia",
+    "yearStart": 2017,
+    "yearEnd": 2020,
+    "periodStart": "2017-01-05",
+    "periodEnd": "2020-01-04",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.046.400 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Kazakhstan, Kyrgyzstan and Tajikistan",
+    "description": "An effective Tajik social protection system is not functioning, due to underfinancing and lack of reform - despite the high average GDP growth of 7-8% during the last decade. The same applies to the current pension system, which consists in itself of six different systems.…",
+    "body": [
+      "An effective Tajik social protection system is not functioning, due to underfinancing and lack of reform - despite the high average GDP growth of 7-8% during the last decade. The same applies to the current pension system, which consists in itself of six different systems. Furthermore, a unified database containing information on all pensioners and on pension payments does not exist. On the other hand, paper-based lists and a myriad of individual Excel sheets spread across the country are available.",
+      "To tackle this situation, and within the European Union’s Human Development Support Programme II, the Consortium led by ICON-INSTITUT supports the State Agency for Social Insurance and Pensions (ASIP) in the establishment and management of a sustainable and universal pension system. Special training of the ASIP staff provides it with skills enabling to use data base management systems and to clean and migrate data. An easy capture and use of information on social taxes paid by the citizens is improved. In some cases, the staff is now able to share the acquired knowledge with colleagues in oth-er districts that were not part of the project activities. The ASIP staff is trained for actuarial calculations and financial projections in order to assess the sustainability of the pension system, individual outcomes for different categories of citizens and the implicit obligations the pension system has towards citizens. In the end an efficient and transparent implementation of the new pension law in Tajikistan is endorsed.",
+      "(6608482)"
+    ],
+    "image": "/media/6608482-tajikistan-pension-e36c89ce.jpeg",
+    "pdf": null,
+    "wpId": "24623",
+    "permalink": "https://hp.icon-institute.de/refprojects/pension-reform/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608482-Tajikistan-Pension.jpeg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c62851519dfc6cec7c7",
+    "item": {
+      "id": "6a789c62851519dfc6cec7c7",
+      "slug": "pension-reform",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:30.679429Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:30.679429Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Pension Reform",
+      "subtitle": "Technical Assistance to Support Pension Reform in Tajikistan",
+      "countries": [
+        "Tajikistan"
+      ],
+      "region": "asia",
+      "yearStart": 2017,
+      "yearEnd": 2020,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2017-01-05",
+      "periodEnd": "2020-01-04",
+      "volumeAmount": "2.046.400 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to Kazakhstan, Kyrgyzstan and Tajikistan",
+      "description": "An effective Tajik social protection system is not functioning, due to underfinancing and lack of reform - despite the high average GDP growth of 7-8% during the last decade. The same applies to the current pension system, which consists in itself of six different systems.…",
+      "body": [
+        "An effective Tajik social protection system is not functioning, due to underfinancing and lack of reform - despite the high average GDP growth of 7-8% during the last decade. The same applies to the current pension system, which consists in itself of six different systems. Furthermore, a unified database containing information on all pensioners and on pension payments does not exist. On the other hand, paper-based lists and a myriad of individual Excel sheets spread across the country are available.",
+        "To tackle this situation, and within the European Union’s Human Development Support Programme II, the Consortium led by ICON-INSTITUT supports the State Agency for Social Insurance and Pensions (ASIP) in the establishment and management of a sustainable and universal pension system. Special training of the ASIP staff provides it with skills enabling to use data base management systems and to clean and migrate data. An easy capture and use of information on social taxes paid by the citizens is improved. In some cases, the staff is now able to share the acquired knowledge with colleagues in oth-er districts that were not part of the project activities. The ASIP staff is trained for actuarial calculations and financial projections in order to assess the sustainability of the pension system, individual outcomes for different categories of citizens and the implicit obligations the pension system has towards citizens. In the end an efficient and transparent implementation of the new pension law in Tajikistan is endorsed.",
+        "(6608482)"
+      ],
+      "image": "/media/6608482-tajikistan-pension-e36c89ce.jpeg",
+      "pdf": null,
+      "country": "Tajikistan",
+      "periodLabel": "05/01/2017 - 04/01/2020"
+    }
+  }
+}

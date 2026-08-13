@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "28209",
+    "permalink": "https://hp.icon-institute.de/refprojects/mid-term-evaluation-of-mnch-in-gaza/",
+    "title": "Mid-term Evaluation of MNCH in Gaza",
+    "subtitle": "Formative Mid-Term Evaluation of Strengthening Maternal, Neonatal and Young Children Health (MNCH) in Gaza",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "periodStart": "2022-02-10",
+    "periodEnd": "2023-02-28",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "64.641 €",
+    "financing": "United Nations",
+    "clientName": "United Nations Children's Fund (UNICEF) East Jerusalem",
+    "description": "The project “Sexual, Reproductive, Maternal, Neonatal, and Child Health (SRMNCH)”, implemented by UNICEF, WHO, UNFPA, and partners with support from France, aimed to strengthen a sustainable, gender-responsive health system in Gaza. It focused on improving access to quality…",
+    "body": [
+      "The project “Sexual, Reproductive, Maternal, Neonatal, and Child Health (SRMNCH)”, implemented by UNICEF, WHO, UNFPA, and partners with support from France, aimed to strengthen a sustainable, gender-responsive health system in Gaza. It focused on improving access to quality sexual, reproductive, maternal, child health, and nutrition services, especially for vulnerable groups.",
+      "ICON was commissioned by UNICEF to conduct the formative mid-term evaluation. The main purpose of the evaluation was to assess the project's progress against its Results Framework, identify gaps and deviations, and highlight best practices. It provided strategic recommendations to guide the continued implementation of the project. The evaluation findings also informed strategic policy and planning for UNICEF, the government, and implementing partners, contributing to national, UN, and UNICEF planning for the 2024–2028 period."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2025/04/9910229.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Mid-term Evaluation of MNCH in Gaza",
+    "subtitle": "Formative Mid-Term Evaluation of Strengthening Maternal, Neonatal and Young Children Health (MNCH) in Gaza",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "periodStart": "2022-02-10",
+    "periodEnd": "2023-02-28",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "64.641 €",
+    "financing": "United Nations",
+    "clientName": "United Nations Children's Fund (UNICEF) East Jerusalem",
+    "description": "The project “Sexual, Reproductive, Maternal, Neonatal, and Child Health (SRMNCH)”, implemented by UNICEF, WHO, UNFPA, and partners with support from France, aimed to strengthen a sustainable, gender-responsive health system in Gaza. It focused on improving access to quality…",
+    "body": [
+      "The project “Sexual, Reproductive, Maternal, Neonatal, and Child Health (SRMNCH)”, implemented by UNICEF, WHO, UNFPA, and partners with support from France, aimed to strengthen a sustainable, gender-responsive health system in Gaza. It focused on improving access to quality sexual, reproductive, maternal, child health, and nutrition services, especially for vulnerable groups.",
+      "ICON was commissioned by UNICEF to conduct the formative mid-term evaluation. The main purpose of the evaluation was to assess the project's progress against its Results Framework, identify gaps and deviations, and highlight best practices. It provided strategic recommendations to guide the continued implementation of the project. The evaluation findings also informed strategic policy and planning for UNICEF, the government, and implementing partners, contributing to national, UN, and UNICEF planning for the 2024–2028 period."
+    ],
+    "image": "/media/9910229-9ee9453f.jpg",
+    "pdf": null,
+    "wpId": "28209",
+    "permalink": "https://hp.icon-institute.de/refprojects/mid-term-evaluation-of-mnch-in-gaza/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2025/04/9910229.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa94851519dfc6ced559",
+    "item": {
+      "id": "6a78aa94851519dfc6ced559",
+      "slug": "mid-term-evaluation-of-mnch-in-gaza",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:04.360963Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:04.360963Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Mid-term Evaluation of MNCH in Gaza",
+      "subtitle": "Formative Mid-Term Evaluation of Strengthening Maternal, Neonatal and Young Children Health (MNCH) in Gaza",
+      "countries": [
+        "Palestine"
+      ],
+      "region": "middle-east",
+      "yearStart": 2022,
+      "yearEnd": 2023,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2022-02-10",
+      "periodEnd": "2023-02-28",
+      "volumeAmount": "64.641 €",
+      "financing": "United Nations",
+      "clientName": "United Nations Children's Fund (UNICEF) East Jerusalem",
+      "description": "The project “Sexual, Reproductive, Maternal, Neonatal, and Child Health (SRMNCH)”, implemented by UNICEF, WHO, UNFPA, and partners with support from France, aimed to strengthen a sustainable, gender-responsive health system in Gaza. It focused on improving access to quality…",
+      "body": [
+        "The project “Sexual, Reproductive, Maternal, Neonatal, and Child Health (SRMNCH)”, implemented by UNICEF, WHO, UNFPA, and partners with support from France, aimed to strengthen a sustainable, gender-responsive health system in Gaza. It focused on improving access to quality sexual, reproductive, maternal, child health, and nutrition services, especially for vulnerable groups.",
+        "ICON was commissioned by UNICEF to conduct the formative mid-term evaluation. The main purpose of the evaluation was to assess the project's progress against its Results Framework, identify gaps and deviations, and highlight best practices. It provided strategic recommendations to guide the continued implementation of the project. The evaluation findings also informed strategic policy and planning for UNICEF, the government, and implementing partners, contributing to national, UN, and UNICEF planning for the 2024–2028 period."
+      ],
+      "image": "/media/9910229-9ee9453f.jpg",
+      "pdf": null,
+      "country": "Palestine",
+      "periodLabel": "10/02/2022 - 28/02/2023"
+    }
+  }
+}

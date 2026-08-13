@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24614",
+    "permalink": "https://hp.icon-institute.de/refprojects/minimum-income-recipients-in-the-labour-market/",
+    "title": "Minimum Income Recipients in the Labour Market",
+    "subtitle": "Study on Integrated Delivery of Social Services aiming at the Activation of Minimum Income Recipients in the Labour Market – Success Factors and Reform Pathways",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2016,
+    "yearEnd": 2018,
+    "periodStart": "2016-10-10",
+    "periodEnd": "2018-02-10",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "500k-1m",
+    "volumeAmount": "697.330 €",
+    "financing": "European Union - Programme for Employment and Social Innovation (\"EaSI\") 2014-2020",
+    "clientName": "European Union - DG Employment, Social Affairs and Inclusion",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Minimum Income Recipients in the Labour Market",
+    "subtitle": "Study on Integrated Delivery of Social Services aiming at the Activation of Minimum Income Recipients in the Labour Market – Success Factors and Reform Pathways",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2016,
+    "yearEnd": 2018,
+    "periodStart": "2016-10-10",
+    "periodEnd": "2018-02-10",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "500k-1m",
+    "volumeAmount": "697.330 €",
+    "financing": "European Union - Programme for Employment and Social Innovation (\"EaSI\") 2014-2020",
+    "clientName": "European Union - DG Employment, Social Affairs and Inclusion",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24614",
+    "permalink": "https://hp.icon-institute.de/refprojects/minimum-income-recipients-in-the-labour-market/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a851851519dfc6cecd9c",
+    "item": {
+      "id": "6a78a851851519dfc6cecd9c",
+      "slug": "minimum-income-recipients-in-the-labour-market",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:25.467526Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:25.467526Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Minimum Income Recipients in the Labour Market",
+      "subtitle": "Study on Integrated Delivery of Social Services aiming at the Activation of Minimum Income Recipients in the Labour Market – Success Factors and Reform Pathways",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2016,
+      "yearEnd": 2018,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "500k-1m",
+      "periodStart": "2016-10-10",
+      "periodEnd": "2018-02-10",
+      "volumeAmount": "697.330 €",
+      "financing": "European Union - Programme for Employment and Social Innovation (\"EaSI\") 2014-2020",
+      "clientName": "European Union - DG Employment, Social Affairs and Inclusion",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "10/10/2016 - 10/02/2018"
+    }
+  }
+}

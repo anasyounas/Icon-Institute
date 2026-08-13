@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "24282",
+    "permalink": "https://hp.icon-institute.de/refprojects/realisation-of-innovation-forabr/",
+    "title": "Realisation of Innovation Fora",
+    "subtitle": "Realisation of Three Innovation Fora, as Marketing Instrument for Germany as Location for Excellence in Education and Research and Promotion of the internationalisation Strategy of the Federal Government (Region of Latin America 2009)",
+    "countries": [
+      "Argentina",
+      "Brazil",
+      "Chile"
+    ],
+    "region": "south-america",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-08-18",
+    "periodEnd": "2011-04-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "206.886 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Internationales Büro des BMBF Deutsches Zentrum für Luft- und Raumfahrt e.V.",
+    "description": "The German Ministry of Research and Education (BMBF) launched an internationalization strategy to strengthen Germany’s presence in research and innovation. As part of this effort, ICON-INSTITUTE organized innovation fora in Argentina, Brazil, and Chile, focusing on key areas…",
+    "body": [
+      "The German Ministry of Research and Education (BMBF) launched an internationalization strategy to strengthen Germany’s presence in research and innovation. As part of this effort, ICON-INSTITUTE organized innovation fora in Argentina, Brazil, and Chile, focusing on key areas like sustainability, biotechnology, and environmental research. These events showcased Germany as an attractive partner in science and development.",
+      "Following the fora, selected delegations from each country attended tailored events in Germany to advance cooperation. These included conferences and visits to research institutions in Hannover, Aachen, and Freiberg, deepening the partnerships initiated in Latin America."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/9504573.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Realisation of Innovation Fora",
+    "subtitle": "Realisation of Three Innovation Fora, as Marketing Instrument for Germany as Location for Excellence in Education and Research and Promotion of the internationalisation Strategy of the Federal Government (Region of Latin America 2009)",
+    "countries": [
+      "Argentina",
+      "Brazil",
+      "Chile"
+    ],
+    "region": "south-america",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-08-18",
+    "periodEnd": "2011-04-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "206.886 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Internationales Büro des BMBF Deutsches Zentrum für Luft- und Raumfahrt e.V.",
+    "description": "The German Ministry of Research and Education (BMBF) launched an internationalization strategy to strengthen Germany’s presence in research and innovation. As part of this effort, ICON-INSTITUTE organized innovation fora in Argentina, Brazil, and Chile, focusing on key areas…",
+    "body": [
+      "The German Ministry of Research and Education (BMBF) launched an internationalization strategy to strengthen Germany’s presence in research and innovation. As part of this effort, ICON-INSTITUTE organized innovation fora in Argentina, Brazil, and Chile, focusing on key areas like sustainability, biotechnology, and environmental research. These events showcased Germany as an attractive partner in science and development.",
+      "Following the fora, selected delegations from each country attended tailored events in Germany to advance cooperation. These included conferences and visits to research institutions in Hannover, Aachen, and Freiberg, deepening the partnerships initiated in Latin America."
+    ],
+    "image": "/media/9504573-527935cd.jpg",
+    "pdf": null,
+    "wpId": "24282",
+    "permalink": "https://hp.icon-institute.de/refprojects/realisation-of-innovation-forabr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/9504573.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a131851519dfc6cecaed",
+    "item": {
+      "id": "6a78a131851519dfc6cecaed",
+      "slug": "realisation-of-innovation-fora",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:48:01.743985Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:48:01.743985Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Realisation of Innovation Fora",
+      "subtitle": "Realisation of Three Innovation Fora, as Marketing Instrument for Germany as Location for Excellence in Education and Research and Promotion of the internationalisation Strategy of the Federal Government (Region of Latin America 2009)",
+      "countries": [
+        "Argentina",
+        "Brazil",
+        "Chile"
+      ],
+      "region": "south-america",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2009-08-18",
+      "periodEnd": "2011-04-30",
+      "volumeAmount": "206.886 €",
+      "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+      "clientName": "Internationales Büro des BMBF Deutsches Zentrum für Luft- und Raumfahrt e.V.",
+      "description": "The German Ministry of Research and Education (BMBF) launched an internationalization strategy to strengthen Germany’s presence in research and innovation. As part of this effort, ICON-INSTITUTE organized innovation fora in Argentina, Brazil, and Chile, focusing on key areas…",
+      "body": [
+        "The German Ministry of Research and Education (BMBF) launched an internationalization strategy to strengthen Germany’s presence in research and innovation. As part of this effort, ICON-INSTITUTE organized innovation fora in Argentina, Brazil, and Chile, focusing on key areas like sustainability, biotechnology, and environmental research. These events showcased Germany as an attractive partner in science and development.",
+        "Following the fora, selected delegations from each country attended tailored events in Germany to advance cooperation. These included conferences and visits to research institutions in Hannover, Aachen, and Freiberg, deepening the partnerships initiated in Latin America."
+      ],
+      "image": "/media/9504573-527935cd.jpg",
+      "pdf": null,
+      "country": "Argentina, Brazil, Chile",
+      "periodLabel": "18/08/2009 - 30/04/2011"
+    }
+  }
+}

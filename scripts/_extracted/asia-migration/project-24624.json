@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24624",
+    "permalink": "https://hp.icon-institute.de/refprojects/banking-and-financial-sector/",
+    "title": "Banking and Financial Sector",
+    "subtitle": "Banking and Financial Sector Development",
+    "countries": [
+      "Myanmar"
+    ],
+    "region": "asia",
+    "yearStart": 2017,
+    "yearEnd": 2021,
+    "periodStart": "2017-01-01",
+    "periodEnd": "2021-03-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "1.741.038 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Myanmar is characterised by a restrictive regulatory environment and a weak banking and financial sector that slows down the development of the private sector. Small and medium enterprises (SMEs) are expected to provide collaterals of up to 150%. The SMEs have no access to…",
+    "body": [
+      "Myanmar is characterised by a restrictive regulatory environment and a weak banking and financial sector that slows down the development of the private sector. Small and medium enterprises (SMEs) are expected to provide collaterals of up to 150%. The SMEs have no access to alternative funding and face a lack of appropriate sustainable financial services targeted to them. Consequently, SMEs are unable to apply necessary investments leading to unexploited innovation and to new employment opportunities, and hence, less growth.",
+      "The Consortium led by ICON-INSTITUT supports the Yoma Bank and the Kanbawza Bank in improving the access of SMEs to sustainable financial services or offers. For this, additional staff has been hired and trained in accounting, finance and loan analysis. The support in development of new products is improved, i.e., digital technology-based SME lending. In consequence, the banking staff is now able to accelerate loan approvals from 90 days down to 14 days; SMEs now receive their loans quicker and can immediately invest in their businesses. Improvement of the staffs’ overall capacities leads to a proper assessment of the banks’ risks and hence lending to SMEs becomes sustainable. Furthermore, SME owners are offered trainings, enabling them to better leverage their businesses, to find out which financial services exist and how to apply for necessary loans. In the end the Myanmar banking sector will become transparent and inclusive for SMEs, ensuring sustainable economic development.",
+      "(4408590)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4408590-Myanmar-Banken-1-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Banking and Financial Sector",
+    "subtitle": "Banking and Financial Sector Development",
+    "countries": [
+      "Myanmar"
+    ],
+    "region": "asia",
+    "yearStart": 2017,
+    "yearEnd": 2021,
+    "periodStart": "2017-01-01",
+    "periodEnd": "2021-03-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "1m-3m",
+    "volumeAmount": "1.741.038 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Myanmar is characterised by a restrictive regulatory environment and a weak banking and financial sector that slows down the development of the private sector. Small and medium enterprises (SMEs) are expected to provide collaterals of up to 150%. The SMEs have no access to…",
+    "body": [
+      "Myanmar is characterised by a restrictive regulatory environment and a weak banking and financial sector that slows down the development of the private sector. Small and medium enterprises (SMEs) are expected to provide collaterals of up to 150%. The SMEs have no access to alternative funding and face a lack of appropriate sustainable financial services targeted to them. Consequently, SMEs are unable to apply necessary investments leading to unexploited innovation and to new employment opportunities, and hence, less growth.",
+      "The Consortium led by ICON-INSTITUT supports the Yoma Bank and the Kanbawza Bank in improving the access of SMEs to sustainable financial services or offers. For this, additional staff has been hired and trained in accounting, finance and loan analysis. The support in development of new products is improved, i.e., digital technology-based SME lending. In consequence, the banking staff is now able to accelerate loan approvals from 90 days down to 14 days; SMEs now receive their loans quicker and can immediately invest in their businesses. Improvement of the staffs’ overall capacities leads to a proper assessment of the banks’ risks and hence lending to SMEs becomes sustainable. Furthermore, SME owners are offered trainings, enabling them to better leverage their businesses, to find out which financial services exist and how to apply for necessary loans. In the end the Myanmar banking sector will become transparent and inclusive for SMEs, ensuring sustainable economic development.",
+      "(4408590)"
+    ],
+    "image": "/media/4408590-myanmar-banken-1-scaled-d3cc802e.jpg",
+    "pdf": null,
+    "wpId": "24624",
+    "permalink": "https://hp.icon-institute.de/refprojects/banking-and-financial-sector/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4408590-Myanmar-Banken-1-scaled.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c65851519dfc6cec7d8",
+    "item": {
+      "id": "6a789c65851519dfc6cec7d8",
+      "slug": "banking-and-financial-sector",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:33.769203Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:33.769203Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Banking and Financial Sector",
+      "subtitle": "Banking and Financial Sector Development",
+      "countries": [
+        "Myanmar"
+      ],
+      "region": "asia",
+      "yearStart": 2017,
+      "yearEnd": 2021,
+      "expertise": "economic-employment-promotion",
+      "volume": "1m-3m",
+      "periodStart": "2017-01-01",
+      "periodEnd": "2021-03-31",
+      "volumeAmount": "1.741.038 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Myanmar is characterised by a restrictive regulatory environment and a weak banking and financial sector that slows down the development of the private sector. Small and medium enterprises (SMEs) are expected to provide collaterals of up to 150%. The SMEs have no access to…",
+      "body": [
+        "Myanmar is characterised by a restrictive regulatory environment and a weak banking and financial sector that slows down the development of the private sector. Small and medium enterprises (SMEs) are expected to provide collaterals of up to 150%. The SMEs have no access to alternative funding and face a lack of appropriate sustainable financial services targeted to them. Consequently, SMEs are unable to apply necessary investments leading to unexploited innovation and to new employment opportunities, and hence, less growth.",
+        "The Consortium led by ICON-INSTITUT supports the Yoma Bank and the Kanbawza Bank in improving the access of SMEs to sustainable financial services or offers. For this, additional staff has been hired and trained in accounting, finance and loan analysis. The support in development of new products is improved, i.e., digital technology-based SME lending. In consequence, the banking staff is now able to accelerate loan approvals from 90 days down to 14 days; SMEs now receive their loans quicker and can immediately invest in their businesses. Improvement of the staffs’ overall capacities leads to a proper assessment of the banks’ risks and hence lending to SMEs becomes sustainable. Furthermore, SME owners are offered trainings, enabling them to better leverage their businesses, to find out which financial services exist and how to apply for necessary loans. In the end the Myanmar banking sector will become transparent and inclusive for SMEs, ensuring sustainable economic development.",
+        "(4408590)"
+      ],
+      "image": "/media/4408590-myanmar-banken-1-scaled-d3cc802e.jpg",
+      "pdf": null,
+      "country": "Myanmar",
+      "periodLabel": "01/01/2017 - 31/03/2021"
+    }
+  }
+}

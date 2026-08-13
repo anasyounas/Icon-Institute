@@ -18,7 +18,9 @@ export function assetUrl(path: string | null | undefined): string {
   if (!path) return '';
   if (/^(https?:|data:)/.test(path)) return path;
   if (path.startsWith('/media/')) return `${API_ORIGIN}${path}`;
-  return path;
+  if (path.startsWith('/')) return path;
+  // Bare filenames are site-bundled assets under /images/
+  return `/images/${path}`;
 }
 
 const REFRESH_STORAGE_KEY = 'icon-cms.refresh-token';

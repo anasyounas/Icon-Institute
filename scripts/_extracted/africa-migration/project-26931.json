@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "26931",
+    "permalink": "https://hp.icon-institute.de/refprojects/paccess-to-financep/",
+    "title": "Access to Finance",
+    "subtitle": "WE4A Access to Finance (A2F) Country Guidance",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "periodStart": "2022-12-12",
+    "periodEnd": "2023-09-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "140.354 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Women entrepreneurs in Africa are predominantly confronted with a lack of access to financial resources and professional support. Barriers in particular social norms, poor working conditions and the lack of social protection complicate further the success of women…",
+    "body": [
+      "Women entrepreneurs in Africa are predominantly confronted with a lack of access to financial resources and professional support. Barriers in particular social norms, poor working conditions and the lack of social protection complicate further the success of women entrepreneurs. The current assignment aims to enhance the access to finance conditions for women entrepreneurs in selected African countries. Particularly through linking them to private sector networks by improving the overall competitiveness of enterprises and providing a facilitated access to markets and finance. The main objective is to prepare country specific Access to Finance guides for 5 selected African countries - Ghana, Uganda, Kenya, Mozambique and Tanzania and to contribute to the investment readiness of women-owned enterprises and facilitate their access to funding.",
+      "At the strategic level this will result in structural changes in the perception of women within the labour market. Special consideration is given to capacity building and advisory of women entrepreneurs.",
+      "(4410429)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/01/4410429-scaled.jpeg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Access to Finance",
+    "subtitle": "WE4A Access to Finance (A2F) Country Guidance",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "periodStart": "2022-12-12",
+    "periodEnd": "2023-09-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "140.354 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Women entrepreneurs in Africa are predominantly confronted with a lack of access to financial resources and professional support. Barriers in particular social norms, poor working conditions and the lack of social protection complicate further the success of women…",
+    "body": [
+      "Women entrepreneurs in Africa are predominantly confronted with a lack of access to financial resources and professional support. Barriers in particular social norms, poor working conditions and the lack of social protection complicate further the success of women entrepreneurs. The current assignment aims to enhance the access to finance conditions for women entrepreneurs in selected African countries. Particularly through linking them to private sector networks by improving the overall competitiveness of enterprises and providing a facilitated access to markets and finance. The main objective is to prepare country specific Access to Finance guides for 5 selected African countries - Ghana, Uganda, Kenya, Mozambique and Tanzania and to contribute to the investment readiness of women-owned enterprises and facilitate their access to funding.",
+      "At the strategic level this will result in structural changes in the perception of women within the labour market. Special consideration is given to capacity building and advisory of women entrepreneurs.",
+      "(4410429)"
+    ],
+    "image": "/media/4410429-scaled-dc016db0.jpeg",
+    "pdf": null,
+    "wpId": "26931",
+    "permalink": "https://hp.icon-institute.de/refprojects/paccess-to-financep/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/01/4410429-scaled.jpeg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a951851519dfc6ced0f4",
+    "item": {
+      "id": "6a78a951851519dfc6ced0f4",
+      "slug": "access-to-finance",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:22:41.118662Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:22:41.118662Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Access to Finance",
+      "subtitle": "WE4A Access to Finance (A2F) Country Guidance",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2022,
+      "yearEnd": 2023,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2022-12-12",
+      "periodEnd": "2023-09-30",
+      "volumeAmount": "140.354 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Women entrepreneurs in Africa are predominantly confronted with a lack of access to financial resources and professional support. Barriers in particular social norms, poor working conditions and the lack of social protection complicate further the success of women…",
+      "body": [
+        "Women entrepreneurs in Africa are predominantly confronted with a lack of access to financial resources and professional support. Barriers in particular social norms, poor working conditions and the lack of social protection complicate further the success of women entrepreneurs. The current assignment aims to enhance the access to finance conditions for women entrepreneurs in selected African countries. Particularly through linking them to private sector networks by improving the overall competitiveness of enterprises and providing a facilitated access to markets and finance. The main objective is to prepare country specific Access to Finance guides for 5 selected African countries - Ghana, Uganda, Kenya, Mozambique and Tanzania and to contribute to the investment readiness of women-owned enterprises and facilitate their access to funding.",
+        "At the strategic level this will result in structural changes in the perception of women within the labour market. Special consideration is given to capacity building and advisory of women entrepreneurs.",
+        "(4410429)"
+      ],
+      "image": "/media/4410429-scaled-dc016db0.jpeg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "12/12/2022 - 30/09/2023"
+    }
+  }
+}

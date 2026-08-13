@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24244",
+    "permalink": "https://hp.icon-institute.de/refprojects/local-development-in-municipalities/",
+    "title": "Local Development in Municipalities",
+    "subtitle": "Support to Municipalities in Fields of Local Development at Various Municipal Groups",
+    "countries": [
+      "Lebanon"
+    ],
+    "region": "middle-east",
+    "yearStart": 2008,
+    "yearEnd": 2009,
+    "periodStart": "2008-08-25",
+    "periodEnd": "2009-09-24",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "300k-500k",
+    "volumeAmount": "465.000 €",
+    "financing": "European Union",
+    "clientName": "Ministry of State for Administrative Reform - OMSAR",
+    "description": "Support to Municipalities in Fields of Local Development at Various Municipal Groups",
+    "body": [
+      "Support to Municipalities in Fields of Local Development at Various Municipal Groups"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Local Development in Municipalities",
+    "subtitle": "Support to Municipalities in Fields of Local Development at Various Municipal Groups",
+    "countries": [
+      "Lebanon"
+    ],
+    "region": "middle-east",
+    "yearStart": 2008,
+    "yearEnd": 2009,
+    "periodStart": "2008-08-25",
+    "periodEnd": "2009-09-24",
+    "expertise": "governance-education-social-development",
+    "volume": "300k-500k",
+    "volumeAmount": "465.000 €",
+    "financing": "European Union",
+    "clientName": "Ministry of State for Administrative Reform - OMSAR",
+    "description": "Support to Municipalities in Fields of Local Development at Various Municipal Groups",
+    "body": [
+      "Support to Municipalities in Fields of Local Development at Various Municipal Groups"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24244",
+    "permalink": "https://hp.icon-institute.de/refprojects/local-development-in-municipalities/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aaee851519dfc6ced6b2",
+    "item": {
+      "id": "6a78aaee851519dfc6ced6b2",
+      "slug": "local-development-in-municipalities",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:29:34.898032Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:34.898032Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Local Development in Municipalities",
+      "subtitle": "Support to Municipalities in Fields of Local Development at Various Municipal Groups",
+      "countries": [
+        "Lebanon"
+      ],
+      "region": "middle-east",
+      "yearStart": 2008,
+      "yearEnd": 2009,
+      "expertise": "governance-education-social-development",
+      "volume": "300k-500k",
+      "periodStart": "2008-08-25",
+      "periodEnd": "2009-09-24",
+      "volumeAmount": "465.000 €",
+      "financing": "European Union",
+      "clientName": "Ministry of State for Administrative Reform - OMSAR",
+      "description": "Support to Municipalities in Fields of Local Development at Various Municipal Groups",
+      "body": [
+        "Support to Municipalities in Fields of Local Development at Various Municipal Groups"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Lebanon",
+      "periodLabel": "25/08/2008 - 24/09/2009"
+    }
+  }
+}

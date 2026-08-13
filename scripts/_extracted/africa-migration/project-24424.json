@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24424",
+    "permalink": "https://hp.icon-institute.de/refprojects/sasscal-business-plans-within-climate-change-sustainable-land-mgt/",
+    "title": "SASSCAL Business Plans within \"Climate Change & Sustainable Land Mgt.\"",
+    "subtitle": "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\"",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-08-01",
+    "periodEnd": "2011-10-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "36.112 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\"",
+    "body": [
+      "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\""
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "SASSCAL Business Plans within \"Climate Change & Sustainable Land Mgt.\"",
+    "subtitle": "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\"",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-08-01",
+    "periodEnd": "2011-10-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "36.112 €",
+    "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+    "description": "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\"",
+    "body": [
+      "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\""
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24424",
+    "permalink": "https://hp.icon-institute.de/refprojects/sasscal-business-plans-within-climate-change-sustainable-land-mgt/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa40851519dfc6ced445",
+    "item": {
+      "id": "6a78aa40851519dfc6ced445",
+      "slug": "sasscal-business-plans-within-climate-change-sustainable-land-mgt",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:40.360341Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:40.360341Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "SASSCAL Business Plans within \"Climate Change & Sustainable Land Mgt.\"",
+      "subtitle": "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\"",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2011,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2011-08-01",
+      "periodEnd": "2011-10-31",
+      "volumeAmount": "36.112 €",
+      "financing": "Bundesministerium für Bildung und Forschung (BMBF)",
+      "clientName": "Kreditanstalt für Wiederaufbau (KfW)",
+      "description": "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\"",
+      "body": [
+        "Support to the Revision of the Business Plans SASSCAL in the frame of the project \"Climate Change and Sustainable Land Management in Africa\""
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/08/2011 - 31/10/2011"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24531",
+    "permalink": "https://hp.icon-institute.de/refprojects/eu-election-observation-mission-to-in-guinea/",
+    "title": "EU Election Observation Mission to in Guinea",
+    "subtitle": "Implementation of the European Union Election Observation Mission to Guinea",
+    "countries": [
+      "Guinea"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-08-12",
+    "periodEnd": "2014-08-11",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.583.508 €",
+    "financing": "European Union - EIDHR",
+    "clientName": "European Union - FPI4",
+    "description": "Implementation of the European Union Election Observation Mission to Guinea",
+    "body": [
+      "Implementation of the European Union Election Observation Mission to Guinea"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "EU Election Observation Mission to in Guinea",
+    "subtitle": "Implementation of the European Union Election Observation Mission to Guinea",
+    "countries": [
+      "Guinea"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2014,
+    "periodStart": "2013-08-12",
+    "periodEnd": "2014-08-11",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "2.583.508 €",
+    "financing": "European Union - EIDHR",
+    "clientName": "European Union - FPI4",
+    "description": "Implementation of the European Union Election Observation Mission to Guinea",
+    "body": [
+      "Implementation of the European Union Election Observation Mission to Guinea"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24531",
+    "permalink": "https://hp.icon-institute.de/refprojects/eu-election-observation-mission-to-in-guinea/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa29851519dfc6ced3e9",
+    "item": {
+      "id": "6a78aa29851519dfc6ced3e9",
+      "slug": "eu-election-observation-mission-to-in-guinea",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:17.936719Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:17.936719Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "EU Election Observation Mission to in Guinea",
+      "subtitle": "Implementation of the European Union Election Observation Mission to Guinea",
+      "countries": [
+        "Guinea"
+      ],
+      "region": "africa",
+      "yearStart": 2013,
+      "yearEnd": 2014,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2013-08-12",
+      "periodEnd": "2014-08-11",
+      "volumeAmount": "2.583.508 €",
+      "financing": "European Union - EIDHR",
+      "clientName": "European Union - FPI4",
+      "description": "Implementation of the European Union Election Observation Mission to Guinea",
+      "body": [
+        "Implementation of the European Union Election Observation Mission to Guinea"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Guinea",
+      "periodLabel": "12/08/2013 - 11/08/2014"
+    }
+  }
+}

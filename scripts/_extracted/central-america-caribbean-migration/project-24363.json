@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24363",
+    "permalink": "https://hp.icon-institute.de/refprojects/digital-early-warning-station/",
+    "title": "Digital Early Warning Station",
+    "subtitle": "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands",
+    "countries": [
+      "Cayman Islands"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2010,
+    "yearEnd": 2012,
+    "periodStart": "2010-07-15",
+    "periodEnd": "2012-02-29",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "300k-500k",
+    "volumeAmount": "355.705 €",
+    "financing": "European Union - EDF",
+    "clientName": "Cayman Islands Airport Authority",
+    "description": "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands",
+    "body": [
+      "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Digital Early Warning Station",
+    "subtitle": "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands",
+    "countries": [
+      "Cayman Islands"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2010,
+    "yearEnd": 2012,
+    "periodStart": "2010-07-15",
+    "periodEnd": "2012-02-29",
+    "expertise": "agriculture-rural-development",
+    "volume": "300k-500k",
+    "volumeAmount": "355.705 €",
+    "financing": "European Union - EDF",
+    "clientName": "Cayman Islands Airport Authority",
+    "description": "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands",
+    "body": [
+      "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands"
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24363",
+    "permalink": "https://hp.icon-institute.de/refprojects/digital-early-warning-station/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a100851519dfc6ceca39",
+    "item": {
+      "id": "6a78a100851519dfc6ceca39",
+      "slug": "digital-early-warning-station",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:47:12.070695Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:47:12.070695Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Digital Early Warning Station",
+      "subtitle": "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands",
+      "countries": [
+        "Cayman Islands"
+      ],
+      "region": "central-america-caribbean",
+      "yearStart": 2010,
+      "yearEnd": 2012,
+      "expertise": "agriculture-rural-development",
+      "volume": "300k-500k",
+      "periodStart": "2010-07-15",
+      "periodEnd": "2012-02-29",
+      "volumeAmount": "355.705 €",
+      "financing": "European Union - EDF",
+      "clientName": "Cayman Islands Airport Authority",
+      "description": "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands",
+      "body": [
+        "Technical Assistance for the Establishment of a Digital Early Warning Station in the Cayman Islands"
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Cayman Islands",
+      "periodLabel": "15/07/2010 - 29/02/2012"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24388",
+    "permalink": "https://hp.icon-institute.de/refprojects/democratic-governance-and-accountability/",
+    "title": "Democratic Governance and Accountability",
+    "subtitle": "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda",
+    "countries": [
+      "Uganda"
+    ],
+    "region": "africa",
+    "yearStart": 2010,
+    "yearEnd": 2014,
+    "periodStart": "2010-08-31",
+    "periodEnd": "2014-07-11",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "500k-1m",
+    "volumeAmount": "874.178 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Uganda",
+    "description": "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda",
+    "body": [
+      "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Democratic Governance and Accountability",
+    "subtitle": "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda",
+    "countries": [
+      "Uganda"
+    ],
+    "region": "africa",
+    "yearStart": 2010,
+    "yearEnd": 2014,
+    "periodStart": "2010-08-31",
+    "periodEnd": "2014-07-11",
+    "expertise": "governance-education-social-development",
+    "volume": "500k-1m",
+    "volumeAmount": "874.178 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to Uganda",
+    "description": "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda",
+    "body": [
+      "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24388",
+    "permalink": "https://hp.icon-institute.de/refprojects/democratic-governance-and-accountability/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa4d851519dfc6ced479",
+    "item": {
+      "id": "6a78aa4d851519dfc6ced479",
+      "slug": "democratic-governance-and-accountability",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:53.088936Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:53.088936Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Democratic Governance and Accountability",
+      "subtitle": "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "region": "africa",
+      "yearStart": 2010,
+      "yearEnd": 2014,
+      "expertise": "governance-education-social-development",
+      "volume": "500k-1m",
+      "periodStart": "2010-08-31",
+      "periodEnd": "2014-07-11",
+      "volumeAmount": "874.178 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to Uganda",
+      "description": "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda",
+      "body": [
+        "Programme Manager and Finance Manager for Support to Democratic Governance and Accountability Programme in Uganda"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Uganda",
+      "periodLabel": "31/08/2010 - 11/07/2014"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24369",
+    "permalink": "https://hp.icon-institute.de/refprojects/strengthening-of-the-nao-function/",
+    "title": "Strengthening of the NAO Function",
+    "subtitle": "Strengthening of the NAO Function",
+    "countries": [
+      "Namibia"
+    ],
+    "region": "africa",
+    "yearStart": 2010,
+    "yearEnd": 2014,
+    "periodStart": "2010-09-01",
+    "periodEnd": "2014-10-26",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.474.549 €",
+    "financing": "European Union - EDF",
+    "clientName": "National Planning Commission Secretariat, the National Authorising Officer",
+    "description": "Strengthening of the NAO Function",
+    "body": [
+      "Strengthening of the NAO Function"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Strengthening of the NAO Function",
+    "subtitle": "Strengthening of the NAO Function",
+    "countries": [
+      "Namibia"
+    ],
+    "region": "africa",
+    "yearStart": 2010,
+    "yearEnd": 2014,
+    "periodStart": "2010-09-01",
+    "periodEnd": "2014-10-26",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.474.549 €",
+    "financing": "European Union - EDF",
+    "clientName": "National Planning Commission Secretariat, the National Authorising Officer",
+    "description": "Strengthening of the NAO Function",
+    "body": [
+      "Strengthening of the NAO Function"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "24369",
+    "permalink": "https://hp.icon-institute.de/refprojects/strengthening-of-the-nao-function/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa4c851519dfc6ced475",
+    "item": {
+      "id": "6a78aa4c851519dfc6ced475",
+      "slug": "strengthening-of-the-nao-function",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:52.122448Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:52.122448Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Strengthening of the NAO Function",
+      "subtitle": "Strengthening of the NAO Function",
+      "countries": [
+        "Namibia"
+      ],
+      "region": "africa",
+      "yearStart": 2010,
+      "yearEnd": 2014,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2010-09-01",
+      "periodEnd": "2014-10-26",
+      "volumeAmount": "1.474.549 €",
+      "financing": "European Union - EDF",
+      "clientName": "National Planning Commission Secretariat, the National Authorising Officer",
+      "description": "Strengthening of the NAO Function",
+      "body": [
+        "Strengthening of the NAO Function"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Namibia",
+      "periodLabel": "01/09/2010 - 26/10/2014"
+    }
+  }
+}

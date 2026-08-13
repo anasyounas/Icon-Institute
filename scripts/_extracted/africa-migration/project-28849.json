@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "28849",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-management-and-landscape-protection/",
+    "title": "Water management and landscape protection",
+    "subtitle": "Integrated water catchment management and landscape protection in Zambia (AWARE 2.0)",
+    "countries": [
+      "Zambia"
+    ],
+    "region": "africa",
+    "yearStart": 2025,
+    "yearEnd": 2028,
+    "periodStart": "2025-12-01",
+    "periodEnd": "2028-01-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "321.980 €",
+    "financing": "Bundesministerium für Wirtschaftliche Zusammenarbeit (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The GIZ initiative AWARE 2.0 aims to strengthen climate-resilient water management and landscape restoration in Zambia’s Lower Kafue Sub-Catchment by promoting sustainable, well-coordinated approaches to watershed management.",
+    "body": [
+      "The GIZ initiative AWARE 2.0 aims to strengthen climate-resilient water management and landscape restoration in Zambia’s Lower Kafue Sub-Catchment by promoting sustainable, well-coordinated approaches to watershed management.",
+      "As part of GIZ’s AWARE 2.0 Project “Technical assistance on resources mobilization for integrated water catchment management and landscape protection in Zambia”, ICON contributes to this objective by supporting the analysis, financing and partnerships needed to improve how water catchments are managed and financed. Hereby ICON focuses on conducting an economic modelling analysis, developing and validating a financing strategy as well as facilitating partnerships for sustainable resource mobilization. Through collaboration with government institutions, local communities, financial partners and the private sector, ICON supports sustainable investment approaches and informed decision-making for long-term, coordinated water management."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2026/04/8810933.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Water management and landscape protection",
+    "subtitle": "Integrated water catchment management and landscape protection in Zambia (AWARE 2.0)",
+    "countries": [
+      "Zambia"
+    ],
+    "region": "africa",
+    "yearStart": 2025,
+    "yearEnd": 2028,
+    "periodStart": "2025-12-01",
+    "periodEnd": "2028-01-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "321.980 €",
+    "financing": "Bundesministerium für Wirtschaftliche Zusammenarbeit (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The GIZ initiative AWARE 2.0 aims to strengthen climate-resilient water management and landscape restoration in Zambia’s Lower Kafue Sub-Catchment by promoting sustainable, well-coordinated approaches to watershed management.",
+    "body": [
+      "The GIZ initiative AWARE 2.0 aims to strengthen climate-resilient water management and landscape restoration in Zambia’s Lower Kafue Sub-Catchment by promoting sustainable, well-coordinated approaches to watershed management.",
+      "As part of GIZ’s AWARE 2.0 Project “Technical assistance on resources mobilization for integrated water catchment management and landscape protection in Zambia”, ICON contributes to this objective by supporting the analysis, financing and partnerships needed to improve how water catchments are managed and financed. Hereby ICON focuses on conducting an economic modelling analysis, developing and validating a financing strategy as well as facilitating partnerships for sustainable resource mobilization. Through collaboration with government institutions, local communities, financial partners and the private sector, ICON supports sustainable investment approaches and informed decision-making for long-term, coordinated water management."
+    ],
+    "image": "/media/8810933-e2fd44be.jpg",
+    "pdf": null,
+    "wpId": "28849",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-management-and-landscape-protection/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2026/04/8810933.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "updated",
+    "id": "6a773d07ac35dc16c3123fb3",
+    "item": {
+      "id": "6a773d07ac35dc16c3123fb3",
+      "slug": "water-management-and-landscape-protection",
+      "cms_status": "published",
+      "version": 3,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "migration@cms.local",
+      "created_at": "2026-08-08T14:28:23.108000Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:21:52.845480Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": "2026-08-08T14:28:23.108000Z",
+      "title": "Water management and landscape protection",
+      "country": "Zambia",
+      "region": "africa",
+      "yearStart": 2025,
+      "yearEnd": 2028,
+      "expertise": "economic-employment-promotion",
+      "volume": "300k-500k",
+      "description": "The GIZ initiative AWARE 2.0 aims to strengthen climate-resilient water management and landscape restoration in Zambia’s Lower Kafue Sub-Catchment by promoting sustainable, well-coordinated approaches to watershed management.",
+      "body": [
+        "The GIZ initiative AWARE 2.0 aims to strengthen climate-resilient water management and landscape restoration in Zambia’s Lower Kafue Sub-Catchment by promoting sustainable, well-coordinated approaches to watershed management.",
+        "As part of GIZ’s AWARE 2.0 Project “Technical assistance on resources mobilization for integrated water catchment management and landscape protection in Zambia”, ICON contributes to this objective by supporting the analysis, financing and partnerships needed to improve how water catchments are managed and financed. Hereby ICON focuses on conducting an economic modelling analysis, developing and validating a financing strategy as well as facilitating partnerships for sustainable resource mobilization. Through collaboration with government institutions, local communities, financial partners and the private sector, ICON supports sustainable investment approaches and informed decision-making for long-term, coordinated water management."
+      ],
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "countries": [
+        "Zambia"
+      ],
+      "financing": "Bundesministerium für Wirtschaftliche Zusammenarbeit (BMZ)",
+      "image": "/media/8810933-e2fd44be.jpg",
+      "pdf": null,
+      "periodEnd": "2028-01-31",
+      "periodLabel": "01/12/2025 - 31/01/2028",
+      "periodStart": "2025-12-01",
+      "subtitle": "Integrated water catchment management and landscape protection in Zambia (AWARE 2.0)",
+      "volumeAmount": "321.980 €"
+    }
+  }
+}

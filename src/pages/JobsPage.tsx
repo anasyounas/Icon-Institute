@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { jobsPage as bundledJobsPage, type JobListing } from '../data/jobs';
+import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
@@ -10,7 +11,13 @@ export function JobsPage() {
   // are the published job ads.
   const pageContent = usePublished('/pages/jobs-page', bundledJobsPage);
   const listings = usePublished<JobListing[]>('/jobs', bundledJobsPage.listings);
+  const home = usePublished<HomeData>('/pages/home', bundledHome);
   const jobsPage = { ...bundledJobsPage, ...pageContent, listings };
+  // Reuse the published home "JOBS" card image (CMS `/media/...`) so the hero
+  // is not stuck on a missing local `/images/icon_institute_jobs.jpg`.
+  const heroImage =
+    home.quickLinks.find((l) => l.href === '/jobs')?.image ??
+    'icon_institute_jobs.jpg';
 
   const openJobs = jobsPage.listings.filter((j) => j.status === 'open');
 
@@ -19,7 +26,7 @@ export function JobsPage() {
       <Seo {...pageSeo.jobs} />
       <PageHero
         title="JOBS"
-        image="icon_institute_jobs.jpg"
+        image={heroImage}
         imageAlt="Careers at ICON-INSTITUTE"
       />
       <section className="content-section">

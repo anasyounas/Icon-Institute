@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24549",
+    "permalink": "https://hp.icon-institute.de/refprojects/sme-clusters-eco-tourism-and-bpo-ict-cluster/",
+    "title": "SME Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "subtitle": "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "periodStart": "2014-09-08",
+    "periodEnd": "2015-05-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "76.789 €",
+    "financing": "European Union - EDF",
+    "clientName": "MINICOM- Ministry of Trade and Industry",
+    "description": "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "body": [
+      "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "SME Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "subtitle": "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "periodStart": "2014-09-08",
+    "periodEnd": "2015-05-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "76.789 €",
+    "financing": "European Union - EDF",
+    "clientName": "MINICOM- Ministry of Trade and Industry",
+    "description": "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster",
+    "body": [
+      "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24549",
+    "permalink": "https://hp.icon-institute.de/refprojects/sme-clusters-eco-tourism-and-bpo-ict-cluster/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa1d851519dfc6ced3b7",
+    "item": {
+      "id": "6a78aa1d851519dfc6ced3b7",
+      "slug": "sme-clusters-eco-tourism-and-bpo-ict-cluster",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:05.446019Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:05.446019Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "SME Clusters, Eco-Tourism and BPO/ ICT Cluster",
+      "subtitle": "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster",
+      "countries": [
+        "Rwanda"
+      ],
+      "region": "africa",
+      "yearStart": 2014,
+      "yearEnd": 2015,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2014-09-08",
+      "periodEnd": "2015-05-30",
+      "volumeAmount": "76.789 €",
+      "financing": "European Union - EDF",
+      "clientName": "MINICOM- Ministry of Trade and Industry",
+      "description": "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster",
+      "body": [
+        "Consulting Services for Development of Small and Medium Enterprise (SME) Clusters, Eco-Tourism and BPO/ ICT Cluster"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Rwanda",
+      "periodLabel": "08/09/2014 - 30/05/2015"
+    }
+  }
+}

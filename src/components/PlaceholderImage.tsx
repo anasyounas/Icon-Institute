@@ -6,6 +6,8 @@ type Props = {
   alt: string;
   className?: string;
   aspectRatio?: string;
+  /** Heroes should pass `"eager"`; default stays lazy for below-fold cards. */
+  loading?: 'lazy' | 'eager';
 };
 
 /**
@@ -17,15 +19,13 @@ export function PlaceholderImage({
   alt,
   className = '',
   aspectRatio = '16 / 9',
+  loading = 'lazy',
 }: Props) {
-  const [failed, setFailed] = useState(false);
-  const path = /^(https?:|data:)/.test(src)
-    ? src
-    : src.startsWith('/media/')
-      ? assetUrl(src)
-      : src.startsWith('/')
-        ? src
-        : `/images/${src}`;
+  const path = assetUrl(src);
+  // Track which URL failed so a later CMS `/media/...` src can recover
+  // after the bundled `/images/...` fallback 404'd on first paint.
+  const [failedPath, setFailedPath] = useState<string | null>(null);
+  const failed = failedPath === path;
   const filename = path.split('/').pop() ?? src;
 
   if (failed) {
@@ -47,8 +47,8 @@ export function PlaceholderImage({
       src={path}
       alt={alt}
       className={className}
-      onError={() => setFailed(true)}
-      loading="lazy"
+      onError={() => setFailedPath(path)}
+      loading={loading}
     />
   );
 }

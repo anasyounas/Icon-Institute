@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24664",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-programme-human-capacity-development/",
+    "title": "Water Programme / Human Capacity Development",
+    "subtitle": "Water Programme / Human Capacity Development Component",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2016,
+    "yearEnd": 2016,
+    "periodStart": "2016-01-01",
+    "periodEnd": "2016-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "100k-300k",
+    "volumeAmount": "271.270 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Water Programme / Human Capacity Development",
+    "subtitle": "Water Programme / Human Capacity Development Component",
+    "countries": [
+      "Palestine"
+    ],
+    "region": "middle-east",
+    "yearStart": 2016,
+    "yearEnd": 2016,
+    "periodStart": "2016-01-01",
+    "periodEnd": "2016-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "100k-300k",
+    "volumeAmount": "271.270 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-17-40fdc048.jpg",
+    "pdf": null,
+    "wpId": "24664",
+    "permalink": "https://hp.icon-institute.de/refprojects/water-programme-human-capacity-development/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_17.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aab6851519dfc6ced5d2",
+    "item": {
+      "id": "6a78aab6851519dfc6ced5d2",
+      "slug": "water-programme-human-capacity-development",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:38.584109Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:28:38.584109Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Water Programme / Human Capacity Development",
+      "subtitle": "Water Programme / Human Capacity Development Component",
+      "countries": [
+        "Palestine"
+      ],
+      "region": "middle-east",
+      "yearStart": 2016,
+      "yearEnd": 2016,
+      "expertise": "agriculture-rural-development",
+      "volume": "100k-300k",
+      "periodStart": "2016-01-01",
+      "periodEnd": "2016-12-31",
+      "volumeAmount": "271.270 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-17-40fdc048.jpg",
+      "pdf": null,
+      "country": "Palestine",
+      "periodLabel": "01/01/2016 - 31/12/2016"
+    }
+  }
+}

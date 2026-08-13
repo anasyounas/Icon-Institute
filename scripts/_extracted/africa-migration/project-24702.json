@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24702",
+    "permalink": "https://hp.icon-institute.de/refprojects/renewable-energies-amp-energy-efficiency/",
+    "title": "Renewable Energies & Energy Efficiency",
+    "subtitle": "Higher Education Programme for Renewable Energies and Energy Efficiency",
+    "countries": [
+      "Senegal"
+    ],
+    "region": "africa",
+    "yearStart": 2018,
+    "yearEnd": 2018,
+    "periodStart": "2018-09-01",
+    "periodEnd": "2018-11-15",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "44.726 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Senegal-4409531.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Renewable Energies & Energy Efficiency",
+    "subtitle": "Higher Education Programme for Renewable Energies and Energy Efficiency",
+    "countries": [
+      "Senegal"
+    ],
+    "region": "africa",
+    "yearStart": 2018,
+    "yearEnd": 2018,
+    "periodStart": "2018-09-01",
+    "periodEnd": "2018-11-15",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "44.726 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/senegal-4409531-a5d02c4a.jpg",
+    "pdf": null,
+    "wpId": "24702",
+    "permalink": "https://hp.icon-institute.de/refprojects/renewable-energies-amp-energy-efficiency/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Senegal-4409531.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9c7851519dfc6ced263",
+    "item": {
+      "id": "6a78a9c7851519dfc6ced263",
+      "slug": "renewable-energies-energy-efficiency",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:24:39.112780Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:24:39.112780Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Renewable Energies & Energy Efficiency",
+      "subtitle": "Higher Education Programme for Renewable Energies and Energy Efficiency",
+      "countries": [
+        "Senegal"
+      ],
+      "region": "africa",
+      "yearStart": 2018,
+      "yearEnd": 2018,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2018-09-01",
+      "periodEnd": "2018-11-15",
+      "volumeAmount": "44.726 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/senegal-4409531-a5d02c4a.jpg",
+      "pdf": null,
+      "country": "Senegal",
+      "periodLabel": "01/09/2018 - 15/11/2018"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "25831",
+    "permalink": "https://hp.icon-institute.de/refprojects/psupport-project-for-vocational-training-and-integrationp/",
+    "title": "Support Project for Vocational Training and Integration",
+    "subtitle": "Final Evaluation of the \"Support Project for Vocational Training and Integration\" in Gabon (AFIP) \" – FED / 2012/22182",
+    "countries": [
+      "Gabon"
+    ],
+    "region": "africa",
+    "yearStart": 2020,
+    "yearEnd": 2020,
+    "periodStart": "2020-03-11",
+    "periodEnd": "2020-07-10",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "lt-100k",
+    "volumeAmount": "35.050 €",
+    "financing": "European Union - EDF",
+    "clientName": "Delegation of the European Union to Gabon",
+    "description": "The Gabonese Education Sector has made significant progress in expanding access to primary education. However, challenges remain, including poor quality of education; a growing shortage of qualified teachers and limited infrastructure. The Government has launched a programme…",
+    "body": [
+      "The Gabonese Education Sector has made significant progress in expanding access to primary education. However, challenges remain, including poor quality of education; a growing shortage of qualified teachers and limited infrastructure. The Government has launched a programme to enhance Gabon's human resources and a reform in the sector of education, training and research providing. The Vocational Training and Integration Support (AFIP) project is funded by the 10th EDF and is part of a “job pool” and “Public-Private-Partnership (PPP)” approach with the aim to strengthen the capacity of training centres, enhance competition and performance and develop training offers especially for vulnerable youth. AFIP aims at strategically promoting youth employment focusing on the implementation of an integrated system based on market logic with the overall objective of contributing to the fight against poverty and social stability through the development, strengthening and adaptation of the short and qualifying training offers. This final evaluation conducted by ICON examines the performance of the AFIP project, its determinants and those that have hindered the achievement of the results, as a basis for planning future EU actions and interventions in the same sector. It analyses the action according to the 5 DAC evaluation criteria relevance, effectiveness, efficiency, sustainability, and impact prospects. Furthermore, it considers the criteria of added value and coherence of the action with EU strategy in Gabon. The issues of gender, environment and climate change are also taken into account, as well as a rights-based approach.",
+      "(6609850)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Support Project for Vocational Training and Integration",
+    "subtitle": "Final Evaluation of the \"Support Project for Vocational Training and Integration\" in Gabon (AFIP) \" – FED / 2012/22182",
+    "countries": [
+      "Gabon"
+    ],
+    "region": "africa",
+    "yearStart": 2020,
+    "yearEnd": 2020,
+    "periodStart": "2020-03-11",
+    "periodEnd": "2020-07-10",
+    "expertise": "governance-education-social-development",
+    "volume": "lt-100k",
+    "volumeAmount": "35.050 €",
+    "financing": "European Union - EDF",
+    "clientName": "Delegation of the European Union to Gabon",
+    "description": "The Gabonese Education Sector has made significant progress in expanding access to primary education. However, challenges remain, including poor quality of education; a growing shortage of qualified teachers and limited infrastructure. The Government has launched a programme…",
+    "body": [
+      "The Gabonese Education Sector has made significant progress in expanding access to primary education. However, challenges remain, including poor quality of education; a growing shortage of qualified teachers and limited infrastructure. The Government has launched a programme to enhance Gabon's human resources and a reform in the sector of education, training and research providing. The Vocational Training and Integration Support (AFIP) project is funded by the 10th EDF and is part of a “job pool” and “Public-Private-Partnership (PPP)” approach with the aim to strengthen the capacity of training centres, enhance competition and performance and develop training offers especially for vulnerable youth. AFIP aims at strategically promoting youth employment focusing on the implementation of an integrated system based on market logic with the overall objective of contributing to the fight against poverty and social stability through the development, strengthening and adaptation of the short and qualifying training offers. This final evaluation conducted by ICON examines the performance of the AFIP project, its determinants and those that have hindered the achievement of the results, as a basis for planning future EU actions and interventions in the same sector. It analyses the action according to the 5 DAC evaluation criteria relevance, effectiveness, efficiency, sustainability, and impact prospects. Furthermore, it considers the criteria of added value and coherence of the action with EU strategy in Gabon. The issues of gender, environment and climate change are also taken into account, as well as a rights-based approach.",
+      "(6609850)"
+    ],
+    "image": "/media/icon-institute-22-1-c456beea.jpg",
+    "pdf": null,
+    "wpId": "25831",
+    "permalink": "https://hp.icon-institute.de/refprojects/psupport-project-for-vocational-training-and-integrationp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute-22-1.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a993851519dfc6ced1b9",
+    "item": {
+      "id": "6a78a993851519dfc6ced1b9",
+      "slug": "support-project-for-vocational-training-and-integration",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:23:47.890644Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:23:47.890644Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Support Project for Vocational Training and Integration",
+      "subtitle": "Final Evaluation of the \"Support Project for Vocational Training and Integration\" in Gabon (AFIP) \" – FED / 2012/22182",
+      "countries": [
+        "Gabon"
+      ],
+      "region": "africa",
+      "yearStart": 2020,
+      "yearEnd": 2020,
+      "expertise": "governance-education-social-development",
+      "volume": "lt-100k",
+      "periodStart": "2020-03-11",
+      "periodEnd": "2020-07-10",
+      "volumeAmount": "35.050 €",
+      "financing": "European Union - EDF",
+      "clientName": "Delegation of the European Union to Gabon",
+      "description": "The Gabonese Education Sector has made significant progress in expanding access to primary education. However, challenges remain, including poor quality of education; a growing shortage of qualified teachers and limited infrastructure. The Government has launched a programme…",
+      "body": [
+        "The Gabonese Education Sector has made significant progress in expanding access to primary education. However, challenges remain, including poor quality of education; a growing shortage of qualified teachers and limited infrastructure. The Government has launched a programme to enhance Gabon's human resources and a reform in the sector of education, training and research providing. The Vocational Training and Integration Support (AFIP) project is funded by the 10th EDF and is part of a “job pool” and “Public-Private-Partnership (PPP)” approach with the aim to strengthen the capacity of training centres, enhance competition and performance and develop training offers especially for vulnerable youth. AFIP aims at strategically promoting youth employment focusing on the implementation of an integrated system based on market logic with the overall objective of contributing to the fight against poverty and social stability through the development, strengthening and adaptation of the short and qualifying training offers. This final evaluation conducted by ICON examines the performance of the AFIP project, its determinants and those that have hindered the achievement of the results, as a basis for planning future EU actions and interventions in the same sector. It analyses the action according to the 5 DAC evaluation criteria relevance, effectiveness, efficiency, sustainability, and impact prospects. Furthermore, it considers the criteria of added value and coherence of the action with EU strategy in Gabon. The issues of gender, environment and climate change are also taken into account, as well as a rights-based approach.",
+        "(6609850)"
+      ],
+      "image": "/media/icon-institute-22-1-c456beea.jpg",
+      "pdf": null,
+      "country": "Gabon",
+      "periodLabel": "11/03/2020 - 10/07/2020"
+    }
+  }
+}

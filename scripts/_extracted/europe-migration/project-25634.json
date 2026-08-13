@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "25634",
+    "permalink": "https://hp.icon-institute.de/refprojects/passessing-span-title-classhighlightpesspan-comparative-analysis/",
+    "title": "Assessing PES / Comparative analysis",
+    "subtitle": "Lot 1. Assessing Public Employment Services (PES) Performance and Comparative Analysis of PES Data in order to provide Evidence for the Identification of Good Practices",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-01-25",
+    "periodEnd": "2018-01-25",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.580.806 €",
+    "financing": "European Union",
+    "clientName": "DG Employment, Social Affairs and Inclusion",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Assessing PES / Comparative analysis",
+    "subtitle": "Lot 1. Assessing Public Employment Services (PES) Performance and Comparative Analysis of PES Data in order to provide Evidence for the Identification of Good Practices",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2018,
+    "periodStart": "2017-01-25",
+    "periodEnd": "2018-01-25",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.580.806 €",
+    "financing": "European Union",
+    "clientName": "DG Employment, Social Affairs and Inclusion",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "25634",
+    "permalink": "https://hp.icon-institute.de/refprojects/passessing-span-title-classhighlightpesspan-comparative-analysis/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a84d851519dfc6cecd75",
+    "item": {
+      "id": "6a78a84d851519dfc6cecd75",
+      "slug": "assessing-pes-comparative-analysis",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:21.511008Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:21.511008Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Assessing PES / Comparative analysis",
+      "subtitle": "Lot 1. Assessing Public Employment Services (PES) Performance and Comparative Analysis of PES Data in order to provide Evidence for the Identification of Good Practices",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2017,
+      "yearEnd": 2018,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2017-01-25",
+      "periodEnd": "2018-01-25",
+      "volumeAmount": "1.580.806 €",
+      "financing": "European Union",
+      "clientName": "DG Employment, Social Affairs and Inclusion",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "25/01/2017 - 25/01/2018"
+    }
+  }
+}

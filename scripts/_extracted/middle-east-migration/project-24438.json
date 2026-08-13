@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24438",
+    "permalink": "https://hp.icon-institute.de/refprojects/qatar-statistics-authority-statistical-trainingbr/",
+    "title": "Qatar Statistics Authority – Statistical Training",
+    "subtitle": "Statistical Training Service for Qatar Statistics Authority",
+    "countries": [
+      "Qatar"
+    ],
+    "region": "middle-east",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-02-01",
+    "periodEnd": "2012-03-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "37.000 €",
+    "financing": "Qatar Statistics Authority (QSA)",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Statistical Training Service for Qatar Statistics Authority",
+    "body": [
+      "Statistical Training Service for Qatar Statistics Authority"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Qatar Statistics Authority – Statistical Training",
+    "subtitle": "Statistical Training Service for Qatar Statistics Authority",
+    "countries": [
+      "Qatar"
+    ],
+    "region": "middle-east",
+    "yearStart": 2012,
+    "yearEnd": 2012,
+    "periodStart": "2012-02-01",
+    "periodEnd": "2012-03-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "37.000 €",
+    "financing": "Qatar Statistics Authority (QSA)",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "Statistical Training Service for Qatar Statistics Authority",
+    "body": [
+      "Statistical Training Service for Qatar Statistics Authority"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24438",
+    "permalink": "https://hp.icon-institute.de/refprojects/qatar-statistics-authority-statistical-trainingbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "updated",
+    "id": "6a78aacb851519dfc6ced628",
+    "item": {
+      "id": "6a78aacb851519dfc6ced628",
+      "slug": "qatar-statistics-authority-statistical-training",
+      "cms_status": "published",
+      "version": 2,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:28:59.922000Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:29:04.772740Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": "2026-08-09T16:29:00.078000Z",
+      "title": "Qatar Statistics Authority – Statistical Training",
+      "subtitle": "Statistical Training Service for Qatar Statistics Authority",
+      "countries": [
+        "Qatar"
+      ],
+      "region": "middle-east",
+      "yearStart": 2012,
+      "yearEnd": 2012,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2012-02-01",
+      "periodEnd": "2012-03-31",
+      "volumeAmount": "37.000 €",
+      "financing": "Qatar Statistics Authority (QSA)",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "Statistical Training Service for Qatar Statistics Authority",
+      "body": [
+        "Statistical Training Service for Qatar Statistics Authority"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Qatar",
+      "periodLabel": "01/02/2012 - 31/03/2012"
+    }
+  }
+}

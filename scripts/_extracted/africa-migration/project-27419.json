@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "27419",
+    "permalink": "https://hp.icon-institute.de/refprojects/access-to-financial-services-for-small-scale-farmersbr/",
+    "title": "Access to financial services for small-scale farmers",
+    "subtitle": "Enhancing the capacities to access credit and financial services from institutions for small-scale farmers",
+    "countries": [
+      "Uganda"
+    ],
+    "region": "africa",
+    "yearStart": 2024,
+    "yearEnd": 2025,
+    "periodStart": "2024-01-01",
+    "periodEnd": "2025-08-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "367.995 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) and European Union (EU)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "As one of Africa's most densely populated nations, Uganda grapples with frequent land disputes, particularly concerning \"Mailo\" land in its central region. The imperative to boost land productivity is paramount in Uganda's aspiration to transition from an agrarian economy to…",
+    "body": [
+      "As one of Africa's most densely populated nations, Uganda grapples with frequent land disputes, particularly concerning \"Mailo\" land in its central region. The imperative to boost land productivity is paramount in Uganda's aspiration to transition from an agrarian economy to a modern, thriving nation. To address these challenges, GIZ is spearheading the Improvement of Land Governance in Uganda to Increase Productivity of Small-Scale Farmers on Private Mailo Land (ILGU) II initiative, as part of the Responsible Land Policy in Uganda (RELAPU).",
+      "ICON-INSTITUTE is assigned the pivotal task of enhancing access to credit and financial services for small-scale farmers, constituting output 4 of the ILGU action. The assignment involves sensitizing financial institutions (FIs) to the potential utilization of Land Inventory Protocols (LIP) and/or Certificates of Occupancy (CoOs) in evaluating the creditworthiness of small-scale farmers. This endeavour is complemented by comprehensive capacity-building initiatives for FIs and the establishment of a robust loan management system.",
+      "Furthermore, measures to empower small-scale farmers to leverage financial services for sustainable business will be implemented. Through targeted interventions, ICON-INSTITUTE aims to equip farmers with the necessary knowledge and skills to effectively utilize financial resources for their agricultural ventures."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/03/344968727_web.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Access to financial services for small-scale farmers",
+    "subtitle": "Enhancing the capacities to access credit and financial services from institutions for small-scale farmers",
+    "countries": [
+      "Uganda"
+    ],
+    "region": "africa",
+    "yearStart": 2024,
+    "yearEnd": 2025,
+    "periodStart": "2024-01-01",
+    "periodEnd": "2025-08-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "300k-500k",
+    "volumeAmount": "367.995 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) and European Union (EU)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "As one of Africa's most densely populated nations, Uganda grapples with frequent land disputes, particularly concerning \"Mailo\" land in its central region. The imperative to boost land productivity is paramount in Uganda's aspiration to transition from an agrarian economy to…",
+    "body": [
+      "As one of Africa's most densely populated nations, Uganda grapples with frequent land disputes, particularly concerning \"Mailo\" land in its central region. The imperative to boost land productivity is paramount in Uganda's aspiration to transition from an agrarian economy to a modern, thriving nation. To address these challenges, GIZ is spearheading the Improvement of Land Governance in Uganda to Increase Productivity of Small-Scale Farmers on Private Mailo Land (ILGU) II initiative, as part of the Responsible Land Policy in Uganda (RELAPU).",
+      "ICON-INSTITUTE is assigned the pivotal task of enhancing access to credit and financial services for small-scale farmers, constituting output 4 of the ILGU action. The assignment involves sensitizing financial institutions (FIs) to the potential utilization of Land Inventory Protocols (LIP) and/or Certificates of Occupancy (CoOs) in evaluating the creditworthiness of small-scale farmers. This endeavour is complemented by comprehensive capacity-building initiatives for FIs and the establishment of a robust loan management system.",
+      "Furthermore, measures to empower small-scale farmers to leverage financial services for sustainable business will be implemented. Through targeted interventions, ICON-INSTITUTE aims to equip farmers with the necessary knowledge and skills to effectively utilize financial resources for their agricultural ventures."
+    ],
+    "image": "/media/344968727-web-15a86679.jpg",
+    "pdf": null,
+    "wpId": "27419",
+    "permalink": "https://hp.icon-institute.de/refprojects/access-to-financial-services-for-small-scale-farmersbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/03/344968727_web.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a935851519dfc6ced088",
+    "item": {
+      "id": "6a78a935851519dfc6ced088",
+      "slug": "access-to-financial-services-for-small-scale-farmers",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:22:13.034644Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:22:13.034644Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Access to financial services for small-scale farmers",
+      "subtitle": "Enhancing the capacities to access credit and financial services from institutions for small-scale farmers",
+      "countries": [
+        "Uganda"
+      ],
+      "region": "africa",
+      "yearStart": 2024,
+      "yearEnd": 2025,
+      "expertise": "economic-employment-promotion",
+      "volume": "300k-500k",
+      "periodStart": "2024-01-01",
+      "periodEnd": "2025-08-31",
+      "volumeAmount": "367.995 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) and European Union (EU)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "As one of Africa's most densely populated nations, Uganda grapples with frequent land disputes, particularly concerning \"Mailo\" land in its central region. The imperative to boost land productivity is paramount in Uganda's aspiration to transition from an agrarian economy to…",
+      "body": [
+        "As one of Africa's most densely populated nations, Uganda grapples with frequent land disputes, particularly concerning \"Mailo\" land in its central region. The imperative to boost land productivity is paramount in Uganda's aspiration to transition from an agrarian economy to a modern, thriving nation. To address these challenges, GIZ is spearheading the Improvement of Land Governance in Uganda to Increase Productivity of Small-Scale Farmers on Private Mailo Land (ILGU) II initiative, as part of the Responsible Land Policy in Uganda (RELAPU).",
+        "ICON-INSTITUTE is assigned the pivotal task of enhancing access to credit and financial services for small-scale farmers, constituting output 4 of the ILGU action. The assignment involves sensitizing financial institutions (FIs) to the potential utilization of Land Inventory Protocols (LIP) and/or Certificates of Occupancy (CoOs) in evaluating the creditworthiness of small-scale farmers. This endeavour is complemented by comprehensive capacity-building initiatives for FIs and the establishment of a robust loan management system.",
+        "Furthermore, measures to empower small-scale farmers to leverage financial services for sustainable business will be implemented. Through targeted interventions, ICON-INSTITUTE aims to equip farmers with the necessary knowledge and skills to effectively utilize financial resources for their agricultural ventures."
+      ],
+      "image": "/media/344968727-web-15a86679.jpg",
+      "pdf": null,
+      "country": "Uganda",
+      "periodLabel": "01/01/2024 - 31/08/2025"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24423",
+    "permalink": "https://hp.icon-institute.de/refprojects/capacity-building-of-local-institutions/",
+    "title": "Capacity Building of Local Institutions",
+    "subtitle": "PRF Capacity Building of Local Institutions Assessment",
+    "countries": [
+      "Laos"
+    ],
+    "region": "asia",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-06-24",
+    "periodEnd": "2011-09-30",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "33.000 €",
+    "financing": "World Bank",
+    "clientName": "Poverty Reduction Fund",
+    "description": "The Poverty Reduction Fund (PRF) in Laos focuses on community-based infrastructure projects aimed at reducing poverty in rural villages. The program emphasizes a bottom-up approach, allowing villagers to decide on project selection and implementation with support from local…",
+    "body": [
+      "The Poverty Reduction Fund (PRF) in Laos focuses on community-based infrastructure projects aimed at reducing poverty in rural villages. The program emphasizes a bottom-up approach, allowing villagers to decide on project selection and implementation with support from local institutions at the Kumban (village cluster) and district levels.",
+      "ICON-INSTITUT was contracted to analysis of the role of local institutions in facilitating participatory decision-making and conflict resolution processes. The assessment examined the support provided to these institutions, such as training and workshops, and evaluated their effectiveness in enhancing understanding of PRF principles and their capacity to support village communities. Data for the analysis were collected during field visits to three provinces, involving interviews with government officials and Kumban representatives, and the results were analysed using Stata."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/9906135.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Capacity Building of Local Institutions",
+    "subtitle": "PRF Capacity Building of Local Institutions Assessment",
+    "countries": [
+      "Laos"
+    ],
+    "region": "asia",
+    "yearStart": 2011,
+    "yearEnd": 2011,
+    "periodStart": "2011-06-24",
+    "periodEnd": "2011-09-30",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "33.000 €",
+    "financing": "World Bank",
+    "clientName": "Poverty Reduction Fund",
+    "description": "The Poverty Reduction Fund (PRF) in Laos focuses on community-based infrastructure projects aimed at reducing poverty in rural villages. The program emphasizes a bottom-up approach, allowing villagers to decide on project selection and implementation with support from local…",
+    "body": [
+      "The Poverty Reduction Fund (PRF) in Laos focuses on community-based infrastructure projects aimed at reducing poverty in rural villages. The program emphasizes a bottom-up approach, allowing villagers to decide on project selection and implementation with support from local institutions at the Kumban (village cluster) and district levels.",
+      "ICON-INSTITUT was contracted to analysis of the role of local institutions in facilitating participatory decision-making and conflict resolution processes. The assessment examined the support provided to these institutions, such as training and workshops, and evaluated their effectiveness in enhancing understanding of PRF principles and their capacity to support village communities. Data for the analysis were collected during field visits to three provinces, involving interviews with government officials and Kumban representatives, and the results were analysed using Stata."
+    ],
+    "image": "/media/9906135-5c26966b.jpg",
+    "pdf": null,
+    "wpId": "24423",
+    "permalink": "https://hp.icon-institute.de/refprojects/capacity-building-of-local-institutions/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/9906135.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c8d851519dfc6cec8ad",
+    "item": {
+      "id": "6a789c8d851519dfc6cec8ad",
+      "slug": "capacity-building-of-local-institutions",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:13.864673Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:13.864673Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Capacity Building of Local Institutions",
+      "subtitle": "PRF Capacity Building of Local Institutions Assessment",
+      "countries": [
+        "Laos"
+      ],
+      "region": "asia",
+      "yearStart": 2011,
+      "yearEnd": 2011,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2011-06-24",
+      "periodEnd": "2011-09-30",
+      "volumeAmount": "33.000 €",
+      "financing": "World Bank",
+      "clientName": "Poverty Reduction Fund",
+      "description": "The Poverty Reduction Fund (PRF) in Laos focuses on community-based infrastructure projects aimed at reducing poverty in rural villages. The program emphasizes a bottom-up approach, allowing villagers to decide on project selection and implementation with support from local…",
+      "body": [
+        "The Poverty Reduction Fund (PRF) in Laos focuses on community-based infrastructure projects aimed at reducing poverty in rural villages. The program emphasizes a bottom-up approach, allowing villagers to decide on project selection and implementation with support from local institutions at the Kumban (village cluster) and district levels.",
+        "ICON-INSTITUT was contracted to analysis of the role of local institutions in facilitating participatory decision-making and conflict resolution processes. The assessment examined the support provided to these institutions, such as training and workshops, and evaluated their effectiveness in enhancing understanding of PRF principles and their capacity to support village communities. Data for the analysis were collected during field visits to three provinces, involving interviews with government officials and Kumban representatives, and the results were analysed using Stata."
+      ],
+      "image": "/media/9906135-5c26966b.jpg",
+      "pdf": null,
+      "country": "Laos",
+      "periodLabel": "24/06/2011 - 30/09/2011"
+    }
+  }
+}

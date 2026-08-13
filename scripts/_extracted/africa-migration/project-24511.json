@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24511",
+    "permalink": "https://hp.icon-institute.de/refprojects/organisation-of-statistical-seminars/",
+    "title": "Organisation of Statistical Seminars",
+    "subtitle": "Assistance for the Organisation of Statistical Seminars in Third Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2016,
+    "periodStart": "2013-11-06",
+    "periodEnd": "2016-05-05",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "395.593 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Between 2013 and 2016, ICON-INSTITUT Public Sector GmbH supported Eurostat’s statistical cooperation with developing countries in Africa, Asia, and Latin America. These regions sought to learn from the European Statistical System (ESS) to enhance their own statistical…",
+    "body": [
+      "Between 2013 and 2016, ICON-INSTITUT Public Sector GmbH supported Eurostat’s statistical cooperation with developing countries in Africa, Asia, and Latin America. These regions sought to learn from the European Statistical System (ESS) to enhance their own statistical production, particularly for monitoring and designing development policies, including poverty reduction and tracking progress toward the Millennium Development Goals.",
+      "The project’s objective was to support statistical development and capacity building in these regions, helping countries find solutions to their specific statistical challenges by sharing European experiences. Key results included the organization of several seminars targeting national and regional statistical organizations. These seminars focused on improving statistical quality, modernizing processes, and designing training programs, addressing key issues faced by these regions. Seminars included topics such as \"Quality Matters in Statistics\" (Addis Ababa, 2014), \"Global Assessments for Developing National Statistical Systems\" (Ulaanbaatar, 2014), and \"Quality Management Frameworks in Statistics\" (Accra, 2015). These events provided a platform for knowledge exchange, fostering stronger statistical systems in developing countries."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Organisation of Statistical Seminars",
+    "subtitle": "Assistance for the Organisation of Statistical Seminars in Third Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2013,
+    "yearEnd": 2016,
+    "periodStart": "2013-11-06",
+    "periodEnd": "2016-05-05",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "395.593 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Between 2013 and 2016, ICON-INSTITUT Public Sector GmbH supported Eurostat’s statistical cooperation with developing countries in Africa, Asia, and Latin America. These regions sought to learn from the European Statistical System (ESS) to enhance their own statistical…",
+    "body": [
+      "Between 2013 and 2016, ICON-INSTITUT Public Sector GmbH supported Eurostat’s statistical cooperation with developing countries in Africa, Asia, and Latin America. These regions sought to learn from the European Statistical System (ESS) to enhance their own statistical production, particularly for monitoring and designing development policies, including poverty reduction and tracking progress toward the Millennium Development Goals.",
+      "The project’s objective was to support statistical development and capacity building in these regions, helping countries find solutions to their specific statistical challenges by sharing European experiences. Key results included the organization of several seminars targeting national and regional statistical organizations. These seminars focused on improving statistical quality, modernizing processes, and designing training programs, addressing key issues faced by these regions. Seminars included topics such as \"Quality Matters in Statistics\" (Addis Ababa, 2014), \"Global Assessments for Developing National Statistical Systems\" (Ulaanbaatar, 2014), and \"Quality Management Frameworks in Statistics\" (Accra, 2015). These events provided a platform for knowledge exchange, fostering stronger statistical systems in developing countries."
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24511",
+    "permalink": "https://hp.icon-institute.de/refprojects/organisation-of-statistical-seminars/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa25851519dfc6ced3d5",
+    "item": {
+      "id": "6a78aa25851519dfc6ced3d5",
+      "slug": "organisation-of-statistical-seminars-3",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:26:13.154520Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:26:13.154520Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Organisation of Statistical Seminars",
+      "subtitle": "Assistance for the Organisation of Statistical Seminars in Third Countries",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2013,
+      "yearEnd": 2016,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2013-11-06",
+      "periodEnd": "2016-05-05",
+      "volumeAmount": "395.593 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Between 2013 and 2016, ICON-INSTITUT Public Sector GmbH supported Eurostat’s statistical cooperation with developing countries in Africa, Asia, and Latin America. These regions sought to learn from the European Statistical System (ESS) to enhance their own statistical…",
+      "body": [
+        "Between 2013 and 2016, ICON-INSTITUT Public Sector GmbH supported Eurostat’s statistical cooperation with developing countries in Africa, Asia, and Latin America. These regions sought to learn from the European Statistical System (ESS) to enhance their own statistical production, particularly for monitoring and designing development policies, including poverty reduction and tracking progress toward the Millennium Development Goals.",
+        "The project’s objective was to support statistical development and capacity building in these regions, helping countries find solutions to their specific statistical challenges by sharing European experiences. Key results included the organization of several seminars targeting national and regional statistical organizations. These seminars focused on improving statistical quality, modernizing processes, and designing training programs, addressing key issues faced by these regions. Seminars included topics such as \"Quality Matters in Statistics\" (Addis Ababa, 2014), \"Global Assessments for Developing National Statistical Systems\" (Ulaanbaatar, 2014), and \"Quality Management Frameworks in Statistics\" (Accra, 2015). These events provided a platform for knowledge exchange, fostering stronger statistical systems in developing countries."
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "06/11/2013 - 05/05/2016"
+    }
+  }
+}

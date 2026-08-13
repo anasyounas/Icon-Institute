@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "27412",
+    "permalink": "https://hp.icon-institute.de/refprojects/support-to-eu-accession-negotiations-in-the-economic-sectorbr/",
+    "title": "Support to EU Accession Negotiations in the Economic Sector",
+    "subtitle": "Support to the EU Accession Negotiations in the Economic Sector in Albania",
+    "countries": [
+      "Albania"
+    ],
+    "region": "europe",
+    "yearStart": 2021,
+    "yearEnd": 2022,
+    "periodStart": "2021-10-18",
+    "periodEnd": "2022-09-30",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "143.909 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project “Support to the EU Accession Negotiations in the Economic Sector in Albania “ financed by the BMZ, implemented by the GIZ aimed to strengthen Albania's capacity for conducting EU accession negotiations, particularly in Chapter 3, which focuses on the economic…",
+    "body": [
+      "The project “Support to the EU Accession Negotiations in the Economic Sector in Albania “ financed by the BMZ, implemented by the GIZ aimed to strengthen Albania's capacity for conducting EU accession negotiations, particularly in Chapter 3, which focuses on the economic sector. Its specific objective was to support Albanian negotiating structures, including MESY, MFE, the interinstitutional working groups (IIWG), and other stakeholders, in aligning with the EU acquis, planning for future harmonization, and effectively conducting negotiations. Albanian authorities committed to aligning national legislation with the acquis and ensuring institutional capacity in the area of Mutual Recognition of Professional Qualifications (MRPQ). To assist in meeting EU accession requirements, the project provided support to MESY, MFE, IIWG, and other officials to develop a roadmap for harmonizing professional qualifications with EU standards.",
+      "GIZ contracted the ICON-INSTITUT to review tools, methods, and documents related to the roadmap and assessing compliance with the acquis. The team provided targeted training for the IIWG and institutional stakeholders on the MRPQ acquis and compliance assessment and implemented the Concept Note for the Roadmap on harmonizing with the acquis for professional qualifications."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608620-Albanien-Public-1-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Support to EU Accession Negotiations in the Economic Sector",
+    "subtitle": "Support to the EU Accession Negotiations in the Economic Sector in Albania",
+    "countries": [
+      "Albania"
+    ],
+    "region": "europe",
+    "yearStart": 2021,
+    "yearEnd": 2022,
+    "periodStart": "2021-10-18",
+    "periodEnd": "2022-09-30",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "143.909 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The project “Support to the EU Accession Negotiations in the Economic Sector in Albania “ financed by the BMZ, implemented by the GIZ aimed to strengthen Albania's capacity for conducting EU accession negotiations, particularly in Chapter 3, which focuses on the economic…",
+    "body": [
+      "The project “Support to the EU Accession Negotiations in the Economic Sector in Albania “ financed by the BMZ, implemented by the GIZ aimed to strengthen Albania's capacity for conducting EU accession negotiations, particularly in Chapter 3, which focuses on the economic sector. Its specific objective was to support Albanian negotiating structures, including MESY, MFE, the interinstitutional working groups (IIWG), and other stakeholders, in aligning with the EU acquis, planning for future harmonization, and effectively conducting negotiations. Albanian authorities committed to aligning national legislation with the acquis and ensuring institutional capacity in the area of Mutual Recognition of Professional Qualifications (MRPQ). To assist in meeting EU accession requirements, the project provided support to MESY, MFE, IIWG, and other officials to develop a roadmap for harmonizing professional qualifications with EU standards.",
+      "GIZ contracted the ICON-INSTITUT to review tools, methods, and documents related to the roadmap and assessing compliance with the acquis. The team provided targeted training for the IIWG and institutional stakeholders on the MRPQ acquis and compliance assessment and implemented the Concept Note for the Roadmap on harmonizing with the acquis for professional qualifications."
+    ],
+    "image": "/media/6608620-albanien-public-1-scaled-db8fffb7.jpg",
+    "pdf": null,
+    "wpId": "27412",
+    "permalink": "https://hp.icon-institute.de/refprojects/support-to-eu-accession-negotiations-in-the-economic-sectorbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608620-Albanien-Public-1-scaled.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7e9851519dfc6cecb90",
+    "item": {
+      "id": "6a78a7e9851519dfc6cecb90",
+      "slug": "support-to-eu-accession-negotiations-in-the-economic-sector",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:41.394591Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:41.394591Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Support to EU Accession Negotiations in the Economic Sector",
+      "subtitle": "Support to the EU Accession Negotiations in the Economic Sector in Albania",
+      "countries": [
+        "Albania"
+      ],
+      "region": "europe",
+      "yearStart": 2021,
+      "yearEnd": 2022,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2021-10-18",
+      "periodEnd": "2022-09-30",
+      "volumeAmount": "143.909 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The project “Support to the EU Accession Negotiations in the Economic Sector in Albania “ financed by the BMZ, implemented by the GIZ aimed to strengthen Albania's capacity for conducting EU accession negotiations, particularly in Chapter 3, which focuses on the economic…",
+      "body": [
+        "The project “Support to the EU Accession Negotiations in the Economic Sector in Albania “ financed by the BMZ, implemented by the GIZ aimed to strengthen Albania's capacity for conducting EU accession negotiations, particularly in Chapter 3, which focuses on the economic sector. Its specific objective was to support Albanian negotiating structures, including MESY, MFE, the interinstitutional working groups (IIWG), and other stakeholders, in aligning with the EU acquis, planning for future harmonization, and effectively conducting negotiations. Albanian authorities committed to aligning national legislation with the acquis and ensuring institutional capacity in the area of Mutual Recognition of Professional Qualifications (MRPQ). To assist in meeting EU accession requirements, the project provided support to MESY, MFE, IIWG, and other officials to develop a roadmap for harmonizing professional qualifications with EU standards.",
+        "GIZ contracted the ICON-INSTITUT to review tools, methods, and documents related to the roadmap and assessing compliance with the acquis. The team provided targeted training for the IIWG and institutional stakeholders on the MRPQ acquis and compliance assessment and implemented the Concept Note for the Roadmap on harmonizing with the acquis for professional qualifications."
+      ],
+      "image": "/media/6608620-albanien-public-1-scaled-db8fffb7.jpg",
+      "pdf": null,
+      "country": "Albania",
+      "periodLabel": "18/10/2021 - 30/09/2022"
+    }
+  }
+}

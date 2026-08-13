@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "25473",
+    "permalink": "https://hp.icon-institute.de/refprojects/pskill-up-strengthen-vetp/",
+    "title": "Skill Up! Strengthen VET",
+    "subtitle": "Feasibility Study for the BMZ Global Programme: Skill Up! Strengthen vocational education and training, create future prospects",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "periodStart": "2019-03-05",
+    "periodEnd": "2019-04-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "47.153 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Welthungerhilfe e.V.",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Skill Up! Strengthen VET",
+    "subtitle": "Feasibility Study for the BMZ Global Programme: Skill Up! Strengthen vocational education and training, create future prospects",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "periodStart": "2019-03-05",
+    "periodEnd": "2019-04-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "47.153 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Welthungerhilfe e.V.",
+    "description": "The project description will follow.",
+    "body": [
+      "The project description will follow."
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "25473",
+    "permalink": "https://hp.icon-institute.de/refprojects/pskill-up-strengthen-vetp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9ad851519dfc6ced22d",
+    "item": {
+      "id": "6a78a9ad851519dfc6ced22d",
+      "slug": "skill-up-strengthen-vet-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:24:13.935243Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:24:13.935243Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Skill Up! Strengthen VET",
+      "subtitle": "Feasibility Study for the BMZ Global Programme: Skill Up! Strengthen vocational education and training, create future prospects",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2019,
+      "yearEnd": 2019,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2019-03-05",
+      "periodEnd": "2019-04-30",
+      "volumeAmount": "47.153 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Welthungerhilfe e.V.",
+      "description": "The project description will follow.",
+      "body": [
+        "The project description will follow."
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "05/03/2019 - 30/04/2019"
+    }
+  }
+}

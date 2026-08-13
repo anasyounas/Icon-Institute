@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24622",
+    "permalink": "https://hp.icon-institute.de/refprojects/philippine-health-sector-reform-contract/",
+    "title": "Philippine Health Sector Reform Contract",
+    "subtitle": "Philippine Health Sector Reform Contract (PHSRC) – Independent Progress Review",
+    "countries": [
+      "Philippines"
+    ],
+    "region": "asia",
+    "yearStart": 2016,
+    "yearEnd": 2017,
+    "periodStart": "2016-11-14",
+    "periodEnd": "2017-05-13",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "100k-300k",
+    "volumeAmount": "214.969 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the Philippines",
+    "description": "The project focused on assessing the progress and effectiveness of the Universal Health Care (UHC) policy in the Philippines, ensuring that it continued to be credible, relevant, and aligned with the country's health goals. The evaluation played a crucial role in informing…",
+    "body": [
+      "The project focused on assessing the progress and effectiveness of the Universal Health Care (UHC) policy in the Philippines, ensuring that it continued to be credible, relevant, and aligned with the country's health goals. The evaluation played a crucial role in informing the third disbursement request for the Philippine Health Sector Reform Contract (PHSRC), which supports the country’s health reforms.",
+      "ICON-INSTITUT was contracted by the Delegation of the European Union to the Philippines to conduct the evaluation to provide a clear and independent validation of the UHC policy's achievements, offering insights not only for the European Union's cooperation services but also for the Philippine government and the wider public. It assessed how well the health sector had progressed by the end of 2015, using the Performance Assessment Framework (PAF) to gauge whether targets set for the PHSRC disbursements had been met. The review also looked closely at the specific performance indicators, offering an objective measure of the policy’s impact. In addition to reviewing the progress, the evaluation provided an in-depth analysis of how the PHSRC contributed to health sector improvements and policy dialogue. By identifying key lessons, the project offered recommendations on how to move forward, ensuring that health reforms could be sustained and further strengthened.",
+      "A significant aspect of the evaluation was developing an exit strategy for the technical assistance provided by the Philippine Health Sector Budget Support Programme. This strategy was aligned with the new administration's framework and focused on achieving the five core result areas of the PHSRC. Moreover, the project evaluated the progress made in implementing the \"Philippine Public Financial Management Reform Roadmap,\" particularly in enhancing accountability and transparency. The review highlighted advancements in the availability of accessible and sound budgetary information, further supporting good governance practices. Overall, the project offered critical insights into the successes and areas for improvement in the UHC policy and health sector reforms, helping shape the future direction of health policies and financial management in the Philippines."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608564.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Philippine Health Sector Reform Contract",
+    "subtitle": "Philippine Health Sector Reform Contract (PHSRC) – Independent Progress Review",
+    "countries": [
+      "Philippines"
+    ],
+    "region": "asia",
+    "yearStart": 2016,
+    "yearEnd": 2017,
+    "periodStart": "2016-11-14",
+    "periodEnd": "2017-05-13",
+    "expertise": "governance-education-social-development",
+    "volume": "100k-300k",
+    "volumeAmount": "214.969 €",
+    "financing": "European Union",
+    "clientName": "Delegation of the European Union to the Philippines",
+    "description": "The project focused on assessing the progress and effectiveness of the Universal Health Care (UHC) policy in the Philippines, ensuring that it continued to be credible, relevant, and aligned with the country's health goals. The evaluation played a crucial role in informing…",
+    "body": [
+      "The project focused on assessing the progress and effectiveness of the Universal Health Care (UHC) policy in the Philippines, ensuring that it continued to be credible, relevant, and aligned with the country's health goals. The evaluation played a crucial role in informing the third disbursement request for the Philippine Health Sector Reform Contract (PHSRC), which supports the country’s health reforms.",
+      "ICON-INSTITUT was contracted by the Delegation of the European Union to the Philippines to conduct the evaluation to provide a clear and independent validation of the UHC policy's achievements, offering insights not only for the European Union's cooperation services but also for the Philippine government and the wider public. It assessed how well the health sector had progressed by the end of 2015, using the Performance Assessment Framework (PAF) to gauge whether targets set for the PHSRC disbursements had been met. The review also looked closely at the specific performance indicators, offering an objective measure of the policy’s impact. In addition to reviewing the progress, the evaluation provided an in-depth analysis of how the PHSRC contributed to health sector improvements and policy dialogue. By identifying key lessons, the project offered recommendations on how to move forward, ensuring that health reforms could be sustained and further strengthened.",
+      "A significant aspect of the evaluation was developing an exit strategy for the technical assistance provided by the Philippine Health Sector Budget Support Programme. This strategy was aligned with the new administration's framework and focused on achieving the five core result areas of the PHSRC. Moreover, the project evaluated the progress made in implementing the \"Philippine Public Financial Management Reform Roadmap,\" particularly in enhancing accountability and transparency. The review highlighted advancements in the availability of accessible and sound budgetary information, further supporting good governance practices. Overall, the project offered critical insights into the successes and areas for improvement in the UHC policy and health sector reforms, helping shape the future direction of health policies and financial management in the Philippines."
+    ],
+    "image": "/media/6608564-6cb04385.jpg",
+    "pdf": null,
+    "wpId": "24622",
+    "permalink": "https://hp.icon-institute.de/refprojects/philippine-health-sector-reform-contract/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608564.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c67851519dfc6cec7e0",
+    "item": {
+      "id": "6a789c67851519dfc6cec7e0",
+      "slug": "philippine-health-sector-reform-contract",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:35.045994Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:35.045994Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Philippine Health Sector Reform Contract",
+      "subtitle": "Philippine Health Sector Reform Contract (PHSRC) – Independent Progress Review",
+      "countries": [
+        "Philippines"
+      ],
+      "region": "asia",
+      "yearStart": 2016,
+      "yearEnd": 2017,
+      "expertise": "governance-education-social-development",
+      "volume": "100k-300k",
+      "periodStart": "2016-11-14",
+      "periodEnd": "2017-05-13",
+      "volumeAmount": "214.969 €",
+      "financing": "European Union",
+      "clientName": "Delegation of the European Union to the Philippines",
+      "description": "The project focused on assessing the progress and effectiveness of the Universal Health Care (UHC) policy in the Philippines, ensuring that it continued to be credible, relevant, and aligned with the country's health goals. The evaluation played a crucial role in informing…",
+      "body": [
+        "The project focused on assessing the progress and effectiveness of the Universal Health Care (UHC) policy in the Philippines, ensuring that it continued to be credible, relevant, and aligned with the country's health goals. The evaluation played a crucial role in informing the third disbursement request for the Philippine Health Sector Reform Contract (PHSRC), which supports the country’s health reforms.",
+        "ICON-INSTITUT was contracted by the Delegation of the European Union to the Philippines to conduct the evaluation to provide a clear and independent validation of the UHC policy's achievements, offering insights not only for the European Union's cooperation services but also for the Philippine government and the wider public. It assessed how well the health sector had progressed by the end of 2015, using the Performance Assessment Framework (PAF) to gauge whether targets set for the PHSRC disbursements had been met. The review also looked closely at the specific performance indicators, offering an objective measure of the policy’s impact. In addition to reviewing the progress, the evaluation provided an in-depth analysis of how the PHSRC contributed to health sector improvements and policy dialogue. By identifying key lessons, the project offered recommendations on how to move forward, ensuring that health reforms could be sustained and further strengthened.",
+        "A significant aspect of the evaluation was developing an exit strategy for the technical assistance provided by the Philippine Health Sector Budget Support Programme. This strategy was aligned with the new administration's framework and focused on achieving the five core result areas of the PHSRC. Moreover, the project evaluated the progress made in implementing the \"Philippine Public Financial Management Reform Roadmap,\" particularly in enhancing accountability and transparency. The review highlighted advancements in the availability of accessible and sound budgetary information, further supporting good governance practices. Overall, the project offered critical insights into the successes and areas for improvement in the UHC policy and health sector reforms, helping shape the future direction of health policies and financial management in the Philippines."
+      ],
+      "image": "/media/6608564-6cb04385.jpg",
+      "pdf": null,
+      "country": "Philippines",
+      "periodLabel": "14/11/2016 - 13/05/2017"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "27350",
+    "permalink": "https://hp.icon-institute.de/refprojects/2022-pes-bench-learning-cycle-in-wb-economiesbr/",
+    "title": "2022 PES Bench-learning cycle in WB economies",
+    "subtitle": "2022 Public Employment Services (PES) Bench-learning cycle in WB economies",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2022,
+    "yearEnd": 2022,
+    "periodStart": "2022-03-21",
+    "periodEnd": "2022-10-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "63.360 €",
+    "financing": "European Union",
+    "clientName": "The Regional Cooperation Council Secretariat (RCC)",
+    "description": "The 2022 PES Benchlearning initiative is dedicated to enhancing the capabilities of Public Employment Services (PES) in the Western Balkans. Through the identification, sharing, and replication of successful practices, the project aims to promote organizational development…",
+    "body": [
+      "The 2022 PES Benchlearning initiative is dedicated to enhancing the capabilities of Public Employment Services (PES) in the Western Balkans. Through the identification, sharing, and replication of successful practices, the project aims to promote organizational development and improve overall performance.",
+      "The initiative comprises: • Technical Preparation: This phase involves updating and refining the methodology for PES benchlearning in Western Balkan countries, including quantitative and qualitative assessments. • Launch Event: An early 2022 event where PES representatives from Western Balkan economies gain insights and collectively agree on a specific PES benchlearning methodology."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/07/66068958-6609587-lawyers-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "2022 PES Bench-learning cycle in WB economies",
+    "subtitle": "2022 Public Employment Services (PES) Bench-learning cycle in WB economies",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2022,
+    "yearEnd": 2022,
+    "periodStart": "2022-03-21",
+    "periodEnd": "2022-10-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "63.360 €",
+    "financing": "European Union",
+    "clientName": "The Regional Cooperation Council Secretariat (RCC)",
+    "description": "The 2022 PES Benchlearning initiative is dedicated to enhancing the capabilities of Public Employment Services (PES) in the Western Balkans. Through the identification, sharing, and replication of successful practices, the project aims to promote organizational development…",
+    "body": [
+      "The 2022 PES Benchlearning initiative is dedicated to enhancing the capabilities of Public Employment Services (PES) in the Western Balkans. Through the identification, sharing, and replication of successful practices, the project aims to promote organizational development and improve overall performance.",
+      "The initiative comprises: • Technical Preparation: This phase involves updating and refining the methodology for PES benchlearning in Western Balkan countries, including quantitative and qualitative assessments. • Launch Event: An early 2022 event where PES representatives from Western Balkan economies gain insights and collectively agree on a specific PES benchlearning methodology."
+    ],
+    "image": "/media/66068958-6609587-lawyers-scaled-efad03a9.jpg",
+    "pdf": null,
+    "wpId": "27350",
+    "permalink": "https://hp.icon-institute.de/refprojects/2022-pes-bench-learning-cycle-in-wb-economiesbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/07/66068958-6609587-lawyers-scaled.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7e7851519dfc6cecb87",
+    "item": {
+      "id": "6a78a7e7851519dfc6cecb87",
+      "slug": "2022-pes-bench-learning-cycle-in-wb-economies",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:39.873859Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:39.873859Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "2022 PES Bench-learning cycle in WB economies",
+      "subtitle": "2022 Public Employment Services (PES) Bench-learning cycle in WB economies",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2022,
+      "yearEnd": 2022,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2022-03-21",
+      "periodEnd": "2022-10-31",
+      "volumeAmount": "63.360 €",
+      "financing": "European Union",
+      "clientName": "The Regional Cooperation Council Secretariat (RCC)",
+      "description": "The 2022 PES Benchlearning initiative is dedicated to enhancing the capabilities of Public Employment Services (PES) in the Western Balkans. Through the identification, sharing, and replication of successful practices, the project aims to promote organizational development…",
+      "body": [
+        "The 2022 PES Benchlearning initiative is dedicated to enhancing the capabilities of Public Employment Services (PES) in the Western Balkans. Through the identification, sharing, and replication of successful practices, the project aims to promote organizational development and improve overall performance.",
+        "The initiative comprises: • Technical Preparation: This phase involves updating and refining the methodology for PES benchlearning in Western Balkan countries, including quantitative and qualitative assessments. • Launch Event: An early 2022 event where PES representatives from Western Balkan economies gain insights and collectively agree on a specific PES benchlearning methodology."
+      ],
+      "image": "/media/66068958-6609587-lawyers-scaled-efad03a9.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "21/03/2022 - 31/10/2022"
+    }
+  }
+}

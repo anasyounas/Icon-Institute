@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24640",
+    "permalink": "https://hp.icon-institute.de/refprojects/citizen-centric-public-service-delivery/",
+    "title": "Citizen-Centric Public Service Delivery",
+    "subtitle": "Support to Improve Citizen-Centric Public Service Delivery",
+    "countries": [
+      "Albania"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2019,
+    "periodStart": "2017-06-01",
+    "periodEnd": "2019-05-01",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.205.750 €",
+    "financing": "European Union",
+    "clientName": "General Directorate for Financing and Contracting of the EU, World Bank and other Donor Funds / Central Finance and Contracting Unit, Albania",
+    "description": "Where and how is a public service delivered? This is a question that Albanians regularly pose themselves. Albania’s public service delivery is characterised by burdensome proceedings, including multiple visits, inadequate ICT infrastructure and red-tape culture. To address…",
+    "body": [
+      "Where and how is a public service delivered? This is a question that Albanians regularly pose themselves. Albania’s public service delivery is characterised by burdensome proceedings, including multiple visits, inadequate ICT infrastructure and red-tape culture. To address these issues, the citizen-centric service delivery reform aims at combating corruption, fostering a customer-care culture, enhancing access, as well as increasing efficiency in the Albanian public administration.",
+      "In consortium, ICON-INSTITUT supported the public administration reform. Public service delivery has been simplified and standardised with the help of an adequate legal framework and the implementation of one-stop-shops. Management at different levels has been improved, making citizens now spend less time in queues. Specialised mechanisms allow customers to complain about shortfalls in service delivery and to improve the information provision. The use of new delivery channels and ICT makes now possible to reach more citizens, and customers receive information via email, on websites, and also via the traditional channels, such as personal face-to-face service or by phone. Public service centers staff has been trained, front and back offices have been separated, new communication standards and reporting procedures have been developed. The path to Albania’s citizen-centric public service delivery system has been set throughout activities.",
+      "(6608620)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608620-Albanien-Public-1-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Citizen-Centric Public Service Delivery",
+    "subtitle": "Support to Improve Citizen-Centric Public Service Delivery",
+    "countries": [
+      "Albania"
+    ],
+    "region": "europe",
+    "yearStart": 2017,
+    "yearEnd": 2019,
+    "periodStart": "2017-06-01",
+    "periodEnd": "2019-05-01",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.205.750 €",
+    "financing": "European Union",
+    "clientName": "General Directorate for Financing and Contracting of the EU, World Bank and other Donor Funds / Central Finance and Contracting Unit, Albania",
+    "description": "Where and how is a public service delivered? This is a question that Albanians regularly pose themselves. Albania’s public service delivery is characterised by burdensome proceedings, including multiple visits, inadequate ICT infrastructure and red-tape culture. To address…",
+    "body": [
+      "Where and how is a public service delivered? This is a question that Albanians regularly pose themselves. Albania’s public service delivery is characterised by burdensome proceedings, including multiple visits, inadequate ICT infrastructure and red-tape culture. To address these issues, the citizen-centric service delivery reform aims at combating corruption, fostering a customer-care culture, enhancing access, as well as increasing efficiency in the Albanian public administration.",
+      "In consortium, ICON-INSTITUT supported the public administration reform. Public service delivery has been simplified and standardised with the help of an adequate legal framework and the implementation of one-stop-shops. Management at different levels has been improved, making citizens now spend less time in queues. Specialised mechanisms allow customers to complain about shortfalls in service delivery and to improve the information provision. The use of new delivery channels and ICT makes now possible to reach more citizens, and customers receive information via email, on websites, and also via the traditional channels, such as personal face-to-face service or by phone. Public service centers staff has been trained, front and back offices have been separated, new communication standards and reporting procedures have been developed. The path to Albania’s citizen-centric public service delivery system has been set throughout activities.",
+      "(6608620)"
+    ],
+    "image": "/media/6608620-albanien-public-1-scaled-db8fffb7.jpg",
+    "pdf": null,
+    "wpId": "24640",
+    "permalink": "https://hp.icon-institute.de/refprojects/citizen-centric-public-service-delivery/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/6608620-Albanien-Public-1-scaled.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a849851519dfc6cecd59",
+    "item": {
+      "id": "6a78a849851519dfc6cecd59",
+      "slug": "citizen-centric-public-service-delivery",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:17.725940Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:17.725940Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Citizen-Centric Public Service Delivery",
+      "subtitle": "Support to Improve Citizen-Centric Public Service Delivery",
+      "countries": [
+        "Albania"
+      ],
+      "region": "europe",
+      "yearStart": 2017,
+      "yearEnd": 2019,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2017-06-01",
+      "periodEnd": "2019-05-01",
+      "volumeAmount": "1.205.750 €",
+      "financing": "European Union",
+      "clientName": "General Directorate for Financing and Contracting of the EU, World Bank and other Donor Funds / Central Finance and Contracting Unit, Albania",
+      "description": "Where and how is a public service delivered? This is a question that Albanians regularly pose themselves. Albania’s public service delivery is characterised by burdensome proceedings, including multiple visits, inadequate ICT infrastructure and red-tape culture. To address…",
+      "body": [
+        "Where and how is a public service delivered? This is a question that Albanians regularly pose themselves. Albania’s public service delivery is characterised by burdensome proceedings, including multiple visits, inadequate ICT infrastructure and red-tape culture. To address these issues, the citizen-centric service delivery reform aims at combating corruption, fostering a customer-care culture, enhancing access, as well as increasing efficiency in the Albanian public administration.",
+        "In consortium, ICON-INSTITUT supported the public administration reform. Public service delivery has been simplified and standardised with the help of an adequate legal framework and the implementation of one-stop-shops. Management at different levels has been improved, making citizens now spend less time in queues. Specialised mechanisms allow customers to complain about shortfalls in service delivery and to improve the information provision. The use of new delivery channels and ICT makes now possible to reach more citizens, and customers receive information via email, on websites, and also via the traditional channels, such as personal face-to-face service or by phone. Public service centers staff has been trained, front and back offices have been separated, new communication standards and reporting procedures have been developed. The path to Albania’s citizen-centric public service delivery system has been set throughout activities.",
+        "(6608620)"
+      ],
+      "image": "/media/6608620-albanien-public-1-scaled-db8fffb7.jpg",
+      "pdf": null,
+      "country": "Albania",
+      "periodLabel": "01/06/2017 - 01/05/2019"
+    }
+  }
+}

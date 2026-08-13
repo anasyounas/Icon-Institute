@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "26376",
+    "permalink": "https://hp.icon-institute.de/refprojects/solid-waste-amp-circular-economybr/",
+    "title": "Solid Waste & Circular Economy",
+    "subtitle": "Central Project Evaluation of the Project “Solid waste management and circular economy in Algeria”",
+    "countries": [
+      "Algeria"
+    ],
+    "region": "africa",
+    "yearStart": 2020,
+    "yearEnd": 2021,
+    "periodStart": "2020-01-27",
+    "periodEnd": "2021-02-01",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "lt-100k",
+    "volumeAmount": "62.931 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Subject to this evaluation was the regional project “Solid waste management and circular economy”.",
+    "body": [
+      "Subject to this evaluation was the regional project “Solid waste management and circular economy”.",
+      "The project was based on the observation that in many of Algeria’s towns and municipalities the mountains of waste are growing, causing considerable discontent among the people. In an effort to tackle the waste problem, the Algerian Government attaches great importance to waste management. The project contributed to an integrated waste management system at local, regional and national level by improving the waste management services, supporting the development of a circular economy and by providing various partners with strategic, legal and technical advice.",
+      "ICON-INSTITUTE conducted the evaluation by involving a critical analytical review of the results and implementation of the project aiming at identifying lessons for future projects in the same sector, for Algeria and other countries.",
+      "(9909842)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/9909842.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Solid Waste & Circular Economy",
+    "subtitle": "Central Project Evaluation of the Project “Solid waste management and circular economy in Algeria”",
+    "countries": [
+      "Algeria"
+    ],
+    "region": "africa",
+    "yearStart": 2020,
+    "yearEnd": 2021,
+    "periodStart": "2020-01-27",
+    "periodEnd": "2021-02-01",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "lt-100k",
+    "volumeAmount": "62.931 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "Subject to this evaluation was the regional project “Solid waste management and circular economy”.",
+    "body": [
+      "Subject to this evaluation was the regional project “Solid waste management and circular economy”.",
+      "The project was based on the observation that in many of Algeria’s towns and municipalities the mountains of waste are growing, causing considerable discontent among the people. In an effort to tackle the waste problem, the Algerian Government attaches great importance to waste management. The project contributed to an integrated waste management system at local, regional and national level by improving the waste management services, supporting the development of a circular economy and by providing various partners with strategic, legal and technical advice.",
+      "ICON-INSTITUTE conducted the evaluation by involving a critical analytical review of the results and implementation of the project aiming at identifying lessons for future projects in the same sector, for Algeria and other countries.",
+      "(9909842)"
+    ],
+    "image": "/media/9909842-4e222184.jpg",
+    "pdf": null,
+    "wpId": "26376",
+    "permalink": "https://hp.icon-institute.de/refprojects/solid-waste-amp-circular-economybr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2022/02/9909842.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a999851519dfc6ced1d2",
+    "item": {
+      "id": "6a78a999851519dfc6ced1d2",
+      "slug": "solid-waste-circular-economy",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:23:53.547818Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:23:53.547818Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Solid Waste & Circular Economy",
+      "subtitle": "Central Project Evaluation of the Project “Solid waste management and circular economy in Algeria”",
+      "countries": [
+        "Algeria"
+      ],
+      "region": "africa",
+      "yearStart": 2020,
+      "yearEnd": 2021,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "lt-100k",
+      "periodStart": "2020-01-27",
+      "periodEnd": "2021-02-01",
+      "volumeAmount": "62.931 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Subject to this evaluation was the regional project “Solid waste management and circular economy”.",
+      "body": [
+        "Subject to this evaluation was the regional project “Solid waste management and circular economy”.",
+        "The project was based on the observation that in many of Algeria’s towns and municipalities the mountains of waste are growing, causing considerable discontent among the people. In an effort to tackle the waste problem, the Algerian Government attaches great importance to waste management. The project contributed to an integrated waste management system at local, regional and national level by improving the waste management services, supporting the development of a circular economy and by providing various partners with strategic, legal and technical advice.",
+        "ICON-INSTITUTE conducted the evaluation by involving a critical analytical review of the results and implementation of the project aiming at identifying lessons for future projects in the same sector, for Algeria and other countries.",
+        "(9909842)"
+      ],
+      "image": "/media/9909842-4e222184.jpg",
+      "pdf": null,
+      "country": "Algeria",
+      "periodLabel": "27/01/2020 - 01/02/2021"
+    }
+  }
+}

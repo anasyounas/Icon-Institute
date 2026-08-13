@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24642",
+    "permalink": "https://hp.icon-institute.de/refprojects/green-innovation-centres-in-the-agricultural-amp-food-sector/",
+    "title": "Green Innovation Centres in the Agricultural & Food Sector",
+    "subtitle": "Green Innovation Centres in the Agricultural and Food Sector",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2017,
+    "periodStart": "2017-05-01",
+    "periodEnd": "2017-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "100k-300k",
+    "volumeAmount": "207.432 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The \"One World, No Hunger\" initiative (financed by BMZ, implemented by GIZ) launched to raise the income of small-scale farmers, create agricultural employment, and improve food security, has been actively promoting agricultural innovation since 2014. Through this initiative,…",
+    "body": [
+      "The \"One World, No Hunger\" initiative (financed by BMZ, implemented by GIZ) launched to raise the income of small-scale farmers, create agricultural employment, and improve food security, has been actively promoting agricultural innovation since 2014. Through this initiative, green innovation centers and networks have been established in 14 partner countries, including Benin, Ethiopia, India, and Tunisia, with the goal of enhancing agricultural value chains, fostering innovation, and spreading knowledge across farming communities.",
+      "ICON-INSTITUT was contracted by GIZ to conduct an evaluation of the programme’s progress. This was essential to ensure its impact on sustainability, focusing on areas such as the value chains within farming systems, improving market access for farmers, promoting agricultural research, and strengthening education and training systems. The aim was to understand how effectively the programme had been implemented and how it could be further developed to consolidate gains. To achieve this, a comprehensive review was conducted across all 14 countries, which involved field visits, data analysis, and consultations with stakeholders. The evaluation identified the strengths and weaknesses of the program in each country, pinpointing areas for potential upscaling and further innovation. A comparative analysis provided a broader perspective, highlighting the reciprocal effects and synergies between the different countries, while also outlining the specific challenges they faced."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4408852-Bienenhaltung-Athiopien_BJell-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Green Innovation Centres in the Agricultural & Food Sector",
+    "subtitle": "Green Innovation Centres in the Agricultural and Food Sector",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "africa",
+    "yearStart": 2017,
+    "yearEnd": 2017,
+    "periodStart": "2017-05-01",
+    "periodEnd": "2017-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "100k-300k",
+    "volumeAmount": "207.432 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "The \"One World, No Hunger\" initiative (financed by BMZ, implemented by GIZ) launched to raise the income of small-scale farmers, create agricultural employment, and improve food security, has been actively promoting agricultural innovation since 2014. Through this initiative,…",
+    "body": [
+      "The \"One World, No Hunger\" initiative (financed by BMZ, implemented by GIZ) launched to raise the income of small-scale farmers, create agricultural employment, and improve food security, has been actively promoting agricultural innovation since 2014. Through this initiative, green innovation centers and networks have been established in 14 partner countries, including Benin, Ethiopia, India, and Tunisia, with the goal of enhancing agricultural value chains, fostering innovation, and spreading knowledge across farming communities.",
+      "ICON-INSTITUT was contracted by GIZ to conduct an evaluation of the programme’s progress. This was essential to ensure its impact on sustainability, focusing on areas such as the value chains within farming systems, improving market access for farmers, promoting agricultural research, and strengthening education and training systems. The aim was to understand how effectively the programme had been implemented and how it could be further developed to consolidate gains. To achieve this, a comprehensive review was conducted across all 14 countries, which involved field visits, data analysis, and consultations with stakeholders. The evaluation identified the strengths and weaknesses of the program in each country, pinpointing areas for potential upscaling and further innovation. A comparative analysis provided a broader perspective, highlighting the reciprocal effects and synergies between the different countries, while also outlining the specific challenges they faced."
+    ],
+    "image": "/media/4408852-bienenhaltung-athiopien-bjell-scaled-8f6497e3.jpg",
+    "pdf": null,
+    "wpId": "24642",
+    "permalink": "https://hp.icon-institute.de/refprojects/green-innovation-centres-in-the-agricultural-amp-food-sector/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4408852-Bienenhaltung-Athiopien_BJell-scaled.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9e6851519dfc6ced2df",
+    "item": {
+      "id": "6a78a9e6851519dfc6ced2df",
+      "slug": "green-innovation-centres-in-the-agricultural-food-sector-2",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:25:10.369311Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:25:10.369311Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Green Innovation Centres in the Agricultural & Food Sector",
+      "subtitle": "Green Innovation Centres in the Agricultural and Food Sector",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "africa",
+      "yearStart": 2017,
+      "yearEnd": 2017,
+      "expertise": "agriculture-rural-development",
+      "volume": "100k-300k",
+      "periodStart": "2017-05-01",
+      "periodEnd": "2017-12-31",
+      "volumeAmount": "207.432 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "The \"One World, No Hunger\" initiative (financed by BMZ, implemented by GIZ) launched to raise the income of small-scale farmers, create agricultural employment, and improve food security, has been actively promoting agricultural innovation since 2014. Through this initiative,…",
+      "body": [
+        "The \"One World, No Hunger\" initiative (financed by BMZ, implemented by GIZ) launched to raise the income of small-scale farmers, create agricultural employment, and improve food security, has been actively promoting agricultural innovation since 2014. Through this initiative, green innovation centers and networks have been established in 14 partner countries, including Benin, Ethiopia, India, and Tunisia, with the goal of enhancing agricultural value chains, fostering innovation, and spreading knowledge across farming communities.",
+        "ICON-INSTITUT was contracted by GIZ to conduct an evaluation of the programme’s progress. This was essential to ensure its impact on sustainability, focusing on areas such as the value chains within farming systems, improving market access for farmers, promoting agricultural research, and strengthening education and training systems. The aim was to understand how effectively the programme had been implemented and how it could be further developed to consolidate gains. To achieve this, a comprehensive review was conducted across all 14 countries, which involved field visits, data analysis, and consultations with stakeholders. The evaluation identified the strengths and weaknesses of the program in each country, pinpointing areas for potential upscaling and further innovation. A comparative analysis provided a broader perspective, highlighting the reciprocal effects and synergies between the different countries, while also outlining the specific challenges they faced."
+      ],
+      "image": "/media/4408852-bienenhaltung-athiopien-bjell-scaled-8f6497e3.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/05/2017 - 31/12/2017"
+    }
+  }
+}

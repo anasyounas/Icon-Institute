@@ -1,0 +1,107 @@
+{
+  "scraped": {
+    "wpId": "25848",
+    "permalink": "https://hp.icon-institute.de/refprojects/peer-reviewsbr/",
+    "title": "Peer Reviews",
+    "subtitle": "Peer Reviews in EU Member States and EFTA Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2023,
+    "periodStart": "2020-05-25",
+    "periodEnd": "2023-05-25",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.646.860 €",
+    "financing": "European Union",
+    "clientName": null,
+    "description": "The statistical institute of the European Union, Eurostat, is regularly organising peer reviews of the 27 EU Members States and the 4 EFTA countries.",
+    "body": [
+      "The statistical institute of the European Union, Eurostat, is regularly organising peer reviews of the 27 EU Members States and the 4 EFTA countries.",
+      "ICON-INSTITUT Public Sector GmbH is in charge of organising the third round of reviews that should be conducted in the next three years. Peer reviews consist of checking the compliance of the European Statistical System with the European statistics Code of Practice. The Code of Practice is based on 16 principles covering the institutional environment, statistical processes and statistical outputs. It ensures high quality and comparability of European statistics.",
+      "ICON will recruit up to 25 peer review experts who will visit all EU/EFTA countries and provide a list of recommendations to further improve the national statistical systems.",
+      "(6609860)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2020/06/6609860.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Peer Reviews",
+    "subtitle": "Peer Reviews in EU Member States and EFTA Countries",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2020,
+    "yearEnd": 2023,
+    "periodStart": "2020-05-25",
+    "periodEnd": "2023-05-25",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "1m-3m",
+    "volumeAmount": "1.646.860 €",
+    "financing": "European Union",
+    "clientName": null,
+    "description": "The statistical institute of the European Union, Eurostat, is regularly organising peer reviews of the 27 EU Members States and the 4 EFTA countries.",
+    "body": [
+      "The statistical institute of the European Union, Eurostat, is regularly organising peer reviews of the 27 EU Members States and the 4 EFTA countries.",
+      "ICON-INSTITUT Public Sector GmbH is in charge of organising the third round of reviews that should be conducted in the next three years. Peer reviews consist of checking the compliance of the European Statistical System with the European statistics Code of Practice. The Code of Practice is based on 16 principles covering the institutional environment, statistical processes and statistical outputs. It ensures high quality and comparability of European statistics.",
+      "ICON will recruit up to 25 peer review experts who will visit all EU/EFTA countries and provide a list of recommendations to further improve the national statistical systems.",
+      "(6609860)"
+    ],
+    "image": "/media/6609860-774a9bd4.jpg",
+    "pdf": null,
+    "wpId": "25848",
+    "permalink": "https://hp.icon-institute.de/refprojects/peer-reviewsbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2020/06/6609860.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7f7851519dfc6cecbd0",
+    "item": {
+      "id": "6a78a7f7851519dfc6cecbd0",
+      "slug": "peer-reviews",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:55.471450Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:55.471450Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Peer Reviews",
+      "subtitle": "Peer Reviews in EU Member States and EFTA Countries",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2020,
+      "yearEnd": 2023,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "1m-3m",
+      "periodStart": "2020-05-25",
+      "periodEnd": "2023-05-25",
+      "volumeAmount": "1.646.860 €",
+      "financing": "European Union",
+      "clientName": null,
+      "description": "The statistical institute of the European Union, Eurostat, is regularly organising peer reviews of the 27 EU Members States and the 4 EFTA countries.",
+      "body": [
+        "The statistical institute of the European Union, Eurostat, is regularly organising peer reviews of the 27 EU Members States and the 4 EFTA countries.",
+        "ICON-INSTITUT Public Sector GmbH is in charge of organising the third round of reviews that should be conducted in the next three years. Peer reviews consist of checking the compliance of the European Statistical System with the European statistics Code of Practice. The Code of Practice is based on 16 principles covering the institutional environment, statistical processes and statistical outputs. It ensures high quality and comparability of European statistics.",
+        "ICON will recruit up to 25 peer review experts who will visit all EU/EFTA countries and provide a list of recommendations to further improve the national statistical systems.",
+        "(6609860)"
+      ],
+      "image": "/media/6609860-774a9bd4.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "25/05/2020 - 25/05/2023"
+    }
+  }
+}

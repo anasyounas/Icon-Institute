@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "25475",
+    "permalink": "https://hp.icon-institute.de/refprojects/pvocational-training-and-food-securityp/",
+    "title": "Vocational Training and Food Security",
+    "subtitle": "Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities",
+    "countries": [
+      "Sudan"
+    ],
+    "region": "africa",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-03-10",
+    "periodEnd": "2020-09-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "131.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "ICON implemented together with CEFE the project ‘Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities’ in Sudan. The idea was to promote vocational training measures in crafts and services as well as to integrate local enterprises and…",
+    "body": [
+      "ICON implemented together with CEFE the project ‘Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities’ in Sudan. The idea was to promote vocational training measures in crafts and services as well as to integrate local enterprises and Business Membership Organisations (BMOs) in the vocational training programmes. Both the refugees and the Sudanese population in the host communities in Kassala and Gedaref States were supported with special emphasis on youth, women and persons with disabilities. Using the CEFE methodology the participants were qualified through Training of Trainers (ToT) to prepare and conduct trainings with diverse target groups. The participants were introduced technically into the field of entrepreneurship and business development. Due to the political situation all measures were unfortunately set on hold and the trainings could not be finalised.",
+      "(4409627)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Vocational Training and Food Security",
+    "subtitle": "Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities",
+    "countries": [
+      "Sudan"
+    ],
+    "region": "africa",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-03-10",
+    "periodEnd": "2020-09-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "131.400 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "ICON implemented together with CEFE the project ‘Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities’ in Sudan. The idea was to promote vocational training measures in crafts and services as well as to integrate local enterprises and…",
+    "body": [
+      "ICON implemented together with CEFE the project ‘Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities’ in Sudan. The idea was to promote vocational training measures in crafts and services as well as to integrate local enterprises and Business Membership Organisations (BMOs) in the vocational training programmes. Both the refugees and the Sudanese population in the host communities in Kassala and Gedaref States were supported with special emphasis on youth, women and persons with disabilities. Using the CEFE methodology the participants were qualified through Training of Trainers (ToT) to prepare and conduct trainings with diverse target groups. The participants were introduced technically into the field of entrepreneurship and business development. Due to the political situation all measures were unfortunately set on hold and the trainings could not be finalised.",
+      "(4409627)"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "25475",
+    "permalink": "https://hp.icon-institute.de/refprojects/pvocational-training-and-food-securityp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a9ac851519dfc6ced229",
+    "item": {
+      "id": "6a78a9ac851519dfc6ced229",
+      "slug": "vocational-training-and-food-security",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:24:12.957873Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:24:12.957873Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Vocational Training and Food Security",
+      "subtitle": "Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities",
+      "countries": [
+        "Sudan"
+      ],
+      "region": "africa",
+      "yearStart": 2019,
+      "yearEnd": 2020,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2019-03-10",
+      "periodEnd": "2020-09-30",
+      "volumeAmount": "131.400 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "ICON implemented together with CEFE the project ‘Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities’ in Sudan. The idea was to promote vocational training measures in crafts and services as well as to integrate local enterprises and…",
+      "body": [
+        "ICON implemented together with CEFE the project ‘Vocational Training and Food Security in Eastern Sudan for Refugees and Host Communities’ in Sudan. The idea was to promote vocational training measures in crafts and services as well as to integrate local enterprises and Business Membership Organisations (BMOs) in the vocational training programmes. Both the refugees and the Sudanese population in the host communities in Kassala and Gedaref States were supported with special emphasis on youth, women and persons with disabilities. Using the CEFE methodology the participants were qualified through Training of Trainers (ToT) to prepare and conduct trainings with diverse target groups. The participants were introduced technically into the field of entrepreneurship and business development. Due to the political situation all measures were unfortunately set on hold and the trainings could not be finalised.",
+        "(4409627)"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Sudan",
+      "periodLabel": "10/03/2019 - 30/09/2020"
+    }
+  }
+}

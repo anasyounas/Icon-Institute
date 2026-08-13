@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "25180",
+    "permalink": "https://hp.icon-institute.de/refprojects/pem-classpgui-null-valueemaccess-to-sanitationp/",
+    "title": "Access to Sanitation",
+    "subtitle": "Improve the Access to Sanitation through Construction of Toilets for underserved Communities and Execution of Behaviour Change Communications",
+    "countries": [
+      "Sri Lanka",
+      "Nepal"
+    ],
+    "region": "asia",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "periodStart": "2019-04-01",
+    "periodEnd": "2019-12-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "lt-100k",
+    "volumeAmount": "29.990 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "DEG - Deutsche Investitions- und Entwicklungsgesellschaft mbH",
+    "description": "Nepal, one of the poorest and least developed countries, set a national goal to provide universal access to basic water services and improved sanitation by 2017. However, about a third of the population still lacked access to basic sanitation, and poor sanitary conditions,…",
+    "body": [
+      "Nepal, one of the poorest and least developed countries, set a national goal to provide universal access to basic water services and improved sanitation by 2017. However, about a third of the population still lacked access to basic sanitation, and poor sanitary conditions, combined with unsafe drinking water, contributed significantly to health risks, particularly child mortality. Similarly, in Sri Lanka, despite progress in sanitation, challenges remained, particularly in rural areas and concerning groundwater contamination from unimproved sanitation. In response, a develoPPP.de project, led by a world-leading material manufacturer, was launched in January 2017 with the aim of improving access to sanitation in Nepal and Sri Lanka. The project focused on constructing toilets for underserved households, communities, and schools, while also implementing Behavior Change Communications (BCC) to foster better hygiene practices. The project was scheduled for completion in March 2020.",
+      "ICON-INSTITUTE was contracted by the DEG to conduct a mid-term evaluation to assess the project’s contribution to improving sanitation in Nepal and Sri Lanka, identify best practices, and providing recommendations to ensure the long-term sustainability of the project’s impact. The evaluation followed a three-phase process: Phase I: Pre-fieldwork preparation: The evaluators reviewed relevant documents and developed key evaluation questions. Phase II: Field missions in Nepal and Sri Lanka: The evaluation team visited project partners and target groups, conducted semi-structured interviews and on-site observations. Phase III: Results analysis and reporting: The evaluation team analysed quantitative and qualitative data collected during the missions, formulated lessons learned, and drafted the final report with results, recommendations for future improvements and sustainability."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/07/8809625.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Access to Sanitation",
+    "subtitle": "Improve the Access to Sanitation through Construction of Toilets for underserved Communities and Execution of Behaviour Change Communications",
+    "countries": [
+      "Sri Lanka",
+      "Nepal"
+    ],
+    "region": "asia",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "periodStart": "2019-04-01",
+    "periodEnd": "2019-12-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "lt-100k",
+    "volumeAmount": "29.990 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "DEG - Deutsche Investitions- und Entwicklungsgesellschaft mbH",
+    "description": "Nepal, one of the poorest and least developed countries, set a national goal to provide universal access to basic water services and improved sanitation by 2017. However, about a third of the population still lacked access to basic sanitation, and poor sanitary conditions,…",
+    "body": [
+      "Nepal, one of the poorest and least developed countries, set a national goal to provide universal access to basic water services and improved sanitation by 2017. However, about a third of the population still lacked access to basic sanitation, and poor sanitary conditions, combined with unsafe drinking water, contributed significantly to health risks, particularly child mortality. Similarly, in Sri Lanka, despite progress in sanitation, challenges remained, particularly in rural areas and concerning groundwater contamination from unimproved sanitation. In response, a develoPPP.de project, led by a world-leading material manufacturer, was launched in January 2017 with the aim of improving access to sanitation in Nepal and Sri Lanka. The project focused on constructing toilets for underserved households, communities, and schools, while also implementing Behavior Change Communications (BCC) to foster better hygiene practices. The project was scheduled for completion in March 2020.",
+      "ICON-INSTITUTE was contracted by the DEG to conduct a mid-term evaluation to assess the project’s contribution to improving sanitation in Nepal and Sri Lanka, identify best practices, and providing recommendations to ensure the long-term sustainability of the project’s impact. The evaluation followed a three-phase process: Phase I: Pre-fieldwork preparation: The evaluators reviewed relevant documents and developed key evaluation questions. Phase II: Field missions in Nepal and Sri Lanka: The evaluation team visited project partners and target groups, conducted semi-structured interviews and on-site observations. Phase III: Results analysis and reporting: The evaluation team analysed quantitative and qualitative data collected during the missions, formulated lessons learned, and drafted the final report with results, recommendations for future improvements and sustainability."
+    ],
+    "image": "/media/8809625-2abc087f.jpg",
+    "pdf": null,
+    "wpId": "25180",
+    "permalink": "https://hp.icon-institute.de/refprojects/pem-classpgui-null-valueemaccess-to-sanitationp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/07/8809625.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c4b851519dfc6cec742",
+    "item": {
+      "id": "6a789c4b851519dfc6cec742",
+      "slug": "access-to-sanitation",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:07.439579Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:07.439579Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Access to Sanitation",
+      "subtitle": "Improve the Access to Sanitation through Construction of Toilets for underserved Communities and Execution of Behaviour Change Communications",
+      "countries": [
+        "Sri Lanka",
+        "Nepal"
+      ],
+      "region": "asia",
+      "yearStart": 2019,
+      "yearEnd": 2019,
+      "expertise": "agriculture-rural-development",
+      "volume": "lt-100k",
+      "periodStart": "2019-04-01",
+      "periodEnd": "2019-12-31",
+      "volumeAmount": "29.990 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "DEG - Deutsche Investitions- und Entwicklungsgesellschaft mbH",
+      "description": "Nepal, one of the poorest and least developed countries, set a national goal to provide universal access to basic water services and improved sanitation by 2017. However, about a third of the population still lacked access to basic sanitation, and poor sanitary conditions,…",
+      "body": [
+        "Nepal, one of the poorest and least developed countries, set a national goal to provide universal access to basic water services and improved sanitation by 2017. However, about a third of the population still lacked access to basic sanitation, and poor sanitary conditions, combined with unsafe drinking water, contributed significantly to health risks, particularly child mortality. Similarly, in Sri Lanka, despite progress in sanitation, challenges remained, particularly in rural areas and concerning groundwater contamination from unimproved sanitation. In response, a develoPPP.de project, led by a world-leading material manufacturer, was launched in January 2017 with the aim of improving access to sanitation in Nepal and Sri Lanka. The project focused on constructing toilets for underserved households, communities, and schools, while also implementing Behavior Change Communications (BCC) to foster better hygiene practices. The project was scheduled for completion in March 2020.",
+        "ICON-INSTITUTE was contracted by the DEG to conduct a mid-term evaluation to assess the project’s contribution to improving sanitation in Nepal and Sri Lanka, identify best practices, and providing recommendations to ensure the long-term sustainability of the project’s impact. The evaluation followed a three-phase process: Phase I: Pre-fieldwork preparation: The evaluators reviewed relevant documents and developed key evaluation questions. Phase II: Field missions in Nepal and Sri Lanka: The evaluation team visited project partners and target groups, conducted semi-structured interviews and on-site observations. Phase III: Results analysis and reporting: The evaluation team analysed quantitative and qualitative data collected during the missions, formulated lessons learned, and drafted the final report with results, recommendations for future improvements and sustainability."
+      ],
+      "image": "/media/8809625-2abc087f.jpg",
+      "pdf": null,
+      "country": "Sri Lanka, Nepal",
+      "periodLabel": "01/04/2019 - 31/12/2019"
+    }
+  }
+}

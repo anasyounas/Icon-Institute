@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24284",
+    "permalink": "https://hp.icon-institute.de/refprojects/monetary-statistics-credit-amp-interest-rate-statistics-lot1br/",
+    "title": "Monetary Statistics, Credit & Interest Rate Statistics – Lot1",
+    "subtitle": "Technical Assistance for Production and Harmonisation of Monetary Statistics, Credit and Interest Rate Statistics Lot 1",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "south-america",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-11-23",
+    "periodEnd": "2011-03-22",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "500k-1m",
+    "volumeAmount": "538.886 €",
+    "financing": "European Union - ALA",
+    "clientName": "Ministry of Economy and Production Argentina",
+    "description": "The project aimed to support the MERCOSUR Central Banks in harmonizing monetary, credit, and interest rate statistics to enhance regional economic cooperation. It focused on strengthening cooperation between the banks, developing common statistical indicators to analyze…",
+    "body": [
+      "The project aimed to support the MERCOSUR Central Banks in harmonizing monetary, credit, and interest rate statistics to enhance regional economic cooperation. It focused on strengthening cooperation between the banks, developing common statistical indicators to analyze macroeconomic convergence, and building institutional capacities.",
+      "As a result, standardized indicators for monetary, credit, and interest rate statistics were created, along with a Harmonization Manual to guide the process. ICON-INSTITUT also provided assistance to Central Bank officials in producing reliable, comparable data sets, supporting regional economic coordination."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Paraguay-6604764-scaled.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Monetary Statistics, Credit & Interest Rate Statistics – Lot1",
+    "subtitle": "Technical Assistance for Production and Harmonisation of Monetary Statistics, Credit and Interest Rate Statistics Lot 1",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "south-america",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-11-23",
+    "periodEnd": "2011-03-22",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "500k-1m",
+    "volumeAmount": "538.886 €",
+    "financing": "European Union - ALA",
+    "clientName": "Ministry of Economy and Production Argentina",
+    "description": "The project aimed to support the MERCOSUR Central Banks in harmonizing monetary, credit, and interest rate statistics to enhance regional economic cooperation. It focused on strengthening cooperation between the banks, developing common statistical indicators to analyze…",
+    "body": [
+      "The project aimed to support the MERCOSUR Central Banks in harmonizing monetary, credit, and interest rate statistics to enhance regional economic cooperation. It focused on strengthening cooperation between the banks, developing common statistical indicators to analyze macroeconomic convergence, and building institutional capacities.",
+      "As a result, standardized indicators for monetary, credit, and interest rate statistics were created, along with a Harmonization Manual to guide the process. ICON-INSTITUT also provided assistance to Central Bank officials in producing reliable, comparable data sets, supporting regional economic coordination."
+    ],
+    "image": "/media/paraguay-6604764-scaled-467bf9b8.jpg",
+    "pdf": null,
+    "wpId": "24284",
+    "permalink": "https://hp.icon-institute.de/refprojects/monetary-statistics-credit-amp-interest-rate-statistics-lot1br/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/Paraguay-6604764-scaled.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a12f851519dfc6cecae1",
+    "item": {
+      "id": "6a78a12f851519dfc6cecae1",
+      "slug": "monetary-statistics-credit-interest-rate-statistics-lot1",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:47:59.509118Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:47:59.509118Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Monetary Statistics, Credit & Interest Rate Statistics – Lot1",
+      "subtitle": "Technical Assistance for Production and Harmonisation of Monetary Statistics, Credit and Interest Rate Statistics Lot 1",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "south-america",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "500k-1m",
+      "periodStart": "2009-11-23",
+      "periodEnd": "2011-03-22",
+      "volumeAmount": "538.886 €",
+      "financing": "European Union - ALA",
+      "clientName": "Ministry of Economy and Production Argentina",
+      "description": "The project aimed to support the MERCOSUR Central Banks in harmonizing monetary, credit, and interest rate statistics to enhance regional economic cooperation. It focused on strengthening cooperation between the banks, developing common statistical indicators to analyze…",
+      "body": [
+        "The project aimed to support the MERCOSUR Central Banks in harmonizing monetary, credit, and interest rate statistics to enhance regional economic cooperation. It focused on strengthening cooperation between the banks, developing common statistical indicators to analyze macroeconomic convergence, and building institutional capacities.",
+        "As a result, standardized indicators for monetary, credit, and interest rate statistics were created, along with a Harmonization Manual to guide the process. ICON-INSTITUT also provided assistance to Central Bank officials in producing reliable, comparable data sets, supporting regional economic coordination."
+      ],
+      "image": "/media/paraguay-6604764-scaled-467bf9b8.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "23/11/2009 - 22/03/2011"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "26360",
+    "permalink": "https://hp.icon-institute.de/refprojects/business-sector-involvement-in-tvet/",
+    "title": "Business Sector Involvement in TVET",
+    "subtitle": "Mapping of Good Practices for Business Sector Involvement in TVET in the MENA Region",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-09-20",
+    "periodEnd": "2020-05-30",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "30.330 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Jordan, ICON has gained a longstanding experience in different sectors related to private sector development, labour market needs and education.",
+    "body": [
+      "In Jordan, ICON has gained a longstanding experience in different sectors related to private sector development, labour market needs and education.",
+      "The Technical and Vocational Training (TVET) approaches in the MENA region do not correspond to the real needs of the labour market and business sectors. The business sectors are furthermore not sufficiently involved in the implementation and adaptation of vocational training to improve practical orientation and quality of training. ICON supports a working group consisting of 16 members from 9 MENA countries (Libya, Palestine, Turkey, Egypt, Jordan, Yemen, Iraq, Tunisia, Morocco) in the mapping of good practices for business sector cooperation in TVET in different contexts."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/12/4410389-class.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Business Sector Involvement in TVET",
+    "subtitle": "Mapping of Good Practices for Business Sector Involvement in TVET in the MENA Region",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2019,
+    "yearEnd": 2020,
+    "periodStart": "2019-09-20",
+    "periodEnd": "2020-05-30",
+    "expertise": "economic-employment-promotion",
+    "volume": "lt-100k",
+    "volumeAmount": "30.330 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Jordan, ICON has gained a longstanding experience in different sectors related to private sector development, labour market needs and education.",
+    "body": [
+      "In Jordan, ICON has gained a longstanding experience in different sectors related to private sector development, labour market needs and education.",
+      "The Technical and Vocational Training (TVET) approaches in the MENA region do not correspond to the real needs of the labour market and business sectors. The business sectors are furthermore not sufficiently involved in the implementation and adaptation of vocational training to improve practical orientation and quality of training. ICON supports a working group consisting of 16 members from 9 MENA countries (Libya, Palestine, Turkey, Egypt, Jordan, Yemen, Iraq, Tunisia, Morocco) in the mapping of good practices for business sector cooperation in TVET in different contexts."
+    ],
+    "image": "/media/4410389-class-3a8e336e.jpg",
+    "pdf": null,
+    "wpId": "26360",
+    "permalink": "https://hp.icon-institute.de/refprojects/business-sector-involvement-in-tvet/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/12/4410389-class.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7fd851519dfc6cecbf2",
+    "item": {
+      "id": "6a78a7fd851519dfc6cecbf2",
+      "slug": "business-sector-involvement-in-tvet",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:17:01.287364Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:17:01.287364Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Business Sector Involvement in TVET",
+      "subtitle": "Mapping of Good Practices for Business Sector Involvement in TVET in the MENA Region",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2019,
+      "yearEnd": 2020,
+      "expertise": "economic-employment-promotion",
+      "volume": "lt-100k",
+      "periodStart": "2019-09-20",
+      "periodEnd": "2020-05-30",
+      "volumeAmount": "30.330 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "In Jordan, ICON has gained a longstanding experience in different sectors related to private sector development, labour market needs and education.",
+      "body": [
+        "In Jordan, ICON has gained a longstanding experience in different sectors related to private sector development, labour market needs and education.",
+        "The Technical and Vocational Training (TVET) approaches in the MENA region do not correspond to the real needs of the labour market and business sectors. The business sectors are furthermore not sufficiently involved in the implementation and adaptation of vocational training to improve practical orientation and quality of training. ICON supports a working group consisting of 16 members from 9 MENA countries (Libya, Palestine, Turkey, Egypt, Jordan, Yemen, Iraq, Tunisia, Morocco) in the mapping of good practices for business sector cooperation in TVET in different contexts."
+      ],
+      "image": "/media/4410389-class-3a8e336e.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "20/09/2019 - 30/05/2020"
+    }
+  }
+}

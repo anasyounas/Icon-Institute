@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24564",
+    "permalink": "https://hp.icon-institute.de/refprojects/value-chain-analysis-for-sedep/",
+    "title": "Value Chain Analysis for SEDEP",
+    "subtitle": "Value Chain Analysis for SEDEP",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "periodStart": "2014-11-01",
+    "periodEnd": "2015-01-31",
+    "expertise": "agriculture-rural-development",
+    "expertiseLabel": "Infrastructure and rural Development",
+    "volume": "lt-100k",
+    "volumeAmount": "46.530 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "ICON-INSTITUT conducted a comprehensive value chain analysis of key industries - almond, cashmere, dairy, poultry, and wheat - across six provinces in Afghanistan (Baghlan, Badakhshan, Balkh, Kunduz, Samangan, and Takhar). The primary objective was to identify the…",
+    "body": [
+      "ICON-INSTITUT conducted a comprehensive value chain analysis of key industries - almond, cashmere, dairy, poultry, and wheat - across six provinces in Afghanistan (Baghlan, Badakhshan, Balkh, Kunduz, Samangan, and Takhar). The primary objective was to identify the opportunities and constraints within these industries, providing valuable insights to guide future development initiatives for the GIZ programmes financed by BMZ.",
+      "A crucial part of the project was the extensive data collection effort, which included 1,140 semi-structured interviews with a wide range of value chain actors. These interviews provided a rich understanding of the challenges faced by those involved in each industry and helped ensure that the perspectives of key stakeholders were incorporated into the analysis. Additionally, the project placed a special focus on the role of women in these value chains, conducting a specific analysis to highlight their participation, the challenges they encounter, and potential opportunities for growth. In addition to this, the project explored the inter-linkages between the technical assistance (TA) provided by GIZ and the financial assistance (FA) from KfW. Understanding these connections was vital for ensuring that future interventions are well-coordinated, maximizing the impact of both technical and financial support."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4407727.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Value Chain Analysis for SEDEP",
+    "subtitle": "Value Chain Analysis for SEDEP",
+    "countries": [
+      "Afghanistan"
+    ],
+    "region": "asia",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "periodStart": "2014-11-01",
+    "periodEnd": "2015-01-31",
+    "expertise": "agriculture-rural-development",
+    "volume": "lt-100k",
+    "volumeAmount": "46.530 €",
+    "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "ICON-INSTITUT conducted a comprehensive value chain analysis of key industries - almond, cashmere, dairy, poultry, and wheat - across six provinces in Afghanistan (Baghlan, Badakhshan, Balkh, Kunduz, Samangan, and Takhar). The primary objective was to identify the…",
+    "body": [
+      "ICON-INSTITUT conducted a comprehensive value chain analysis of key industries - almond, cashmere, dairy, poultry, and wheat - across six provinces in Afghanistan (Baghlan, Badakhshan, Balkh, Kunduz, Samangan, and Takhar). The primary objective was to identify the opportunities and constraints within these industries, providing valuable insights to guide future development initiatives for the GIZ programmes financed by BMZ.",
+      "A crucial part of the project was the extensive data collection effort, which included 1,140 semi-structured interviews with a wide range of value chain actors. These interviews provided a rich understanding of the challenges faced by those involved in each industry and helped ensure that the perspectives of key stakeholders were incorporated into the analysis. Additionally, the project placed a special focus on the role of women in these value chains, conducting a specific analysis to highlight their participation, the challenges they encounter, and potential opportunities for growth. In addition to this, the project explored the inter-linkages between the technical assistance (TA) provided by GIZ and the financial assistance (FA) from KfW. Understanding these connections was vital for ensuring that future interventions are well-coordinated, maximizing the impact of both technical and financial support."
+    ],
+    "image": "/media/4407727-5d3ce38d.jpg",
+    "pdf": null,
+    "wpId": "24564",
+    "permalink": "https://hp.icon-institute.de/refprojects/value-chain-analysis-for-sedep/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/02/4407727.jpg",
+    "expertiseLabel": "Infrastructure and rural Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789c71851519dfc6cec814",
+    "item": {
+      "id": "6a789c71851519dfc6cec814",
+      "slug": "value-chain-analysis-for-sedep",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:27:45.182347Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:27:45.182347Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Value Chain Analysis for SEDEP",
+      "subtitle": "Value Chain Analysis for SEDEP",
+      "countries": [
+        "Afghanistan"
+      ],
+      "region": "asia",
+      "yearStart": 2014,
+      "yearEnd": 2015,
+      "expertise": "agriculture-rural-development",
+      "volume": "lt-100k",
+      "periodStart": "2014-11-01",
+      "periodEnd": "2015-01-31",
+      "volumeAmount": "46.530 €",
+      "financing": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "ICON-INSTITUT conducted a comprehensive value chain analysis of key industries - almond, cashmere, dairy, poultry, and wheat - across six provinces in Afghanistan (Baghlan, Badakhshan, Balkh, Kunduz, Samangan, and Takhar). The primary objective was to identify the…",
+      "body": [
+        "ICON-INSTITUT conducted a comprehensive value chain analysis of key industries - almond, cashmere, dairy, poultry, and wheat - across six provinces in Afghanistan (Baghlan, Badakhshan, Balkh, Kunduz, Samangan, and Takhar). The primary objective was to identify the opportunities and constraints within these industries, providing valuable insights to guide future development initiatives for the GIZ programmes financed by BMZ.",
+        "A crucial part of the project was the extensive data collection effort, which included 1,140 semi-structured interviews with a wide range of value chain actors. These interviews provided a rich understanding of the challenges faced by those involved in each industry and helped ensure that the perspectives of key stakeholders were incorporated into the analysis. Additionally, the project placed a special focus on the role of women in these value chains, conducting a specific analysis to highlight their participation, the challenges they encounter, and potential opportunities for growth. In addition to this, the project explored the inter-linkages between the technical assistance (TA) provided by GIZ and the financial assistance (FA) from KfW. Understanding these connections was vital for ensuring that future interventions are well-coordinated, maximizing the impact of both technical and financial support."
+      ],
+      "image": "/media/4407727-5d3ce38d.jpg",
+      "pdf": null,
+      "country": "Afghanistan",
+      "periodLabel": "01/11/2014 - 31/01/2015"
+    }
+  }
+}

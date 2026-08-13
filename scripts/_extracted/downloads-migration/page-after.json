@@ -1,0 +1,97 @@
+{
+  "id": "6a773d14ac35dc16c3123fd6",
+  "page": "download",
+  "label": "Download",
+  "version": 2,
+  "has_unpublished_changes": false,
+  "updated_by": "admin@icon-institute.de",
+  "updated_at": "2026-08-09T16:50:58.800000Z",
+  "published_by": "admin@icon-institute.de",
+  "published_at": "2026-08-09T16:50:58.800000Z",
+  "draft": {
+    "title": "Download",
+    "informationMaterial": {
+      "title": "Information Material",
+      "intro": "Please click below to download our Brochures and Flyers on our Expertise.",
+      "materials": [
+        {
+          "title": "50th Anniversary Brochure",
+          "file": "https://hp.icon-institute.de/flipbook/flipbook-ICON50.html",
+          "description": "Celebrating 50 years of ICON-INSTITUTE expertise in international cooperation."
+        },
+        {
+          "title": "Agriculture and Rural Development",
+          "file": "/media/flyer-agriculture-469ae5b2.pdf"
+        },
+        {
+          "title": "Economic Development",
+          "file": "/media/flyer-economics-b7c844fb.pdf"
+        },
+        {
+          "title": "Education and Training",
+          "file": "/media/flyer-education-c7a49cd4.pdf"
+        },
+        {
+          "title": "Financial Sector Development",
+          "file": "/media/flyer-finance-98127a24.pdf"
+        },
+        {
+          "title": "Good Governance",
+          "file": "/media/flyer-governance-c7e42e82.pdf"
+        },
+        {
+          "title": "Statistics, Social Research and Evaluation",
+          "file": "/media/flyer-evaluation-b1efccf9.pdf"
+        }
+      ]
+    },
+    "videos": {
+      "title": "Videos",
+      "intro": "In the following we provide some videos concerning projects we have carried out. Do have a look!",
+      "status": "Under Construction"
+    }
+  },
+  "published": {
+    "title": "Download",
+    "informationMaterial": {
+      "title": "Information Material",
+      "intro": "Please click below to download our Brochures and Flyers on our Expertise.",
+      "materials": [
+        {
+          "title": "50th Anniversary Brochure",
+          "file": "https://hp.icon-institute.de/flipbook/flipbook-ICON50.html",
+          "description": "Celebrating 50 years of ICON-INSTITUTE expertise in international cooperation."
+        },
+        {
+          "title": "Agriculture and Rural Development",
+          "file": "/media/flyer-agriculture-469ae5b2.pdf"
+        },
+        {
+          "title": "Economic Development",
+          "file": "/media/flyer-economics-b7c844fb.pdf"
+        },
+        {
+          "title": "Education and Training",
+          "file": "/media/flyer-education-c7a49cd4.pdf"
+        },
+        {
+          "title": "Financial Sector Development",
+          "file": "/media/flyer-finance-98127a24.pdf"
+        },
+        {
+          "title": "Good Governance",
+          "file": "/media/flyer-governance-c7e42e82.pdf"
+        },
+        {
+          "title": "Statistics, Social Research and Evaluation",
+          "file": "/media/flyer-evaluation-b1efccf9.pdf"
+        }
+      ]
+    },
+    "videos": {
+      "title": "Videos",
+      "intro": "In the following we provide some videos concerning projects we have carried out. Do have a look!",
+      "status": "Under Construction"
+    }
+  }
+}

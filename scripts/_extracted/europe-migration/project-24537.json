@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24537",
+    "permalink": "https://hp.icon-institute.de/refprojects/education-statistics/",
+    "title": "Education Statistics",
+    "subtitle": "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "periodStart": "2014-03-21",
+    "periodEnd": "2015-03-20",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "100k-300k",
+    "volumeAmount": "187.800 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education",
+    "body": [
+      "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Education Statistics",
+    "subtitle": "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "periodStart": "2014-03-21",
+    "periodEnd": "2015-03-20",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "100k-300k",
+    "volumeAmount": "187.800 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education",
+    "body": [
+      "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24537",
+    "permalink": "https://hp.icon-institute.de/refprojects/education-statistics/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a884851519dfc6cece43",
+    "item": {
+      "id": "6a78a884851519dfc6cece43",
+      "slug": "education-statistics",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:19:16.912619Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:19:16.912619Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Education Statistics",
+      "subtitle": "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2014,
+      "yearEnd": 2015,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "100k-300k",
+      "periodStart": "2014-03-21",
+      "periodEnd": "2015-03-20",
+      "volumeAmount": "187.800 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education",
+      "body": [
+        "Education Statistics: Lot 2: Methodological Development for Computing and Collecting Data on Completion Rates and Average Duration in Higher Education"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "21/03/2014 - 20/03/2015"
+    }
+  }
+}

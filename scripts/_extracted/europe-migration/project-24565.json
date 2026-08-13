@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24565",
+    "permalink": "https://hp.icon-institute.de/refprojects/harmonised-indices-of-consumer-prices-hicp/",
+    "title": "Harmonised Indices of Consumer Prices (HICP)",
+    "subtitle": "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2014,
+    "yearEnd": 2017,
+    "periodStart": "2014-12-19",
+    "periodEnd": "2017-01-18",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "300k-500k",
+    "volumeAmount": "329.500 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)",
+    "body": [
+      "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Harmonised Indices of Consumer Prices (HICP)",
+    "subtitle": "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2014,
+    "yearEnd": 2017,
+    "periodStart": "2014-12-19",
+    "periodEnd": "2017-01-18",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "300k-500k",
+    "volumeAmount": "329.500 €",
+    "financing": "European Union",
+    "clientName": "EUROSTAT",
+    "description": "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)",
+    "body": [
+      "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)"
+    ],
+    "image": "/media/icon-institute-23-a816f7ba.jpg",
+    "pdf": null,
+    "wpId": "24565",
+    "permalink": "https://hp.icon-institute.de/refprojects/harmonised-indices-of-consumer-prices-hicp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_23.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a864851519dfc6cece2f",
+    "item": {
+      "id": "6a78a864851519dfc6cece2f",
+      "slug": "harmonised-indices-of-consumer-prices-hicp",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:18:44.670409Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:18:44.670409Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Harmonised Indices of Consumer Prices (HICP)",
+      "subtitle": "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2014,
+      "yearEnd": 2017,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "300k-500k",
+      "periodStart": "2014-12-19",
+      "periodEnd": "2017-01-18",
+      "volumeAmount": "329.500 €",
+      "financing": "European Union",
+      "clientName": "EUROSTAT",
+      "description": "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)",
+      "body": [
+        "Methodological Manual of Harmonised Indices of Consumer Prices (HICP)"
+      ],
+      "image": "/media/icon-institute-23-a816f7ba.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "19/12/2014 - 18/01/2017"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "28902",
+    "permalink": "https://hp.icon-institute.de/refprojects/programme-for-startups-and-msmes/",
+    "title": "Programme for startups and MSMEs",
+    "subtitle": "Consultancy services for the (TEI IYBA-SEED) programme for startups and MSMEs in Kenya",
+    "countries": [
+      "Kenya"
+    ],
+    "region": "africa",
+    "yearStart": 2025,
+    "yearEnd": 2026,
+    "periodStart": "2025-02-17",
+    "periodEnd": "2026-08-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "646.435 €",
+    "financing": "BMZ/EU",
+    "clientName": "GIZ",
+    "description": "ICON INSTITUTE successfully implements consultancy services for the TEI IYBA-SEED Programme for Startups and MSMEs in Kenya (2023–2026) under a GIZ programme, co-financed by the European Union and the German Federal Ministry for Economic Cooperation and Development (BMZ). The…",
+    "body": [
+      "ICON INSTITUTE successfully implements consultancy services for the TEI IYBA-SEED Programme for Startups and MSMEs in Kenya (2023–2026) under a GIZ programme, co-financed by the European Union and the German Federal Ministry for Economic Cooperation and Development (BMZ). The project aims to strengthen the entrepreneurship ecosystem by supporting early stage businesses particularly those led by women and young entrepreneurs through improved access to finance, tailored capacity building, and stronger collaboration across the financial ecosystem.",
+      "Within this framework, ICON delivers five key intervention areas, including the development of loan application toolkits, financial literacy programmes, and capacity building for Business Development and Financial Service Providers. By fostering stronger linkages between financial institutions and entrepreneurs, ICON is enhancing the readiness of startups and MSMEs to access finance and comply with regulatory requirements. In this way ICON INSTITUTE contributes to a more inclusive, resilient, and growth-oriented private sector in Kenya."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2026/04/8810746.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Programme for startups and MSMEs",
+    "subtitle": "Consultancy services for the (TEI IYBA-SEED) programme for startups and MSMEs in Kenya",
+    "countries": [
+      "Kenya"
+    ],
+    "region": "africa",
+    "yearStart": 2025,
+    "yearEnd": 2026,
+    "periodStart": "2025-02-17",
+    "periodEnd": "2026-08-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "646.435 €",
+    "financing": "BMZ/EU",
+    "clientName": "GIZ",
+    "description": "ICON INSTITUTE successfully implements consultancy services for the TEI IYBA-SEED Programme for Startups and MSMEs in Kenya (2023–2026) under a GIZ programme, co-financed by the European Union and the German Federal Ministry for Economic Cooperation and Development (BMZ). The…",
+    "body": [
+      "ICON INSTITUTE successfully implements consultancy services for the TEI IYBA-SEED Programme for Startups and MSMEs in Kenya (2023–2026) under a GIZ programme, co-financed by the European Union and the German Federal Ministry for Economic Cooperation and Development (BMZ). The project aims to strengthen the entrepreneurship ecosystem by supporting early stage businesses particularly those led by women and young entrepreneurs through improved access to finance, tailored capacity building, and stronger collaboration across the financial ecosystem.",
+      "Within this framework, ICON delivers five key intervention areas, including the development of loan application toolkits, financial literacy programmes, and capacity building for Business Development and Financial Service Providers. By fostering stronger linkages between financial institutions and entrepreneurs, ICON is enhancing the readiness of startups and MSMEs to access finance and comply with regulatory requirements. In this way ICON INSTITUTE contributes to a more inclusive, resilient, and growth-oriented private sector in Kenya."
+    ],
+    "image": "/media/8810746-885079c1.jpg",
+    "pdf": null,
+    "wpId": "28902",
+    "permalink": "https://hp.icon-institute.de/refprojects/programme-for-startups-and-msmes/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2026/04/8810746.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a92a851519dfc6ced04b",
+    "item": {
+      "id": "6a78a92a851519dfc6ced04b",
+      "slug": "programme-for-startups-and-msmes",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:22:02.090791Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:22:02.090791Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Programme for startups and MSMEs",
+      "subtitle": "Consultancy services for the (TEI IYBA-SEED) programme for startups and MSMEs in Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "region": "africa",
+      "yearStart": 2025,
+      "yearEnd": 2026,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2025-02-17",
+      "periodEnd": "2026-08-31",
+      "volumeAmount": "646.435 €",
+      "financing": "BMZ/EU",
+      "clientName": "GIZ",
+      "description": "ICON INSTITUTE successfully implements consultancy services for the TEI IYBA-SEED Programme for Startups and MSMEs in Kenya (2023–2026) under a GIZ programme, co-financed by the European Union and the German Federal Ministry for Economic Cooperation and Development (BMZ). The…",
+      "body": [
+        "ICON INSTITUTE successfully implements consultancy services for the TEI IYBA-SEED Programme for Startups and MSMEs in Kenya (2023–2026) under a GIZ programme, co-financed by the European Union and the German Federal Ministry for Economic Cooperation and Development (BMZ). The project aims to strengthen the entrepreneurship ecosystem by supporting early stage businesses particularly those led by women and young entrepreneurs through improved access to finance, tailored capacity building, and stronger collaboration across the financial ecosystem.",
+        "Within this framework, ICON delivers five key intervention areas, including the development of loan application toolkits, financial literacy programmes, and capacity building for Business Development and Financial Service Providers. By fostering stronger linkages between financial institutions and entrepreneurs, ICON is enhancing the readiness of startups and MSMEs to access finance and comply with regulatory requirements. In this way ICON INSTITUTE contributes to a more inclusive, resilient, and growth-oriented private sector in Kenya."
+      ],
+      "image": "/media/8810746-885079c1.jpg",
+      "pdf": null,
+      "country": "Kenya",
+      "periodLabel": "17/02/2025 - 31/08/2026"
+    }
+  }
+}

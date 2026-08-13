@@ -1,0 +1,119 @@
+{
+  "scraped": {
+    "wpId": "27367",
+    "permalink": "https://hp.icon-institute.de/refprojects/pipa-2022-multi-beneficiary-statistical-cooperation-programmep/",
+    "title": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+    "subtitle": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2024,
+    "yearEnd": 2027,
+    "periodStart": "2024-01-01",
+    "periodEnd": "2027-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "expertiseLabel": "Statistics, Evaluation and social Research",
+    "volume": "gt-5m",
+    "volumeAmount": "6.980.750 €",
+    "financing": "European Union",
+    "clientName": "European Commission - Eurostat",
+    "description": "The ICON's scope of work involves, first and foremost, providing expertise through statistical projects aimed at enhancing the production, collection, and dissemination of high-quality statistics. The services encompass various elements:",
+    "body": [
+      "The ICON's scope of work involves, first and foremost, providing expertise through statistical projects aimed at enhancing the production, collection, and dissemination of high-quality statistics. The services encompass various elements:",
+      "Managing 25 statistical projects",
+      "Conducting evaluations, assessments, and analyses of data availability, as well as ensuring compliance with EU requirements in methodology and procedures.",
+      "Proposing short and medium-term improvements based on evaluations.",
+      "Organizing workshops, training courses, consultancies, study visits, in-country events, regional events, and other activities to explain EU requirements in detail.",
+      "Assisting in organizing traineeships.",
+      "Providing technical assistance for data collection, treatment, analysis, and dissemination through missions and help desks.",
+      "Additionally, ICON organizes peer/sector reviews of partner countries according to Eurostat methodology."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/12/ipa-title-web.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+    "subtitle": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+    "countries": [
+      "Various countries"
+    ],
+    "region": "europe",
+    "yearStart": 2024,
+    "yearEnd": 2027,
+    "periodStart": "2024-01-01",
+    "periodEnd": "2027-12-31",
+    "expertise": "statistics-evaluation-social-research",
+    "volume": "gt-5m",
+    "volumeAmount": "6.980.750 €",
+    "financing": "European Union",
+    "clientName": "European Commission - Eurostat",
+    "description": "The ICON's scope of work involves, first and foremost, providing expertise through statistical projects aimed at enhancing the production, collection, and dissemination of high-quality statistics. The services encompass various elements:",
+    "body": [
+      "The ICON's scope of work involves, first and foremost, providing expertise through statistical projects aimed at enhancing the production, collection, and dissemination of high-quality statistics. The services encompass various elements:",
+      "Managing 25 statistical projects",
+      "Conducting evaluations, assessments, and analyses of data availability, as well as ensuring compliance with EU requirements in methodology and procedures.",
+      "Proposing short and medium-term improvements based on evaluations.",
+      "Organizing workshops, training courses, consultancies, study visits, in-country events, regional events, and other activities to explain EU requirements in detail.",
+      "Assisting in organizing traineeships.",
+      "Providing technical assistance for data collection, treatment, analysis, and dissemination through missions and help desks.",
+      "Additionally, ICON organizes peer/sector reviews of partner countries according to Eurostat methodology."
+    ],
+    "image": "/media/ipa-title-web-1d63415c.jpg",
+    "pdf": null,
+    "wpId": "27367",
+    "permalink": "https://hp.icon-institute.de/refprojects/pipa-2022-multi-beneficiary-statistical-cooperation-programmep/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/12/ipa-title-web.jpg",
+    "expertiseLabel": "Statistics, Evaluation and social Research"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a7dc851519dfc6cecb50",
+    "item": {
+      "id": "6a78a7dc851519dfc6cecb50",
+      "slug": "ipa-2022-multi-beneficiary-statistical-cooperation-programme",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:16:28.637733Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:16:28.637733Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+      "subtitle": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+      "countries": [
+        "Various countries"
+      ],
+      "region": "europe",
+      "yearStart": 2024,
+      "yearEnd": 2027,
+      "expertise": "statistics-evaluation-social-research",
+      "volume": "gt-5m",
+      "periodStart": "2024-01-01",
+      "periodEnd": "2027-12-31",
+      "volumeAmount": "6.980.750 €",
+      "financing": "European Union",
+      "clientName": "European Commission - Eurostat",
+      "description": "The ICON's scope of work involves, first and foremost, providing expertise through statistical projects aimed at enhancing the production, collection, and dissemination of high-quality statistics. The services encompass various elements:",
+      "body": [
+        "The ICON's scope of work involves, first and foremost, providing expertise through statistical projects aimed at enhancing the production, collection, and dissemination of high-quality statistics. The services encompass various elements:",
+        "Managing 25 statistical projects",
+        "Conducting evaluations, assessments, and analyses of data availability, as well as ensuring compliance with EU requirements in methodology and procedures.",
+        "Proposing short and medium-term improvements based on evaluations.",
+        "Organizing workshops, training courses, consultancies, study visits, in-country events, regional events, and other activities to explain EU requirements in detail.",
+        "Assisting in organizing traineeships.",
+        "Providing technical assistance for data collection, treatment, analysis, and dissemination through missions and help desks.",
+        "Additionally, ICON organizes peer/sector reviews of partner countries according to Eurostat methodology."
+      ],
+      "image": "/media/ipa-title-web-1d63415c.jpg",
+      "pdf": null,
+      "country": "Various countries",
+      "periodLabel": "01/01/2024 - 31/12/2027"
+    }
+  }
+}

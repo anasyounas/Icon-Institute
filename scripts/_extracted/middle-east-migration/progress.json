@@ -1,0 +1,912 @@
+[
+  {
+    "ok": true,
+    "wpId": "28274",
+    "title": "Effective School Guidance Counselling Workforce",
+    "action": "updated",
+    "cmsId": "6a773d0eac35dc16c3123fc7",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "28206",
+    "title": "Strengthening resilience in Ninewa",
+    "action": "created",
+    "cmsId": "6a78aa88851519dfc6ced51b",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27525",
+    "title": "Study on contribution of home gardens to nutrition",
+    "action": "created",
+    "cmsId": "6a78aa89851519dfc6ced51f",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "27367",
+    "title": "IPA 2022 Multi-beneficiary statistical cooperation programme",
+    "action": "created",
+    "cmsId": "6a78aa8a851519dfc6ced523",
+    "image": true,
+    "bodyParas": 8
+  },
+  {
+    "ok": true,
+    "wpId": "27417",
+    "title": "Entrepreneurship Promotion in Selected Jordan Governorates",
+    "action": "created",
+    "cmsId": "6a78aa8c851519dfc6ced52b",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "27405",
+    "title": "Employment Promotion Lebanon (EPL)",
+    "action": "created",
+    "cmsId": "6a78aa8d851519dfc6ced533",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "27114",
+    "title": "Public Finances and Financial Markets",
+    "action": "created",
+    "cmsId": "6a78aa8e851519dfc6ced53b",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "28145",
+    "title": "Promoting Dialogue and Participation",
+    "action": "created",
+    "cmsId": "6a78aa90851519dfc6ced543",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "26861",
+    "title": "Tourism Licensing Reform",
+    "action": "created",
+    "cmsId": "6a78aa92851519dfc6ced54d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "27370",
+    "title": "Promoting Dialogue and Participation (PDP)",
+    "action": "created",
+    "cmsId": "6a78aa93851519dfc6ced551",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "28209",
+    "title": "Mid-term Evaluation of MNCH in Gaza",
+    "action": "created",
+    "cmsId": "6a78aa94851519dfc6ced559",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "27424",
+    "title": "CPEs: Promotion of economic cooperation in Asian sub-regional initiatives",
+    "action": "created",
+    "cmsId": "6a78aa95851519dfc6ced55d",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "26390",
+    "title": "Business Licensing Reforms in the Food Sector",
+    "action": "created",
+    "cmsId": "6a78aa9b851519dfc6ced56f",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "26364",
+    "title": "TVET in the Palestinian Territories",
+    "action": "created",
+    "cmsId": "6a78aa9c851519dfc6ced573",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26449",
+    "title": "Skills Demand and Supply",
+    "action": "created",
+    "cmsId": "6a78aa9d851519dfc6ced577",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26448",
+    "title": "Skills Demand and Supply",
+    "action": "updated",
+    "cmsId": "6a78aa9d851519dfc6ced577",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "25669",
+    "title": "Trade for Employment",
+    "action": "created",
+    "cmsId": "6a78aaa0851519dfc6ced581",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "26380",
+    "title": "Promotion of inclusive financial systems",
+    "action": "created",
+    "cmsId": "6a78aaa1851519dfc6ced585",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "26360",
+    "title": "Business Sector Involvement in TVET",
+    "action": "created",
+    "cmsId": "6a78aaa2851519dfc6ced589",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "25477",
+    "title": "Online Market Information Platforms",
+    "action": "created",
+    "cmsId": "6a78aaa3851519dfc6ced591",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24693",
+    "title": "Water and Wastewater Service Providers",
+    "action": "created",
+    "cmsId": "6a78aaa4851519dfc6ced595",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24696",
+    "title": "Trade for Employment (T4E)",
+    "action": "created",
+    "cmsId": "6a78aaa5851519dfc6ced599",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "25012",
+    "title": "Training in Water and Energy Efficiency",
+    "action": "created",
+    "cmsId": "6a78aaa6851519dfc6ced59d",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24691",
+    "title": "Sector Analyses & Strategies for 3 Economic Sectors",
+    "action": "created",
+    "cmsId": "6a78aaa7851519dfc6ced5a1",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "25833",
+    "title": "Evaluation of NET-MED Youth Project",
+    "action": "created",
+    "cmsId": "6a78aaa8851519dfc6ced5a5",
+    "image": true,
+    "bodyParas": 8
+  },
+  {
+    "ok": true,
+    "wpId": "24671",
+    "title": "Agrobusiness Field Unit",
+    "action": "created",
+    "cmsId": "6a78aaaf851519dfc6ced5b6",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24679",
+    "title": "Water and Energy Sector II TWEED",
+    "action": "created",
+    "cmsId": "6a78aab1851519dfc6ced5ba",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24634",
+    "title": "Climate Partnerships with the Private Sector",
+    "action": "created",
+    "cmsId": "6a78aab2851519dfc6ced5be",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24631",
+    "title": "Global Assessments, Peer Reviews & Sector Assessments",
+    "action": "created",
+    "cmsId": "6a78aab2851519dfc6ced5c2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24603",
+    "title": "Central Administration of Statistics",
+    "action": "created",
+    "cmsId": "6a78aab4851519dfc6ced5ca",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24589",
+    "title": "Training Programme for the ENP-South Countries",
+    "action": "created",
+    "cmsId": "6a78aab5851519dfc6ced5ce",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24664",
+    "title": "Water Programme / Human Capacity Development",
+    "action": "created",
+    "cmsId": "6a78aab6851519dfc6ced5d2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24584",
+    "title": "Palestinian Upgrading and Modernisation Programme (PUMP)",
+    "action": "created",
+    "cmsId": "6a78aab8851519dfc6ced5da",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24579",
+    "title": "Fundamental Skills Development",
+    "action": "created",
+    "cmsId": "6a78aab9851519dfc6ced5de",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24581",
+    "title": "Entrepreneurship and Enterprise Skills",
+    "action": "created",
+    "cmsId": "6a78aaba851519dfc6ced5e2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24566",
+    "title": "Water and Energy Efficiency Development",
+    "action": "created",
+    "cmsId": "6a78aabb851519dfc6ced5e6",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24558",
+    "title": "Planning, Monitoring and Evaluation",
+    "action": "created",
+    "cmsId": "6a78aabc851519dfc6ced5ea",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24553",
+    "title": "State Audit and Administrative Control Bureau II",
+    "action": "created",
+    "cmsId": "6a78aabd851519dfc6ced5ee",
+    "image": true,
+    "bodyParas": 4
+  },
+  {
+    "ok": true,
+    "wpId": "24552",
+    "title": "Environmental Control Unit",
+    "action": "created",
+    "cmsId": "6a78aabe851519dfc6ced5f2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24546",
+    "title": "European Health Insurance Card",
+    "action": "created",
+    "cmsId": "6a78aabf851519dfc6ced5f6",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24516",
+    "title": "Statistical Systems & selected Statistical Areas",
+    "action": "created",
+    "cmsId": "6a78aac0851519dfc6ced5fa",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24522",
+    "title": "Training Programme for the ENP-South countries",
+    "action": "updated",
+    "cmsId": "6a78aab5851519dfc6ced5ce",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24512",
+    "title": "Baseline Evaluation of MENA MSME TA Facility",
+    "action": "created",
+    "cmsId": "6a78aac2851519dfc6ced600",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24510",
+    "title": "MSME Market Study in Palestine",
+    "action": "created",
+    "cmsId": "6a78aac3851519dfc6ced604",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24519",
+    "title": "Strategy Development",
+    "action": "created",
+    "cmsId": "6a78aac4851519dfc6ced608",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24506",
+    "title": "Private Sector Development Cluster Project",
+    "action": "created",
+    "cmsId": "6a78aac5851519dfc6ced60c",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24576",
+    "title": "IT SMEs Promotion through Public-Private Dialogue",
+    "action": "created",
+    "cmsId": "6a78aac6851519dfc6ced610",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24489",
+    "title": "Increase Productivity in Organisations",
+    "action": "created",
+    "cmsId": "6a78aac7851519dfc6ced614",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24480",
+    "title": "Torino Process Interim Evaluation",
+    "action": "created",
+    "cmsId": "6a78aac8851519dfc6ced618",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24477",
+    "title": "FIRASET (Firat Rainbow Surrounding Enterprise Taskforce)",
+    "action": "created",
+    "cmsId": "6a78aac9851519dfc6ced61c",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24474",
+    "title": "Masterplan 2030 – Strategy Development",
+    "action": "created",
+    "cmsId": "6a78aaca851519dfc6ced620",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24473",
+    "title": "Municipal Infrastructure Credit Line",
+    "action": "created",
+    "cmsId": "6a78aaca851519dfc6ced624",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24484",
+    "title": "Qatar Statistics Authority – Statistical Training",
+    "action": "created",
+    "cmsId": "6a78aacb851519dfc6ced628",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24459",
+    "title": "TVET & Private Sector",
+    "action": "created",
+    "cmsId": "6a78aacc851519dfc6ced62c",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24536",
+    "title": "Export Initiatives Renewable Energy & Energy Efficiency",
+    "action": "created",
+    "cmsId": "6a78aacd851519dfc6ced630",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24456",
+    "title": "Export Initiative Renewable Energy",
+    "action": "created",
+    "cmsId": "6a78aace851519dfc6ced634",
+    "image": true,
+    "bodyParas": 3
+  },
+  {
+    "ok": true,
+    "wpId": "24450",
+    "title": "Management Training – Lean Production & Management",
+    "action": "created",
+    "cmsId": "6a78aacf851519dfc6ced638",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24438",
+    "title": "Qatar Statistics Authority – Statistical Training",
+    "action": "updated",
+    "cmsId": "6a78aacb851519dfc6ced628",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24437",
+    "title": "Market Entry & Export Coaching",
+    "action": "created",
+    "cmsId": "6a78aad1851519dfc6ced63e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24426",
+    "title": "Lean Production and Management",
+    "action": "created",
+    "cmsId": "6a78aad2851519dfc6ced642",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24430",
+    "title": "Programmable Logic Control",
+    "action": "created",
+    "cmsId": "6a78aad3851519dfc6ced646",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24435",
+    "title": "Civil Society Facility – Intercultural Dialogue",
+    "action": "created",
+    "cmsId": "6a78aad4851519dfc6ced64a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24410",
+    "title": "Increasing Girls' Enrolment Rates",
+    "action": "created",
+    "cmsId": "6a78aad5851519dfc6ced64e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24415",
+    "title": "Statistical System Reform",
+    "action": "created",
+    "cmsId": "6a78aad6851519dfc6ced652",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24400",
+    "title": "Kvinna till Kvinna's regional Middle East Program",
+    "action": "created",
+    "cmsId": "6a78aad7851519dfc6ced656",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24398",
+    "title": "Education Programme Palestinian Territories",
+    "action": "created",
+    "cmsId": "6a78aad8851519dfc6ced65a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24411",
+    "title": "Statistical Training Service for SCAD 2011",
+    "action": "created",
+    "cmsId": "6a78aad9851519dfc6ced65e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24396",
+    "title": "Quality Assurance, Planning, Monitoring & Evaluation",
+    "action": "created",
+    "cmsId": "6a78aada851519dfc6ced662",
+    "image": true,
+    "bodyParas": 2
+  },
+  {
+    "ok": true,
+    "wpId": "24390",
+    "title": "Statistical Systems of Candidate, Potential Candidate Countries, ENP Countries",
+    "action": "created",
+    "cmsId": "6a78aadb851519dfc6ced666",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24387",
+    "title": "Social Sector Capacity Building",
+    "action": "created",
+    "cmsId": "6a78aadc851519dfc6ced66a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24407",
+    "title": "IPA 2009 Statistical Cooperation Lot 1",
+    "action": "created",
+    "cmsId": "6a78aadd851519dfc6ced66e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24408",
+    "title": "IPA 2009 Statistical Cooperation Lot 2",
+    "action": "created",
+    "cmsId": "6a78aade851519dfc6ced672",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24381",
+    "title": "State Audit and Administrative Control Bureau",
+    "action": "created",
+    "cmsId": "6a78aadf851519dfc6ced676",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24389",
+    "title": "Historical Data I and II",
+    "action": "created",
+    "cmsId": "6a78aae0851519dfc6ced67a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24368",
+    "title": "MEDSTAT III Phase 3",
+    "action": "created",
+    "cmsId": "6a78aae1851519dfc6ced67e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24373",
+    "title": "Statistical Training Courses",
+    "action": "created",
+    "cmsId": "6a78aae2851519dfc6ced682",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24362",
+    "title": "EU Election Assessment",
+    "action": "created",
+    "cmsId": "6a78aae3851519dfc6ced686",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24347",
+    "title": "IPA 2008 Multi-Beneficiary Statistical Co-operation Programme",
+    "action": "created",
+    "cmsId": "6a78aae4851519dfc6ced68a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24283",
+    "title": "Process Development Assistance Project at the Abu Dhabi Education Council (ADEC)",
+    "action": "created",
+    "cmsId": "6a78aae4851519dfc6ced68e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24300",
+    "title": "Regional Cooperation in Vocational Education",
+    "action": "created",
+    "cmsId": "6a78aae5851519dfc6ced692",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24281",
+    "title": "Higher Education Management Information System (HEMIS)",
+    "action": "created",
+    "cmsId": "6a78aae6851519dfc6ced696",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24311",
+    "title": "Palestinian Judicial System",
+    "action": "created",
+    "cmsId": "6a78aae7851519dfc6ced69a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24292",
+    "title": "Health Reform",
+    "action": "created",
+    "cmsId": "6a78aae8851519dfc6ced69e",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24367",
+    "title": "Turkey Political Criteria Programme II",
+    "action": "created",
+    "cmsId": "6a78aae9851519dfc6ced6a2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24271",
+    "title": "Rainfed Agriculture and Livestock Project (RALP)",
+    "action": "created",
+    "cmsId": "6a78aaea851519dfc6ced6a6",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24237",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24258",
+    "title": "Human Rights and Good Governance",
+    "action": "created",
+    "cmsId": "6a78aaec851519dfc6ced6aa",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24239",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24245",
+    "title": "Capacity in Management, Leadership and Planning",
+    "action": "created",
+    "cmsId": "6a78aaed851519dfc6ced6ae",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24244",
+    "title": "Local Development in Municipalities",
+    "action": "created",
+    "cmsId": "6a78aaee851519dfc6ced6b2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24252",
+    "title": "Statistics – MEDSTAT II",
+    "action": "created",
+    "cmsId": "6a78aaef851519dfc6ced6b6",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24257",
+    "title": "IPA 2007 Multi-Beneficiary Statistical Co-operation",
+    "action": "created",
+    "cmsId": "6a78aaf0851519dfc6ced6ba",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24255",
+    "title": "Economic Statistics and Transport Statistics- Lot 2",
+    "action": "created",
+    "cmsId": "6a78aaf1851519dfc6ced6be",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24207",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24211",
+    "title": "Upgrading the Statistical System",
+    "action": "created",
+    "cmsId": "6a78aaf3851519dfc6ced6c2",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24206",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": false,
+    "wpId": "24204",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": false,
+    "wpId": "24198",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": false,
+    "wpId": "24208",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": false,
+    "wpId": "24338",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": false,
+    "wpId": "24201",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": false,
+    "wpId": "24174",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24176",
+    "title": "Banking Sector",
+    "action": "created",
+    "cmsId": "6a78aaf9851519dfc6ced6c6",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": true,
+    "wpId": "24122",
+    "title": "Palestinian Judicial System",
+    "action": "updated",
+    "cmsId": "6a78aae7851519dfc6ced69a",
+    "image": true,
+    "bodyParas": 1
+  },
+  {
+    "ok": false,
+    "wpId": "24121",
+    "error": "empty title on source page — skipped"
+  },
+  {
+    "ok": true,
+    "wpId": "24123",
+    "title": "Credit Guarantee Fund for SMEs",
+    "action": "created",
+    "cmsId": "6a78aafb851519dfc6ced6cc",
+    "image": true,
+    "bodyParas": 1
+  }
+]

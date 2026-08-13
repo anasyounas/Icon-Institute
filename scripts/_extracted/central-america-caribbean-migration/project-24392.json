@@ -1,0 +1,104 @@
+{
+  "scraped": {
+    "wpId": "24392",
+    "permalink": "https://hp.icon-institute.de/refprojects/master-craftsman-qualification-mechatronicsbr/",
+    "title": "Master Craftsman Qualification – Mechatronics",
+    "subtitle": "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)",
+    "countries": [
+      "Germany",
+      "Trinidad",
+      "Tobago"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2010,
+    "yearEnd": 2010,
+    "periodStart": "2010-08-12",
+    "periodEnd": "2010-12-13",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "292.475 €",
+    "financing": "Government of Trinidad & Tobago",
+    "clientName": "MIC Metal Industries Company Ltd. MIC",
+    "description": "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)",
+    "body": [
+      "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Master Craftsman Qualification – Mechatronics",
+    "subtitle": "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)",
+    "countries": [
+      "Germany",
+      "Trinidad",
+      "Tobago"
+    ],
+    "region": "central-america-caribbean",
+    "yearStart": 2010,
+    "yearEnd": 2010,
+    "periodStart": "2010-08-12",
+    "periodEnd": "2010-12-13",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "292.475 €",
+    "financing": "Government of Trinidad & Tobago",
+    "clientName": "MIC Metal Industries Company Ltd. MIC",
+    "description": "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)",
+    "body": [
+      "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24392",
+    "permalink": "https://hp.icon-institute.de/refprojects/master-craftsman-qualification-mechatronicsbr/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a0ff851519dfc6ceca35",
+    "item": {
+      "id": "6a78a0ff851519dfc6ceca35",
+      "slug": "master-craftsman-qualification-mechatronics",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:47:11.115466Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:47:11.115466Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Master Craftsman Qualification – Mechatronics",
+      "subtitle": "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)",
+      "countries": [
+        "Germany",
+        "Trinidad",
+        "Tobago"
+      ],
+      "region": "central-america-caribbean",
+      "yearStart": 2010,
+      "yearEnd": 2010,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2010-08-12",
+      "periodEnd": "2010-12-13",
+      "volumeAmount": "292.475 €",
+      "financing": "Government of Trinidad & Tobago",
+      "clientName": "MIC Metal Industries Company Ltd. MIC",
+      "description": "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)",
+      "body": [
+        "Twinning Project – Master Craftsman Qualification Programme – Mechatronics (metal engineers)"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Germany, Trinidad, Tobago",
+      "periodLabel": "12/08/2010 - 13/12/2010"
+    }
+  }
+}

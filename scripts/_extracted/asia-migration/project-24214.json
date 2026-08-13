@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "24214",
+    "permalink": "https://hp.icon-institute.de/refprojects/uzstandard-agency/",
+    "title": "Uzstandard Agency",
+    "subtitle": "Institutional Development of Uzstandard Agency",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "region": "asia",
+    "yearStart": 2007,
+    "yearEnd": 2009,
+    "periodStart": "2007-09-01",
+    "periodEnd": "2009-08-31",
+    "expertise": "governance-education-social-development",
+    "expertiseLabel": "Governance, Education and Social Development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.250.000 €",
+    "financing": "European Union - Tacis",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "The project was designed to support the development of robust quality management systems by aligning them with international standards. The goal was to standardize processes, ensure accreditation, and implement certification procedures to promote global best practices across…",
+    "body": [
+      "The project was designed to support the development of robust quality management systems by aligning them with international standards. The goal was to standardize processes, ensure accreditation, and implement certification procedures to promote global best practices across various sectors. By fostering adherence to these international standards, the project also aimed to enable the country’s integration into international organizations and support sustainable development.",
+      "ICON-INSTITUT implemented the four key components. The first focused on Organizational Development and Human Resource Management, ensuring that institutions were equipped with the necessary skills and structures to implement these standards effectively. The second component, Standardization, worked to develop and promote the use of international standards across industries. Accreditation efforts formed the third pillar, establishing the framework for certifying institutions to meet these rigorous standards. Lastly, the project tackled Conformity Assessment, ensuring that the products and services complied with the established standards. Together, these efforts aimed to improve the overall quality management landscape, driving competitiveness and sustainable growth while facilitating the country’s participation in the global market."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/02/4410344-building.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Uzstandard Agency",
+    "subtitle": "Institutional Development of Uzstandard Agency",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "region": "asia",
+    "yearStart": 2007,
+    "yearEnd": 2009,
+    "periodStart": "2007-09-01",
+    "periodEnd": "2009-08-31",
+    "expertise": "governance-education-social-development",
+    "volume": "1m-3m",
+    "volumeAmount": "1.250.000 €",
+    "financing": "European Union - Tacis",
+    "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+    "description": "The project was designed to support the development of robust quality management systems by aligning them with international standards. The goal was to standardize processes, ensure accreditation, and implement certification procedures to promote global best practices across…",
+    "body": [
+      "The project was designed to support the development of robust quality management systems by aligning them with international standards. The goal was to standardize processes, ensure accreditation, and implement certification procedures to promote global best practices across various sectors. By fostering adherence to these international standards, the project also aimed to enable the country’s integration into international organizations and support sustainable development.",
+      "ICON-INSTITUT implemented the four key components. The first focused on Organizational Development and Human Resource Management, ensuring that institutions were equipped with the necessary skills and structures to implement these standards effectively. The second component, Standardization, worked to develop and promote the use of international standards across industries. Accreditation efforts formed the third pillar, establishing the framework for certifying institutions to meet these rigorous standards. Lastly, the project tackled Conformity Assessment, ensuring that the products and services complied with the established standards. Together, these efforts aimed to improve the overall quality management landscape, driving competitiveness and sustainable growth while facilitating the country’s participation in the global market."
+    ],
+    "image": "/media/4410344-building-7a243996.jpg",
+    "pdf": null,
+    "wpId": "24214",
+    "permalink": "https://hp.icon-institute.de/refprojects/uzstandard-agency/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2023/02/4410344-building.jpg",
+    "expertiseLabel": "Governance, Education and Social Development"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a789ca5851519dfc6cec934",
+    "item": {
+      "id": "6a789ca5851519dfc6cec934",
+      "slug": "uzstandard-agency",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T15:28:37.729835Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T15:28:37.729835Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Uzstandard Agency",
+      "subtitle": "Institutional Development of Uzstandard Agency",
+      "countries": [
+        "Uzbekistan"
+      ],
+      "region": "asia",
+      "yearStart": 2007,
+      "yearEnd": 2009,
+      "expertise": "governance-education-social-development",
+      "volume": "1m-3m",
+      "periodStart": "2007-09-01",
+      "periodEnd": "2009-08-31",
+      "volumeAmount": "1.250.000 €",
+      "financing": "European Union - Tacis",
+      "clientName": "ICON-INSTITUTE GmbH & Co. KG Consulting Gruppe Von-Groote-Straße 28, 50968 Köln, Germany",
+      "description": "The project was designed to support the development of robust quality management systems by aligning them with international standards. The goal was to standardize processes, ensure accreditation, and implement certification procedures to promote global best practices across…",
+      "body": [
+        "The project was designed to support the development of robust quality management systems by aligning them with international standards. The goal was to standardize processes, ensure accreditation, and implement certification procedures to promote global best practices across various sectors. By fostering adherence to these international standards, the project also aimed to enable the country’s integration into international organizations and support sustainable development.",
+        "ICON-INSTITUT implemented the four key components. The first focused on Organizational Development and Human Resource Management, ensuring that institutions were equipped with the necessary skills and structures to implement these standards effectively. The second component, Standardization, worked to develop and promote the use of international standards across industries. Accreditation efforts formed the third pillar, establishing the framework for certifying institutions to meet these rigorous standards. Lastly, the project tackled Conformity Assessment, ensuring that the products and services complied with the established standards. Together, these efforts aimed to improve the overall quality management landscape, driving competitiveness and sustainable growth while facilitating the country’s participation in the global market."
+      ],
+      "image": "/media/4410344-building-7a243996.jpg",
+      "pdf": null,
+      "country": "Uzbekistan",
+      "periodLabel": "01/09/2007 - 31/08/2009"
+    }
+  }
+}

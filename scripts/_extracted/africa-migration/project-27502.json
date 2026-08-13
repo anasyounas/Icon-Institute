@@ -1,0 +1,101 @@
+{
+  "scraped": {
+    "wpId": "27502",
+    "permalink": "https://hp.icon-institute.de/refprojects/pregional-sff-si-vet-and-employmentp/",
+    "title": "Regional SFF SI VET and Employment",
+    "subtitle": "Regional SFF SI Vocational Education and Employment",
+    "countries": [
+      "Ghana"
+    ],
+    "region": "africa",
+    "yearStart": 2023,
+    "yearEnd": 2024,
+    "periodStart": "2023-12-04",
+    "periodEnd": "2024-08-31",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "130.745 €",
+    "financing": "BMZ",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Ghana, large parts of the working-age population are unemployed, underemployed, or work in the informal economy (90%). Among young adults, a third is unemployed. A fast-growing population, declining employment opportunities in the large agriculture sector, high migration…",
+    "body": [
+      "In Ghana, large parts of the working-age population are unemployed, underemployed, or work in the informal economy (90%). Among young adults, a third is unemployed. A fast-growing population, declining employment opportunities in the large agriculture sector, high migration from rural to urban areas and restricted participation opportunities of women, are challenges for sustainable economic growth and employability.",
+      "The German development cooperation with Ghana has integrated employment promotion as one focus area. GIZ/BMZ thus commissioned an up-to-date Employment and Labour Market Analysis (ELMA) to analyse the overall employment and labour market situation in Ghana and formulate conclusions and recommendations to develop a needs-oriented intervention portfolio, which considers the BMZ priority themes of Just Transition to a Green Economy and a gender-transformative approach."
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/08/4410591.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Regional SFF SI VET and Employment",
+    "subtitle": "Regional SFF SI Vocational Education and Employment",
+    "countries": [
+      "Ghana"
+    ],
+    "region": "africa",
+    "yearStart": 2023,
+    "yearEnd": 2024,
+    "periodStart": "2023-12-04",
+    "periodEnd": "2024-08-31",
+    "expertise": "economic-employment-promotion",
+    "volume": "100k-300k",
+    "volumeAmount": "130.745 €",
+    "financing": "BMZ",
+    "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "description": "In Ghana, large parts of the working-age population are unemployed, underemployed, or work in the informal economy (90%). Among young adults, a third is unemployed. A fast-growing population, declining employment opportunities in the large agriculture sector, high migration…",
+    "body": [
+      "In Ghana, large parts of the working-age population are unemployed, underemployed, or work in the informal economy (90%). Among young adults, a third is unemployed. A fast-growing population, declining employment opportunities in the large agriculture sector, high migration from rural to urban areas and restricted participation opportunities of women, are challenges for sustainable economic growth and employability.",
+      "The German development cooperation with Ghana has integrated employment promotion as one focus area. GIZ/BMZ thus commissioned an up-to-date Employment and Labour Market Analysis (ELMA) to analyse the overall employment and labour market situation in Ghana and formulate conclusions and recommendations to develop a needs-oriented intervention portfolio, which considers the BMZ priority themes of Just Transition to a Green Economy and a gender-transformative approach."
+    ],
+    "image": "/media/4410591-f5680297.jpg",
+    "pdf": null,
+    "wpId": "27502",
+    "permalink": "https://hp.icon-institute.de/refprojects/pregional-sff-si-vet-and-employmentp/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2024/08/4410591.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78a939851519dfc6ced0a1",
+    "item": {
+      "id": "6a78a939851519dfc6ced0a1",
+      "slug": "regional-sff-si-vet-and-employment",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:22:17.286631Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:22:17.286631Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Regional SFF SI VET and Employment",
+      "subtitle": "Regional SFF SI Vocational Education and Employment",
+      "countries": [
+        "Ghana"
+      ],
+      "region": "africa",
+      "yearStart": 2023,
+      "yearEnd": 2024,
+      "expertise": "economic-employment-promotion",
+      "volume": "100k-300k",
+      "periodStart": "2023-12-04",
+      "periodEnd": "2024-08-31",
+      "volumeAmount": "130.745 €",
+      "financing": "BMZ",
+      "clientName": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "In Ghana, large parts of the working-age population are unemployed, underemployed, or work in the informal economy (90%). Among young adults, a third is unemployed. A fast-growing population, declining employment opportunities in the large agriculture sector, high migration…",
+      "body": [
+        "In Ghana, large parts of the working-age population are unemployed, underemployed, or work in the informal economy (90%). Among young adults, a third is unemployed. A fast-growing population, declining employment opportunities in the large agriculture sector, high migration from rural to urban areas and restricted participation opportunities of women, are challenges for sustainable economic growth and employability.",
+        "The German development cooperation with Ghana has integrated employment promotion as one focus area. GIZ/BMZ thus commissioned an up-to-date Employment and Labour Market Analysis (ELMA) to analyse the overall employment and labour market situation in Ghana and formulate conclusions and recommendations to develop a needs-oriented intervention portfolio, which considers the BMZ priority themes of Just Transition to a Green Economy and a gender-transformative approach."
+      ],
+      "image": "/media/4410591-f5680297.jpg",
+      "pdf": null,
+      "country": "Ghana",
+      "periodLabel": "04/12/2023 - 31/08/2024"
+    }
+  }
+}

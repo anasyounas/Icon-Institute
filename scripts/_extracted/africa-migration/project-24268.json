@@ -1,0 +1,98 @@
+{
+  "scraped": {
+    "wpId": "24268",
+    "permalink": "https://hp.icon-institute.de/refprojects/banque-rwandaise-de-d%c3%a9veloppement-banque-commerciale-du-rwanda/",
+    "title": "Banque Rwandaise de Développement / Banque Commerciale du Rwanda",
+    "subtitle": "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-01-29",
+    "periodEnd": "2011-01-29",
+    "expertise": "economic-employment-promotion",
+    "expertiseLabel": "Economic and Employment Promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "559.750 €",
+    "financing": "European Union",
+    "clientName": "European Investment Bank (EIB)",
+    "description": "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building",
+    "body": [
+      "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building"
+    ],
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "pdf": null
+  },
+  "payload": {
+    "title": "Banque Rwandaise de Développement / Banque Commerciale du Rwanda",
+    "subtitle": "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building",
+    "countries": [
+      "Rwanda"
+    ],
+    "region": "africa",
+    "yearStart": 2009,
+    "yearEnd": 2011,
+    "periodStart": "2009-01-29",
+    "periodEnd": "2011-01-29",
+    "expertise": "economic-employment-promotion",
+    "volume": "500k-1m",
+    "volumeAmount": "559.750 €",
+    "financing": "European Union",
+    "clientName": "European Investment Bank (EIB)",
+    "description": "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building",
+    "body": [
+      "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building"
+    ],
+    "image": "/media/icon-institute-5-a9b569ab.jpg",
+    "pdf": null,
+    "wpId": "24268",
+    "permalink": "https://hp.icon-institute.de/refprojects/banque-rwandaise-de-d%c3%a9veloppement-banque-commerciale-du-rwanda/",
+    "imageUrl": "https://hp.icon-institute.de/wp-content/uploads/2019/10/icon-institute_5.jpg",
+    "expertiseLabel": "Economic and Employment Promotion"
+  },
+  "result": {
+    "action": "created",
+    "id": "6a78aa5c851519dfc6ced4b3",
+    "item": {
+      "id": "6a78aa5c851519dfc6ced4b3",
+      "slug": "banque-rwandaise-de-developpement-banque-commerciale-du-rwanda",
+      "cms_status": "draft",
+      "version": 1,
+      "review_note": null,
+      "schedule_publish_at": null,
+      "schedule_archive_at": null,
+      "created_by": "admin@icon-institute.de",
+      "created_at": "2026-08-09T16:27:08.072653Z",
+      "updated_by": "admin@icon-institute.de",
+      "updated_at": "2026-08-09T16:27:08.072653Z",
+      "submitted_by": null,
+      "approved_by": null,
+      "published_at": null,
+      "title": "Banque Rwandaise de Développement / Banque Commerciale du Rwanda",
+      "subtitle": "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building",
+      "countries": [
+        "Rwanda"
+      ],
+      "region": "africa",
+      "yearStart": 2009,
+      "yearEnd": 2011,
+      "expertise": "economic-employment-promotion",
+      "volume": "500k-1m",
+      "periodStart": "2009-01-29",
+      "periodEnd": "2011-01-29",
+      "volumeAmount": "559.750 €",
+      "financing": "European Union",
+      "clientName": "European Investment Bank (EIB)",
+      "description": "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building",
+      "body": [
+        "Banque Rwandaise de Développement (BRD) and Banque Commerciale du Rwanda S.A. (BCR) – Institutional Capacity Building"
+      ],
+      "image": "/media/icon-institute-5-a9b569ab.jpg",
+      "pdf": null,
+      "country": "Rwanda",
+      "periodLabel": "29/01/2009 - 29/01/2011"
+    }
+  }
+}

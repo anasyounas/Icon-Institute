@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { jobsPage as bundledJobsPage, type JobListing } from '../data/jobs';
+import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
 import { Seo } from '../components/Seo';
 import { usePublished } from '../hooks/usePublished';
@@ -9,6 +10,10 @@ import { API_ORIGIN } from '../lib/api';
 export function JobApplyPage() {
   const { jobId } = useParams();
   const listings = usePublished<JobListing[]>('/jobs', bundledJobsPage.listings);
+  const home = usePublished<HomeData>('/pages/home', bundledHome);
+  const heroImage =
+    home.quickLinks.find((l) => l.href === '/jobs')?.image ??
+    'icon_institute_jobs.jpg';
   const job = jobId ? listings.find((j) => j.id === jobId) : undefined;
   const applicationEmail =
     (job as { application_email?: string } | undefined)?.application_email ??
@@ -83,7 +88,7 @@ export function JobApplyPage() {
         path={`/jobs/${job.id}/apply`}
         noindex
       />
-      <PageHero title="APPLY" image="icon_institute_jobs.jpg" imageAlt="" />
+      <PageHero title="APPLY" image={heroImage} imageAlt="" />
       <section className="content-section">
         <div className="container narrow">
           <p className="back-link">
