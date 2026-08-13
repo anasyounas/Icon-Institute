@@ -1116,25 +1116,6 @@ code {
   z-index: 1;
 }
 
-.home-hero__mark-bar {
-  position: absolute;
-  left: -0.06em;
-  right: -0.06em;
-  bottom: 0.11em;
-  height: 0.2em;
-  z-index: 0;
-  background: hsl(var(--primary));
-  transform: scaleX(0);
-  transform-origin: left;
-  animation: markSwipe 0.8s var(--ease-out) 0.45s forwards;
-}
-
-@keyframes markSwipe {
-  to {
-    transform: scaleX(1);
-  }
-}
-
 .home-hero__text {
   margin: 0 auto 2.75rem;
   color: hsl(var(--foreground));
@@ -1148,6 +1129,7 @@ code {
   flex-wrap: wrap;
   gap: 0.75rem;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 /* Tagline band doubling as the carousel control — hairline grid via gap */

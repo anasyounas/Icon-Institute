@@ -56,8 +56,7 @@ export function HomePage() {
           <h1>
             ICON-
             <span className="home-hero__mark">
-              <span className="home-hero__mark-text">INSTITUTE</span>
-              <span className="home-hero__mark-bar" aria-hidden="true" />
+            <span className="home-hero__mark-text">INSTITUTE</span>
             </span>
           </h1>
 
