@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { newsItems as bundledNews, type NewsItem } from '../data/news';
@@ -24,16 +23,8 @@ export function HomePage() {
     },
   };
 
-  const [slide, setSlide] = useState(0);
   const slides = homePage.heroSlides;
   const revealRef = useReveal<HTMLDivElement>();
-
-  useEffect(() => {
-    const id = window.setInterval(() => {
-      setSlide((s) => (s + 1) % slides.length);
-    }, 5000);
-    return () => window.clearInterval(id);
-  }, [slides.length]);
 
   return (
     <div className="home" ref={revealRef}>
