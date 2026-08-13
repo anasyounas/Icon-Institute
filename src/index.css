@@ -4971,11 +4971,13 @@ a.site-footer__contact:hover .site-footer__icon {
 }
 .home-hero-triple__item {
   position: relative;
+  height: 420px;
 }
 .home-hero-triple__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 .home-hero-triple__word {
   position: absolute;
