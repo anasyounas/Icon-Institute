@@ -7,6 +7,7 @@ import {
   sampleProjects as bundledProjects,
   type SampleProject,
 } from '../data/projects';
+import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { ProjectCard } from '../components/ProjectCard';
@@ -20,6 +21,10 @@ export function ProjectsPage() {
   // The published project catalogue, maintained through the CMS Projects
   // Manager. Filtering and search still run entirely in the browser.
   const sampleProjects = usePublished<SampleProject[]>('/projects', bundledProjects);
+  const home = usePublished<HomeData>('/pages/home', bundledHome);
+  // Reuse the published home "Projects Worldwide" image (CMS `/media/...`) so
+  // the map is not stuck on a missing local `/images/icon_projects.jpg`.
+  const mapImage = home.projectsWorldwide.image || 'icon_projects.jpg';
   const [query, setQuery] = useState('');
   const [region, setRegion] = useState('');
   const [recent, setRecent] = useState('');
@@ -64,7 +69,7 @@ export function ProjectsPage() {
       <Seo {...pageSeo.projects} />
       <PageHero
         title="Projects"
-        image="icon_projects.jpg"
+        image={mapImage}
         imageAlt="ICON projects worldwide"
       />
 
@@ -74,7 +79,7 @@ export function ProjectsPage() {
 
           <div className="projects-map">
             <PlaceholderImage
-              src="icon_projects.jpg"
+              src={mapImage}
               alt="World map highlighting ICON project regions"
               className="projects-map__img"
             />
