@@ -78,7 +78,7 @@ export function HomePage() {
           </div>
 
           <div className="home-hero__actions">
-            <Link to={homePage.welcome.ctaHref} className="btn btn--accent">
+            <Link to={homePage.welcome.ctaHref} className="btn btn--light">
               {homePage.welcome.ctaLabel}
             </Link>
             <Link to={homePage.projectsWorldwide.href} className="btn btn--light">

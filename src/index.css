@@ -495,25 +495,19 @@ code {
   transform: translateY(1px);
 }
 
-/* Primary = electric lime with dark ink text */
-.btn--accent,
-.btn--cms {
-  background: hsl(var(--primary));
-  color: hsl(var(--primary-foreground)) !important;
+/* Filled accent matches the existing grey outline control (btn--light). */
+.btn--accent {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground)) !important;
+  border-color: hsl(var(--border));
   box-shadow: var(--shadow-sharp);
 }
 
-.btn--accent:hover,
-.btn--cms:hover {
-  background: hsl(var(--primary-glow));
-  color: hsl(var(--primary-foreground)) !important;
+.btn--accent:hover {
+  background: hsl(var(--background));
+  border-color: hsl(var(--foreground));
+  color: hsl(var(--foreground)) !important;
   transform: translateY(-2px);
-  box-shadow: var(--shadow-glow);
-}
-
-.btn--cms {
-  padding: 0.6em 1.25em;
-  font-size: 0.88rem;
 }
 
 /* Solid ink button */
@@ -786,11 +780,11 @@ code {
 }
 
 .site-nav__link.is-active {
-  color: hsl(var(--primary));
+  color: hsl(var(--foreground));
   font-weight: 600;
 }
 
-/* Lime underline marks the active route */
+/* Dark grey underline marks the active route */
 .site-nav__link.is-active::after {
   content: '';
   position: absolute;
@@ -799,15 +793,11 @@ code {
   bottom: 0.15rem;
   height: 2px;
   border-radius: var(--radius-full);
-  background: hsl(var(--primary));
+  background: hsl(var(--foreground));
 }
 
 .site-nav__item {
   position: relative;
-}
-
-.site-nav__item--cms {
-  margin-left: 0.85rem;
 }
 
 .site-nav__dropdown {
@@ -949,7 +939,7 @@ code {
   height: 4px;
   margin-top: 1.5rem;
   border-radius: var(--radius-full);
-  background: hsl(var(--primary));
+  background: hsl(var(--ink-muted));
 }
 
 .page-hero--compact h1::after {
@@ -2889,8 +2879,8 @@ a.site-footer__contact:hover .site-footer__icon {
   padding: 1rem 1.25rem;
   border: 0;
   border-radius: var(--radius);
-  background: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
+  background: hsl(var(--foreground));
+  color: hsl(var(--accent-foreground));
   font-family: var(--font-admin);
   font-size: 1rem;
   font-weight: 600;
@@ -2901,9 +2891,9 @@ a.site-footer__contact:hover .site-footer__icon {
 }
 
 .admin-login__submit:hover {
-  background: hsl(var(--primary-glow));
+  background: hsl(222 30% 16%);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-glow);
+  box-shadow: var(--shadow-elegant);
 }
 
 .admin-login__submit:active {
@@ -4706,17 +4696,6 @@ a.site-footer__contact:hover .site-footer__icon {
   .site-nav__link.is-active {
     background: hsl(var(--muted));
     border-bottom-color: transparent;
-  }
-
-  .site-nav__item--cms {
-    margin: 1.5rem 0 0;
-  }
-
-  .site-nav__item--cms .btn--cms {
-    display: flex;
-    width: 100%;
-    padding: 0.95em 1.35em;
-    font-size: 0.95rem;
   }
 
   .site-nav__dropdown {

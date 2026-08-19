@@ -96,6 +96,8 @@ export function Footer() {
                 <Link to={link.href}>{link.label}</Link>
               </span>
             ))}
+            {' '}
+            <Link to="/admin/login">CMS Login</Link>
           </span>
         </div>
       </div>

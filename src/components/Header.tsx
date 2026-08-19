@@ -102,11 +102,6 @@ export function Header() {
                 )}
               </li>
             ))}
-            <li className="site-nav__item site-nav__item--cms">
-              <Link to="/admin/login" className="btn btn--cms">
-                CMS Login
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>
