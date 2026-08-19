@@ -897,12 +897,22 @@ code {
   inset: 0;
 }
 
+/* Beat the global `img { max-width:100%; height:auto }` reset so the photo
+   actually fills the banner behind the page title. */
 .page-hero__img,
 .page-hero__media .img-placeholder {
+  position: absolute;
+  inset: 0;
   width: 100%;
+  max-width: none;
   height: 100%;
   object-fit: cover;
   opacity: 0.4;
+}
+
+.projects-page .page-hero__img,
+.project-region .page-hero__img {
+  opacity: 0.55;
 }
 
 .page-hero__overlay {
