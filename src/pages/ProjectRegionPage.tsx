@@ -4,6 +4,7 @@ import {
   sampleProjects as bundledProjects,
   type SampleProject,
 } from '../data/projects';
+import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
 import { ProjectCard } from '../components/ProjectCard';
 import { Seo } from '../components/Seo';
@@ -14,6 +15,8 @@ import { usePublished } from '../hooks/usePublished';
 export function ProjectRegionPage() {
   const { region } = useParams();
   const sampleProjects = usePublished<SampleProject[]>('/projects', bundledProjects);
+  const home = usePublished<HomeData>('/pages/home', bundledHome);
+  const mapImage = home.projectsWorldwide.image || 'icon_projects.jpg';
   const meta = projectRegions.find((r) => r.slug === region);
   const projects = sampleProjects.filter((p) => p.region === region);
 
@@ -41,7 +44,7 @@ export function ProjectRegionPage() {
       />
       <PageHero
         title={`Projects ${meta.title}`}
-        image="icon_projects.jpg"
+        image={mapImage}
         imageAlt={`ICON projects in ${meta.title}`}
       />
       <section className="content-section">
