@@ -51,7 +51,7 @@ export function PasswordGate() {
   return (
     <div className="admin-gate">
       <form className="admin-gate__card" onSubmit={submit}>
-        <img src="/logo.jpg" alt="ICON-INSTITUTE" className="admin-gate__logo" />
+        <img src="/images/logo_icon.jpg" alt="ICON-INSTITUTE" className="admin-gate__logo" />
         <h1>Choose your own password</h1>
         <p className="admin-gate__lead">
           Welcome, {user?.name}. Your current password was set for you by an

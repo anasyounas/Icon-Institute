@@ -48,8 +48,8 @@ export const expertiseHubCards: ExpertiseHubCard[] = [
     image: 'governance-public-administration.jpg',
     highlights: [
       'Governance',
-      'Education and Training',
-      'Social Development and Health',
+      'Education',
+      'Social Development',
     ],
   },
   {
@@ -61,7 +61,7 @@ export const expertiseHubCards: ExpertiseHubCard[] = [
   {
     slug: 'sustainability-management',
     title: 'Sustainability Management in Global Value and Supply Chains',
-    image: 'Sustainable-supply-chains-1.png',
+    image: 'Sustainable-supply-chains-2.png',
     highlights: [],
   },
 ];

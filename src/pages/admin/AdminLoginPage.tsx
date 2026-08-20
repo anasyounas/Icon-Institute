@@ -237,7 +237,7 @@ export function AdminLoginPage() {
 
           <div className="admin-login__brand-row">
             <img
-              src="/logo.jpg"
+              src="/images/logo_icon.jpg"
               alt="ICON-INSTITUTE"
               className="admin-login__logo"
             />

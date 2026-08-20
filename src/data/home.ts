@@ -49,15 +49,15 @@ export type HomePage = {
 
 export const homePage: HomePage = {
   heroSlides: [
-    { image: '/header%20(1).jpg', overlayWord: 'consulting' },
-    { image: '/header%20(2).jpg', overlayWord: 'concepts' },
-    { image: '/header%20(3).jpg', overlayWord: 'training' },
+    { image: 'Ttl_Group1.jpg', overlayWord: 'consulting.' },
+    { image: '6608100.jpg', overlayWord: 'concepts.' },
+    { image: 'ESG_Group.jpg', overlayWord: 'training.' },
   ],
   welcome: {
     title: 'Welcome',
     text: 'Welcome to our homepage. Herein you find all relevant information on the consulting services and expertise that we have built up since 1975. Hopefully you will enjoy browsing our website and learn more about the ICON-INSTITUTE Consulting Group.',
     ctaLabel: 'Learn more',
-    ctaHref: '/about-us',
+    ctaHref: '/about-us/',
   },
   services: {
     title: 'What we do',

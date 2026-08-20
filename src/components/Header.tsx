@@ -37,7 +37,7 @@ export function Header() {
       <div className="site-header__inner">
         <Link to="/" className="site-logo" aria-label="ICON-INSTITUTE home">
           <img
-            src="/logo.jpg"
+            src="/images/logo_icon.jpg"
             alt="ICON-INSTITUTE"
             className="site-logo__img"
           />

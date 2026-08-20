@@ -1,27 +1,25 @@
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { newsItems as bundledNews, type NewsItem } from '../data/news';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo, siteSeo } from '../data/seo';
-import { useReveal } from '../hooks/useReveal';
 import { usePublished } from '../hooks/usePublished';
-import { SparkIcon } from '../components/Icons';
-import { getExpertiseIcon, getServiceIcon } from '../components/iconMap';
 import { assetUrl } from '../lib/api';
 
+/** Short labels used on the live homepage icon row. */
+const EXPERTISE_HOME_TITLES: Record<string, string> = {
+  'sustainability-management': 'Sustainability Management',
+};
+
 export function HomePage() {
-  // Text and images are CMS-managed (Content & Media Editor → Home); the
-  // featured news strip always shows the three latest published articles.
   const cmsHome = usePublished<HomeData>('/pages/home', bundledHome);
   const latestNews = usePublished<NewsItem[]>('/news', bundledNews);
-  // Keep bundled articles on screen until a non-empty CMS list arrives so the
-  // strip never flashes empty while `/news` is slow.
   const newsItems =
     Array.isArray(latestNews) && latestNews.length > 0 ? latestNews : bundledNews;
   const homePage: HomeData = {
     ...bundledHome,
-    ...cmsHome,
     featuredNews: {
       title: cmsHome.featuredNews?.title ?? bundledHome.featuredNews.title,
       items: newsItems.slice(0, 3),
@@ -29,10 +27,19 @@ export function HomePage() {
   };
 
   const slides = homePage.heroSlides;
-  const revealRef = useReveal<HTMLDivElement>();
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  useEffect(() => {
+    if (slides.length < 2) return undefined;
+    const timer = window.setInterval(
+      () => setActiveSlide((current) => (current + 1) % slides.length),
+      5600,
+    );
+    return () => window.clearInterval(timer);
+  }, [slides.length]);
 
   return (
-    <div className="home" ref={revealRef}>
+    <div className="home">
       <Seo
         {...pageSeo.home}
         jsonLd={[
@@ -46,129 +53,94 @@ export function HomePage() {
         ]}
       />
 
-   <section className="home-hero" aria-label="Highlights">
-        <div className="container home-hero__inner">
-          <p className="home-hero__brand">
-            <SparkIcon className="home-hero__brand-icon" />
-            Consulting Gruppe · Since 1975
-          </p>
-
-          <h1>
-            ICON-
-            <span className="home-hero__mark">
-            <span className="home-hero__mark-text">INSTITUTE</span>
-            </span>
-          </h1>
-
-          <p className="home-hero__text">{homePage.welcome.text}</p>
-
-          <div className="home-hero-triple">
-            {slides.map((s) => (
-              <div key={s.overlayWord} className="home-hero-triple__item">
-                <img
-                  src={assetUrl(s.image)}
-                  alt=""
-                  className="home-hero-triple__img"
-                  loading="eager"
-                  fetchPriority="high"
-                />
-                <h2 className="home-hero-triple__word">{s.overlayWord}</h2>
-              </div>
-            ))}
-          </div>
-
-          <div className="home-hero__actions">
-            <Link to={homePage.welcome.ctaHref} className="btn btn--light">
-              {homePage.welcome.ctaLabel}
-            </Link>
-            <Link to={homePage.projectsWorldwide.href} className="btn btn--light">
-              {homePage.projectsWorldwide.title}
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="home-services">
-        <div className="container">
-          <header className="home-services__header" data-reveal>
-            <h2>{homePage.services.title}</h2>
-            <p>{homePage.services.subtitle}</p>
-          </header>
-          <div className="home-services__grid">
-            {homePage.services.cards.map((card, i) => {
-              const { Icon, accent } = getServiceIcon(card.title);
-              return (
-                <Link
-                  key={card.title}
-                  to={card.href}
-                  className="home-services__card"
-                  data-reveal
-                  data-reveal-delay={i * 90}
-                >
-                  <span className={`icon-tile icon-tile--${accent}`} aria-hidden="true">
-                    <Icon />
-                  </span>
-                  <h3>{card.title}</h3>
-                  <p>{card.text}</p>
-                  <span className="home-services__more">Explore</span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      <section className="home-quick">
-        <div className="container home-quick__grid">
-          {homePage.quickLinks.map((link, i) => (
-            <Link
-              key={link.href}
-              to={link.href}
-              className="home-quick__card"
-              data-reveal
-              data-reveal-delay={i * 90}
+      <section className="home-hero" aria-label="Highlights">
+        <div className="home-hero__slider">
+          {slides.map((s, index) => (
+            <div
+              key={s.overlayWord}
+              className={`home-hero-triple__item ${index === activeSlide ? 'is-active' : ''}`}
+              aria-hidden={index !== activeSlide}
             >
-              <PlaceholderImage
-                src={link.image}
-                alt={link.label}
-                className="home-quick__img"
+              <img
+                src={assetUrl(s.image)}
+                alt=""
+                className="home-hero-triple__img"
+                loading="eager"
+                fetchPriority="high"
               />
-              <span className="home-quick__label">{link.label}</span>
-            </Link>
+              <h2 className="home-hero-triple__word">{s.overlayWord}</h2>
+            </div>
           ))}
         </div>
       </section>
 
-      <section className="home-projects">
+      <section className="home-welcome">
         <div className="container">
-          <Link
-            to={homePage.projectsWorldwide.href}
-            className="home-projects__link"
-            data-reveal
-          >
-            <PlaceholderImage
-              src={homePage.projectsWorldwide.image}
-              alt={homePage.projectsWorldwide.title}
-              className="home-projects__img"
-            />
-            <h2>{homePage.projectsWorldwide.title}</h2>
-          </Link>
+          <h3>{homePage.welcome.title}</h3>
+          <p>{homePage.welcome.text}</p>
+          <Link to={homePage.welcome.ctaHref}>{homePage.welcome.ctaLabel}</Link>
         </div>
       </section>
 
-      <section className="home-expertise">
-        <div className="container">
-          <h3 data-reveal>{homePage.expertise.title}</h3>
-          <div className="home-expertise__grid">
-            {homePage.expertise.cards.map((card, i) => {
-              const { Icon, accent } = getExpertiseIcon(card.slug);
-              return (
+      <div className="home-body">
+        <div className="container home-body__inner">
+          <div className="home-mid-grid">
+            <section className="home-quick home-mid-grid__quick">
+              <div className="home-quick__grid">
+                {homePage.quickLinks.map((link) => (
+                  <Link key={link.href} to={link.href} className="home-quick__card">
+                    <PlaceholderImage
+                      src={link.image}
+                      alt={link.label}
+                      className="home-quick__img"
+                    />
+                    <h6 className="home-quick__label">{link.label}</h6>
+                  </Link>
+                ))}
+              </div>
+            </section>
+
+            <section className="home-projects home-mid-grid__projects">
+              <Link to={homePage.projectsWorldwide.href} className="home-projects__link">
+                <PlaceholderImage
+                  src={homePage.projectsWorldwide.image}
+                  alt={homePage.projectsWorldwide.title}
+                  className="home-projects__img"
+                />
+                <h2>{homePage.projectsWorldwide.title}</h2>
+              </Link>
+            </section>
+
+            <aside className="home-news home-mid-grid__news">
+              <h4 className="home-news__heading">{homePage.featuredNews.title}</h4>
+              <div className="home-news__grid">
+                {homePage.featuredNews.items.map((item) => (
+                  <Link
+                    key={item.slug}
+                    to={`/news/${item.slug}`}
+                    className="home-news__card"
+                  >
+                    <PlaceholderImage
+                      src={item.image ?? 'ipa2022bckgr-600x600.jpg'}
+                      alt={item.title}
+                      className="home-news__img"
+                      aspectRatio="3 / 2"
+                    />
+                    <h3>{item.title}</h3>
+                  </Link>
+                ))}
+              </div>
+            </aside>
+          </div>
+
+          <section className="home-expertise">
+            <h3>{homePage.expertise.title}</h3>
+            <div className="home-expertise__grid">
+              {homePage.expertise.cards.map((card) => (
                 <Link
                   key={card.slug}
                   to={`/expertise/${card.slug}`}
                   className="home-expertise__card"
-                  data-reveal
-                  data-reveal-delay={i * 70}
                 >
                   <span className="home-expertise__media">
                     <PlaceholderImage
@@ -177,51 +149,16 @@ export function HomePage() {
                       className="home-expertise__img"
                       aspectRatio="1 / 1"
                     />
-                    <span
-                      className={`icon-tile icon-tile--${accent} home-expertise__icon`}
-                      aria-hidden="true"
-                    >
-                      <Icon />
-                    </span>
                   </span>
-                  <h4>
-                    {card.title.includes(' and ')
-                      ? card.title.replace(/ and /, ' and\n')
-                      : card.title}
-                  </h4>
+                  <p className="home-expertise__title">
+                    {EXPERTISE_HOME_TITLES[card.slug] ?? card.title}
+                  </p>
                 </Link>
-              );
-            })}
-          </div>
+              ))}
+            </div>
+          </section>
         </div>
-      </section>
-
-      <section className="home-news">
-        <div className="container">
-          <h4 className="home-news__heading" data-reveal>
-            {homePage.featuredNews.title}
-          </h4>
-          <div className="home-news__grid">
-            {homePage.featuredNews.items.map((item, i) => (
-              <Link
-                key={item.slug}
-                to={`/news/${item.slug}`}
-                className="home-news__card"
-                data-reveal
-                data-reveal-delay={i * 90}
-              >
-                <PlaceholderImage
-                  src={item.image ?? 'news-placeholder.jpg'}
-                  alt={item.title}
-                  className="home-news__img"
-                  aspectRatio="1 / 1"
-                />
-                <h3>{item.title}</h3>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
   );
 }

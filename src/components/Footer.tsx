@@ -22,9 +22,9 @@ export function Footer() {
                    }}>
         <div className="container site-footer__grid">
           <div className="site-footer__brand">
-            <p className="site-footer__name">{footer.name}</p>
-            <p className="site-footer__tagline">{footer.tagline}</p>
+            <span className="site-footer__icon" aria-hidden><GlobeIcon /></span>
             <address className="site-footer__address">
+              {footer.name}<br />{footer.tagline}<br />
               {footer.addressLines.map((line) => (
                 <span key={line}>
                   {line}
@@ -34,7 +34,7 @@ export function Footer() {
             </address>
           </div>
 
-          <div className="site-footer__contacts">
+          <div className="site-footer__contacts site-footer__contacts--phone">
             <a
               className="site-footer__contact"
               href={`tel:${footer.phone.replace(/\s/g, '')}`}
@@ -42,30 +42,23 @@ export function Footer() {
               <span className="site-footer__icon" aria-hidden>
                 <PhoneIcon />
               </span>
-              <span>
-                <span className="site-footer__label">Phone</span>
-                {footer.phone}
-              </span>
+              <span>{footer.phone}</span>
             </a>
 
             <div className="site-footer__contact">
               <span className="site-footer__icon" aria-hidden>
                 <PrinterIcon />
               </span>
-              <span>
-                <span className="site-footer__label">Fax</span>
-                {footer.fax}
-              </span>
+              <span>{footer.fax}</span>
             </div>
+          </div>
 
+          <div className="site-footer__contacts site-footer__contacts--web">
             <a className="site-footer__contact" href={`mailto:${footer.email}`}>
               <span className="site-footer__icon" aria-hidden>
                 <MailIcon />
               </span>
-              <span>
-                <span className="site-footer__label">Email</span>
-                {footer.email}
-              </span>
+              <span>{footer.email}</span>
             </a>
 
             <a
@@ -77,10 +70,7 @@ export function Footer() {
               <span className="site-footer__icon" aria-hidden>
                 <GlobeIcon />
               </span>
-              <span>
-                <span className="site-footer__label">Web</span>
-                {footer.website}
-              </span>
+              <span>{footer.website}</span>
             </a>
           </div>
         </div>
@@ -96,7 +86,6 @@ export function Footer() {
                 <Link to={link.href}>{link.label}</Link>
               </span>
             ))}
-            {' '}
             <Link to="/admin/login">CMS Login</Link>
           </span>
         </div>

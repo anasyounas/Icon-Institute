@@ -95,7 +95,7 @@ export function AdminLayout() {
       <aside className={`admin-sidebar ${navOpen ? 'is-open' : ''}`}>
         <div className="admin-sidebar__brand">
           <img
-            src="/logo.jpg"
+            src="/images/logo_icon.jpg"
             alt="ICON-INSTITUTE"
             className="admin-sidebar__logo"
           />
