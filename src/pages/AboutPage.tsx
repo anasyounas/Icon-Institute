@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { aboutPage as bundledAbout, type AboutPage as AboutData } from '../data/about';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
-import { Accordion } from '../components/Accordion';
+import { MembershipLogoSlider } from '../components/MembershipLogoSlider';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { usePublished } from '../hooks/usePublished';
@@ -116,37 +116,34 @@ export function AboutPage() {
       </section>
 
       <section id="memberships" className="content-section">
-        <div className="container">
-          <h2>Our Memberships</h2>
-          <p>
-            The company, its staff and experts are members of and contribute to
-            the following institutions and societies:
-          </p>
-          <ul className="bullet-list">
-            {aboutPage.memberships.list.map((item) => (
-              <li key={item}>{item}</li>
+        <div className="container memberships">
+          <div className="memberships__col">
+            <h2>Our Memberships</h2>
+            <p>
+              The company, its staff and experts are members of and contribute to
+              the following institutions and societies:
+            </p>
+            <ul className="bullet-list">
+              {aboutPage.memberships.list.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <MembershipLogoSlider
+              logos={aboutPage.memberships.details.map((d) => ({
+                src: d.logo ?? '',
+                alt: d.name,
+              }))}
+            />
+          </div>
+          <div className="memberships__col memberships__details">
+            {aboutPage.memberships.details.map((d) => (
+              <p key={d.name}>
+                <strong>{d.name}</strong>
+                <br />
+                {d.description}
+              </p>
             ))}
-          </ul>
-
-          <Accordion
-            items={aboutPage.memberships.details.map((d) => ({
-              id: d.name,
-              title: d.name,
-              children: (
-                <div className="membership-detail">
-                  {d.logo && (
-                    <PlaceholderImage
-                      src={d.logo}
-                      alt={d.name}
-                      className="membership-detail__logo"
-                      aspectRatio="3 / 1"
-                    />
-                  )}
-                  <p>{d.description}</p>
-                </div>
-              ),
-            }))}
-          />
+          </div>
         </div>
       </section>
     </div>
