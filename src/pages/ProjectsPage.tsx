@@ -9,7 +9,6 @@ import {
 } from '../data/projects';
 import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
-import { PlaceholderImage } from '../components/PlaceholderImage';
 import { ProjectCard } from '../components/ProjectCard';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
