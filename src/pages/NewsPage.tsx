@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { newsItems as bundledNews, type NewsItem } from '../data/news';
-import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
@@ -9,14 +8,13 @@ import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
 import { usePublished } from '../hooks/usePublished';
 
+const NEWS_HEADER_IMAGE =
+  'https://hp.icon-institute.de/wp-content/uploads/2019/02/icon-institute_21.jpg';
+
 export function NewsPage() {
   // Published CMS articles; the bundled list covers the moment before the
   // first response (and keeps the page rendering if the CMS is offline).
   const newsItems = usePublished<NewsItem[]>('/news', bundledNews);
-  const home = usePublished<HomeData>('/pages/home', bundledHome);
-  // Reuse a published home header photo (CMS `/media/...`) so the hero is not
-  // stuck on a missing local `/images/icon-institute_21.jpg`.
-  const heroImage = home.heroSlides[0]?.image ?? 'icon-institute_21.jpg';
 
   // Paginate the flat chronological list, then group whatever lands on this
   // page by year — so the year headings survive without splitting a year
@@ -37,7 +35,7 @@ export function NewsPage() {
       <Seo {...pageSeo.news} />
       <PageHero
         title="NEWS"
-        image={heroImage}
+        image={NEWS_HEADER_IMAGE}
         imageAlt="ICON-INSTITUTE news"
       />
       <section className="content-section" id="news-list">

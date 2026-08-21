@@ -6282,3 +6282,72 @@ a, a:hover { color: #861a14; }
   content: none !important;
 }
 
+/* --------------------------------------------------------------------------
+   Projects — visual grouping for filters
+   Ensures the Volume filter is visually included with the other filters
+   without touching any filtering logic. Responsive and minimal change.
+   -------------------------------------------------------------------------- */
+.projects-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  align-items: center;
+  margin: 1rem 0 1.25rem;
+}
+
+.projects-filters label {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 180px;
+  flex: 1 1 220px;
+  margin: 0;
+}
+
+.projects-filters select,
+.projects-filters input {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .projects-filters {
+    padding: 0.8rem;
+    gap: 0.7rem;
+  }
+  .projects-filters label {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   About page — reduce hero overlay darkness
+   Minimal change: only adjusts the overlay layer so the background image
+   appears brighter while keeping typography, layout and image source intact.
+   -------------------------------------------------------------------------- */
+.about-page .page-hero__overlay {
+  /* Lighter veil: reduce alpha values so more photo shows through */
+  background: linear-gradient(
+    to top,
+    hsl(var(--ink) / 0.08) 0%,
+    hsl(var(--ink) / 0.30) 45%,
+    hsl(var(--ink) / 0.18) 100%
+  );
+}
+
+@media (max-width: 900px) {
+  /* Ensure overlay reduction remains pleasant on small screens */
+  .about-page .page-hero__overlay {
+    background: linear-gradient(
+      to top,
+      hsl(var(--ink) / 0.06) 0%,
+      hsl(var(--ink) / 0.24) 45%,
+      hsl(var(--ink) / 0.14) 100%
+    );
+  }
+}
+
