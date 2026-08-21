@@ -78,11 +78,13 @@ export function ProjectsPage() {
           <p className="lede">{projectsPage.intro}</p>
 
           <div className="projects-map">
+            {/*
             <PlaceholderImage
               src={mapImage}
               alt="World map highlighting ICON project regions"
               className="projects-map__img"
             />
+            */}
             <div className="projects-map__regions" role="navigation" aria-label="Project regions">
               {projectRegions.map((r) => (
                 <Link key={r.slug} to={r.href} className="btn btn--primary">
