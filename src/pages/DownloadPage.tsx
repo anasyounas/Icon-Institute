@@ -12,7 +12,12 @@ export function DownloadPage() {
   return (
     <div className="download-page">
       <Seo {...pageSeo.download} />
-      <PageHero title="DOWNLOAD" compact />
+      <PageHero
+        title="DOWNLOAD"
+        compact
+        image="https://hp.icon-institute.de/wp-content/uploads/2019/02/icon_institut_haus_3.jpg"
+        imageAlt=""
+      />
       <section className="content-section">
         <div className="container download-page__grid">
           <article>

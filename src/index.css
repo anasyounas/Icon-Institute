@@ -6273,3 +6273,140 @@ a, a:hover { color: #861a14; }
   content: none !important;
 }
 
+/* --------------------------------------------------------------------------
+   Projects — visual grouping for filters
+   Ensures the Volume filter is visually included with the other filters
+   without touching any filtering logic. Responsive and minimal change.
+   -------------------------------------------------------------------------- */
+.projects-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  align-items: center;
+  margin: 1rem 0 1.25rem;
+}
+
+.projects-filters label {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 180px;
+  flex: 1 1 220px;
+  margin: 0;
+}
+
+.projects-filters select,
+.projects-filters input {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .projects-filters {
+    padding: 0.8rem;
+    gap: 0.7rem;
+  }
+  .projects-filters label {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   About page — reduce hero overlay darkness
+   Minimal change: only adjusts the overlay layer so the background image
+   appears brighter while keeping typography, layout and image source intact.
+   -------------------------------------------------------------------------- */
+.about-page .page-hero__overlay {
+  /* Lighter veil: reduce alpha values so more photo shows through */
+  background: linear-gradient(
+    to top,
+    hsl(var(--ink) / 0.08) 0%,
+    hsl(var(--ink) / 0.30) 45%,
+    hsl(var(--ink) / 0.18) 100%
+  );
+}
+
+@media (max-width: 900px) {
+  /* Ensure overlay reduction remains pleasant on small screens */
+  .about-page .page-hero__overlay {
+    background: linear-gradient(
+      to top,
+      hsl(var(--ink) / 0.06) 0%,
+      hsl(var(--ink) / 0.24) 45%,
+      hsl(var(--ink) / 0.14) 100%
+    );
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Projects — mobile optimizations for the listing
+   Ensure project cards are one-per-row on small screens and have improved
+   spacing and internal padding so text does not overlap or feel cramped.
+   Desktop layout is untouched; changes apply only on narrower viewports.
+   -------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+    row-gap: 1rem !important;
+    column-gap: 0.75rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  .project-card__link {
+    gap: 0.75rem !important; /* slightly smaller gap so text has room */
+    padding: 0.9rem 0 !important;
+  }
+
+  .project-card__media,
+  .project-card__img {
+    flex: 0 0 64px !important;
+    width: 64px !important;
+    height: 64px !important;
+    max-width: 64px !important;
+    max-height: 64px !important;
+  }
+
+  .project-card__title {
+    font-size: 1rem !important;
+  }
+
+  .project-card__meta {
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Global mobile niceties and hero sizing
+   - Prevent horizontal viewport overflow caused by full-bleed elements
+   - Reduce hero/banner vertical heights on small screens so content is visible
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  /* Avoid horizontal scroll caused by 100vw full-bleed elements */
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Reduce the generic page hero so it doesn't dominate the small viewport */
+  .page-hero {
+    min-height: 220px;
+    align-items: center; /* center title vertically on smaller screens */
+  }
+
+  /* Home hero slider is intentionally full-bleed; keep it but shrink height */
+  .home-hero__slider {
+    height: min(48vw, 320px) !important;
+  }
+
+  /* Ensure the hero image fits and doesn't extend beyond the viewport */
+  .page-hero__img {
+    object-position: center top;
+  }
+}
+
