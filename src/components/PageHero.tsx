@@ -5,17 +5,22 @@ type Props = {
   image?: string;
   compact?: boolean;
   imageAlt?: string;
+  /** Original-site banner: photo + 40% black veil, title centred. */
+  banner?: boolean;
 };
 
 export function PageHero({
   title,
   image,
   compact,
+  banner,
   imageAlt = '',
 }: Props) {
   return (
     <section
-      className={`page-hero ${compact ? 'page-hero--compact' : ''}`}
+      className={`page-hero${compact ? ' page-hero--compact' : ''}${
+        banner ? ' page-hero--banner' : ''
+      }`}
       aria-labelledby="page-hero-title"
     >
       {image && (

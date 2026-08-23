@@ -7,8 +7,7 @@ import { Pagination } from '../components/Pagination';
 import { usePagination } from '../hooks/usePagination';
 import { usePublished } from '../hooks/usePublished';
 
-const NEWS_HEADER_IMAGE =
-  'https://hp.icon-institute.de/wp-content/uploads/2019/02/icon-institute_21.jpg';
+const NEWS_HEADER_IMAGE = 'icon-institute_21.jpg';
 
 export function NewsPage() {
   // Published CMS articles; the bundled list covers the moment before the
@@ -36,6 +35,7 @@ export function NewsPage() {
         title="NEWS"
         image={NEWS_HEADER_IMAGE}
         imageAlt="ICON-INSTITUTE news"
+        banner
       />
       <section className="content-section" id="news-list">
         <div className="container">

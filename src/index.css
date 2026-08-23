@@ -956,6 +956,49 @@ code {
   display: none;
 }
 
+/* Original-site page banner (news): full photo, flat 40% veil, centred title */
+.page-hero--banner {
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+}
+
+.page-hero--banner .page-hero__img,
+.page-hero--banner .page-hero__media .img-placeholder {
+  opacity: 1;
+}
+
+.page-hero--banner .page-hero__overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.page-hero--banner::after {
+  display: none;
+}
+
+.page-hero--banner .page-hero__content {
+  width: 100%;
+  text-align: center;
+  padding-block: 150px;
+  animation: none;
+}
+
+.page-hero--banner h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.page-hero--banner h1::after {
+  display: none;
+}
+
 /* --------------------------------------------------------------------------
    10. Home — hero
    -------------------------------------------------------------------------- */
@@ -2068,17 +2111,71 @@ code {
 }
 
 /* --------------------------------------------------------------------------
-   17. News listing — two-column grey tiles, white type (reference site)
+   17. News listing — match hp.icon-institute.de/news/
+   Open Sans, centred banner title, photo tiles with 27% black overlay
    -------------------------------------------------------------------------- */
+
+.news-page .page-hero {
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+}
+
+.news-page .page-hero__img,
+.news-page .page-hero__media .img-placeholder {
+  opacity: 1;
+}
+
+.news-page .page-hero__overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.news-page .page-hero::after {
+  display: none;
+}
+
+.news-page .page-hero__content {
+  width: 100%;
+  text-align: center;
+  padding-block: 150px;
+  animation: none;
+}
+
+.news-page .page-hero h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.news-page .page-hero h1::after {
+  display: none;
+}
+
+.news-page,
+.news-page h1,
+.news-page h2,
+.news-page h3,
+.news-page time {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
 .news-year {
   margin-bottom: 3.5rem;
 }
 
 .news-year h2 {
-  font-family: var(--font);
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.4;
   letter-spacing: 0;
+  text-transform: uppercase;
   color: #9b9ca0;
   margin: 0 0 1.5rem;
 }
@@ -2099,14 +2196,16 @@ code {
 }
 
 .news-card {
+  position: relative;
+  isolation: isolate;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.65rem;
+  gap: 0.35rem;
   min-height: 0;
   aspect-ratio: 2.4 / 1;
-  padding: 2rem 1.75rem;
+  padding: 2rem;
   box-sizing: border-box;
   background: #9b9ca0;
   border: 0;
@@ -2116,38 +2215,43 @@ code {
   text-align: center;
   text-decoration: none !important;
   box-shadow: none;
-  transition: background 0.3s ease, opacity 0.3s ease;
 }
 
 .news-card:hover,
 .news-card:focus-visible {
   transform: none;
-  background: #8a8b8f;
   box-shadow: none;
   color: #ffffff !important;
   text-decoration: none !important;
 }
 
-.news-card h3 {
+.news-card h3,
+.news-card time {
+  position: relative;
+  z-index: 1;
+  font-family: 'Open Sans', Arial, sans-serif;
   color: #ffffff;
+}
+
+.news-card h3 {
   text-transform: none;
-  font-family: var(--font);
   font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.35;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
   margin: 0;
   transition: opacity 0.3s ease;
 }
 
-.news-card:hover h3 {
+.news-card:hover h3,
+.news-card:focus-visible h3 {
   opacity: 0.5;
 }
 
 .news-card time {
   margin: 0;
-  font-family: var(--font);
-  color: #ffffff;
-  font-size: 0.95rem;
+  font-size: 14px;
+  line-height: 1.5;
   letter-spacing: 0;
   font-weight: 400;
 }
@@ -2571,9 +2675,9 @@ a.site-footer__contact:hover .site-footer__icon {
 
 .site-footer__bar {
   position: relative;
-  background: hsl(var(--ink));
+  background: #fff;
   border-top: 1px solid hsl(var(--ink-border));
-  color: hsl(0 0% 100% / 0.5);
+  color: #111;
   padding: 1.35rem 0;
   font-size: 0.85rem;
 }
@@ -2587,7 +2691,7 @@ a.site-footer__contact:hover .site-footer__icon {
 }
 
 .site-footer__legal a {
-  color: hsl(0 0% 100% / 0.62);
+  color: hsl(var(--primary));
   margin-left: 1.15rem;
   font-weight: 500;
   text-decoration: none !important;
@@ -2595,7 +2699,7 @@ a.site-footer__contact:hover .site-footer__icon {
 }
 
 .site-footer__legal a:hover {
-  color: hsl(var(--primary));
+  color: #111;
 }
 
 /* --------------------------------------------------------------------------
@@ -5132,8 +5236,8 @@ a, a:hover { color: #861a14; }
 .site-footer__contact { align-items: center; }
 .site-footer__icon { width: auto; height: auto; padding: 0; color: #fff; background: transparent; border: 0; border-radius: 0; }
 .site-footer__icon svg { width: 20px; height: 20px; }
-.site-footer__bar { padding: 1.2rem 0; background: #861a14; border: 0; color: #fff; font-size: 14px; }
-.site-footer__legal a { margin-left: 1rem; color: #fff; font-weight: 400; }
+.site-footer__bar { padding: 1.2rem 0; background: #fff; border: 0; color: #111; font-size: 14px; }
+.site-footer__legal a { margin-left: 1rem; color: #861a14; font-weight: 400; }
 
 @media (max-width: 1110px) {
   :root { --header-height: 90px; }
@@ -6262,7 +6366,7 @@ a, a:hover { color: #861a14; }
 }
 
 .site-footer__bar {
-  background: #861a14 !important;
+  background: #fff !important;
 }
 
 .site-nav__link.is-active::after,
@@ -6394,9 +6498,17 @@ a, a:hover { color: #861a14; }
   }
 
   /* Reduce the generic page hero so it doesn't dominate the small viewport */
-  .page-hero {
+  .page-hero:not(.page-hero--banner) {
     min-height: 220px;
-    align-items: center; /* center title vertically on smaller screens */
+    align-items: center;
+  }
+
+  .page-hero--banner .page-hero__content {
+    padding-block: 5.5rem;
+  }
+
+  .page-hero--banner h1 {
+    font-size: 32px;
   }
 
   /* Home hero slider is intentionally full-bleed; keep it but shrink height */
@@ -6407,6 +6519,10 @@ a, a:hover { color: #861a14; }
   /* Ensure the hero image fits and doesn't extend beyond the viewport */
   .page-hero__img {
     object-position: center top;
+  }
+
+  .page-hero--banner .page-hero__img {
+    object-position: center;
   }
 }
 
