@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { newsItems as bundledNews, type NewsItem } from '../data/news';
 import { homePage as bundledHome, type HomePage as HomeData } from '../data/home';
 import { PageHero } from '../components/PageHero';
-import { PlaceholderImage } from '../components/PlaceholderImage';
 import { Seo } from '../components/Seo';
 import { pageSeo } from '../data/seo';
 import { Pagination } from '../components/Pagination';
@@ -49,14 +48,6 @@ export function NewsPage() {
                 {byYear[year].map((item) => (
                   <li key={item.slug}>
                     <Link to={`/news/${item.slug}`} className="news-card">
-                      <span className="news-card__media">
-                        <PlaceholderImage
-                          src={item.image ?? 'news-placeholder.jpg'}
-                          alt=""
-                          className="news-card__img"
-                          aspectRatio="4 / 3"
-                        />
-                      </span>
                       <h3>{item.title}</h3>
                       <time dateTime={item.date}>{item.dateLabel}</time>
                     </Link>
