@@ -25,6 +25,11 @@ export function AboutPage() {
   const active =
     aboutPage.history.find((h) => h.year === historyYear) ??
     aboutPage.history[0];
+  const valueDocuments: Record<string, string> = {
+    'Corporate Social Responsibility': '/CSR-E_2024.pdf',
+    'Integrity Agreement': '/Integrity-Agreement2022.pdf',
+    'DIN EN ISO 9001:2015': '/Zertifikat_deutsch_ICON_KG.pdf',
+  };
 
   return (
     <div className="about-page">
@@ -100,7 +105,13 @@ export function AboutPage() {
           <h2>Corporate Values</h2>
           <div className="values-grid">
             {aboutPage.values.map((v) => (
-              <div key={v.title} className="values-grid__item">
+              <a
+                key={v.title}
+                className="values-grid__item"
+                href={v.documentUrl ?? valueDocuments[v.title]}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <PlaceholderImage
                   src={v.image}
                   alt={v.title}
@@ -108,7 +119,7 @@ export function AboutPage() {
                 />
                 <h4>{v.title}</h4>
                 <p>{v.description}</p>
-              </div>
+              </a>
             ))}
           </div>
           <p className="muted">

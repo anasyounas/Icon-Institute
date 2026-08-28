@@ -7,6 +7,7 @@ export type AboutValue = {
   title: string;
   description: string;
   image: string;
+  documentUrl?: string;
 };
 
 export type AboutMembershipDetail = {
@@ -104,18 +105,21 @@ export const aboutPage: AboutPage = {
       description:
         'For decades ICON has assumed responsibility for people and environment and contributes actively to a positive social development in our project countries. CSR is an integral part of our corporate philosophy – whether it concerns our customers, beneficiaries, employees, affiliates or environment protection. Please click to read our CSR declaration.',
       image: 'icon_corporate_social_responsibility.jpg',
+      documentUrl: '/CSR-E_2024.pdf',
     },
     {
       title: 'Integrity Agreement',
       description:
         'As member of the German Association of Consulting Engineers (Verband Beratende Ingenieure – VBI) we have adhered to the association’s integrity agreement, which can be read by clicking on this box.',
       image: 'icon_integrity_agreement.jpg',
+      documentUrl: '/Integrity-Agreement2022.pdf',
     },
     {
       title: 'DIN EN ISO 9001:2015',
       description:
         'ICON Consulting Group including all its subsidiaries are DIN EN ISO 9001:2015 certified. Please click to see our ISO-Certificate. Trademark: ICON-INSTITUT® and GET German Education and Training®.',
       image: 'icon_din_en_iso_9001_2015.jpg',
+      documentUrl: '/Zertifikat_deutsch_ICON_KG.pdf',
     },
   ],
   memberships: {

@@ -1755,6 +1755,8 @@ code {
 }
 
 .values-grid__item {
+  display: block;
+  color: inherit;
   background: hsl(var(--card));
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius-lg);
@@ -1764,6 +1766,8 @@ code {
 }
 
 .values-grid__item:hover {
+  color: inherit;
+  text-decoration: none;
   border-color: hsl(var(--foreground) / 0.28);
 }
 
@@ -1782,6 +1786,24 @@ code {
   margin: 0 1.5rem 1.5rem;
   color: hsl(var(--muted-foreground));
   font-size: 0.95rem;
+}
+
+@media (min-width: 901px) {
+  .values-grid__item p {
+    max-height: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height var(--dur) var(--ease-out), opacity var(--dur-fast) var(--transition-smooth),
+      margin-bottom var(--dur) var(--ease-out);
+  }
+
+  .values-grid__item:hover p,
+  .values-grid__item:focus-visible p {
+    max-height: 12rem;
+    margin-bottom: 1.5rem;
+    opacity: 1;
+  }
 }
 
 .about-page__team-img,
