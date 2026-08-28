@@ -40,6 +40,12 @@ export function ExpertiseDetailPage() {
         title={area.title}
         image={area.heroImage}
         imageAlt={area.title}
+        headingClassName={
+          area.slug === 'statistics-evaluation-social-research' ||
+          area.slug === 'sustainability-management'
+            ? 'page-hero__heading--dark'
+            : ''
+        }
       />
       <section className="content-section">
         <div className="container narrow">

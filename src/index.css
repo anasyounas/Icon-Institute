@@ -318,6 +318,11 @@ code {
   box-shadow: none;
 }
 
+.split > .about-page__img,
+.split > .about-page__img.img-placeholder {
+  box-shadow: none;
+}
+
 .bullet-list {
   padding-left: 0;
   margin: 0 0 1.5rem;
@@ -943,6 +948,10 @@ code {
 .page-hero h1 {
   margin: 0;
   color: #fff;
+}
+
+.page-hero h1.page-hero__heading--dark {
+  color: #000;
 }
 
 .page-hero h1::after {
@@ -2654,8 +2663,8 @@ code {
   font-weight: 500;
   font-size: 0.95rem;
   padding: 1rem 1.15rem;
-  background: hsl(0 0% 100% / 0.04);
-  border: 1px solid hsl(var(--ink-border));
+  background: hsl(0 0% 100% / 0.08);
+  border: 0;
   border-radius: var(--radius);
   transition: background var(--dur) var(--transition-smooth),
     border-color var(--dur) var(--transition-smooth), transform var(--dur) var(--ease-out);

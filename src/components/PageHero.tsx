@@ -5,6 +5,7 @@ type Props = {
   image?: string;
   compact?: boolean;
   imageAlt?: string;
+  headingClassName?: string;
   /** Original-site banner: photo + 40% black veil, title centred. */
   banner?: boolean;
 };
@@ -15,6 +16,7 @@ export function PageHero({
   compact,
   banner,
   imageAlt = '',
+  headingClassName = '',
 }: Props) {
   return (
     <section
@@ -35,7 +37,9 @@ export function PageHero({
         </div>
       )}
       <div className="container page-hero__content">
-        <h1 id="page-hero-title">{title}</h1>
+        <h1 id="page-hero-title" className={headingClassName}>
+          {title}
+        </h1>
       </div>
     </section>
   );
