@@ -42,7 +42,7 @@ export function ProjectCard({ project }: { project: SampleProject }) {
       <Link to={href} className="project-card__link">
         <span className="project-card__media">
           <PlaceholderImage
-            src={expertiseImage(project.expertise)}
+            src={project.image ?? expertiseImage(project.expertise)}
             alt=""
             className="project-card__img"
             aspectRatio="1 / 1"

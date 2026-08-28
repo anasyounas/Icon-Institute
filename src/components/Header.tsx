@@ -11,7 +11,9 @@ export function Header() {
   useEffect(() => {
     setMenuOpen(false);
     setOpenDropdown(null);
-    window.scrollTo(0, 0);
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
   }, [location.pathname, location.hash]);
 
   useEffect(() => {

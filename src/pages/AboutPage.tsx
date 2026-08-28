@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { aboutPage as bundledAbout, type AboutPage as AboutData } from '../data/about';
 import { PageHero } from '../components/PageHero';
 import { PlaceholderImage } from '../components/PlaceholderImage';
@@ -11,14 +12,15 @@ export function AboutPage() {
   // All About Us content — texts, history, values, memberships, images — is
   // CMS-managed (Content & Media Editor → About Us).
   const aboutPage = usePublished<AboutData>('/pages/about', bundledAbout);
+  const location = useLocation();
   const [historyYear, setHistoryYear] = useState(aboutPage.history[0]?.year);
 
   useEffect(() => {
-    if (window.location.hash) {
-      const el = document.querySelector(window.location.hash);
+    if (location.hash) {
+      const el = document.getElementById(location.hash.slice(1));
       el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-  }, []);
+  }, [location.hash]);
 
   const active =
     aboutPage.history.find((h) => h.year === historyYear) ??

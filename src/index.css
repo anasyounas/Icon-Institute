@@ -313,6 +313,11 @@ code {
   box-shadow: var(--shadow-elegant);
 }
 
+.about-page__img,
+.about-page__img.img-placeholder {
+  box-shadow: none;
+}
+
 .bullet-list {
   padding-left: 0;
   margin: 0 0 1.5rem;
@@ -321,8 +326,8 @@ code {
 
 .bullet-list li {
   position: relative;
-  padding-left: 1.65rem;
-  margin-bottom: 0.6rem;
+  padding-left: 1.15rem;
+  margin-bottom: 0.55rem;
 }
 
 .bullet-list li::before {
@@ -330,9 +335,9 @@ code {
   position: absolute;
   left: 0;
   top: 0.66em;
-  width: 8px;
-  height: 8px;
-  border-radius: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
   background: hsl(var(--primary));
 }
 
@@ -907,18 +912,16 @@ code {
   max-width: none;
   height: 100%;
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .projects-page .page-hero__img,
 .project-region .page-hero__img {
-  opacity: 0.55;
+  opacity: 1;
 }
 
 .page-hero__overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, hsl(var(--ink)) 0%, hsl(var(--ink) / 0.72) 45%, hsl(var(--ink) / 0.55) 100%);
+  display: none;
 }
 
 /* The reference's signature top-centre glow */
@@ -1700,7 +1703,7 @@ code {
   padding: 0.5rem 1rem;
   border-radius: var(--radius-full);
   cursor: pointer;
-  font-family: var(--font-mono);
+  font-family: var(--font);
   font-size: 0.85rem;
   font-weight: 500;
   transition:
@@ -1757,12 +1760,11 @@ code {
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-sharp);
-  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--transition-smooth);
+  transition: border-color var(--dur-fast) var(--transition-smooth);
 }
 
 .values-grid__item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-elegant);
+  border-color: hsl(var(--foreground) / 0.28);
 }
 
 .values-grid__item img,
@@ -2400,6 +2402,10 @@ code {
 
 .contact-details {
   margin: 2rem 0 0;
+  padding: 1rem 1.25rem;
+  background: hsl(var(--muted) / 0.45);
+  border: 0;
+  border-radius: var(--radius-lg);
 }
 
 .contact-details > div {
@@ -5823,6 +5829,15 @@ a, a:hover { color: #861a14; }
   height: 3rem;
 }
 
+.project-detail__expertise-image,
+.project-detail__expertise-image.img-placeholder {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
 .project-detail__header h2 {
   margin: 0 0 0.4rem;
   font-size: 1.6rem;
@@ -6420,33 +6435,6 @@ a, a:hover { color: #861a14; }
 }
 
 /* --------------------------------------------------------------------------
-   About page — reduce hero overlay darkness
-   Minimal change: only adjusts the overlay layer so the background image
-   appears brighter while keeping typography, layout and image source intact.
-   -------------------------------------------------------------------------- */
-.about-page .page-hero__overlay {
-  /* Lighter veil: reduce alpha values so more photo shows through */
-  background: linear-gradient(
-    to top,
-    hsl(var(--ink) / 0.08) 0%,
-    hsl(var(--ink) / 0.30) 45%,
-    hsl(var(--ink) / 0.18) 100%
-  );
-}
-
-@media (max-width: 900px) {
-  /* Ensure overlay reduction remains pleasant on small screens */
-  .about-page .page-hero__overlay {
-    background: linear-gradient(
-      to top,
-      hsl(var(--ink) / 0.06) 0%,
-      hsl(var(--ink) / 0.24) 45%,
-      hsl(var(--ink) / 0.14) 100%
-    );
-  }
-}
-
-/* --------------------------------------------------------------------------
    Projects — mobile optimizations for the listing
    Ensure project cards are one-per-row on small screens and have improved
    spacing and internal padding so text does not overlap or feel cramped.
@@ -6525,4 +6513,3 @@ a, a:hover { color: #861a14; }
     object-position: center;
   }
 }
-

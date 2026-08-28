@@ -12,11 +12,16 @@ export function ContactPage() {
   return (
     <div className="contact-page">
       <Seo {...pageSeo.contact} />
-      <PageHero title="CONTACT US" compact imageAlt="Contact ICON-INSTITUTE" />
+      <PageHero
+        title="CONTACT US"
+        compact
+        image="icon_institut_haus.jpg"
+        imageAlt="ICON-INSTITUTE headquarters"
+      />
       <section className="content-section">
         <div className="container contact-page__grid">
           <div>
-            <h2>{contactPage.title}</h2>
+            <h2>Get in touch</h2>
             <p>{contactPage.intro}</p>
             <p>{contactPage.howToReach}</p>
 
