@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
-import { expertiseHubCards } from '../data/expertise';
-import { type SampleProject } from '../data/projects';
+import { projectFilters, type SampleProject } from '../data/projects';
 import { PlaceholderImage } from './PlaceholderImage';
+import { getExpertiseIcon } from './iconMap';
+
+const volumeLabels: Record<string, string> = Object.fromEntries(
+  projectFilters.volumes.map((v) => [v.value, v.label])
+);
 
 function formatDay(iso?: string): string {
   if (!iso) return '';
@@ -20,19 +24,14 @@ export function projectPeriod(project: SampleProject): string {
   return `${project.yearStart} – ${project.yearEnd}`;
 }
 
-function expertiseImage(slug: string): string {
-  return (
-    expertiseHubCards.find((c) => c.slug === slug)?.image ??
-    'icon_projects.jpg'
-  );
-}
-
 /**
- * Reference listing card: expertise (business-unit) icon left, title /
- * countries / period right — two columns on region pages.
+ * A project in a listing: expertise mark, image, title, countries and running
+ * period — the fields the reference project grid shows — linking to the
+ * project's own page.
  */
 export function ProjectCard({ project }: { project: SampleProject }) {
   const href = `/projects/detail/${project.slug ?? project.id}`;
+  const { Icon, accent } = getExpertiseIcon(project.expertise);
   const countries = project.countries?.length
     ? project.countries.join(', ')
     : project.country;
@@ -42,17 +41,26 @@ export function ProjectCard({ project }: { project: SampleProject }) {
       <Link to={href} className="project-card__link">
         <span className="project-card__media">
           <PlaceholderImage
-            src={project.image ?? expertiseImage(project.expertise)}
+            src={project.image ?? 'icon_projects.jpg'}
             alt=""
             className="project-card__img"
-            aspectRatio="1 / 1"
+            aspectRatio="4 / 3"
           />
+          <span
+            className={`icon-tile icon-tile--${accent} project-card__icon`}
+            aria-hidden="true"
+          >
+            <Icon />
+          </span>
         </span>
 
         <span className="project-card__body">
           <h3 className="project-card__title">{project.title}</h3>
           <span className="project-card__meta">{countries}</span>
           <span className="project-card__meta">{projectPeriod(project)}</span>
+          <span className="project-card__meta project-card__meta--volume">
+            {project.volumeAmount ?? volumeLabels[project.volume] ?? project.volume}
+          </span>
         </span>
       </Link>
     </article>

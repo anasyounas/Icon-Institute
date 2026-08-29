@@ -5730,104 +5730,93 @@ a, a:hover { color: #861a14; }
 
 /* ==========================================================================
    Projects — listing grid and project detail page
-   Reference listing: 2 columns, expertise icon (80px) left, title / country /
-   period right, hairline separators — no framed photo cards.
+   Photo tiles in two columns: project image, expertise mark, title / country /
+   period below the image.
    ========================================================================== */
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 1.5rem;
-  row-gap: 0;
+  gap: 1.5rem;
   margin: 2rem 0;
 }
 
 .project-card {
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  overflow: visible;
-  box-shadow: none;
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border) / 0.25);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .project-card:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-3px);
+  border-color: hsl(var(--primary) / 0.5);
+  box-shadow: 0 14px 34px hsl(222 30% 5% / 0.12);
 }
 
 .project-card__link {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  width: 100%;
-  padding: 22px 0;
-  border-top: 1px solid #d4d4d4;
-  box-sizing: border-box;
+  flex-direction: column;
+  height: 100%;
   color: inherit;
   text-decoration: none !important;
-  font-family: var(--font);
 }
 
 .project-card__media {
-  flex: 0 0 80px;
-  width: 80px;
-  max-width: 80px;
-  line-height: 0;
-  background: transparent;
+  position: relative;
+  display: block;
+  background: hsl(var(--muted));
 }
 
 .project-card__img,
 .project-card__img.img-placeholder {
-  width: 80px;
-  height: 80px;
-  max-width: 80px;
-  max-height: 80px;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
   border-radius: 0;
   box-shadow: none;
-  background: transparent;
+}
+
+.project-card__icon {
+  position: absolute;
+  left: 1rem;
+  bottom: -1.25rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  box-shadow: 0 6px 16px hsl(222 30% 5% / 0.2);
 }
 
 .project-card__body {
   display: flex;
   flex-direction: column;
-  gap: 0;
-  flex: 1 1 auto;
-  min-width: 0;
-  padding: 0;
+  gap: 0.3rem;
+  padding: 2rem 1.15rem 1.15rem;
 }
 
 .project-card__title {
-  margin: 0 0 4px;
-  font-family: var(--font);
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.3;
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
   color: hsl(var(--foreground));
   text-transform: none;
 }
 
 .project-card__link:hover .project-card__title {
-  color: #861a14;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .project-card__meta {
-  display: block;
-  font-family: var(--font);
-  font-size: 0.92rem;
-  line-height: 1.5;
+  font-size: 0.88rem;
   color: hsl(var(--muted-foreground));
-  padding: 0;
-  margin: 0;
-  background: transparent;
-  letter-spacing: 0;
 }
 
 .project-card__meta--volume {
-  display: none;
+  margin-top: 0.35rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
 }
 
 /* ------------------------------------------------------------- detail page */
@@ -6466,40 +6455,13 @@ a, a:hover { color: #861a14; }
 }
 
 /* --------------------------------------------------------------------------
-   Projects — mobile optimizations for the listing
-   Ensure project cards are one-per-row on small screens and have improved
-   spacing and internal padding so text does not overlap or feel cramped.
-   Desktop layout is untouched; changes apply only on narrower viewports.
+   Projects — mobile: single-column tile stack
    -------------------------------------------------------------------------- */
 @media (max-width: 900px) {
   .projects-grid {
-    grid-template-columns: 1fr !important;
-    row-gap: 1rem !important;
-    column-gap: 0.75rem !important;
-    margin: 1rem 0 !important;
-  }
-
-  .project-card__link {
-    gap: 0.75rem !important; /* slightly smaller gap so text has room */
-    padding: 0.9rem 0 !important;
-  }
-
-  .project-card__media,
-  .project-card__img {
-    flex: 0 0 64px !important;
-    width: 64px !important;
-    height: 64px !important;
-    max-width: 64px !important;
-    max-height: 64px !important;
-  }
-
-  .project-card__title {
-    font-size: 1rem !important;
-  }
-
-  .project-card__meta {
-    font-size: 0.95rem !important;
-    line-height: 1.4 !important;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin: 1rem 0;
   }
 }
 
