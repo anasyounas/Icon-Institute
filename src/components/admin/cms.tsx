@@ -497,7 +497,7 @@ export function MediaPickerDialog({
 }: {
   onSelect: (item: MediaItem) => void;
   onClose: () => void;
-  kind?: 'image' | 'document';
+  kind?: 'image' | 'document' | 'video';
 }) {
   const [search, setSearch] = useState('');
   const [rows, setRows] = useState<MediaItem[]>([]);
@@ -534,7 +534,13 @@ export function MediaPickerDialog({
   return (
     <div className="admin-modal" role="dialog" aria-modal="true" aria-label="Choose media">
       <div className="admin-modal__card admin-modal__card--wide">
-        <h2>{kind === 'image' ? 'Choose an image' : 'Choose a document'}</h2>
+        <h2>
+          {kind === 'image'
+            ? 'Choose an image'
+            : kind === 'video'
+              ? 'Choose a video'
+              : 'Choose a document'}
+        </h2>
 
         <div className="admin-media-picker__bar">
           <input
@@ -548,7 +554,13 @@ export function MediaPickerDialog({
             <input
               type="file"
               hidden
-              accept={kind === 'image' ? 'image/*' : '.pdf,.doc,.docx,.xls,.xlsx,.zip'}
+              accept={
+                kind === 'image'
+                  ? 'image/*'
+                  : kind === 'video'
+                    ? 'video/*'
+                    : '.pdf,.doc,.docx,.xls,.xlsx,.zip'
+              }
               disabled={uploading}
               onChange={(e) => {
                 const file = e.target.files?.[0];
@@ -583,6 +595,8 @@ export function MediaPickerDialog({
                 >
                   {m.type === 'image' ? (
                     <img src={assetUrl(m.url)} alt={m.alt || m.name} loading="lazy" />
+                  ) : m.type === 'video' ? (
+                    <video src={assetUrl(m.url)} muted playsInline preload="metadata" />
                   ) : (
                     <span className="admin-media-tile__doc">{m.extension}</span>
                   )}

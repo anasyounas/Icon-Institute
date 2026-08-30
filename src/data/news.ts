@@ -1,3 +1,5 @@
+import type { NewsMediaRef } from '../lib/api';
+
 export type NewsItem = {
   slug: string;
   title: string;
@@ -10,6 +12,10 @@ export type NewsItem = {
   excerpt?: string;
   /** Article paragraphs; **bold**, *italic* and [links](url) are rendered. */
   body?: string[];
+  /** Sanitized HTML from the backend for rich-text articles. */
+  body_html?: string | null;
+  /** Ordered media list for richer article layouts. */
+  media?: NewsMediaRef[];
   /** Newsletter or report offered for download at the end of the article. */
   attachment?: string;
   attachment_label?: string;

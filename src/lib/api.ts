@@ -122,6 +122,15 @@ export type CmsEnvelope = {
   published_at: string | null;
 };
 
+export type NewsMediaRef = {
+  media_id: string;
+  type: 'image' | 'video' | 'document';
+  order: number;
+  alt?: string | null;
+  label?: string | null;
+  url?: string | null;
+};
+
 export type NewsItem = CmsEnvelope & {
   title: string;
   date: string;
@@ -130,6 +139,8 @@ export type NewsItem = CmsEnvelope & {
   image: string | null;
   excerpt: string | null;
   body: string[];
+  body_html?: string | null;
+  media?: NewsMediaRef[];
   attachment: string | null;
   attachment_label: string | null;
   contact_email: string | null;

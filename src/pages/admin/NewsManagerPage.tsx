@@ -7,6 +7,7 @@ import {
   FileField,
   ImageField,
   LinesEditor,
+  MediaPickerDialog,
   ScheduleDialog,
   VersionsDialog,
   WorkflowActions,
@@ -17,9 +18,13 @@ import {
 import { FormSection, Modal, Wide } from '../../components/admin/Modal';
 import { confirmToast, showToast } from '../../components/admin/Toast';
 import { useAuth } from '../../hooks/useAuth';
-import { api, type NewsItem } from '../../lib/api';
+import { api, assetUrl, type MediaItem, type NewsItem, type NewsMediaRef } from '../../lib/api';
 
 const PAGE_SIZE = 10;
+
+type DraftMedia = NewsMediaRef & {
+  url?: string | null;
+};
 
 type Draft = {
   title: string;
@@ -28,6 +33,7 @@ type Draft = {
   image: string;
   excerpt: string;
   body: string[];
+  media: DraftMedia[];
   attachment: string;
   attachment_label: string;
   contact_email: string;
@@ -40,10 +46,24 @@ const EMPTY: Draft = {
   image: '',
   excerpt: '',
   body: [],
+  media: [],
   attachment: '',
   attachment_label: '',
   contact_email: '',
 };
+
+function normalizeDraftMedia(media: DraftMedia[]): DraftMedia[] {
+  return media
+    .filter((entry) => entry && entry.media_id)
+    .map((entry, index) => ({
+      ...entry,
+      type: entry.type,
+      order: index + 1,
+      alt: entry.alt ?? null,
+      label: entry.label ?? null,
+      url: entry.url ?? null,
+    }));
+}
 
 export function NewsManagerPage() {
   const { can } = useAuth();
@@ -68,6 +88,7 @@ export function NewsManagerPage() {
   const [draft, setDraft] = useState<Draft>(EMPTY);
   const [saving, setSaving] = useState(false);
   const [formError, setFormError] = useState('');
+  const [mediaKind, setMediaKind] = useState<'image' | 'video' | 'document' | null>(null);
   const [scheduleFor, setScheduleFor] = useState<NewsItem | null>(null);
   const [versionsFor, setVersionsFor] = useState<NewsItem | null>(null);
 
@@ -94,6 +115,14 @@ export function NewsManagerPage() {
       image: item.image ?? '',
       excerpt: item.excerpt ?? '',
       body: item.body ?? [],
+      media: normalizeDraftMedia(
+        (item.media ?? []).map((media) => ({
+          ...media,
+          alt: media.alt ?? null,
+          label: media.label ?? null,
+          url: media.url ?? null,
+        }))
+      ),
       attachment: item.attachment ?? '',
       attachment_label: item.attachment_label ?? '',
       contact_email: item.contact_email ?? '',
@@ -105,6 +134,49 @@ export function NewsManagerPage() {
     setEditing(null);
     setCreating(false);
     setFormError('');
+    setMediaKind(null);
+  };
+
+  const updateMedia = (next: DraftMedia[]) => {
+    setDraft((current) => ({
+      ...current,
+      media: normalizeDraftMedia(next),
+    }));
+  };
+
+  const addMedia = (item: MediaItem) => {
+    setDraft((current) => ({
+      ...current,
+      media: normalizeDraftMedia([
+        ...current.media,
+        {
+          media_id: item.id,
+          type: item.type,
+          order: current.media.length + 1,
+          alt: item.alt || null,
+          label: null,
+          url: item.url,
+        },
+      ]),
+    }));
+    setMediaKind(null);
+  };
+
+  const moveMedia = (index: number, direction: -1 | 1) => {
+    setDraft((current) => {
+      const next = [...current.media];
+      const target = index + direction;
+      if (target < 0 || target >= next.length) return current;
+      [next[index], next[target]] = [next[target], next[index]];
+      return { ...current, media: normalizeDraftMedia(next) };
+    });
+  };
+
+  const removeMedia = (index: number) => {
+    setDraft((current) => ({
+      ...current,
+      media: normalizeDraftMedia(current.media.filter((_, currentIndex) => currentIndex !== index)),
+    }));
   };
 
   const submit = async (e: FormEvent) => {
@@ -118,6 +190,13 @@ export function NewsManagerPage() {
       image: draft.image || null,
       excerpt: draft.excerpt || null,
       body: draft.body.filter((p) => p.trim()),
+      media: draft.media.map((entry, index) => ({
+        media_id: entry.media_id,
+        type: entry.type,
+        order: index + 1,
+        alt: entry.alt || null,
+        label: entry.label || null,
+      })),
       attachment: draft.attachment || null,
       attachment_label: draft.attachment_label || null,
       contact_email: draft.contact_email || null,
@@ -293,6 +372,111 @@ export function NewsManagerPage() {
                 />
               </Wide>
             </FormSection>
+
+            <FormSection
+              title="Media"
+              hint="Add ordered media items for this article while keeping the legacy image and attachment fields working."
+            >
+              <Wide>
+                <div className="cms-media-field">
+                  <span className="cms-media-field__label">Article media</span>
+                  <div className="cms-media-field__actions">
+                    <button type="button" className="btn btn--light" onClick={() => setMediaKind('image')}>
+                      Add image
+                    </button>
+                    <button type="button" className="btn btn--light" onClick={() => setMediaKind('video')}>
+                      Add video
+                    </button>
+                    <button type="button" className="btn btn--light" onClick={() => setMediaKind('document')}>
+                      Add document
+                    </button>
+                  </div>
+
+                  {draft.media.length === 0 ? (
+                    <span className="field-hint">
+                      No media selected yet. Existing image/attachment fields continue to work for older articles.
+                    </span>
+                  ) : (
+                    <div className="cms-form-grid" style={{ marginTop: '0.75rem' }}>
+                      {draft.media.map((media, index) => (
+                        <div key={`${media.media_id}-${index}`} className="admin-json-item" style={{ width: '100%' }}>
+                          <div className="admin-json-item__header" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <span>
+                              {media.type === 'image'
+                                ? 'Image'
+                                : media.type === 'video'
+                                  ? 'Video'
+                                  : 'Document'}
+                              {' '}
+                              #{index + 1}
+                            </span>
+                            <div className="cms-media-field__actions">
+                              <button type="button" className="row-action" disabled={index === 0} onClick={() => moveMedia(index, -1)}>
+                                ↑
+                              </button>
+                              <button type="button" className="row-action" disabled={index === draft.media.length - 1} onClick={() => moveMedia(index, 1)}>
+                                ↓
+                              </button>
+                              <button type="button" className="row-action row-action--danger" onClick={() => removeMedia(index)}>
+                                Remove
+                              </button>
+                            </div>
+                          </div>
+
+                          {media.type === 'image' && media.url && (
+                            <img src={assetUrl(media.url)} alt={media.alt || ''} style={{ maxWidth: '100%', maxHeight: '180px', display: 'block', margin: '0.5rem 0' }} loading="lazy" />
+                          )}
+                          {media.type === 'video' && media.url && (
+                            <video src={assetUrl(media.url)} controls preload="metadata" style={{ maxWidth: '100%', maxHeight: '180px', display: 'block', margin: '0.5rem 0' }} />
+                          )}
+                          {media.type === 'document' && media.url && (
+                            <a href={assetUrl(media.url)} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', margin: '0.5rem 0' }}>
+                              Open document
+                            </a>
+                          )}
+
+                          <label>
+                            Label
+                            <input
+                              type="text"
+                              value={media.label ?? ''}
+                              onChange={(e) => {
+                                const next = [...draft.media];
+                                next[index] = { ...next[index], label: e.target.value || null };
+                                updateMedia(next);
+                              }}
+                              placeholder="Optional label"
+                            />
+                          </label>
+
+                          <label>
+                            Alt text
+                            <input
+                              type="text"
+                              value={media.alt ?? ''}
+                              onChange={(e) => {
+                                const next = [...draft.media];
+                                next[index] = { ...next[index], alt: e.target.value || null };
+                                updateMedia(next);
+                              }}
+                              placeholder="Optional accessibility text"
+                            />
+                          </label>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </Wide>
+            </FormSection>
+
+            {mediaKind && (
+              <MediaPickerDialog
+                kind={mediaKind}
+                onClose={() => setMediaKind(null)}
+                onSelect={(selected) => addMedia(selected)}
+              />
+            )}
 
             <FormSection
               title="Body"

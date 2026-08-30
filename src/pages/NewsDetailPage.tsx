@@ -13,6 +13,15 @@ import { DownloadIcon, MailIcon } from '../components/Icons';
 type PublishedNews = NewsItem & {
   author?: string | null;
   body?: string[];
+  body_html?: string | null;
+  media?: Array<{
+    media_id: string;
+    type: 'image' | 'video' | 'document';
+    order: number;
+    alt?: string | null;
+    label?: string | null;
+    url?: string | null;
+  }>;
   attachment?: string | null;
   attachment_label?: string | null;
   contact_email?: string | null;
@@ -35,6 +44,10 @@ export function NewsDetailPage() {
   }
 
   const body = item.body?.filter((p) => p.trim()) ?? [];
+  const bodyHtml = item.body_html?.trim() || '';
+  const mediaItems = [...(item.media ?? [])]
+    .filter((media) => media && typeof media === 'object')
+    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
 
   return (
     <div className="news-detail">
@@ -90,7 +103,64 @@ export function NewsDetailPage() {
 
           {item.excerpt && <p className="news-detail__lead">{item.excerpt}</p>}
 
-          {body.length > 0 ? (
+          {mediaItems.length > 0 && (
+            <div className="news-detail__media">
+              {mediaItems.map((media) => {
+                const mediaUrl =
+                  typeof media.url === 'string' && media.url
+                    ? assetUrl(media.url)
+                    : '';
+
+                if (media.type === 'image' && mediaUrl) {
+                  return (
+                    <img
+                      key={media.media_id}
+                      src={mediaUrl}
+                      alt={media.alt || media.label || item.title}
+                      className="news-detail__img"
+                      loading="lazy"
+                    />
+                  );
+                }
+
+                if (media.type === 'video' && mediaUrl) {
+                  return (
+                    <video
+                      key={media.media_id}
+                      className="news-detail__video"
+                      controls
+                      preload="metadata"
+                    >
+                      <source src={mediaUrl} />
+                    </video>
+                  );
+                }
+
+                if (media.type === 'document' && mediaUrl) {
+                  return (
+                    <p key={media.media_id} className="news-detail__download">
+                      <a
+                        className="btn btn--primary"
+                        href={mediaUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
+                      >
+                        <DownloadIcon className="btn__icon" aria-hidden="true" />
+                        {media.label || media.alt || 'Download document'}
+                      </a>
+                    </p>
+                  );
+                }
+
+                return null;
+              })}
+            </div>
+          )}
+
+          {bodyHtml ? (
+            <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+          ) : body.length > 0 ? (
             <RichParagraphs paragraphs={body} />
           ) : (
             !item.excerpt && (
