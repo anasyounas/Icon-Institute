@@ -96,8 +96,7 @@ export function JobApplyPage() {
           </p>
           <h2>Application: {job.title}</h2>
           <p>
-            Your application is delivered directly to ICON-INSTITUTE and stored
-            on their own server — no third-party service is involved.
+            Your application is sent directly to ICON-INSTITUTE by email.
           </p>
           <p>
             You may also email your CV and certificates directly to{' '}

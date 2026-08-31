@@ -31,7 +31,7 @@ export const jobsPage: JobsPage = {
   ],
   applicationNote:
     'Please provide certificates with your application (i.e., education/ university diplomas or degrees, work certificates/ references)',
-  email: 'cv-icon@icon-institute.de',
+  email: 'cv@icon-institute.de',
   currentOffersNote: 'Current job offers',
   portalUrl: 'https://portal.icon-institute.de/iconJobWebJobsList.php',
   portalLabel: 'Open the ICON job portal',
