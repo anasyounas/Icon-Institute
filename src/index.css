@@ -4337,6 +4337,74 @@ a.site-footer__contact:hover .site-footer__icon {
   box-shadow: 0 0 0 3px hsl(var(--ring) / 0.35);
 }
 
+.cms-rich-editor {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.cms-rich-editor__content {
+  min-height: 14rem;
+  padding: 0.95rem 1rem 0.8rem;
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius-sm);
+  color: hsl(var(--foreground));
+  line-height: 1.6;
+  cursor: text;
+  transition: border-color var(--dur-fast) var(--transition-smooth),
+    box-shadow var(--dur-fast) var(--transition-smooth),
+    background var(--dur-fast) var(--transition-smooth);
+}
+
+.cms-rich-editor__content:focus,
+.cms-rich-editor__content.ProseMirror-focused {
+  outline: none;
+  border-color: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--primary) / 0.12);
+}
+
+.cms-rich-editor__content > :first-child {
+  margin-top: 0;
+}
+
+.cms-rich-editor__content > :last-child {
+  margin-bottom: 0;
+}
+
+.cms-rich-editor__content p,
+.cms-rich-editor__content ul,
+.cms-rich-editor__content ol,
+.cms-rich-editor__content blockquote,
+.cms-rich-editor__content h1,
+.cms-rich-editor__content h2,
+.cms-rich-editor__content h3 {
+  margin-top: 0;
+}
+
+.cms-rich-editor__content p,
+.cms-rich-editor__content ul,
+.cms-rich-editor__content ol,
+.cms-rich-editor__content blockquote {
+  margin-bottom: 0.85rem;
+}
+
+.cms-rich-editor__content ul,
+.cms-rich-editor__content ol {
+  padding-left: 1.3rem;
+}
+
+.cms-rich-editor__content blockquote {
+  border-left: 3px solid hsl(var(--primary) / 0.35);
+  padding-left: 0.8rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.cms-rich-editor__content strong,
+.cms-rich-editor__content b {
+  font-weight: 700 !important;
+  color: inherit;
+}
+
 .admin-filters__meta {
   display: flex;
   align-items: center;
