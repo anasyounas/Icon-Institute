@@ -44,11 +44,16 @@ export function Modal({
   const cardRef = useRef<HTMLDivElement>(null);
   const titleId = useId();
   const restoreFocus = useRef<HTMLElement | null>(null);
+  const onCloseRef = useRef(onClose);
+
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
 
   /** Closing mid-save would leave the user unsure whether it completed. */
   const requestClose = useCallback(() => {
-    if (!busy) onClose();
-  }, [busy, onClose]);
+    if (!busy) onCloseRef.current();
+  }, [busy]);
 
   useEffect(() => {
     restoreFocus.current = document.activeElement as HTMLElement | null;

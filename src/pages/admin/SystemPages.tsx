@@ -135,6 +135,7 @@ function NewsPreview({ item }: { item: NewsItem }) {
   const image = item.image
     ? assetUrl(item.image.startsWith('/') || item.image.startsWith('http') ? item.image : `/images/${item.image}`)
     : '';
+  const bodyHtml = item.body_html?.trim();
   return (
     <article>
       <h3>{item.title}</h3>
@@ -154,9 +155,11 @@ function NewsPreview({ item }: { item: NewsItem }) {
           <em>{item.excerpt}</em>
         </p>
       )}
-      {(item.body ?? []).map((p, i) => (
-        <p key={i}>{p}</p>
-      ))}
+      {bodyHtml ? (
+        <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+      ) : (
+        (item.body ?? []).map((p, i) => <p key={i}>{p}</p>)
+      )}
     </article>
   );
 }

@@ -1,4 +1,8 @@
-import { useMemo, useState, type FormEvent } from 'react';
+import { useEffect, useMemo, useState, type FormEvent } from 'react';
+import { EditorContent, useEditor } from '@tiptap/react';
+import StarterKit from '@tiptap/starter-kit';
+import Link from '@tiptap/extension-link';
+import Underline from '@tiptap/extension-underline';
 import { EmptyRow, FilterBar } from '../../components/admin/AdminUI';
 import { Pagination } from '../../components/Pagination';
 import {
@@ -6,7 +10,6 @@ import {
   CmsStatusPill,
   FileField,
   ImageField,
-  LinesEditor,
   MediaPickerDialog,
   ScheduleDialog,
   VersionsDialog,
@@ -33,6 +36,7 @@ type Draft = {
   image: string;
   excerpt: string;
   body: string[];
+  body_html: string;
   media: DraftMedia[];
   attachment: string;
   attachment_label: string;
@@ -46,11 +50,100 @@ const EMPTY: Draft = {
   image: '',
   excerpt: '',
   body: [],
+  body_html: '',
   media: [],
   attachment: '',
   attachment_label: '',
   contact_email: '',
 };
+
+function legacyBodyToHtml(body: string[]): string {
+  const paragraphs = body.filter((p) => p.trim());
+  if (!paragraphs.length) return '';
+  return paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join('');
+}
+
+function RichTextEditor({
+  value,
+  onChange,
+}: {
+  value: string;
+  onChange: (html: string) => void;
+}) {
+  const editor = useEditor({
+    extensions: [
+      StarterKit.configure({
+        heading: { levels: [1, 2, 3] },
+      }),
+      Underline,
+      Link.configure({
+        openOnClick: false,
+        autolink: true,
+        defaultProtocol: 'https',
+      }),
+    ],
+    content: value || '<p></p>',
+    editorProps: {
+      attributes: {
+        class: 'cms-rich-editor__content',
+      },
+    },
+    onUpdate: ({ editor }) => {
+      onChange(editor.getHTML());
+    },
+  });
+
+  useEffect(() => {
+    if (!editor) return;
+    const next = value || '<p></p>';
+    if (editor.getHTML() !== next) {
+      editor.commands.setContent(next, { emitUpdate: false });
+    }
+  }, [editor, value]);
+
+  if (!editor) return null;
+
+  const setLink = () => {
+    const url = window.prompt('Enter a link URL', 'https://');
+    if (!url) return;
+    const sanitized = /^https?:\/\//i.test(url) || /^mailto:/i.test(url) || url.startsWith('/')
+      ? url
+      : `https://${url}`;
+    editor.chain().focus().extendMarkRange('link').setLink({ href: sanitized }).run();
+  };
+
+  return (
+    <div className="cms-rich-editor">
+      <div className="cms-rich-editor__toolbar">
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleBold().run()}>
+          Bold
+        </button>
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleItalic().run()}>
+          Italic
+        </button>
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleUnderline().run()}>
+          Underline
+        </button>
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}>
+          H2
+        </button>
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleBulletList().run()}>
+          Bullets
+        </button>
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleOrderedList().run()}>
+          Numbers
+        </button>
+        <button type="button" className="row-action" onClick={() => editor.chain().focus().toggleBlockquote().run()}>
+          Quote
+        </button>
+        <button type="button" className="row-action" onClick={setLink}>
+          Link
+        </button>
+      </div>
+      <EditorContent editor={editor} />
+    </div>
+  );
+}
 
 function normalizeDraftMedia(media: DraftMedia[]): DraftMedia[] {
   return media
@@ -115,6 +208,7 @@ export function NewsManagerPage() {
       image: item.image ?? '',
       excerpt: item.excerpt ?? '',
       body: item.body ?? [],
+      body_html: item.body_html || legacyBodyToHtml(item.body ?? []),
       media: normalizeDraftMedia(
         (item.media ?? []).map((media) => ({
           ...media,
@@ -190,6 +284,7 @@ export function NewsManagerPage() {
       image: draft.image || null,
       excerpt: draft.excerpt || null,
       body: draft.body.filter((p) => p.trim()),
+      body_html: draft.body_html && draft.body_html.trim() ? draft.body_html : null,
       media: draft.media.map((entry, index) => ({
         media_id: entry.media_id,
         type: entry.type,
@@ -480,15 +575,12 @@ export function NewsManagerPage() {
 
             <FormSection
               title="Body"
-              hint="Write **bold**, *italic* and [link text](https://example.com) — they are rendered on the article page."
+              hint="Use the rich-text editor for styled paragraphs, lists, blockquotes and links. Legacy body text remains supported for older articles."
             >
               <Wide>
-                <LinesEditor
-                  label="Article text"
-                  value={draft.body}
-                  onChange={(body) => setDraft({ ...draft, body })}
-                  rows={12}
-                  hint="One paragraph per line."
+                <RichTextEditor
+                  value={draft.body_html || legacyBodyToHtml(draft.body)}
+                  onChange={(bodyHtml) => setDraft({ ...draft, body_html: bodyHtml })}
                 />
               </Wide>
             </FormSection>
