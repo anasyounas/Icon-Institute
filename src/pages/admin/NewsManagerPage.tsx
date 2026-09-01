@@ -33,13 +33,13 @@ type Draft = {
   title: string;
   date: string;
   author: string;
-  image: string;
+  image: string | null;
   excerpt: string;
   body: string[];
   body_html: string;
   media: DraftMedia[];
-  attachment: string;
-  attachment_label: string;
+  attachment: string | null;
+  attachment_label: string | null;
   contact_email: string;
 };
 
@@ -47,13 +47,13 @@ const EMPTY: Draft = {
   title: '',
   date: '',
   author: '',
-  image: '',
+  image: null,
   excerpt: '',
   body: [],
   body_html: '',
   media: [],
-  attachment: '',
-  attachment_label: '',
+  attachment: null,
+  attachment_label: null,
   contact_email: '',
 };
 
@@ -205,7 +205,7 @@ export function NewsManagerPage() {
       title: item.title,
       date: item.date,
       author: item.author ?? '',
-      image: item.image ?? '',
+      image: item.image ?? null,
       excerpt: item.excerpt ?? '',
       body: item.body ?? [],
       body_html: item.body_html || legacyBodyToHtml(item.body ?? []),
@@ -217,8 +217,8 @@ export function NewsManagerPage() {
           url: media.url ?? null,
         }))
       ),
-      attachment: item.attachment ?? '',
-      attachment_label: item.attachment_label ?? '',
+      attachment: item.attachment ?? null,
+      attachment_label: item.attachment_label ?? null,
       contact_email: item.contact_email ?? '',
     });
     setFormError('');
@@ -281,7 +281,7 @@ export function NewsManagerPage() {
       title: draft.title,
       date: draft.date,
       author: draft.author || null,
-      image: draft.image || null,
+      image: draft.image ?? null,
       excerpt: draft.excerpt || null,
       body: draft.body.filter((p) => p.trim()),
       body_html: draft.body_html && draft.body_html.trim() ? draft.body_html : null,
@@ -292,8 +292,8 @@ export function NewsManagerPage() {
         alt: entry.alt || null,
         label: entry.label || null,
       })),
-      attachment: draft.attachment || null,
-      attachment_label: draft.attachment_label || null,
+      attachment: draft.attachment ?? null,
+      attachment_label: draft.attachment_label ?? null,
       contact_email: draft.contact_email || null,
     };
     try {
@@ -461,8 +461,8 @@ export function NewsManagerPage() {
               <Wide>
                 <ImageField
                   label="Article image"
-                  value={draft.image}
-                  onChange={(image) => setDraft({ ...draft, image })}
+                  value={draft.image ?? ''}
+                  onChange={(image) => setDraft({ ...draft, image: image ?? null })}
                   hint="Shown on the news listing and at the top of the article."
                 />
               </Wide>
@@ -592,8 +592,8 @@ export function NewsManagerPage() {
               <Wide>
                 <FileField
                   label="Downloadable document"
-                  value={draft.attachment}
-                  onChange={(attachment) => setDraft({ ...draft, attachment })}
+                  value={draft.attachment ?? ''}
+                  onChange={(attachment) => setDraft({ ...draft, attachment: attachment ?? null })}
                   hint="Appears as a download button under the article."
                 />
               </Wide>
@@ -601,8 +601,8 @@ export function NewsManagerPage() {
                 Download link wording
                 <input
                   type="text"
-                  value={draft.attachment_label}
-                  onChange={(e) => setDraft({ ...draft, attachment_label: e.target.value })}
+                  value={draft.attachment_label ?? ''}
+                  onChange={(e) => setDraft({ ...draft, attachment_label: e.target.value || null })}
                   placeholder="Download the latest newsletter here"
                 />
               </label>

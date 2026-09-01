@@ -376,8 +376,8 @@ export function ProjectsManagerPage() {
               <Wide>
                 <ImageField
                   label="Featured image"
-                  value={draft.image}
-                  onChange={(image) => setDraft({ ...draft, image })}
+                  value={draft.image ?? ''}
+                  onChange={(image) => setDraft({ ...draft, image: image ?? '' })}
                   hint="Shown on the project card and at the top of its page."
                 />
               </Wide>
@@ -548,8 +548,8 @@ export function ProjectsManagerPage() {
               <Wide>
                 <FileField
                   label="Project PDF"
-                  value={draft.pdf}
-                  onChange={(pdf) => setDraft({ ...draft, pdf })}
+                  value={draft.pdf ?? ''}
+                  onChange={(pdf) => setDraft({ ...draft, pdf: pdf ?? '' })}
                   hint="Optional download button on the project page."
                 />
               </Wide>

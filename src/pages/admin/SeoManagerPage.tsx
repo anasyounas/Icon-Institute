@@ -207,8 +207,8 @@ export function SeoManagerPage() {
               <Wide>
                 <ImageField
                   label="Sharing image (Open Graph)"
-                  value={draft.image}
-                  onChange={(image) => setDraft({ ...draft, image })}
+                  value={draft.image ?? ''}
+                  onChange={(image) => setDraft({ ...draft, image: image ?? '' })}
                   hint="Shown when the page is shared on social media."
                 />
               </Wide>

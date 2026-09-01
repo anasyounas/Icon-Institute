@@ -633,8 +633,8 @@ export function ImageField({
   hint,
 }: {
   label: string;
-  value: string;
-  onChange: (url: string) => void;
+  value: string | null;
+  onChange: (url: string | null) => void;
   hint?: string;
 }) {
   const [picking, setPicking] = useState(false);
@@ -660,7 +660,7 @@ export function ImageField({
             {value ? 'Change image' : 'Choose image'}
           </button>
           {value && (
-            <button type="button" className="row-action row-action--danger" onClick={() => onChange('')}>
+            <button type="button" className="row-action row-action--danger" onClick={() => onChange(null)}>
               Remove
             </button>
           )}
@@ -684,8 +684,8 @@ export function FileField({
   hint,
 }: {
   label: string;
-  value: string;
-  onChange: (url: string) => void;
+  value: string | null;
+  onChange: (url: string | null) => void;
   hint?: string;
 }) {
   const [picking, setPicking] = useState(false);
@@ -711,7 +711,7 @@ export function FileField({
             {value ? 'Change file' : 'Choose file'}
           </button>
           {value && (
-            <button type="button" className="row-action row-action--danger" onClick={() => onChange('')}>
+            <button type="button" className="row-action row-action--danger" onClick={() => onChange(null)}>
               Remove
             </button>
           )}
